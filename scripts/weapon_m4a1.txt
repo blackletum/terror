@@ -53,9 +53,11 @@ WeaponData
 	"RecoveryTimeStand"			0.37762
 	
 	// Weapon data is loaded by both the Game and Client DLLs.
-	"printname"			"#Cstrike_WPNHUD_M4A1"
-	"viewmodel"			"models/weapons/v_rif_m4a1.mdl"
-	"playermodel"			"models/weapons/w_rif_m4a1.mdl"
+	"printname"			"Assault Rifle"
+
+	"playermodel"			"models/w_models/weapons/w_rifle_m16a2.mdl"
+	
+	"viewmodel"			"models/v_models/v_rifle.mdl"
 	"SilencerModel"			"models/weapons/w_rif_m4a1_silencer.mdl"
 	
 	"anim_prefix"			"anim"
@@ -64,7 +66,7 @@ WeaponData
 
 	"clip_size"			"30"
 	
-	"primary_ammo"			"BULLET_PLAYER_556MM"
+	"primary_ammo"			"BULLET_PLAYER_9MM"
 	"secondary_ammo"		"None"
 
 	"weight"			"25"

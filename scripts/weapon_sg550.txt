@@ -73,7 +73,7 @@ WeaponData
 	{
 		//"reload"			"Weapon_AWP.Reload"
 		//"empty"				"Default.ClipEmpty_Rifle"
-		"single_shot"		"Weapon_SG550.Single"
+		"single_shot"		"Sniper_Military.Fire"
 		special3			Default.Zoom
 	}
 

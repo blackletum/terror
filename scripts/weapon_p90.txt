@@ -53,7 +53,7 @@ WeaponData
 
 	"clip_size"			"50"
 	
-	"primary_ammo"			"BULLET_PLAYER_57MM"
+	"primary_ammo"			"BULLET_PLAYER_9MM"
 	"secondary_ammo"		"None"
 
 	"weight"			"26"

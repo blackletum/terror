@@ -17,11 +17,12 @@ WeaponData
 	
 	// Weapon characteristics:
 	"Penetration"			"2"
-	"Damage"			"30"
-	"Range"				"8192"
-	"RangeModifier"			"0.98"
+	"Damage"			"44"
+	"Range"				"3000"
+	"RangeModifier"			"0.97"
+	"GainRange"			"1500"	// range at which to use a gain curve to fall off to zero
 	"Bullets"			"1"
-	"CycleTime"			"0.09"
+	"CycleTime"			"0.07"
 	"AccuracyDivisor"		"200"
 	"AccuracyOffset"		"0.35"
 	"MaxInaccuracy"			"1.25"
@@ -42,9 +43,11 @@ WeaponData
 	"RecoveryTimeStand"			0.49275
 	
 	// Weapon data is loaded by both the Game and Client DLLs.
-	"printname"			"#Cstrike_WPNHUD_Galil"
-	"viewmodel"			"models/weapons/v_rif_galil.mdl"
-	"playermodel"			"models/weapons/w_rif_galil.mdl"
+	"printname"				"Assault Rifle"
+
+	"playermodel"			"models/w_models/weapons/w_desert_rifle.mdl"
+	
+	"viewmodel"				"models/v_models/v_desert_rifle.mdl"
 	
 	"anim_prefix"			"anim"
 	"bucket"			"0"
@@ -63,7 +66,7 @@ WeaponData
 	{
 		//"reload"			"Default.Reload"
 		//"empty"				"Default.ClipEmpty_Rifle"
-		"single_shot"		"Weapon_Galil.Single"
+		"single_shot"		"Rifle_Desert.Fire"
 		special3			Default.Zoom
 	}
 
@@ -72,18 +75,19 @@ WeaponData
 	{
 		"weapon"
 		{
-				"font"		"CSweaponsSmall"
-				"character"	"V"
-		}
-		"weapon_s"
-		{	
-				"font"		"CSweapons"
-				"character"	"V"
+				"file"		"vgui/hud/iconsheet2"
+				"x"			"224"
+				"y"			"128"
+				"width"		"160"
+				"height"	"64"
 		}
 		"ammo"
 		{
-				"font"		"CSTypeDeath"
-				"character"		"N"
+				"file"		"vgui/hud/iconsheet"
+				"x"			"384"
+				"y"			"448"
+				"width"		"64"
+				"height"	"64"
 		}
 		"crosshair"
 		{
@@ -106,13 +110,13 @@ WeaponData
 	{
 		Viewmodel
 		{
-			Mins	"-6 -8 -15"
-			Maxs	"36 4 0"
+			Mins	"-10 -2 -13"
+			Maxs	"30 10 0"
 		}
 		World
 		{
-			Mins	"-10 -9 -7"
-			Maxs	"31 10 8"
+			Mins	"-8 -9 -6"
+			Maxs	"29 9 8"
 		}
 	}
 }
