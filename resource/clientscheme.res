@@ -253,8 +253,8 @@ Scheme
 		"team2"			"153 204 255 255" // T's
 
 		"MapDescriptionText"	"Orange" // the text used in the map description window
-		"CT_Blue"			"153 204 255 255"
-		"T_Red"				"255 64 64 255"
+		"CT_Blue"			"255 64 64 255"
+		"T_Red"				"153 204 255 255"
 		"Hostage_Yellow"	"Panel.FgColor"
 		"HudIcon_Green"		"0 160 0 255"
 		"HudIcon_Red"		"160 0 0 255"
