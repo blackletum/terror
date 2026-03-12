@@ -1,0 +1,5 @@
+"LightmappedGeneric"
+{
+	"$basetexture" "terrorstrike_dev/dev_SpawnWeapon"
+	"$surfaceprop" "Concrete"
+}

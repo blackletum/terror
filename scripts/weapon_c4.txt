@@ -20,23 +20,32 @@ WeaponData
 	"Range"				"4096"
 	"RangeModifier"			"0.99"
 	"Bullets"			"1"
-		
+
 	// Weapon data is loaded by both the Game and Client DLLs.
-	"printname"			"#Cstrike_WPNHUD_C4"
-	"viewmodel"			"models/weapons/v_c4.mdl"
-	"playermodel"			"models/weapons/w_c4.mdl"
-	"shieldviewmodel"		"models/weapons/v_c4.mdl"
-	"anim_prefix"			"anim"
-	"bucket"			"4"
-	"bucket_position"		"0"
+	"printname"					"First Aid Kit"
+	"playermodel"				"models/w_models/weapons/w_eq_Medkit.mdl"
 
-	"clip_size"			"30"
-	
-	"primary_ammo"			"None"
-	"secondary_ammo"		"None"
+	"viewmodel"					"models/v_models/v_medkit.mdl"
+	"CharacterViewmodelAddon"
+	{
+		"Coach"				"models/weapons/arms/v_arms_coach_new.mdl"
+		"Mechanic"			"models/weapons/arms/v_arms_mechanic_new.mdl"
+		"Producer"			"models/weapons/arms/v_arms_producer_new.mdl"
+		"Gambler"			"models/weapons/arms/v_arms_gambler_new.mdl"
+	}
 
-	"weight"			"0"
-	"item_flags"			"0"
+	"anim_prefix"				"anim"
+	"bucket"					"3"
+	"bucket_position"			"1"
+
+	"clip_size"					"-1"
+	"default_clip"				"1"
+	"primary_ammo"				"AMMO_TYPE_HEGRENADE"
+	"secondary_ammo"			"None"
+
+	"weight"					"2"
+	"item_flags"				"0"
+	"ITEM_FLAG_NOAMMOPICKUPS"	"1"
 
 	// Sounds for the weapon. There is a max of 16 sounds per category (i.e. max 16 "single_shot" sounds)
 	SoundData
@@ -48,21 +57,27 @@ WeaponData
 	{
 		"weapon"
 		{
-				"font"		"CSweaponsSmall"
-				"character"	"\"
+				"file"		"vgui/hud/iconsheet"
+				"x"			"128"
+				"y"			"320"
+				"width"		"64"
+				"height"	"64"
 		}
 		"weapon_s"
-		{	
-				"font"		"CSweapons"
-				"character"	"\"
-		}
-		"ammo"
 		{
-				"file"		"sprites/640hud1"
-				"x"		"182"
-				"y"		"24"
-				"width"		"26"
-				"height"		"24"
+				"file"		"vgui/hud/iconsheet"
+				"x"			"64"
+				"y"			"256"
+				"width"		"64"
+				"height"	"64"
+		}
+		"weapon_small"
+		{
+				"file"		"vgui/hud/iconsheet2"
+				"x"			"192"
+				"y"			"96"
+				"width"		"32"
+				"height"	"32"
 		}
 		"crosshair"
 		{
@@ -85,13 +100,18 @@ WeaponData
 	{
 		Viewmodel
 		{
-			Mins	"-4 -8 -17"
-			Maxs	"20 13 1"
+			Mins	"-6 -9 -15"
+			Maxs	"15 11 0"
 		}
 		World
 		{
-			Mins	"-3 0 -4"
-			Maxs	"7 12 4"
+			Mins	"-20 -20 -20"
+			Maxs	"20 20 20"
+		}
+		Addon
+		{
+			Mins	"-20 -20 -20"
+			Maxs	"20 20 20"
 		}
 	}
 }

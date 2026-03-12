@@ -42,7 +42,7 @@ WeaponData
 	"RecoveryTimeStand"			0.39144
 	
 	// Weapon data is loaded by both the Game and Client DLLs.
-	"printname"			"#Cstrike_WPNHUD_MP5"
+	"printname"			"MP5"
 	"viewmodel"			"models/v_models/v_smg_mp5.mdl"
 	"playermodel"			"models/weapons/w_smg_mp5.mdl"
 	
@@ -71,18 +71,19 @@ WeaponData
 	{
 		"weapon"
 		{
-				"font"		"CSweaponsSmall"
-				"character"	"X"
-		}
-		"weapon_s"
-		{	
-				"font"		"CSweapons"
-				"character"	"X"
+				"file"		"vgui/hud/iconsheet3"
+				"x"			"192"
+				"y"			"0"
+				"width"		"192"
+				"height"	"64"	
 		}
 		"ammo"
 		{
-				"font"		"CSTypeDeath"
-				"character"		"R"
+				"file"		"vgui/hud/iconsheet"
+				"x"			"384"
+				"y"			"448"
+				"width"		"64"
+				"height"	"64"
 		}
 		"crosshair"
 		{

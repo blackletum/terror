@@ -58,8 +58,14 @@ WeaponData
 	"playermodel"			"models/w_models/weapons/w_rifle_m16a2.mdl"
 	
 	"viewmodel"			"models/v_models/v_rifle.mdl"
-	"SilencerModel"			"models/weapons/w_rif_m4a1_silencer.mdl"
-	
+	"CharacterViewmodelAddon"
+	{
+		"Coach"				"models/weapons/arms/v_arms_coach_new.mdl"
+		"Mechanic"			"models/weapons/arms/v_arms_mechanic_new.mdl"
+		"Producer"			"models/weapons/arms/v_arms_producer_new.mdl"
+		"Gambler"			"models/weapons/arms/v_arms_gambler_new.mdl"
+	}
+
 	"anim_prefix"			"anim"
 	"bucket"			"0"
 	"bucket_position"		"0"
@@ -72,25 +78,25 @@ WeaponData
 	"weight"			"25"
 	"item_flags"			"0"
 
+	"LoadoutSlots"	"2"
+
 	// Sounds for the weapon. There is a max of 16 sounds per category (i.e. max 16 "single_shot" sounds)
 	SoundData
 	{
-		//"reload"			"Weapon_AWP.Reload"
-		//"empty"				"Default.ClipEmpty_Rifle"
 		"single_shot"		"Rifle.Fire"
-		"special1"			"SMG_Silenced.Fire"
-		"special2"			"Weapon_M4A1.Silencer_Off"
-		"special3"			"Weapon_M4A1.Silencer_On"
+		"shoot_incendiary"	"Rifle.FireIncendiary"
 	}
+
 	// Weapon Sprite data is loaded by the Client DLL.
 	TextureData
 	{
 		"weapon"
 		{
-				"file"		"vgui/hud/icon_rifle"
-				"x"		"0"
-				"width"		"256"
-				"height"	"64"
+				"file"		"vgui/hud/iconsheet"
+				"x"			"128"
+				"y"			"384"
+				"width"		"192"
+				"height"	"64"	
 		}
 		"ammo"
 		{

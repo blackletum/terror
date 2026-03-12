@@ -81,9 +81,10 @@ WeaponData
 	{
 		"weapon"
 		{
-				"file"		"vgui/hud/icon_pumpshotgun"
-				"x"		"0"
-				"width"		"256"
+				"file"		"vgui/hud/iconsheet"
+				"x"			"320"
+				"y"			"320"
+				"width"		"192"
 				"height"	"64"	
 		}
 		"ammo"

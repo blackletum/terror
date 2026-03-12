@@ -81,20 +81,21 @@ WeaponData
 	{
 		"weapon"
 		{
-				"font"		"CSweaponsSmall"
-				"character"	"["
-		}
-		"weapon_s"
-		{	
-				"font"		"CSweapons"
-				"character"	"["
+				"file"		"vgui/hud/iconsheet3"
+				"x"			"0"
+				"y"			"0"
+				"width"		"192"
+				"height"	"64"
 		}
 		"ammo"
 		{
-				"font"		"CSTypeDeath"
-				"character"		"N"
+				"file"		"vgui/hud/iconsheet"
+				"x"			"384"
+				"y"			"448"
+				"width"		"64"
+				"height"	"64"
 		}
-		"zoom"
+		"crosshair"
 		{
 				"file"		"sprites/crosshairs"
 				"x"			"0"
@@ -115,13 +116,13 @@ WeaponData
 	{
 		Viewmodel
 		{
-			Mins	"-7 -2 -15"
-			Maxs	"30 11 -1"
+			Mins	"-10 -2 -13"
+			Maxs	"30 10 0"
 		}
 		World
 		{
-			Mins	"-10 -8 -4"
-			Maxs	"25 8 9"
+			Mins	"-8 -9 -6"
+			Maxs	"29 9 8"
 		}
 	}
 }

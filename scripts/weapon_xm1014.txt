@@ -37,15 +37,23 @@ WeaponData
 	"RecoveryTimeStand"			0.46052
 	
 	// Weapon data is loaded by both the Game and Client DLLs.
-	"printname"			"#Cstrike_WPNHUD_xm1014"
+	"printname"			"Auto Shotgun"
+	"playermodel"			"models/w_models/weapons/w_autoshot_m4super.mdl"
+	
 	"viewmodel"			"models/v_models/v_autoshotgun.mdl"
-	"playermodel"			"models/weapons/w_shot_xm1014.mdl"
+	"CharacterViewmodelAddon"
+	{
+		"Coach"				"models/weapons/arms/v_arms_coach_new.mdl"
+		"Mechanic"			"models/weapons/arms/v_arms_mechanic_new.mdl"
+		"Producer"			"models/weapons/arms/v_arms_producer_new.mdl"
+		"Gambler"			"models/weapons/arms/v_arms_gambler_new.mdl"
+	}
 	
 	"anim_prefix"			"anim"
 	"bucket"			"0"
 	"bucket_position"		"0"
 
-	"clip_size"			"10"
+	"clip_size"			"10"  //increased from 9
 	
 	"primary_ammo"			"BULLET_PLAYER_BUCKSHOT"
 	"secondary_ammo"		"None"
@@ -53,13 +61,13 @@ WeaponData
 	"weight"			"20"
 	"item_flags"			"0"
 
+	"LoadoutSlots"	"2"
+
 	// Sounds for the weapon. There is a max of 16 sounds per category (i.e. max 16 "single_shot" sounds)
 	SoundData
 	{
-		//"reload"			"Default.Reload"
-		//"empty"				"Default.ClipEmpty_Rifle"
 		"single_shot"		"AutoShotgun.Fire"
-		special3			Default.Zoom
+		"shoot_incendiary"	"AutoShotgun.FireIncendiary"
 	}
 
 	// Weapon Sprite data is loaded by the Client DLL.
@@ -67,18 +75,19 @@ WeaponData
 	{
 		"weapon"
 		{
-				"font"		"CSweaponsSmall"
-				"character"	"]"
-		}
-		"weapon_s"
-		{	
-				"font"		"CSweapons"
-				"character"	"]"
+				"file"		"vgui/hud/iconsheet"
+				"x"			"0"
+				"y"			"448"
+				"width"		"192"
+				"height"	"64"
 		}
 		"ammo"
 		{
-				"font"		"CSTypeDeath"
-				"character"		"J"
+				"file"		"vgui/hud/iconsheet2"
+				"x"			"0"
+				"y"			"128"
+				"width"		"64"
+				"height"	"64"
 		}
 		"crosshair"
 		{
