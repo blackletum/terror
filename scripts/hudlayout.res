@@ -720,7 +720,7 @@
 		"icon_ypos"		"2"
 	}
 	
-	"CHudHealth"
+	"HudHealth"
 	{
 		"fieldName"		"CHudHealth"
 		"xpos"			"r387"
