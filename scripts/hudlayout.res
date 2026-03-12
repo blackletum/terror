@@ -477,10 +477,36 @@
 	HudCloseCaption
 	{
 		"fieldName" "HudCloseCaption"
-		"visible" "1"
-		"enabled" "1"
-		"wide"	 "640"
-		"tall"	 "480"
+		"visible"	"1"
+		"enabled"	"1"
+		"xpos"		"c-150"
+		"ypos"		"r220"	[$WIN32]
+		"ypos"		"r230"	[$X360]
+		"wide"		"300"
+		"tall"		"135"
+		"usetitlesafe"	"1"
+		
+		"if_split_screen_vertical"
+		{
+			"ypos"		"r160"
+			"tall"		"108"
+		}
+		
+		"if_split_screen_horizontal"
+		{
+			"xpos"		"0"
+			"ypos"		"r220"
+			"wide"		"275"
+			"tall"		"108"
+		}
+
+		"BgAlpha"	"128"
+
+		"GrowTime"		"0.25"
+		"ItemHiddenTime"	"0.2"  // Nearly same as grow time so that the item doesn't start to show until growth is finished
+		"ItemFadeInTime"	"0.15"	// Once ItemHiddenTime is finished, takes this much longer to fade in
+		"ItemFadeOutTime"	"0.3"
+		"topoffset"		"0"
 	}
 
 	HudHistoryResource 
