@@ -15,8 +15,8 @@
 	"pitch"			"PITCH_NORM"
 	"rndwave"
 	{
-		"wave"		"player/footsteps/concrete1.wav"
-		"wave"		"player/footsteps/concrete3.wav"
+		"wave"		"player/footsteps/infected/run/concrete1.wav"
+		"wave"		"player/footsteps/infected/run/concrete3.wav"
 	}
 }
 
@@ -27,8 +27,8 @@
 	"volume"			"1.0"
 	"rndwave"
 	{
-		"wave"		"player/footsteps/concrete2.wav"
-		"wave"		"player/footsteps/concrete4.wav"
+		"wave"		"player/footsteps/infected/run/concrete2.wav"
+		"wave"		"player/footsteps/infected/run/concrete4.wav"
 	}
 }
 
@@ -94,8 +94,8 @@
 	"volume"		"1.0"
 	"rndwave"
 	{
-		"wave"		"player/footsteps/metal1.wav"
-		"wave"		"player/footsteps/metal3.wav"
+		"wave"		"player/footsteps/infected/run/metal1.wav"
+		"wave"		"player/footsteps/infected/run/metal3.wav"
 	}
 }
 
@@ -106,8 +106,8 @@
 	"volume"		"1.0"
 	"rndwave"
 	{
-		"wave"		"player/footsteps/metal2.wav"
-		"wave"		"player/footsteps/metal4.wav"
+		"wave"		"player/footsteps/infected/run/metal2.wav"
+		"wave"		"player/footsteps/infected/run/metal4.wav"
 	}
 }
 
@@ -189,8 +189,8 @@
 	"volume"		"1.0"
 	"rndwave"
 	{
-		"wave"		"player/footsteps/metalgrate1.wav"
-		"wave"		"player/footsteps/metalgrate2.wav"
+		"wave"		"player/footsteps/infected/run/metalgrate1.wav"
+		"wave"		"player/footsteps/infected/run/metalgrate2.wav"
 
 		
 	}
@@ -205,8 +205,8 @@
 	"volume"		"1.0"
 	"rndwave"
 	{
-		"wave"		"player/footsteps/metalgrate3.wav"
-		"wave"		"player/footsteps/metalgrate4.wav"
+		"wave"		"player/footsteps/infected/run/metalgrate3.wav"
+		"wave"		"player/footsteps/infected/run/metalgrate4.wav"
 		
 	}
 
@@ -220,9 +220,9 @@
 	"volume"		"1.0"
 	"rndwave"
 	{
-		"wave"		"player/footsteps/snow1.wav"
-		"wave"		"player/footsteps/snow2.wav"
-		"wave"		"player/footsteps/snow3.wav"
+		"wave"		"player/footsteps/infected/run/snow1.wav"
+		"wave"		"player/footsteps/infected/run/snow2.wav"
+		"wave"		"player/footsteps/infected/run/snow3.wav"
 		
 	}
 
@@ -236,9 +236,9 @@
 	"volume"		"1.0"
 	"rndwave"
 	{
-		"wave"		"player/footsteps/snow4.wav"
-		"wave"		"player/footsteps/snow5.wav"
-		"wave"		"player/footsteps/snow6.wav"
+		"wave"		"player/footsteps/infected/run/snow4.wav"
+		"wave"		"player/footsteps/infected/run/snow5.wav"
+		"wave"		"player/footsteps/infected/run/snow6.wav"
 		
 	}
 
@@ -251,8 +251,8 @@
 	"volume"		"1.0"
 	"rndwave"
 	{
-		"wave"		"player/footsteps/dirt1.wav"
-		"wave"		"player/footsteps/dirt3.wav"
+		"wave"		"player/footsteps/infected/run/dirt1.wav"
+		"wave"		"player/footsteps/infected/run/dirt3.wav"
 	}
 }
 
@@ -263,8 +263,8 @@
 	"volume"		"1.0"
 	"rndwave"
 	{
-		"wave"		"player/footsteps/dirt2.wav"
-		"wave"		"player/footsteps/dirt4.wav"
+		"wave"		"player/footsteps/infected/run/dirt2.wav"
+		"wave"		"player/footsteps/infected/run/dirt4.wav"
 	}
 }
 
@@ -305,8 +305,8 @@
 	"pitch"			"90,105"
 	"rndwave"
 	{
-		"wave"		"player/footsteps/mud1.wav"
-		"wave"		"player/footsteps/mud3.wav"
+		"wave"		"player/footsteps/infected/run/mud1.wav"
+		"wave"		"player/footsteps/infected/run/mud3.wav"
 	}
 }
 
@@ -317,8 +317,8 @@
 	"pitch"			"90,105"
 	"rndwave"
 	{
-		"wave"		"player/footsteps/mud2.wav"
-		"wave"		"player/footsteps/mud4.wav"
+		"wave"		"player/footsteps/infected/run/mud2.wav"
+		"wave"		"player/footsteps/infected/run/mud4.wav"
 	}
 }
 
@@ -329,8 +329,8 @@
 	"pitch"			"90,105"
 	"rndwave"
 	{
-		"wave"		"player/footsteps/mud1.wav"
-		"wave"		"player/footsteps/mud3.wav"
+		"wave"		"player/footsteps/infected/run/mud1.wav"
+		"wave"		"player/footsteps/infected/run/mud3.wav"
 	}
 }
 
@@ -341,8 +341,8 @@
 	"pitch"			"90,105"
 	"rndwave"
 	{
-		"wave"		"player/footsteps/mud2.wav"
-		"wave"		"player/footsteps/mud4.wav"
+		"wave"		"player/footsteps/infected/run/mud2.wav"
+		"wave"		"player/footsteps/infected/run/mud4.wav"
 	}
 }
 
@@ -353,8 +353,8 @@
 	"pitch"			"PITCH_NORM"
 	"rndwave"
 	{
-		"wave"		"player/footsteps/grass1.wav"
-		"wave"		"player/footsteps/grass3.wav"
+		"wave"		"player/footsteps/infected/run/grass1.wav"
+		"wave"		"player/footsteps/infected/run/grass3.wav"
 	}
 }
 
@@ -365,8 +365,8 @@
 	"pitch"			"PITCH_NORM"
 	"rndwave"
 	{
-		"wave"		"player/footsteps/grass2.wav"
-		"wave"		"player/footsteps/grass4.wav"
+		"wave"		"player/footsteps/infected/run/grass2.wav"
+		"wave"		"player/footsteps/infected/run/grass4.wav"
 	}
 }
 
@@ -432,8 +432,8 @@
 	"pitch"			"PITCH_NORM"
 	"rndwave"
 	{
-		"wave"		"player/footsteps/duct2.wav"
-		"wave"		"player/footsteps/duct4.wav"
+		"wave"		"player/footsteps/infected/run/duct2.wav"
+		"wave"		"player/footsteps/infected/run/duct4.wav"
 	}
 }
 
@@ -443,8 +443,8 @@
 	"volume"		"1.0"
 	"rndwave"
 	{
-		"wave"		"player/footsteps/duct1.wav"
-		"wave"		"player/footsteps/duct3.wav"
+		"wave"		"player/footsteps/infected/run/duct1.wav"
+		"wave"		"player/footsteps/infected/run/duct3.wav"
 	}
 }
 
@@ -469,8 +469,8 @@
 	"pitch"			"PITCH_NORM"
 	"rndwave"
 	{
-		"wave"		"player/footsteps/tile1.wav"
-		"wave"		"player/footsteps/tile3.wav"
+		"wave"		"player/footsteps/infected/run/tile1.wav"
+		"wave"		"player/footsteps/infected/run/tile3.wav"
 	}
 }
 
@@ -481,8 +481,8 @@
 	"pitch"			"PITCH_NORM"
 	"rndwave"
 	{
-		"wave"		"player/footsteps/tile2.wav"
-		"wave"		"player/footsteps/tile4.wav"
+		"wave"		"player/footsteps/infected/run/tile2.wav"
+		"wave"		"player/footsteps/infected/run/tile4.wav"
 	}
 }
 
@@ -509,8 +509,8 @@
 	"pitch"			"PITCH_NORM"
 	"rndwave"
 	{
-		"wave"		"player/footsteps/slosh2.wav"
-		"wave"		"player/footsteps/slosh4.wav"
+		"wave"		"player/footsteps/infected/run/slosh2.wav"
+		"wave"		"player/footsteps/infected/run/slosh4.wav"
 	}
 }
 
@@ -521,8 +521,8 @@
 	"pitch"			"PITCH_NORM"
 	"rndwave"
 	{
-		"wave"		"player/footsteps/slosh1.wav"
-		"wave"		"player/footsteps/slosh3.wav"
+		"wave"		"player/footsteps/infected/run/slosh1.wav"
+		"wave"		"player/footsteps/infected/run/slosh3.wav"
 	}
 }
 
@@ -533,10 +533,10 @@
 	"pitch"			"PITCH_NORM"
 	"rndwave"
 	{
-		"wave"	"player/footsteps/slosh1.wav"
-		"wave"	"player/footsteps/slosh3.wav"
-		"wave"	"player/footsteps/slosh2.wav"
-		"wave"	"player/footsteps/slosh4.wav"
+		"wave"	"player/footsteps/infected/run/slosh1.wav"
+		"wave"	"player/footsteps/infected/run/slosh3.wav"
+		"wave"	"player/footsteps/infected/run/slosh2.wav"
+		"wave"	"player/footsteps/infected/run/slosh4.wav"
 	}
 }
 
@@ -599,8 +599,8 @@
 	"pitch"			"PITCH_NORM"
 	"rndwave"
 	{
-		"wave"		"player/footsteps/wade1.wav"
-		"wave"		"player/footsteps/wade3.wav"
+		"wave"		"player/footsteps/infected/run/wade1.wav"
+		"wave"		"player/footsteps/infected/run/wade3.wav"
 	}
 }
 
@@ -611,8 +611,8 @@
 	"pitch"			"PITCH_NORM"
 	"rndwave"
 	{
-		"wave"		"player/footsteps/wade2.wav"
-		"wave"		"player/footsteps/wade4.wav"
+		"wave"		"player/footsteps/infected/run/wade2.wav"
+		"wave"		"player/footsteps/infected/run/wade4.wav"
 	}
 }
 
@@ -624,8 +624,8 @@
 	"pitch"			"PITCH_NORM"
 	"rndwave"
 	{
-		"wave"		"player/footsteps/ladder1.wav"
-		"wave"		"player/footsteps/ladder3.wav"
+		"wave"		"player/footsteps/infected/run/ladder1.wav"
+		"wave"		"player/footsteps/infected/run/ladder3.wav"
 	}
 }
 
@@ -636,8 +636,8 @@
 	"pitch"			"PITCH_NORM"
 	"rndwave"
 	{
-		"wave"		"player/footsteps/ladder2.wav"
-		"wave"		"player/footsteps/ladder4.wav"
+		"wave"		"player/footsteps/infected/run/ladder2.wav"
+		"wave"		"player/footsteps/infected/run/ladder4.wav"
 	}
 }
 
@@ -648,8 +648,8 @@
 	"pitch"			"PITCH_NORM"
 	"rndwave"
 	{
-		"wave"		"player/footsteps/wood1.wav"
-		"wave"		"player/footsteps/wood3.wav"
+		"wave"		"player/footsteps/infected/run/wood1.wav"
+		"wave"		"player/footsteps/infected/run/wood3.wav"
 	}
 }
 
@@ -660,8 +660,8 @@
 	"pitch"			"PITCH_NORM"
 	"rndwave"
 	{
-		"wave"		"player/footsteps/wood2.wav"
-		"wave"		"player/footsteps/wood4.wav"
+		"wave"		"player/footsteps/infected/run/wood2.wav"
+		"wave"		"player/footsteps/infected/run/wood4.wav"
 	}
 }
 "Glass.StepLeft"
@@ -890,8 +890,8 @@
 	"pitch"			"PITCH_NORM"
 	"rndwave"
 	{
-		"wave"		"player/footsteps/concrete1.wav"
-		"wave"		"player/footsteps/concrete3.wav"
+		"wave"		"player/footsteps/infected/run/concrete1.wav"
+		"wave"		"player/footsteps/infected/run/concrete3.wav"
 	}
 }
 
@@ -902,8 +902,8 @@
 	"pitch"			"PITCH_NORM"
 	"rndwave"
 	{
-		"wave"		"player/footsteps/concrete2.wav"
-		"wave"		"player/footsteps/concrete4.wav"
+		"wave"		"player/footsteps/infected/run/concrete2.wav"
+		"wave"		"player/footsteps/infected/run/concrete4.wav"
 	}
 }
 
@@ -1058,8 +1058,8 @@
 	"pitch"			"PITCH_NORM"
 	"rndwave"
 	{
-		"wave"		"player/footsteps/gravel1.wav"
-		"wave"		"player/footsteps/gravel3.wav"
+		"wave"		"player/footsteps/infected/run/gravel1.wav"
+		"wave"		"player/footsteps/infected/run/gravel3.wav"
 	}
 }
 
@@ -1070,8 +1070,8 @@
 	"pitch"			"PITCH_NORM"
 	"rndwave"
 	{
-		"wave"		"player/footsteps/gravel2.wav"
-		"wave"		"player/footsteps/gravel4.wav"
+		"wave"		"player/footsteps/infected/run/gravel2.wav"
+		"wave"		"player/footsteps/infected/run/gravel4.wav"
 	}
 }
 
@@ -1082,8 +1082,8 @@
 	"pitch"			"PITCH_NORM"
 	"rndwave"
 	{
-		"wave"		"player/footsteps/chainlink1.wav"
-		"wave"		"player/footsteps/chainlink3.wav"
+		"wave"		"player/footsteps/infected/run/chainlink1.wav"
+		"wave"		"player/footsteps/infected/run/chainlink3.wav"
 	}
 }
 
@@ -1094,8 +1094,8 @@
 	"pitch"			"PITCH_NORM"
 	"rndwave"
 	{
-		"wave"		"player/footsteps/chainlink2.wav"
-		"wave"		"player/footsteps/chainlink4.wav"
+		"wave"		"player/footsteps/infected/run/chainlink2.wav"
+		"wave"		"player/footsteps/infected/run/chainlink4.wav"
 	}
 }
 
@@ -1148,9 +1148,9 @@
 	"pitch"			"PITCH_NORM"
 	"rndwave"
 	{
-		"wave"		"player/footsteps/chainlink1.wav"
+		"wave"		"player/footsteps/infected/run/chainlink1.wav"
 		"wave"		"physics/metal/metal_chainlink_impact_hard2.wav"
-		"wave"		"player/footsteps/chainlink3.wav"
+		"wave"		"player/footsteps/infected/run/chainlink3.wav"
 		"wave"		"physics/metal/metal_chainlink_impact_hard3.wav"
 	}
 }
@@ -1345,10 +1345,10 @@
 	"pitch"			"PITCH_NORM"
 	"rndwave"
 	{
-		"wave"	"player/footsteps/sand1.wav"
-		"wave"	"player/footsteps/sand2.wav"
-		"wave"	"player/footsteps/sand3.wav"
-		"wave"	"player/footsteps/sand4.wav"
+		"wave"	"player/footsteps/infected/run/sand1.wav"
+		"wave"	"player/footsteps/infected/run/sand2.wav"
+		"wave"	"player/footsteps/infected/run/sand3.wav"
+		"wave"	"player/footsteps/infected/run/sand4.wav"
 	}
 }
 
@@ -1383,8 +1383,8 @@
 	"pitch"			"PITCH_NORM"
 	"rndwave"
 	{
-		"wave"		"player/footsteps/sand1.wav"
-		"wave"		"player/footsteps/sand3.wav"
+		"wave"		"player/footsteps/infected/run/sand1.wav"
+		"wave"		"player/footsteps/infected/run/sand3.wav"
 	}
 }
 
@@ -1395,8 +1395,8 @@
 	"pitch"			"PITCH_NORM"
 	"rndwave"
 	{
-		"wave"		"player/footsteps/sand2.wav"
-		"wave"		"player/footsteps/sand4.wav"
+		"wave"		"player/footsteps/infected/run/sand2.wav"
+		"wave"		"player/footsteps/infected/run/sand4.wav"
 	}
 }
 
@@ -2248,8 +2248,8 @@
 	"volume"			"0.5"
 	"rndwave"
 	{
-		"wave"		"physics/cardboard/cardboard_box_impact_soft1.wav"
-		"wave"		"physics/cardboard/cardboard_box_impact_soft2.wav"
+		"wave"		"player/footsteps/survivor/run/cardboard2.wav"
+		"wave"		"player/footsteps/survivor/run/cardboard4.wav"
 	}
 }
 
@@ -2260,8 +2260,8 @@
 	"volume"			"0.5"
 	"rndwave"
 	{
-		"wave"		"physics/cardboard/cardboard_box_impact_soft3.wav"
-		"wave"		"physics/cardboard/cardboard_box_impact_soft4.wav"
+		"wave"		"player/footsteps/survivor/run/cardboard1.wav"
+		"wave"		"player/footsteps/survivor/run/cardboard3.wav"
 	}
 }
 
@@ -2822,8 +2822,8 @@
 	"pitch"			"PITCH_NORM"
 	"rndwave"
 	{
-		"wave"		"player/footsteps/wood1.wav"
-		"wave"		"player/footsteps/wood3.wav"
+		"wave"		"player/footsteps/infected/run/wood1.wav"
+		"wave"		"player/footsteps/infected/run/wood3.wav"
 	}
 }
 
@@ -2834,8 +2834,8 @@
 	"pitch"			"PITCH_NORM"
 	"rndwave"
 	{
-		"wave"		"player/footsteps/wood2.wav"
-		"wave"		"player/footsteps/wood4.wav"
+		"wave"		"player/footsteps/infected/run/wood2.wav"
+		"wave"		"player/footsteps/infected/run/wood4.wav"
 	}
 }
 
@@ -3358,8 +3358,8 @@
 	"pitch"			"PITCH_NORM"
 	"rndwave"
 	{
-		"wave"		"player/footsteps/woodpanel1.wav"
-		"wave"		"player/footsteps/woodpanel3.wav"
+		"wave"		"player/footsteps/infected/run/woodpanel1.wav"
+		"wave"		"player/footsteps/infected/run/woodpanel3.wav"
 	}
 }
 
@@ -3370,8 +3370,8 @@
 	"pitch"			"PITCH_NORM"
 	"rndwave"
 	{
-		"wave"		"player/footsteps/woodpanel2.wav"
-		"wave"		"player/footsteps/woodpanel4.wav"
+		"wave"		"player/footsteps/infected/run/woodpanel2.wav"
+		"wave"		"player/footsteps/infected/run/woodpanel4.wav"
 	}
 }
 

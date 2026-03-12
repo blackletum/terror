@@ -519,13 +519,14 @@ Scheme
 		{
 			"1"
 			{
-				"name"		 "Lucida Console" [!$OSX]
-				"name"		 "Lucida Console" [$X360]
+				"name"		 "Stubble bold" [!$OSX]
+				"name"		 "Stubble bold" [$X360]
 				"name"		 "Verdana" [$OSX]
 				"tall"		"11" [$OSX]
 				"tall"		"14" [$LINUX]
-				"tall"		"10"
+				"tall"		"14"
 				"weight"	"500"
+                "antialias" "1"
 			}
 		}
         
