@@ -21,9 +21,9 @@ globalactors
 	"tank"		"male"
 	"witch"		"female"
 	"witch_bride"	"bride"
-	"boomer_l4d1"        "male"
-	"smoker_l4d1"        "male"
-	"hunter_l4d1"        "male"
+	"boomer"        "male"
+	"smoker"        "male"
+	"hunter"        "male"
 
 	//L4D2 Common Infected
 	"common_female_tankTop_jeans"		"female"
@@ -56,34 +56,34 @@ globalactors
 
 	//L4D1 Common Infected
 	//"common_patient_male01_l4d2"		"hospital_patient" //Removed; redundant asset to add to the precache. The model is still in the game files for any maps that may still use it as a prop.
-	"common_female_nurse01"			"female_l4d1"
-	"common_female_rural01"			"female_l4d1"
-	"common_female01"			"female_l4d1"
-	"common_male_baggagehandler_01"		"male_l4d1"
-	"common_male_pilot"			"male_l4d1"
-	"common_male_rural01"			"male_l4d1"
-	"common_male_suit"			"male_l4d1"
-	"common_male01"				"male_l4d1"
-	"common_military_male01"		"male_l4d1"
-	"common_patient_male01"			"male_l4d1"
+	"common_female_nurse01"			"female"
+	"common_female_rural01"			"female"
+	"common_female01"			"female"
+	"common_male_baggagehandler_01"		"male"
+	"common_male_pilot"			"male"
+	"common_male_rural01"			"male"
+	"common_male_suit"			"male"
+	"common_male01"				"male"
+	"common_military_male01"		"male"
+	"common_patient_male01"			"male"
 	"common_police_male01"			"police"
-	"common_surgeon_male01"			"male_l4d1"
-	"common_tsaagent_male01"		"male_l4d1"
-	"common_worker_male01"			"male_l4d1"
+	"common_surgeon_male01"			"male"
+	"common_tsaagent_male01"		"male"
+	"common_worker_male01"			"male"
 
 	//L4D2 Anniversary Update Common Infected
 	"common_male_parachutist"		"fallen"
 
 	//L4D1 Anniversary Update Common Infected
-	"common_male02"				"male_l4d1"
-	"common_female01_suit"			"female_l4d1"
-	"common_female_baggagehandler_01"	"female_l4d1"
+	"common_male02"				"male"
+	"common_female01_suit"			"female"
+	"common_female_baggagehandler_01"	"female"
 	"common_male_baggagehandler_02"		"undistractable"
-	"common_male_mud_L4D1"			"crawler"
-	"common_male_ceda_l4d1"			"ceda"
-	"common_male_roadcrew_l4d1"		"undistractable"
-	"common_male_fallen_survivor_l4d1" 	"fallen"
-	"common_male_riot_l4d1"			"riot_control"
+	"common_male_mud"			"crawler"
+	"common_male_ceda"			"ceda"
+	"common_male_roadcrew"		"undistractable"
+	"common_male_fallen_survivor" 	"fallen"
+	"common_male_riot"			"riot_control"
 	
 	//L4D1 Common Infected before Anniversary Update. Changed to different 'genders' for gore system
 	//"common_patient_male01_l4d2"	"hospital_patient"
