@@ -723,12 +723,13 @@
 	"HudHealth"
 	{
 		"fieldName"		"CHudHealth"
-		"xpos"			"r387"
-		"ypos"			"r100"
-		"wide"			"400"
-		"tall"			"100"
-		"visible"		"1"
-		"enabled"		"1"
+		"xpos"	"8"
+		"ypos"	"446"
+		"zpos"	"0"
+ 		"wide"	"80"
+		"tall"  "25"
+		"visible" "1"
+		"enabled" "1"
 		"usetitlesafe"	"1"	// 2
 		  		
   		"if_split_screen_left"
