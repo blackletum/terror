@@ -9,7 +9,7 @@ WeaponData
 	"CrosshairDeltaDistance"	"3"
 	"Team"				"ANY"
 	"BuiltRightHanded" 		"1"
-	"PlayerAnimationExtension"	"p90"
+	"PlayerAnimationExtension"	"mac10"
 	"MuzzleFlashScale"		"1.2"
 	"MuzzleFlashStyle"		"CS_MUZZLEFLASH_X"
 	"CanEquipWithShield"		"0"
@@ -45,7 +45,7 @@ WeaponData
 	// Weapon data is loaded by both the Game and Client DLLs.
 	"printname"			"SMG"
 	"viewmodel"			"models/v_models/v_smg.mdl"
-	"playermodel"			"models/weapons/w_smg_p90.mdl"
+	"playermodel"			"models/w_models/weapons/w_smg_uzi.mdl"
 	
 	"anim_prefix"			"anim"
 	"bucket"			"0"
