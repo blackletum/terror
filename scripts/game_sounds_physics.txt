@@ -1,9 +1,10 @@
 // Physics Sounds
 //
-//	NOTE:  CHAN_BODY is used by sounds in many cases, but the code
+//	NOTE:  CHAN_VOICE_BASE is used by sounds in many cases, but the code
 //   uses CHAN_STATIC in others, so I didn't specify a channel here
 //  Volume is determined procedurally by the physics code
 //
+
 
 // *****************
 // SURFACE MATERIALS
@@ -304,7 +305,7 @@
 
 "BaseEntity.EnterWater"
 {
-	"channel"	"CHAN_AUTO"
+	"channel"	"CHAN_VOICE_BASE"
 	"volume"	"0.6"
 	"soundlevel"	"SNDLVL_NORM"
 	"pitch"	"PITCH_NORM"
@@ -314,7 +315,7 @@
 
 "BaseEntity.ExitWater"
 {
-	"channel"	"CHAN_AUTO"
+	"channel"	"CHAN_VOICE_BASE"
 	"volume"	"0.6"
 	"soundlevel"	"SNDLVL_NORM"
 	"pitch"	"PITCH_NORM"
@@ -3104,7 +3105,7 @@
 //----------------------------------------------------------------------------------------------------------------------------------------//
 "Survivor.Default.StepLeft"
 {
-	"channel"       "CHAN_BODY"
+	"channel"       "CHAN_VOICE_BASE"
 
 	"soundlevel"	"SNDLVL_NORM"
 	"volume"			".66"
@@ -3118,7 +3119,7 @@
 
 "Survivor.Default.StepRight"
 {
-	"channel"       "CHAN_BODY"
+	"channel"       "CHAN_VOICE_BASE"
 
 	"soundlevel"	"SNDLVL_NORM"
 	"pitch"			"95,105"
@@ -3132,7 +3133,7 @@
 
 "Survivor.SolidMetal.StepLeft"
 {
-	"channel"       "CHAN_BODY"
+	"channel"       "CHAN_VOICE_BASE"
 
 	"soundlevel"	"SNDLVL_NORM"
 	"pitch"			"95,105"
@@ -3146,7 +3147,7 @@
 
 "Survivor.SolidMetal.StepRight"
 {
-	"channel"       "CHAN_BODY"
+	"channel"       "CHAN_VOICE_BASE"
 
 	"soundlevel"	"SNDLVL_NORM"
 	"pitch"			"95,105"
@@ -3160,7 +3161,7 @@
 
 "Survivor.Metalgrate.StepLeft"
 {
-	"channel"       "CHAN_BODY"
+	"channel"       "CHAN_VOICE_BASE"
 
 
 	"soundlevel"	"SNDLVL_NORM"
@@ -3178,7 +3179,7 @@
 
 "Survivor.Metalgrate.StepRight"
 {
-	"channel"       "CHAN_BODY"
+	"channel"       "CHAN_VOICE_BASE"
 
 
 	"soundlevel"	"SNDLVL_NORM"
@@ -3195,7 +3196,7 @@
 
 "Survivor.Snow.StepLeft"
 {
-	"channel"       "CHAN_BODY"
+	"channel"       "CHAN_VOICE_BASE"
 
 
 	"soundlevel"	"SNDLVL_NORM"
@@ -3212,7 +3213,7 @@
 
 "Survivor.Snow.StepRight"
 {
-	"channel"       "CHAN_BODY"
+	"channel"       "CHAN_VOICE_BASE"
 
 
 	"soundlevel"	"SNDLVL_NORM"
@@ -3229,7 +3230,7 @@
 
 "Survivor.Dirt.StepLeft"
 {
-	"channel"       "CHAN_BODY"
+	"channel"       "CHAN_VOICE_BASE"
 
 	"soundlevel"	"SNDLVL_NORM"
 	"pitch"			"95,105"
@@ -3243,7 +3244,7 @@
 
 "Survivor.Dirt.StepRight"
 {
-	"channel"       "CHAN_BODY"
+	"channel"       "CHAN_VOICE_BASE"
 
 	"soundlevel"	"SNDLVL_NORM"
 	"pitch"			"95,105"
@@ -3257,7 +3258,7 @@
 
 "Survivor.Mud.StepLeft"
 {
-	"channel"       "CHAN_BODY"
+	"channel"       "CHAN_VOICE_BASE"
 
 	"soundlevel"	"SNDLVL_NORM"
 	"volume"		".6"
@@ -3271,7 +3272,7 @@
 
 "Survivor.Mud.StepRight"
 {
-	"channel"       "CHAN_BODY"
+	"channel"       "CHAN_VOICE_BASE"
 
 	"soundlevel"	"SNDLVL_NORM"
 	"volume"		".6"
@@ -3285,7 +3286,7 @@
 
 "Survivor.SlipperySlime.StepLeft"
 {
-	"channel"       "CHAN_BODY"
+	"channel"       "CHAN_VOICE_BASE"
 
 	"soundlevel"	"SNDLVL_NORM"
 	"volume"		"0.6"
@@ -3299,7 +3300,7 @@
 
 "Survivor.SlipperySlime.StepRight"
 {
-	"channel"       "CHAN_BODY"
+	"channel"       "CHAN_VOICE_BASE"
 
 	"soundlevel"	"SNDLVL_NORM"
 	"volume"		"0.6"
@@ -3313,7 +3314,7 @@
 
 "Survivor.Grass.StepLeft"
 {
-	"channel"       "CHAN_BODY"
+	"channel"       "CHAN_VOICE_BASE"
 
 	"soundlevel"	"SNDLVL_NORM"
 	"volume"		".66"
@@ -3327,7 +3328,7 @@
 
 "Survivor.Grass.StepRight"
 {
-	"channel"       "CHAN_BODY"
+	"channel"       "CHAN_VOICE_BASE"
 
 	"soundlevel"	"SNDLVL_NORM"
 	"volume"		".66"
@@ -3341,7 +3342,7 @@
 
 "Survivor.MetalVent.StepLeft"
 {
-	"channel"       "CHAN_BODY"
+	"channel"       "CHAN_VOICE_BASE"
 
 	"soundlevel"	"SNDLVL_NORM"
 	"volume"		".66"
@@ -3355,7 +3356,7 @@
 
 "Survivor.MetalVent.StepRight"
 {
-	"channel"       "CHAN_BODY"
+	"channel"       "CHAN_VOICE_BASE"
 
 	"soundlevel"	"SNDLVL_NORM"
 	"volume"		".66"
@@ -3368,7 +3369,7 @@
 
 "Survivor.Tile.StepLeft"
 {
-	"channel"       "CHAN_BODY"
+	"channel"       "CHAN_VOICE_BASE"
 
 	"soundlevel"	"SNDLVL_NORM"
 	"volume"		".66"
@@ -3382,7 +3383,7 @@
 
 "Survivor.Tile.StepRight"
 {
-	"channel"       "CHAN_BODY"
+	"channel"       "CHAN_VOICE_BASE"
 
 	"soundlevel"	"SNDLVL_NORM"
 	"volume"		".66"
@@ -3396,7 +3397,7 @@
 
 "Survivor.Water.StepLeft"
 {
-	"channel"       "CHAN_AUTO"
+	"channel"       "CHAN_VOICE_BASE"
 	"soundlevel"	"SNDLVL_NORM"
 	"volume"		"1"
 	"pitch"			"95,105"
@@ -3409,7 +3410,7 @@
 
 "Survivor.Water.StepRight"
 {
-	"channel"       "CHAN_AUTO"
+	"channel"       "CHAN_VOICE_BASE"
 	"soundlevel"	"SNDLVL_NORM"
 	"volume"		"1"
 	"pitch"			"95,105"
@@ -3423,7 +3424,7 @@
 "Survivor.Wade.StepLeft"
 {
 
-	"channel"       "CHAN_AUTO"
+	"channel"       "CHAN_VOICE_BASE"
 	"soundlevel"	"SNDLVL_NORM"
 	"volume"		"1"
 	"pitch"			"95,105"
@@ -3437,7 +3438,7 @@
 "Survivor.Wade.StepRight"
 {
 
-	"channel"       "CHAN_AUTO"
+	"channel"       "CHAN_VOICE_BASE"
 	"soundlevel"	"SNDLVL_NORM"
 	"volume"		"1"
 	"pitch"			"95,105"
@@ -3451,7 +3452,7 @@
 
 "Survivor.Ladder.StepLeft"
 {
-	"channel"       "CHAN_BODY"
+	"channel"       "CHAN_VOICE_BASE"
 
 	"soundlevel"	"SNDLVL_NORM"
 	"volume"		"1"
@@ -3465,7 +3466,7 @@
 
 "Survivor.Ladder.StepRight"
 {
-	"channel"       "CHAN_BODY"
+	"channel"       "CHAN_VOICE_BASE"
 
 	"soundlevel"	"SNDLVL_NORM"
 	"volume"		"1"
@@ -3479,7 +3480,7 @@
 
 "Survivor.Glass.StepLeft"
 {
-	"channel"       "CHAN_BODY"
+	"channel"       "CHAN_VOICE_BASE"
 
 	"soundlevel"	"SNDLVL_NORM"
 	"volume"		".66"
@@ -3493,7 +3494,7 @@
 
 "Survivor.Glass.StepRight"
 {
-	"channel"       "CHAN_BODY"
+	"channel"       "CHAN_VOICE_BASE"
 
 	"soundlevel"	"SNDLVL_NORM"
 	"volume"		".66"
@@ -3507,7 +3508,7 @@
 
 "Survivor.Concrete.StepLeft"
 {
-	"channel"       "CHAN_BODY"
+	"channel"       "CHAN_VOICE_BASE"
 
 	"soundlevel"	"SNDLVL_NORM"
 	"volume"		".66"
@@ -3521,7 +3522,7 @@
 
 "Survivor.Concrete.StepRight"
 {
-	"channel"       "CHAN_BODY"
+	"channel"       "CHAN_VOICE_BASE"
 
 	"soundlevel"	"SNDLVL_NORM"
 	"volume"		".66"
@@ -3535,7 +3536,7 @@
 
 "Survivor.Gravel.StepLeft"
 {
-	"channel"       "CHAN_BODY"
+	"channel"       "CHAN_VOICE_BASE"
 
 	"soundlevel"	"SNDLVL_NORM"
 	"volume"		".66"
@@ -3549,7 +3550,7 @@
 
 "Survivor.Gravel.StepRight"
 {
-	"channel"       "CHAN_BODY"
+	"channel"       "CHAN_VOICE_BASE"
 
 	"soundlevel"	"SNDLVL_NORM"
 	"volume"		".66"
@@ -3563,7 +3564,7 @@
 
 "Survivor.ChainLink.StepLeft"
 {
-	"channel"       "CHAN_BODY"
+	"channel"       "CHAN_VOICE_BASE"
 
 	"soundlevel"	"SNDLVL_NORM"
 	"volume"		".66"
@@ -3577,7 +3578,7 @@
 
 "Survivor.ChainLink.StepRight"
 {
-	"channel"       "CHAN_BODY"
+	"channel"       "CHAN_VOICE_BASE"
 
 	"soundlevel"	"SNDLVL_NORM"
 	"volume"		".66"
@@ -3591,7 +3592,7 @@
 
 "Survivor.Flesh.StepLeft"
 {
-	"channel"       "CHAN_BODY"
+	"channel"       "CHAN_VOICE_BASE"
 
 	"soundlevel"	"SNDLVL_NORM"
 	"volume"		".66"
@@ -3605,7 +3606,7 @@
 
 "Survivor.Flesh.StepRight"
 {
-	"channel"       "CHAN_BODY"
+	"channel"       "CHAN_VOICE_BASE"
 
 	"soundlevel"	"SNDLVL_NORM"
 	"volume"		".66"
@@ -3619,7 +3620,7 @@
 
 "Survivor.Sand.StepLeft"
 {
-	"channel"       "CHAN_BODY"
+	"channel"       "CHAN_VOICE_BASE"
 
 	"soundlevel"	"SNDLVL_NORM"
 	"volume"		".66"
@@ -3633,7 +3634,7 @@
 
 "Survivor.Sand.StepRight"
 {
-	"channel"       "CHAN_BODY"
+	"channel"       "CHAN_VOICE_BASE"
 
 	"soundlevel"	"SNDLVL_NORM"
 	"volume"		".66"
@@ -3647,7 +3648,7 @@
 
 "Survivor.GlassBottle.StepLeft"
 {
-	"channel"       "CHAN_BODY"
+	"channel"       "CHAN_VOICE_BASE"
 
 	"soundlevel"	"SNDLVL_NORM"
 	"volume"		"0.2"
@@ -3661,7 +3662,7 @@
 
 "Survivor.GlassBottle.StepRight"
 {
-	"channel"       "CHAN_BODY"
+	"channel"       "CHAN_VOICE_BASE"
 
 	"soundlevel"	"SNDLVL_NORM"
 	"volume"		"0.2"
@@ -3675,7 +3676,7 @@
 
 "Survivor.ceiling_tile.StepLeft"
 {
-	"channel"       "CHAN_BODY"
+	"channel"       "CHAN_VOICE_BASE"
 
 	"soundlevel"	"SNDLVL_NORM"
 	"volume"		".66"
@@ -3689,7 +3690,7 @@
 
 "Survivor.ceiling_tile.StepRight"
 {
-	"channel"       "CHAN_BODY"
+	"channel"       "CHAN_VOICE_BASE"
 
 	"soundlevel"	"SNDLVL_NORM"
 	"volume"		".66"
@@ -3703,7 +3704,7 @@
 
 "Survivor.drywall.StepLeft"
 {
-	"channel"       "CHAN_BODY"
+	"channel"       "CHAN_VOICE_BASE"
 
 	"soundlevel"	"SNDLVL_NORM"
 	"volume"		".36"
@@ -3717,7 +3718,7 @@
 
 "Survivor.drywall.StepRight"
 {
-	"channel"       "CHAN_BODY"
+	"channel"       "CHAN_VOICE_BASE"
 
 	"soundlevel"	"SNDLVL_NORM"
 	"volume"		".36"
@@ -3732,7 +3733,7 @@
 
 "Survivor.Plaster.StepLeft"
 {
-	"channel"       "CHAN_BODY"
+	"channel"       "CHAN_VOICE_BASE"
 
 	"soundlevel"	"SNDLVL_NORM"
 	"volume"		".36"
@@ -3746,7 +3747,7 @@
 
 "Survivor.Plaster.StepRight"
 {
-	"channel"       "CHAN_BODY"
+	"channel"       "CHAN_VOICE_BASE"
 
 	"soundlevel"	"SNDLVL_NORM"
 	"volume"		".36"
@@ -3760,7 +3761,7 @@
 
 "Survivor.Cardboard.StepLeft"
 {
-	"channel"       "CHAN_BODY"
+	"channel"       "CHAN_VOICE_BASE"
 
 	"soundlevel"	"SNDLVL_NORM"
 	"pitch"			"95,105"
@@ -3774,7 +3775,7 @@
 
 "Survivor.Cardboard.StepRight"
 {
-	"channel"       "CHAN_BODY"
+	"channel"       "CHAN_VOICE_BASE"
 
 	"soundlevel"	"SNDLVL_NORM"
 	"pitch"			"95,105"
@@ -3788,7 +3789,7 @@
 
 "Survivor.Plastic_Barrel.StepLeft"
 {
-	"channel"       "CHAN_BODY"
+	"channel"       "CHAN_VOICE_BASE"
 
 	"soundlevel"	"SNDLVL_NORM"
 	"pitch"			"95,105"
@@ -3802,7 +3803,7 @@
 
 "Survivor.Plastic_Barrel.StepRight"
 {
-	"channel"       "CHAN_BODY"
+	"channel"       "CHAN_VOICE_BASE"
 
 	"soundlevel"	"SNDLVL_NORM"
 	"pitch"			"95,105"
@@ -3816,7 +3817,7 @@
 
 "Survivor.Plastic_Box.StepLeft"
 {
-	"channel"       "CHAN_BODY"
+	"channel"       "CHAN_VOICE_BASE"
 
 	"soundlevel"	"SNDLVL_NORM"
 	"pitch"			"95,105"
@@ -3830,7 +3831,7 @@
 
 "Survivor.Plastic_Box.StepRight"
 {
-	"channel"       "CHAN_BODY"
+	"channel"       "CHAN_VOICE_BASE"
 
 	"soundlevel"	"SNDLVL_NORM"
 	"pitch"			"95,105"
@@ -3844,7 +3845,7 @@
 
 "Survivor.Rubber.StepLeft"
 {
-	"channel"       "CHAN_BODY"
+	"channel"       "CHAN_VOICE_BASE"
 
 	"soundlevel"	"SNDLVL_NORM"
 	"pitch"			"95,105"
@@ -3858,7 +3859,7 @@
 
 "Survivor.Rubber.StepRight"
 {
-	"channel"       "CHAN_BODY"
+	"channel"       "CHAN_VOICE_BASE"
 
 	"soundlevel"	"SNDLVL_NORM"
 	"pitch"			"95,105"
@@ -3872,7 +3873,7 @@
 
 "Survivor.Grenade.StepLeft"
 {
-	"channel"       "CHAN_BODY"
+	"channel"       "CHAN_VOICE_BASE"
 
 	"soundlevel"	"SNDLVL_NORM"
 	"volume"		".66"
@@ -3885,7 +3886,7 @@
 }
 "Survivor.Grenade.StepRight"
 {
-	"channel"       "CHAN_BODY"
+	"channel"       "CHAN_VOICE_BASE"
 
 	"soundlevel"	"SNDLVL_NORM"
 	"volume"		".66"
@@ -3898,7 +3899,7 @@
 }
 "Survivor.Wood.StepLeft"
 {
-	"channel"       "CHAN_BODY"
+	"channel"       "CHAN_VOICE_BASE"
 
 	"soundlevel"	"SNDLVL_NORM"
 	"volume"		".66"
@@ -3912,7 +3913,7 @@
 
 "Survivor.Wood.StepRight"
 {
-	"channel"       "CHAN_BODY"
+	"channel"       "CHAN_VOICE_BASE"
 
 	"soundlevel"	"SNDLVL_NORM"
 	"volume"		".66"
@@ -3926,7 +3927,7 @@
 
 "Survivor.Wood_Box.StepLeft"
 {
-	"channel"       "CHAN_BODY"
+	"channel"       "CHAN_VOICE_BASE"
 
 	"soundlevel"	"SNDLVL_NORM"
 	"volume"		".66"
@@ -3940,7 +3941,7 @@
 
 "Survivor.Wood_Box.StepRight"
 {
-	"channel"       "CHAN_BODY"
+	"channel"       "CHAN_VOICE_BASE"
 
 	"soundlevel"	"SNDLVL_NORM"
 	"volume"		".66"
@@ -3954,7 +3955,7 @@
 
 "Survivor.Wood_Crate.StepLeft"
 {
-	"channel"       "CHAN_BODY"
+	"channel"       "CHAN_VOICE_BASE"
 
 	"soundlevel"	"SNDLVL_NORM"
 	"volume"		".66"
@@ -3968,7 +3969,7 @@
 
 "Survivor.Wood_Crate.StepRight"
 {
-	"channel"       "CHAN_BODY"
+	"channel"       "CHAN_VOICE_BASE"
 
 	"soundlevel"	"SNDLVL_NORM"
 	"volume"		".66"
@@ -3982,7 +3983,7 @@
 
 "Survivor.Wood_Panel.StepLeft"
 {
-	"channel"       "CHAN_BODY"
+	"channel"       "CHAN_VOICE_BASE"
 
 	"soundlevel"	"SNDLVL_NORM"
 	"volume"		".66"
@@ -3996,7 +3997,7 @@
 
 "Survivor.Wood_Panel.StepRight"
 {
-	"channel"       "CHAN_BODY"
+	"channel"       "CHAN_VOICE_BASE"
 
 	"soundlevel"	"SNDLVL_NORM"
 	"volume"		".66"
@@ -4010,7 +4011,7 @@
 
 "Survivor.Metal_Box.StepLeft"
 {
-	"channel"       "CHAN_BODY"
+	"channel"       "CHAN_VOICE_BASE"
 
 	"soundlevel"	"SNDLVL_NORM"
 	"volume"		".66"
@@ -4023,7 +4024,7 @@
 }
 "Survivor.Metal_Box.StepRight"
 {
-	"channel"       "CHAN_BODY"
+	"channel"       "CHAN_VOICE_BASE"
 
 	"soundlevel"	"SNDLVL_NORM"
 	"volume"		".66"
@@ -4036,7 +4037,7 @@
 }
 "Survivor.weapon.StepLeft"
 {
-	"channel"       "CHAN_BODY"
+	"channel"       "CHAN_VOICE_BASE"
 
 	"soundlevel"	"SNDLVL_NORM"
 	"volume"		".66"
@@ -4046,7 +4047,7 @@
 
 "Survivor.weapon.StepRight"
 {
-	"channel"       "CHAN_BODY"
+	"channel"       "CHAN_VOICE_BASE"
 
 	"soundlevel"	"SNDLVL_NORM"
 	"volume"		".66"
@@ -4057,7 +4058,7 @@
 
 "Survivor.SugarCane.StepLeft"
 {
-	"channel"       "CHAN_AUTO"
+	"channel"       "CHAN_VOICE_BASE"
 
 	"soundlevel"	"SNDLVL_NORM"
 	"volume"		".66"
@@ -4071,7 +4072,7 @@
 
 "Survivor.SugarCane.StepRight"
 {
-	"channel"       "CHAN_AUTO"
+	"channel"       "CHAN_VOICE_BASE"
 
 	"soundlevel"	"SNDLVL_NORM"
 	"volume"		".66"
@@ -4085,7 +4086,7 @@
 
 "Survivor.Foliage.StepLeft"
 {
-	"channel"       "CHAN_BODY"
+	"channel"       "CHAN_VOICE_BASE"
 
 	"soundlevel"	"SNDLVL_NORM"
 	"volume"		".6"
@@ -4099,7 +4100,7 @@
 
 "Survivor.Foliage.StepRight"
 {
-	"channel"       "CHAN_BODY"
+	"channel"       "CHAN_VOICE_BASE"
 
 	"soundlevel"	"SNDLVL_NORM"
 	"volume"		".6"
@@ -4118,7 +4119,7 @@
 
 "Survivor.Default.WalkLeft"
 {
-	"channel"       "CHAN_BODY"
+	"channel"       "CHAN_VOICE_BASE"
 
 	"soundlevel"	"SNDLVL_NORM"
 	"volume"			".15"
@@ -4132,7 +4133,7 @@
 
 "Survivor.Default.WalkRight"
 {
-	"channel"       "CHAN_BODY"
+	"channel"       "CHAN_VOICE_BASE"
 
 	"soundlevel"	"SNDLVL_NORM"
 	"pitch"			"95,105"
@@ -4146,7 +4147,7 @@
 
 "Survivor.SolidMetal.WalkLeft"
 {
-	"channel"       "CHAN_BODY"
+	"channel"       "CHAN_VOICE_BASE"
 
 	"soundlevel"	"SNDLVL_NORM"
 	"pitch"			"95,105"
@@ -4160,7 +4161,7 @@
 
 "Survivor.SolidMetal.WalkRight"
 {
-	"channel"       "CHAN_BODY"
+	"channel"       "CHAN_VOICE_BASE"
 
 	"soundlevel"	"SNDLVL_NORM"
 	"pitch"			"95,105"
@@ -4174,7 +4175,7 @@
 
 "Survivor.Metalgrate.WalkLeft"
 {
-	"channel"       "CHAN_BODY"
+	"channel"       "CHAN_VOICE_BASE"
 
 
 	"soundlevel"	"SNDLVL_NORM"
@@ -4192,7 +4193,7 @@
 
 "Survivor.Metalgrate.WalkRight"
 {
-	"channel"       "CHAN_BODY"
+	"channel"       "CHAN_VOICE_BASE"
 
 
 	"soundlevel"	"SNDLVL_NORM"
@@ -4209,7 +4210,7 @@
 
 "Survivor.Snow.WalkLeft"
 {
-	"channel"       "CHAN_BODY"
+	"channel"       "CHAN_VOICE_BASE"
 
 
 	"soundlevel"	"SNDLVL_NORM"
@@ -4226,7 +4227,7 @@
 
 "Survivor.Snow.WalkRight"
 {
-	"channel"       "CHAN_BODY"
+	"channel"       "CHAN_VOICE_BASE"
 
 
 	"soundlevel"	"SNDLVL_NORM"
@@ -4243,7 +4244,7 @@
 
 "Survivor.Dirt.WalkLeft"
 {
-	"channel"       "CHAN_BODY"
+	"channel"       "CHAN_VOICE_BASE"
 
 	"soundlevel"	"SNDLVL_NORM"
 	"pitch"			"95,105"
@@ -4257,7 +4258,7 @@
 
 "Survivor.Dirt.WalkRight"
 {
-	"channel"       "CHAN_BODY"
+	"channel"       "CHAN_VOICE_BASE"
 
 	"soundlevel"	"SNDLVL_NORM"
 	"pitch"			"95,105"
@@ -4271,7 +4272,7 @@
 
 "Survivor.Mud.WalkLeft"
 {
-	"channel"       "CHAN_BODY"
+	"channel"       "CHAN_VOICE_BASE"
 
 	"soundlevel"	"SNDLVL_NORM"
 	"volume"		".3"
@@ -4285,7 +4286,7 @@
 
 "Survivor.Mud.WalkRight"
 {
-	"channel"       "CHAN_BODY"
+	"channel"       "CHAN_VOICE_BASE"
 
 	"soundlevel"	"SNDLVL_NORM"
 	"volume"		".3"
@@ -4299,7 +4300,7 @@
 
 "Survivor.SlipperySlime.WalkLeft"
 {
-	"channel"       "CHAN_BODY"
+	"channel"       "CHAN_VOICE_BASE"
 
 	"soundlevel"	"SNDLVL_NORM"
 	"volume"		"0.3"
@@ -4313,7 +4314,7 @@
 
 "Survivor.SlipperySlime.WalkRight"
 {
-	"channel"       "CHAN_BODY"
+	"channel"       "CHAN_VOICE_BASE"
 
 	"soundlevel"	"SNDLVL_NORM"
 	"volume"		"0.3"
@@ -4327,7 +4328,7 @@
 
 "Survivor.Grass.WalkLeft"
 {
-	"channel"       "CHAN_BODY"
+	"channel"       "CHAN_VOICE_BASE"
 
 	"soundlevel"	"SNDLVL_NORM"
 	"volume"		".15"
@@ -4341,7 +4342,7 @@
 
 "Survivor.Grass.WalkRight"
 {
-	"channel"       "CHAN_BODY"
+	"channel"       "CHAN_VOICE_BASE"
 
 	"soundlevel"	"SNDLVL_NORM"
 	"volume"		".15"
@@ -4355,7 +4356,7 @@
 
 "Survivor.MetalVent.WalkLeft"
 {
-	"channel"       "CHAN_BODY"
+	"channel"       "CHAN_VOICE_BASE"
 
 	"soundlevel"	"SNDLVL_NORM"
 	"volume"		".15"
@@ -4369,7 +4370,7 @@
 
 "Survivor.MetalVent.WalkRight"
 {
-	"channel"       "CHAN_BODY"
+	"channel"       "CHAN_VOICE_BASE"
 
 	"soundlevel"	"SNDLVL_NORM"
 	"volume"		".15"
@@ -4382,7 +4383,7 @@
 
 "Survivor.Tile.WalkLeft"
 {
-	"channel"       "CHAN_BODY"
+	"channel"       "CHAN_VOICE_BASE"
 
 	"soundlevel"	"SNDLVL_NORM"
 	"volume"		".15"
@@ -4396,7 +4397,7 @@
 
 "Survivor.Tile.WalkRight"
 {
-	"channel"       "CHAN_BODY"
+	"channel"       "CHAN_VOICE_BASE"
 
 	"soundlevel"	"SNDLVL_NORM"
 	"volume"		".15"
@@ -4410,7 +4411,7 @@
 
 "Survivor.Water.WalkLeft"
 {
-	"channel"       "CHAN_AUTO"
+	"channel"       "CHAN_VOICE_BASE"
 
 	"soundlevel"	"SNDLVL_NORM"
 	"volume"		".5"
@@ -4424,7 +4425,7 @@
 
 "Survivor.Water.WalkRight"
 {
-	"channel"       "CHAN_AUTO"
+	"channel"       "CHAN_VOICE_BASE"
 
 	"soundlevel"	"SNDLVL_NORM"
 	"volume"		".5"
@@ -4438,7 +4439,7 @@
 
 "Survivor.Wade.WalkLeft"
 {
-	"channel"       "CHAN_AUTO"
+	"channel"       "CHAN_VOICE_BASE"
 
 	"soundlevel"	"SNDLVL_NORM"
 	"volume"		"0.5"
@@ -4452,7 +4453,7 @@
 
 "Survivor.Wade.WalkRight"
 {
-	"channel"       "CHAN_AUTO"
+	"channel"       "CHAN_VOICE_BASE"
 
 	"soundlevel"	"SNDLVL_NORM"
 	"volume"		"0.5"
@@ -4467,7 +4468,7 @@
 
 "Survivor.Ladder.WalkLeft"
 {
-	"channel"       "CHAN_BODY"
+	"channel"       "CHAN_VOICE_BASE"
 
 	"soundlevel"	"SNDLVL_NORM"
 	"volume"		"1"
@@ -4481,7 +4482,7 @@
 
 "Survivor.Ladder.WalkRight"
 {
-	"channel"       "CHAN_BODY"
+	"channel"       "CHAN_VOICE_BASE"
 
 	"soundlevel"	"SNDLVL_NORM"
 	"volume"		"1"
@@ -4495,7 +4496,7 @@
 
 "Survivor.Glass.WalkLeft"
 {
-	"channel"       "CHAN_BODY"
+	"channel"       "CHAN_VOICE_BASE"
 
 	"soundlevel"	"SNDLVL_NORM"
 	"volume"		".15"
@@ -4509,7 +4510,7 @@
 
 "Survivor.Glass.WalkRight"
 {
-	"channel"       "CHAN_BODY"
+	"channel"       "CHAN_VOICE_BASE"
 
 	"soundlevel"	"SNDLVL_NORM"
 	"volume"		".15"
@@ -4523,7 +4524,7 @@
 
 "Survivor.Concrete.WalkLeft"
 {
-	"channel"       "CHAN_BODY"
+	"channel"       "CHAN_VOICE_BASE"
 
 	"soundlevel"	"SNDLVL_NORM"
 	"volume"		".15"
@@ -4537,7 +4538,7 @@
 
 "Survivor.Concrete.WalkRight"
 {
-	"channel"       "CHAN_BODY"
+	"channel"       "CHAN_VOICE_BASE"
 
 	"soundlevel"	"SNDLVL_NORM"
 	"volume"		".15"
@@ -4551,7 +4552,7 @@
 
 "Survivor.Gravel.WalkLeft"
 {
-	"channel"       "CHAN_BODY"
+	"channel"       "CHAN_VOICE_BASE"
 
 	"soundlevel"	"SNDLVL_NORM"
 	"volume"		".15"
@@ -4565,7 +4566,7 @@
 
 "Survivor.Gravel.WalkRight"
 {
-	"channel"       "CHAN_BODY"
+	"channel"       "CHAN_VOICE_BASE"
 
 	"soundlevel"	"SNDLVL_NORM"
 	"volume"		".15"
@@ -4579,7 +4580,7 @@
 
 "Survivor.ChainLink.WalkLeft"
 {
-	"channel"       "CHAN_BODY"
+	"channel"       "CHAN_VOICE_BASE"
 
 	"soundlevel"	"SNDLVL_NORM"
 	"volume"		".15"
@@ -4593,7 +4594,7 @@
 
 "Survivor.ChainLink.WalkRight"
 {
-	"channel"       "CHAN_BODY"
+	"channel"       "CHAN_VOICE_BASE"
 
 	"soundlevel"	"SNDLVL_NORM"
 	"volume"		".15"
@@ -4607,7 +4608,7 @@
 
 "Survivor.Flesh.WalkLeft"
 {
-	"channel"       "CHAN_BODY"
+	"channel"       "CHAN_VOICE_BASE"
 
 	"soundlevel"	"SNDLVL_NORM"
 	"volume"		".15"
@@ -4621,7 +4622,7 @@
 
 "Survivor.Flesh.WalkRight"
 {
-	"channel"       "CHAN_BODY"
+	"channel"       "CHAN_VOICE_BASE"
 
 	"soundlevel"	"SNDLVL_NORM"
 	"volume"		".15"
@@ -4635,7 +4636,7 @@
 
 "Survivor.Sand.WalkLeft"
 {
-	"channel"       "CHAN_BODY"
+	"channel"       "CHAN_VOICE_BASE"
 
 	"soundlevel"	"SNDLVL_NORM"
 	"volume"		".15"
@@ -4649,7 +4650,7 @@
 
 "Survivor.Sand.WalkRight"
 {
-	"channel"       "CHAN_BODY"
+	"channel"       "CHAN_VOICE_BASE"
 
 	"soundlevel"	"SNDLVL_NORM"
 	"volume"		".15"
@@ -4663,7 +4664,7 @@
 
 "Survivor.GlassBottle.WalkLeft"
 {
-	"channel"       "CHAN_BODY"
+	"channel"       "CHAN_VOICE_BASE"
 
 	"soundlevel"	"SNDLVL_NORM"
 	"volume"		"0.1"
@@ -4677,7 +4678,7 @@
 
 "Survivor.GlassBottle.WalkRight"
 {
-	"channel"       "CHAN_BODY"
+	"channel"       "CHAN_VOICE_BASE"
 
 	"soundlevel"	"SNDLVL_NORM"
 	"volume"		"0.1"
@@ -4691,7 +4692,7 @@
 
 "Survivor.ceiling_tile.WalkLeft"
 {
-	"channel"       "CHAN_BODY"
+	"channel"       "CHAN_VOICE_BASE"
 
 	"soundlevel"	"SNDLVL_NORM"
 	"volume"		".15"
@@ -4705,7 +4706,7 @@
 
 "Survivor.ceiling_tile.WalkRight"
 {
-	"channel"       "CHAN_BODY"
+	"channel"       "CHAN_VOICE_BASE"
 
 	"soundlevel"	"SNDLVL_NORM"
 	"volume"		".15"
@@ -4719,7 +4720,7 @@
 
 "Survivor.drywall.WalkLeft"
 {
-	"channel"       "CHAN_BODY"
+	"channel"       "CHAN_VOICE_BASE"
 
 	"soundlevel"	"SNDLVL_NORM"
 	"volume"		".15"
@@ -4733,7 +4734,7 @@
 
 "Survivor.drywall.WalkRight"
 {
-	"channel"       "CHAN_BODY"
+	"channel"       "CHAN_VOICE_BASE"
 
 	"soundlevel"	"SNDLVL_NORM"
 	"volume"		".15"
@@ -4747,7 +4748,7 @@
 
 "Survivor.Plaster.WalkLeft"
 {
-	"channel"       "CHAN_BODY"
+	"channel"       "CHAN_VOICE_BASE"
 
 	"soundlevel"	"SNDLVL_NORM"
 	"volume"		".15"
@@ -4761,7 +4762,7 @@
 
 "Survivor.Plaster.WalkRight"
 {
-	"channel"       "CHAN_BODY"
+	"channel"       "CHAN_VOICE_BASE"
 
 	"soundlevel"	"SNDLVL_NORM"
 	"volume"		".15"
@@ -4775,7 +4776,7 @@
 
 "Survivor.Cardboard.WalkLeft"
 {
-	"channel"       "CHAN_BODY"
+	"channel"       "CHAN_VOICE_BASE"
 
 	"soundlevel"	"SNDLVL_NORM"
 	"pitch"			"95,105"
@@ -4789,7 +4790,7 @@
 
 "Survivor.Cardboard.WalkRight"
 {
-	"channel"       "CHAN_BODY"
+	"channel"       "CHAN_VOICE_BASE"
 
 	"soundlevel"	"SNDLVL_NORM"
 	"pitch"			"95,105"
@@ -4803,7 +4804,7 @@
 
 "Survivor.Plastic_Barrel.WalkLeft"
 {
-	"channel"       "CHAN_BODY"
+	"channel"       "CHAN_VOICE_BASE"
 
 	"soundlevel"	"SNDLVL_NORM"
 	"pitch"			"95,105"
@@ -4817,7 +4818,7 @@
 
 "Survivor.Plastic_Barrel.WalkRight"
 {
-	"channel"       "CHAN_BODY"
+	"channel"       "CHAN_VOICE_BASE"
 
 	"soundlevel"	"SNDLVL_NORM"
 	"pitch"			"95,105"
@@ -4831,7 +4832,7 @@
 
 "Survivor.Plastic_Box.WalkLeft"
 {
-	"channel"       "CHAN_BODY"
+	"channel"       "CHAN_VOICE_BASE"
 
 	"soundlevel"	"SNDLVL_NORM"
 	"pitch"			"95,105"
@@ -4845,7 +4846,7 @@
 
 "Survivor.Plastic_Box.WalkRight"
 {
-	"channel"       "CHAN_BODY"
+	"channel"       "CHAN_VOICE_BASE"
 
 	"soundlevel"	"SNDLVL_NORM"
 	"pitch"			"95,105"
@@ -4859,7 +4860,7 @@
 
 "Survivor.Rubber.WalkLeft"
 {
-	"channel"       "CHAN_BODY"
+	"channel"       "CHAN_VOICE_BASE"
 
 	"soundlevel"	"SNDLVL_NORM"
 	"pitch"			"95,105"
@@ -4873,7 +4874,7 @@
 
 "Survivor.Rubber.WalkRight"
 {
-	"channel"       "CHAN_BODY"
+	"channel"       "CHAN_VOICE_BASE"
 
 	"soundlevel"	"SNDLVL_NORM"
 	"pitch"			"95,105"
@@ -4887,7 +4888,7 @@
 
 "Survivor.Grenade.WalkLeft"
 {
-	"channel"       "CHAN_BODY"
+	"channel"       "CHAN_VOICE_BASE"
 
 	"soundlevel"	"SNDLVL_NORM"
 	"volume"		".15"
@@ -4901,7 +4902,7 @@
 
 "Survivor.Grenade.WalkRight"
 {
-	"channel"       "CHAN_BODY"
+	"channel"       "CHAN_VOICE_BASE"
 
 	"soundlevel"	"SNDLVL_NORM"
 	"volume"		".15"
@@ -4915,7 +4916,7 @@
 
 "Survivor.Wood.WalkLeft"
 {
-	"channel"       "CHAN_BODY"
+	"channel"       "CHAN_VOICE_BASE"
 
 	"soundlevel"	"SNDLVL_NORM"
 	"volume"		".15"
@@ -4929,7 +4930,7 @@
 
 "Survivor.Wood.WalkRight"
 {
-	"channel"       "CHAN_BODY"
+	"channel"       "CHAN_VOICE_BASE"
 
 	"soundlevel"	"SNDLVL_NORM"
 	"volume"		".15"
@@ -4943,7 +4944,7 @@
 
 "Survivor.Wood_Box.WalkLeft"
 {
-	"channel"       "CHAN_BODY"
+	"channel"       "CHAN_VOICE_BASE"
 
 	"soundlevel"	"SNDLVL_NORM"
 	"volume"		".15"
@@ -4957,7 +4958,7 @@
 
 "Survivor.Wood_Box.WalkRight"
 {
-	"channel"       "CHAN_BODY"
+	"channel"       "CHAN_VOICE_BASE"
 
 	"soundlevel"	"SNDLVL_NORM"
 	"volume"		".15"
@@ -4971,7 +4972,7 @@
 
 "Survivor.Wood_Crate.WalkLeft"
 {
-	"channel"       "CHAN_BODY"
+	"channel"       "CHAN_VOICE_BASE"
 
 	"soundlevel"	"SNDLVL_NORM"
 	"volume"		".15"
@@ -4985,7 +4986,7 @@
 
 "Survivor.Wood_Crate.WalkRight"
 {
-	"channel"       "CHAN_BODY"
+	"channel"       "CHAN_VOICE_BASE"
 
 	"soundlevel"	"SNDLVL_NORM"
 	"volume"		".15"
@@ -4999,7 +5000,7 @@
 
 "Survivor.Wood_Panel.WalkLeft"
 {
-	"channel"       "CHAN_BODY"
+	"channel"       "CHAN_VOICE_BASE"
 
 	"soundlevel"	"SNDLVL_NORM"
 	"volume"		".15"
@@ -5013,7 +5014,7 @@
 
 "Survivor.Wood_Panel.WalkRight"
 {
-	"channel"       "CHAN_BODY"
+	"channel"       "CHAN_VOICE_BASE"
 
 	"soundlevel"	"SNDLVL_NORM"
 	"volume"		".15"
@@ -5027,7 +5028,7 @@
 
 "Survivor.Metal_Box.WalkLeft"
 {
-	"channel"       "CHAN_BODY"
+	"channel"       "CHAN_VOICE_BASE"
 
 	"soundlevel"	"SNDLVL_NORM"
 	"volume"		".15"
@@ -5041,7 +5042,7 @@
 
 "Survivor.Metal_Box.WalkRight"
 {
-	"channel"       "CHAN_BODY"
+	"channel"       "CHAN_VOICE_BASE"
 
 	"soundlevel"	"SNDLVL_NORM"
 	"volume"		".15"
@@ -5055,7 +5056,7 @@
 
 "Survivor.weapon.WalkLeft"
 {
-	"channel"       "CHAN_BODY"
+	"channel"       "CHAN_VOICE_BASE"
 
 	"soundlevel"	"SNDLVL_NORM"
 	"volume"		".15"
@@ -5065,7 +5066,7 @@
 
 "Survivor.weapon.WalkRight"
 {
-	"channel"       "CHAN_BODY"
+	"channel"       "CHAN_VOICE_BASE"
 
 	"soundlevel"	"SNDLVL_NORM"
 	"volume"		".15"
@@ -5076,7 +5077,7 @@
 
 "Survivor.SugarCane.WalkLeft"
 {
-	"channel"       "CHAN_AUTO"
+	"channel"       "CHAN_VOICE_BASE"
 
 	"soundlevel"	"SNDLVL_NORM"
 	"volume"		".66"
@@ -5090,7 +5091,7 @@
 
 "Survivor.SugarCane.WalkRight"
 {
-	"channel"       "CHAN_AUTO"
+	"channel"       "CHAN_VOICE_BASE"
 
 	"soundlevel"	"SNDLVL_NORM"
 	"volume"		".66"
@@ -5104,7 +5105,7 @@
 
 "Survivor.Foliage.WalkLeft"
 {
-	"channel"       "CHAN_BODY"
+	"channel"       "CHAN_VOICE_BASE"
 
 	"soundlevel"	"SNDLVL_NORM"
 	"volume"		".6"
@@ -5118,7 +5119,7 @@
 
 "Survivor.Foliage.WalkRight"
 {
-	"channel"       "CHAN_BODY"
+	"channel"       "CHAN_VOICE_BASE"
 
 	"soundlevel"	"SNDLVL_NORM"
 	"volume"		".6"
@@ -5135,7 +5136,7 @@
 //----------------------------------------------------------------------------------------------------------------------------------------//
 "Infected.Default.StepLeft"
 {
-	"channel"       "CHAN_BODY"
+	"channel"       "CHAN_VOICE_BASE"
 
 	"soundlevel"	"SNDLVL_NORM"
 	"volume"        "1.0"
@@ -5149,7 +5150,7 @@
 
 "Infected.Default.StepRight"
 {
-	"channel"       "CHAN_BODY"
+	"channel"       "CHAN_VOICE_BASE"
 
 	"soundlevel"	"SNDLVL_NORM"
 	"pitch"			"95,105"
@@ -5163,7 +5164,7 @@
 
 "Infected.SolidMetal.StepLeft"
 {
-	"channel"       "CHAN_BODY"
+	"channel"       "CHAN_VOICE_BASE"
 
 	"soundlevel"	"SNDLVL_NORM"
 	"pitch"			"95,105"
@@ -5177,7 +5178,7 @@
 
 "Infected.SolidMetal.StepRight"
 {
-	"channel"       "CHAN_BODY"
+	"channel"       "CHAN_VOICE_BASE"
 
 	"soundlevel"	"SNDLVL_NORM"
 	"pitch"			"95,105"
@@ -5191,7 +5192,7 @@
 
 "Infected.Metalgrate.StepLeft"
 {
-	"channel"       "CHAN_BODY"
+	"channel"       "CHAN_VOICE_BASE"
 
 
 	"soundlevel"	"SNDLVL_NORM"
@@ -5209,7 +5210,7 @@
 
 "Infected.Metalgrate.StepRight"
 {
-	"channel"       "CHAN_BODY"
+	"channel"       "CHAN_VOICE_BASE"
 
 
 	"soundlevel"	"SNDLVL_NORM"
@@ -5226,7 +5227,7 @@
 
 "Infected.Snow.StepLeft"
 {
-	"channel"       "CHAN_BODY"
+	"channel"       "CHAN_VOICE_BASE"
 
 	"soundlevel"	"SNDLVL_NORM"
 	"volume"        "1.0"
@@ -5240,7 +5241,7 @@
 
 "Infected.Snow.StepRight"
 {
-	"channel"       "CHAN_BODY"
+	"channel"       "CHAN_VOICE_BASE"
 
 	"soundlevel"	"SNDLVL_NORM"
 	"volume"        "1.0"
@@ -5254,7 +5255,7 @@
 
 "Infected.Dirt.StepLeft"
 {
-	"channel"       "CHAN_BODY"
+	"channel"       "CHAN_VOICE_BASE"
 
 	"soundlevel"	"SNDLVL_NORM"
 	"pitch"			"95,105"
@@ -5268,7 +5269,7 @@
 
 "Infected.Dirt.StepRight"
 {
-	"channel"       "CHAN_BODY"
+	"channel"       "CHAN_VOICE_BASE"
 
 	"soundlevel"	"SNDLVL_NORM"
 	"pitch"			"95,105"
@@ -5282,7 +5283,7 @@
 
 "Infected.Mud.StepLeft"
 {
-	"channel"       "CHAN_BODY"
+	"channel"       "CHAN_VOICE_BASE"
 
 	"soundlevel"	"SNDLVL_NORM"
 	"volume"        "1.0"
@@ -5296,7 +5297,7 @@
 
 "Infected.Mud.StepRight"
 {
-	"channel"       "CHAN_BODY"
+	"channel"       "CHAN_VOICE_BASE"
 
 	"soundlevel"	"SNDLVL_NORM"
 	"volume"        "1.0"
@@ -5310,7 +5311,7 @@
 
 "Infected.SlipperySlime.StepLeft"
 {
-	"channel"       "CHAN_BODY"
+	"channel"       "CHAN_VOICE_BASE"
 
 	"soundlevel"	"SNDLVL_NORM"
 	"volume"        "1.0"
@@ -5324,7 +5325,7 @@
 
 "Infected.SlipperySlime.StepRight"
 {
-	"channel"       "CHAN_BODY"
+	"channel"       "CHAN_VOICE_BASE"
 
 	"soundlevel"	"SNDLVL_NORM"
 	"volume"        "1.0"
@@ -5338,7 +5339,7 @@
 
 "Infected.Grass.StepLeft"
 {
-	"channel"       "CHAN_BODY"
+	"channel"       "CHAN_VOICE_BASE"
 
 	"soundlevel"	"SNDLVL_NORM"
 	"volume"        "1.0"
@@ -5352,7 +5353,7 @@
 
 "Infected.Grass.StepRight"
 {
-	"channel"       "CHAN_BODY"
+	"channel"       "CHAN_VOICE_BASE"
 
 	"soundlevel"	"SNDLVL_NORM"
 	"volume"        "1.0"
@@ -5366,7 +5367,7 @@
 
 "Infected.MetalVent.StepLeft"
 {
-	"channel"       "CHAN_BODY"
+	"channel"       "CHAN_VOICE_BASE"
 
 	"soundlevel"	"SNDLVL_NORM"
 	"volume"        "1.0"
@@ -5380,7 +5381,7 @@
 
 "Infected.MetalVent.StepRight"
 {
-	"channel"       "CHAN_BODY"
+	"channel"       "CHAN_VOICE_BASE"
 
 	"soundlevel"	"SNDLVL_NORM"
 	"volume"        "1.0"
@@ -5393,7 +5394,7 @@
 
 "Infected.Tile.StepLeft"
 {
-	"channel"       "CHAN_BODY"
+	"channel"       "CHAN_VOICE_BASE"
 
 	"soundlevel"	"SNDLVL_NORM"
 	"volume"        "1.0"
@@ -5407,7 +5408,7 @@
 
 "Infected.Tile.StepRight"
 {
-	"channel"       "CHAN_BODY"
+	"channel"       "CHAN_VOICE_BASE"
 
 	"soundlevel"	"SNDLVL_NORM"
 	"volume"        "1.0"
@@ -5421,7 +5422,7 @@
 
 "Infected.Water.StepLeft"
 {
-	"channel"       "CHAN_AUTO"
+	"channel"       "CHAN_VOICE_BASE"
 
 	"soundlevel"	"SNDLVL_NORM"
 	"volume"        "1.0"
@@ -5435,7 +5436,7 @@
 
 "Infected.Water.StepRight"
 {
-	"channel"       "CHAN_AUTO"
+	"channel"       "CHAN_VOICE_BASE"
 
 	"soundlevel"	"SNDLVL_NORM"
 	"volume"        "1.0"
@@ -5449,7 +5450,7 @@
 
 "Infected.Wade.StepLeft"
 {
-	"channel"       "CHAN_AUTO"
+	"channel"       "CHAN_VOICE_BASE"
 
 	"soundlevel"	"SNDLVL_NORM"
 	"volume"        "1.0"
@@ -5463,7 +5464,7 @@
 
 "Infected.Wade.StepRight"
 {
-	"channel"       "CHAN_AUTO"
+	"channel"       "CHAN_VOICE_BASE"
 
 	"soundlevel"	"SNDLVL_NORM"
 	"volume"        "1.0"
@@ -5478,7 +5479,7 @@
 
 "Infected.Ladder.StepLeft"
 {
-	"channel"       "CHAN_BODY"
+	"channel"       "CHAN_VOICE_BASE"
 
 	"soundlevel"	"SNDLVL_NORM"
 	"volume"        "1.0"
@@ -5492,7 +5493,7 @@
 
 "Infected.Ladder.StepRight"
 {
-	"channel"       "CHAN_BODY"
+	"channel"       "CHAN_VOICE_BASE"
 
 	"soundlevel"	"SNDLVL_NORM"
 	"volume"        "1.0"
@@ -5506,7 +5507,7 @@
 
 "Infected.Glass.StepLeft"
 {
-	"channel"       "CHAN_BODY"
+	"channel"       "CHAN_VOICE_BASE"
 
 	"soundlevel"	"SNDLVL_NORM"
 	"volume"        "1.0"
@@ -5520,7 +5521,7 @@
 
 "Infected.Glass.StepRight"
 {
-	"channel"       "CHAN_BODY"
+	"channel"       "CHAN_VOICE_BASE"
 
 	"soundlevel"	"SNDLVL_NORM"
 	"volume"        "1.0"
@@ -5534,7 +5535,7 @@
 
 "Infected.Concrete.StepLeft"
 {
-	"channel"       "CHAN_BODY"
+	"channel"       "CHAN_VOICE_BASE"
 
 	"soundlevel"	"SNDLVL_NORM"
 	"volume"        "1.0"
@@ -5548,7 +5549,7 @@
 
 "Infected.Concrete.StepRight"
 {
-	"channel"       "CHAN_BODY"
+	"channel"       "CHAN_VOICE_BASE"
 
 	"soundlevel"	"SNDLVL_NORM"
 	"volume"        "1.0"
@@ -5562,7 +5563,7 @@
 
 "Infected.Gravel.StepLeft"
 {
-	"channel"       "CHAN_BODY"
+	"channel"       "CHAN_VOICE_BASE"
 
 	"soundlevel"	"SNDLVL_NORM"
 	"volume"        "1.0"
@@ -5576,7 +5577,7 @@
 
 "Infected.Gravel.StepRight"
 {
-	"channel"       "CHAN_BODY"
+	"channel"       "CHAN_VOICE_BASE"
 
 	"soundlevel"	"SNDLVL_NORM"
 	"volume"        "1.0"
@@ -5590,7 +5591,7 @@
 
 "Infected.ChainLink.StepLeft"
 {
-	"channel"       "CHAN_BODY"
+	"channel"       "CHAN_VOICE_BASE"
 
 	"soundlevel"	"SNDLVL_NORM"
 	"volume"        "1.0"
@@ -5604,7 +5605,7 @@
 
 "Infected.ChainLink.StepRight"
 {
-	"channel"       "CHAN_BODY"
+	"channel"       "CHAN_VOICE_BASE"
 
 	"soundlevel"	"SNDLVL_NORM"
 	"volume"        "1.0"
@@ -5618,7 +5619,7 @@
 
 "Infected.Flesh.StepLeft"
 {
-	"channel"       "CHAN_BODY"
+	"channel"       "CHAN_VOICE_BASE"
 
 	"soundlevel"	"SNDLVL_NORM"
 	"volume"        "1.0"
@@ -5632,7 +5633,7 @@
 
 "Infected.Flesh.StepRight"
 {
-	"channel"       "CHAN_BODY"
+	"channel"       "CHAN_VOICE_BASE"
 
 	"soundlevel"	"SNDLVL_NORM"
 	"volume"        "1.0"
@@ -5646,7 +5647,7 @@
 
 "Infected.Sand.StepLeft"
 {
-	"channel"       "CHAN_BODY"
+	"channel"       "CHAN_VOICE_BASE"
 
 	"soundlevel"	"SNDLVL_NORM"
 	"volume"        "1.0"
@@ -5660,7 +5661,7 @@
 
 "Infected.Sand.StepRight"
 {
-	"channel"       "CHAN_BODY"
+	"channel"       "CHAN_VOICE_BASE"
 
 	"soundlevel"	"SNDLVL_NORM"
 	"volume"        "1.0"
@@ -5674,7 +5675,7 @@
 
 "Infected.GlassBottle.StepLeft"
 {
-	"channel"       "CHAN_BODY"
+	"channel"       "CHAN_VOICE_BASE"
 
 	"soundlevel"	"SNDLVL_NORM"
 	"volume"		"0.2"
@@ -5688,7 +5689,7 @@
 
 "Infected.GlassBottle.StepRight"
 {
-	"channel"       "CHAN_BODY"
+	"channel"       "CHAN_VOICE_BASE"
 
 	"soundlevel"	"SNDLVL_NORM"
 	"volume"		"0.2"
@@ -5702,7 +5703,7 @@
 
 "Infected.ceiling_tile.StepLeft"
 {
-	"channel"       "CHAN_BODY"
+	"channel"       "CHAN_VOICE_BASE"
 
 	"soundlevel"	"SNDLVL_NORM"
 	"volume"        "1.0"
@@ -5716,7 +5717,7 @@
 
 "Infected.ceiling_tile.StepRight"
 {
-	"channel"       "CHAN_BODY"
+	"channel"       "CHAN_VOICE_BASE"
 
 	"soundlevel"	"SNDLVL_NORM"
 	"volume"        "1.0"
@@ -5730,7 +5731,7 @@
 
 "Infected.drywall.StepLeft"
 {
-	"channel"       "CHAN_BODY"
+	"channel"       "CHAN_VOICE_BASE"
 
 	"soundlevel"	"SNDLVL_NORM"
 	"volume"        "1.0"
@@ -5744,7 +5745,7 @@
 
 "Infected.drywall.StepRight"
 {
-	"channel"       "CHAN_BODY"
+	"channel"       "CHAN_VOICE_BASE"
 
 	"soundlevel"	"SNDLVL_NORM"
 	"volume"        "1.0"
@@ -5758,7 +5759,7 @@
 
 "Infected.Plaster.StepLeft"
 {
-	"channel"       "CHAN_BODY"
+	"channel"       "CHAN_VOICE_BASE"
 
 	"soundlevel"	"SNDLVL_NORM"
 	"volume"        "1.0"
@@ -5772,7 +5773,7 @@
 
 "Infected.Plaster.StepRight"
 {
-	"channel"       "CHAN_BODY"
+	"channel"       "CHAN_VOICE_BASE"
 
 	"soundlevel"	"SNDLVL_NORM"
 	"volume"        "1.0"
@@ -5786,7 +5787,7 @@
 
 "Infected.Cardboard.StepLeft"
 {
-	"channel"       "CHAN_BODY"
+	"channel"       "CHAN_VOICE_BASE"
 
 	"soundlevel"	"SNDLVL_NORM"
 	"pitch"			"95,105"
@@ -5800,7 +5801,7 @@
 
 "Infected.Cardboard.StepRight"
 {
-	"channel"       "CHAN_BODY"
+	"channel"       "CHAN_VOICE_BASE"
 
 	"soundlevel"	"SNDLVL_NORM"
 	"pitch"			"95,105"
@@ -5814,7 +5815,7 @@
 
 "Infected.Plastic_Barrel.StepLeft"
 {
-	"channel"       "CHAN_BODY"
+	"channel"       "CHAN_VOICE_BASE"
 
 	"soundlevel"	"SNDLVL_NORM"
 	"pitch"			"95,105"
@@ -5828,7 +5829,7 @@
 
 "Infected.Plastic_Barrel.StepRight"
 {
-	"channel"       "CHAN_BODY"
+	"channel"       "CHAN_VOICE_BASE"
 
 	"soundlevel"	"SNDLVL_NORM"
 	"pitch"			"95,105"
@@ -5842,7 +5843,7 @@
 
 "Infected.Plastic_Box.StepLeft"
 {
-	"channel"       "CHAN_BODY"
+	"channel"       "CHAN_VOICE_BASE"
 
 	"soundlevel"	"SNDLVL_NORM"
 	"pitch"			"95,105"
@@ -5856,7 +5857,7 @@
 
 "Infected.Plastic_Box.StepRight"
 {
-	"channel"       "CHAN_BODY"
+	"channel"       "CHAN_VOICE_BASE"
 
 	"soundlevel"	"SNDLVL_NORM"
 	"pitch"			"95,105"
@@ -5870,7 +5871,7 @@
 
 "Infected.Rubber.StepLeft"
 {
-	"channel"       "CHAN_BODY"
+	"channel"       "CHAN_VOICE_BASE"
 
 	"soundlevel"	"SNDLVL_NORM"
 	"pitch"			"98,102"
@@ -5880,7 +5881,7 @@
 
 "Infected.Rubber.StepRight"
 {
-	"channel"       "CHAN_BODY"
+	"channel"       "CHAN_VOICE_BASE"
 
 	"soundlevel"	"SNDLVL_NORM"
 	"pitch"			"98,102"
@@ -5890,7 +5891,7 @@
 
 "Infected.Grenade.StepLeft"
 {
-	"channel"       "CHAN_BODY"
+	"channel"       "CHAN_VOICE_BASE"
 
 	"soundlevel"	"SNDLVL_NORM"
 	"volume"        "1.0"
@@ -5904,7 +5905,7 @@
 
 "Infected.Grenade.StepRight"
 {
-	"channel"       "CHAN_BODY"
+	"channel"       "CHAN_VOICE_BASE"
 
 	"soundlevel"	"SNDLVL_NORM"
 	"volume"        "1.0"
@@ -5918,7 +5919,7 @@
 
 "Infected.Wood.StepLeft"
 {
-	"channel"       "CHAN_BODY"
+	"channel"       "CHAN_VOICE_BASE"
 
 	"soundlevel"	"SNDLVL_NORM"
 	"volume"        "1.0"
@@ -5932,7 +5933,7 @@
 
 "Infected.Wood.StepRight"
 {
-	"channel"       "CHAN_BODY"
+	"channel"       "CHAN_VOICE_BASE"
 
 	"soundlevel"	"SNDLVL_NORM"
 	"volume"        "1.0"
@@ -5946,7 +5947,7 @@
 
 "Infected.Wood_Box.StepLeft"
 {
-	"channel"       "CHAN_BODY"
+	"channel"       "CHAN_VOICE_BASE"
 
 	"soundlevel"	"SNDLVL_NORM"
 	"volume"        "1.0"
@@ -5960,7 +5961,7 @@
 
 "Infected.Wood_Box.StepRight"
 {
-	"channel"       "CHAN_BODY"
+	"channel"       "CHAN_VOICE_BASE"
 
 	"soundlevel"	"SNDLVL_NORM"
 	"volume"        "1.0"
@@ -5974,7 +5975,7 @@
 
 "Infected.Wood_Crate.StepLeft"
 {
-	"channel"       "CHAN_BODY"
+	"channel"       "CHAN_VOICE_BASE"
 
 	"soundlevel"	"SNDLVL_NORM"
 	"volume"        "1.0"
@@ -5988,7 +5989,7 @@
 
 "Infected.Wood_Crate.StepRight"
 {
-	"channel"       "CHAN_BODY"
+	"channel"       "CHAN_VOICE_BASE"
 
 	"soundlevel"	"SNDLVL_NORM"
 	"volume"        "1.0"
@@ -6002,7 +6003,7 @@
 
 "Infected.Wood_Panel.StepLeft"
 {
-	"channel"       "CHAN_BODY"
+	"channel"       "CHAN_VOICE_BASE"
 
 	"soundlevel"	"SNDLVL_NORM"
 	"volume"        "1.0"
@@ -6016,7 +6017,7 @@
 
 "Infected.Wood_Panel.StepRight"
 {
-	"channel"       "CHAN_BODY"
+	"channel"       "CHAN_VOICE_BASE"
 
 	"soundlevel"	"SNDLVL_NORM"
 	"volume"        "1.0"
@@ -6030,7 +6031,7 @@
 
 "Infected.Metal_Box.StepLeft"
 {
-	"channel"       "CHAN_BODY"
+	"channel"       "CHAN_VOICE_BASE"
 
 	"soundlevel"	"SNDLVL_NORM"
 	"volume"        "1.0"
@@ -6044,7 +6045,7 @@
 
 "Infected.Metal_Box.StepRight"
 {
-	"channel"       "CHAN_BODY"
+	"channel"       "CHAN_VOICE_BASE"
 
 	"soundlevel"	"SNDLVL_NORM"
 	"volume"        "1.0"
@@ -6058,7 +6059,7 @@
 
 "Infected.weapon.StepLeft"
 {
-	"channel"       "CHAN_BODY"
+	"channel"       "CHAN_VOICE_BASE"
 
 	"soundlevel"	"SNDLVL_NORM"
 	"volume"        "1.0"
@@ -6068,7 +6069,7 @@
 
 "Infected.weapon.StepRight"
 {
-	"channel"       "CHAN_BODY"
+	"channel"       "CHAN_VOICE_BASE"
 
 	"soundlevel"	"SNDLVL_NORM"
 	"volume"        "1.0"
@@ -6079,7 +6080,7 @@
 
 "Infected.SugarCane.StepLeft"
 {
-	"channel"       "CHAN_BODY"
+	"channel"       "CHAN_VOICE_BASE"
 
 	"soundlevel"	"SNDLVL_NORM"
 	"volume"		".66"
@@ -6093,7 +6094,7 @@
 
 "Infected.SugarCane.StepRight"
 {
-	"channel"       "CHAN_BODY"
+	"channel"       "CHAN_VOICE_BASE"
 
 	"soundlevel"	"SNDLVL_NORM"
 	"volume"		".66"
@@ -6107,7 +6108,7 @@
 
 "Infected.Foliage.StepLeft"
 {
-	"channel"       "CHAN_BODY"
+	"channel"       "CHAN_VOICE_BASE"
 
 	"soundlevel"	"SNDLVL_NORM"
 	"volume"		".5"
@@ -6121,7 +6122,7 @@
 
 "Infected.Foliage.StepRight"
 {
-	"channel"       "CHAN_BODY"
+	"channel"       "CHAN_VOICE_BASE"
 
 	"soundlevel"	"SNDLVL_NORM"
 	"volume"		".6"
@@ -6140,7 +6141,7 @@
 
 "Infected.Default.WalkLeft"
 {
-	"channel"       "CHAN_BODY"
+	"channel"       "CHAN_VOICE_BASE"
 
 	"soundlevel"	"SNDLVL_NORM"
 	"volume"			".85"
@@ -6154,7 +6155,7 @@
 
 "Infected.Default.WalkRight"
 {
-	"channel"       "CHAN_BODY"
+	"channel"       "CHAN_VOICE_BASE"
 
 	"soundlevel"	"SNDLVL_NORM"
 	"pitch"			"95,105"
@@ -6168,7 +6169,7 @@
 
 "Infected.SolidMetal.WalkLeft"
 {
-	"channel"       "CHAN_BODY"
+	"channel"       "CHAN_VOICE_BASE"
 
 	"soundlevel"	"SNDLVL_NORM"
 	"pitch"			"95,105"
@@ -6182,7 +6183,7 @@
 
 "Infected.SolidMetal.WalkRight"
 {
-	"channel"       "CHAN_BODY"
+	"channel"       "CHAN_VOICE_BASE"
 
 	"soundlevel"	"SNDLVL_NORM"
 	"pitch"			"95,105"
@@ -6196,7 +6197,7 @@
 
 "Infected.Metalgrate.WalkLeft"
 {
-	"channel"       "CHAN_BODY"
+	"channel"       "CHAN_VOICE_BASE"
 
 
 	"soundlevel"	"SNDLVL_NORM"
@@ -6214,7 +6215,7 @@
 
 "Infected.Metalgrate.WalkRight"
 {
-	"channel"       "CHAN_BODY"
+	"channel"       "CHAN_VOICE_BASE"
 
 
 	"soundlevel"	"SNDLVL_NORM"
@@ -6231,7 +6232,7 @@
 
 "Infected.Snow.WalkLeft"
 {
-	"channel"       "CHAN_BODY"
+	"channel"       "CHAN_VOICE_BASE"
 
 	"soundlevel"	"SNDLVL_NORM"
 	"volume"		".85"
@@ -6245,7 +6246,7 @@
 
 "Infected.Snow.WalkRight"
 {
-	"channel"       "CHAN_BODY"
+	"channel"       "CHAN_VOICE_BASE"
 
 	"soundlevel"	"SNDLVL_NORM"
 	"volume"		".85"
@@ -6259,7 +6260,7 @@
 
 "Infected.Dirt.WalkLeft"
 {
-	"channel"       "CHAN_BODY"
+	"channel"       "CHAN_VOICE_BASE"
 
 	"soundlevel"	"SNDLVL_NORM"
 	"pitch"			"95,105"
@@ -6273,7 +6274,7 @@
 
 "Infected.Dirt.WalkRight"
 {
-	"channel"       "CHAN_BODY"
+	"channel"       "CHAN_VOICE_BASE"
 
 	"soundlevel"	"SNDLVL_NORM"
 	"pitch"			"95,105"
@@ -6287,7 +6288,7 @@
 
 "Infected.Mud.WalkLeft"
 {
-	"channel"       "CHAN_BODY"
+	"channel"       "CHAN_VOICE_BASE"
 
 	"soundlevel"	"SNDLVL_NORM"
 	"volume"		".6"
@@ -6301,7 +6302,7 @@
 
 "Infected.Mud.WalkRight"
 {
-	"channel"       "CHAN_BODY"
+	"channel"       "CHAN_VOICE_BASE"
 
 	"soundlevel"	"SNDLVL_NORM"
 	"volume"		".6"
@@ -6315,7 +6316,7 @@
 
 "Infected.SlipperySlime.WalkLeft"
 {
-	"channel"       "CHAN_BODY"
+	"channel"       "CHAN_VOICE_BASE"
 
 	"soundlevel"	"SNDLVL_NORM"
 	"volume"		"0.6"
@@ -6329,7 +6330,7 @@
 
 "Infected.SlipperySlime.WalkRight"
 {
-	"channel"       "CHAN_BODY"
+	"channel"       "CHAN_VOICE_BASE"
 
 	"soundlevel"	"SNDLVL_NORM"
 	"volume"		"0.6"
@@ -6343,7 +6344,7 @@
 
 "Infected.Grass.WalkLeft"
 {
-	"channel"       "CHAN_BODY"
+	"channel"       "CHAN_VOICE_BASE"
 
 	"soundlevel"	"SNDLVL_NORM"
 	"volume"		".85"
@@ -6357,7 +6358,7 @@
 
 "Infected.Grass.WalkRight"
 {
-	"channel"       "CHAN_BODY"
+	"channel"       "CHAN_VOICE_BASE"
 
 	"soundlevel"	"SNDLVL_NORM"
 	"volume"		".85"
@@ -6371,7 +6372,7 @@
 
 "Infected.MetalVent.WalkLeft"
 {
-	"channel"       "CHAN_BODY"
+	"channel"       "CHAN_VOICE_BASE"
 
 	"soundlevel"	"SNDLVL_NORM"
 	"volume"		".85"
@@ -6385,7 +6386,7 @@
 
 "Infected.MetalVent.WalkRight"
 {
-	"channel"       "CHAN_BODY"
+	"channel"       "CHAN_VOICE_BASE"
 
 	"soundlevel"	"SNDLVL_NORM"
 	"volume"		".85"
@@ -6398,7 +6399,7 @@
 
 "Infected.Tile.WalkLeft"
 {
-	"channel"       "CHAN_BODY"
+	"channel"       "CHAN_VOICE_BASE"
 
 	"soundlevel"	"SNDLVL_NORM"
 	"volume"		".85"
@@ -6412,7 +6413,7 @@
 
 "Infected.Tile.WalkRight"
 {
-	"channel"       "CHAN_BODY"
+	"channel"       "CHAN_VOICE_BASE"
 
 	"soundlevel"	"SNDLVL_NORM"
 	"volume"		".85"
@@ -6426,7 +6427,7 @@
 
 "Infected.Water.WalkLeft"
 {
-	"channel"       "CHAN_AUTO"
+	"channel"       "CHAN_VOICE_BASE"
 
 	"soundlevel"	"SNDLVL_NORM"
 	"volume"		".85"
@@ -6440,7 +6441,7 @@
 
 "Infected.Water.WalkRight"
 {
-	"channel"       "CHAN_AUTO"
+	"channel"       "CHAN_VOICE_BASE"
 
 	"soundlevel"	"SNDLVL_NORM"
 	"volume"		".85"
@@ -6454,7 +6455,7 @@
 
 "Infected.Wade.WalkLeft"
 {
-	"channel"       "CHAN_AUTO"
+	"channel"       "CHAN_VOICE_BASE"
 
 	"soundlevel"	"SNDLVL_NORM"
 	"volume"		"0.85"
@@ -6468,7 +6469,7 @@
 
 "Infected.Wade.WalkRight"
 {
-	"channel"       "CHAN_AUTO"
+	"channel"       "CHAN_VOICE_BASE"
 
 	"soundlevel"	"SNDLVL_NORM"
 	"volume"		"0.85"
@@ -6483,7 +6484,7 @@
 
 "Infected.Ladder.WalkLeft"
 {
-	"channel"       "CHAN_BODY"
+	"channel"       "CHAN_VOICE_BASE"
 
 	"soundlevel"	"SNDLVL_NORM"
 	"volume"		".85"
@@ -6497,7 +6498,7 @@
 
 "Infected.Ladder.WalkRight"
 {
-	"channel"       "CHAN_BODY"
+	"channel"       "CHAN_VOICE_BASE"
 
 	"soundlevel"	"SNDLVL_NORM"
 	"volume"		".85"
@@ -6511,7 +6512,7 @@
 
 "Infected.Glass.WalkLeft"
 {
-	"channel"       "CHAN_BODY"
+	"channel"       "CHAN_VOICE_BASE"
 
 	"soundlevel"	"SNDLVL_NORM"
 	"volume"		".85"
@@ -6525,7 +6526,7 @@
 
 "Infected.Glass.WalkRight"
 {
-	"channel"       "CHAN_BODY"
+	"channel"       "CHAN_VOICE_BASE"
 
 	"soundlevel"	"SNDLVL_NORM"
 	"volume"		".85"
@@ -6539,7 +6540,7 @@
 
 "Infected.Concrete.WalkLeft"
 {
-	"channel"       "CHAN_BODY"
+	"channel"       "CHAN_VOICE_BASE"
 
 	"soundlevel"	"SNDLVL_NORM"
 	"volume"		".85"
@@ -6553,7 +6554,7 @@
 
 "Infected.Concrete.WalkRight"
 {
-	"channel"       "CHAN_BODY"
+	"channel"       "CHAN_VOICE_BASE"
 
 	"soundlevel"	"SNDLVL_NORM"
 	"volume"		".85"
@@ -6567,7 +6568,7 @@
 
 "Infected.Gravel.WalkLeft"
 {
-	"channel"       "CHAN_BODY"
+	"channel"       "CHAN_VOICE_BASE"
 
 	"soundlevel"	"SNDLVL_NORM"
 	"volume"		".85"
@@ -6581,7 +6582,7 @@
 
 "Infected.Gravel.WalkRight"
 {
-	"channel"       "CHAN_BODY"
+	"channel"       "CHAN_VOICE_BASE"
 
 	"soundlevel"	"SNDLVL_NORM"
 	"volume"		".85"
@@ -6595,7 +6596,7 @@
 
 "Infected.ChainLink.WalkLeft"
 {
-	"channel"       "CHAN_BODY"
+	"channel"       "CHAN_VOICE_BASE"
 
 	"soundlevel"	"SNDLVL_NORM"
 	"volume"		".85"
@@ -6609,7 +6610,7 @@
 
 "Infected.ChainLink.WalkRight"
 {
-	"channel"       "CHAN_BODY"
+	"channel"       "CHAN_VOICE_BASE"
 
 	"soundlevel"	"SNDLVL_NORM"
 	"volume"		".85"
@@ -6623,7 +6624,7 @@
 
 "Infected.Flesh.WalkLeft"
 {
-	"channel"       "CHAN_BODY"
+	"channel"       "CHAN_VOICE_BASE"
 
 	"soundlevel"	"SNDLVL_NORM"
 	"volume"		".85"
@@ -6637,7 +6638,7 @@
 
 "Infected.Flesh.WalkRight"
 {
-	"channel"       "CHAN_BODY"
+	"channel"       "CHAN_VOICE_BASE"
 
 	"soundlevel"	"SNDLVL_NORM"
 	"volume"		".85"
@@ -6651,7 +6652,7 @@
 
 "Infected.Sand.WalkLeft"
 {
-	"channel"       "CHAN_BODY"
+	"channel"       "CHAN_VOICE_BASE"
 
 	"soundlevel"	"SNDLVL_NORM"
 	"volume"		".85"
@@ -6665,7 +6666,7 @@
 
 "Infected.Sand.WalkRight"
 {
-	"channel"       "CHAN_BODY"
+	"channel"       "CHAN_VOICE_BASE"
 
 	"soundlevel"	"SNDLVL_NORM"
 	"volume"		".85"
@@ -6679,7 +6680,7 @@
 
 "Infected.GlassBottle.WalkLeft"
 {
-	"channel"       "CHAN_BODY"
+	"channel"       "CHAN_VOICE_BASE"
 
 	"soundlevel"	"SNDLVL_NORM"
 	"volume"		"0.2"
@@ -6693,7 +6694,7 @@
 
 "Infected.GlassBottle.WalkRight"
 {
-	"channel"       "CHAN_BODY"
+	"channel"       "CHAN_VOICE_BASE"
 
 	"soundlevel"	"SNDLVL_NORM"
 	"volume"		"0.2"
@@ -6707,7 +6708,7 @@
 
 "Infected.ceiling_tile.WalkLeft"
 {
-	"channel"       "CHAN_BODY"
+	"channel"       "CHAN_VOICE_BASE"
 
 	"soundlevel"	"SNDLVL_NORM"
 	"volume"		".85"
@@ -6721,7 +6722,7 @@
 
 "Infected.ceiling_tile.WalkRight"
 {
-	"channel"       "CHAN_BODY"
+	"channel"       "CHAN_VOICE_BASE"
 
 	"soundlevel"	"SNDLVL_NORM"
 	"volume"		".85"
@@ -6735,7 +6736,7 @@
 
 "Infected.drywall.WalkLeft"
 {
-	"channel"       "CHAN_BODY"
+	"channel"       "CHAN_VOICE_BASE"
 
 	"soundlevel"	"SNDLVL_NORM"
 	"volume"		".85"
@@ -6749,7 +6750,7 @@
 
 "Infected.drywall.WalkRight"
 {
-	"channel"       "CHAN_BODY"
+	"channel"       "CHAN_VOICE_BASE"
 
 	"soundlevel"	"SNDLVL_NORM"
 	"volume"		".85"
@@ -6763,7 +6764,7 @@
 
 "Infected.Plaster.WalkLeft"
 {
-	"channel"       "CHAN_BODY"
+	"channel"       "CHAN_VOICE_BASE"
 
 	"soundlevel"	"SNDLVL_NORM"
 	"volume"		".85"
@@ -6777,7 +6778,7 @@
 
 "Infected.Plaster.WalkRight"
 {
-	"channel"       "CHAN_BODY"
+	"channel"       "CHAN_VOICE_BASE"
 
 	"soundlevel"	"SNDLVL_NORM"
 	"volume"		".85"
@@ -6791,7 +6792,7 @@
 
 "Infected.Cardboard.WalkLeft"
 {
-	"channel"       "CHAN_BODY"
+	"channel"       "CHAN_VOICE_BASE"
 
 	"soundlevel"	"SNDLVL_NORM"
 	"pitch"			"95,105"
@@ -6805,7 +6806,7 @@
 
 "Infected.Cardboard.WalkRight"
 {
-	"channel"       "CHAN_BODY"
+	"channel"       "CHAN_VOICE_BASE"
 
 	"soundlevel"	"SNDLVL_NORM"
 	"pitch"			"95,105"
@@ -6819,7 +6820,7 @@
 
 "Infected.Plastic_Barrel.WalkLeft"
 {
-	"channel"       "CHAN_BODY"
+	"channel"       "CHAN_VOICE_BASE"
 
 	"soundlevel"	"SNDLVL_NORM"
 	"pitch"			"95,105"
@@ -6833,7 +6834,7 @@
 
 "Infected.Plastic_Barrel.WalkRight"
 {
-	"channel"       "CHAN_BODY"
+	"channel"       "CHAN_VOICE_BASE"
 
 	"soundlevel"	"SNDLVL_NORM"
 	"pitch"			"95,105"
@@ -6847,7 +6848,7 @@
 
 "Infected.Plastic_Box.WalkLeft"
 {
-	"channel"       "CHAN_BODY"
+	"channel"       "CHAN_VOICE_BASE"
 
 	"soundlevel"	"SNDLVL_NORM"
 	"pitch"			"95,105"
@@ -6861,7 +6862,7 @@
 
 "Infected.Plastic_Box.WalkRight"
 {
-	"channel"       "CHAN_BODY"
+	"channel"       "CHAN_VOICE_BASE"
 
 	"soundlevel"	"SNDLVL_NORM"
 	"pitch"			"95,105"
@@ -6875,7 +6876,7 @@
 
 "Infected.Rubber.WalkLeft"
 {
-	"channel"       "CHAN_BODY"
+	"channel"       "CHAN_VOICE_BASE"
 
 	"soundlevel"	"SNDLVL_NORM"
 	"pitch"			"98,102"
@@ -6885,7 +6886,7 @@
 
 "Infected.Rubber.WalkRight"
 {
-	"channel"       "CHAN_BODY"
+	"channel"       "CHAN_VOICE_BASE"
 
 	"soundlevel"	"SNDLVL_NORM"
 	"pitch"			"98,102"
@@ -6895,7 +6896,7 @@
 
 "Infected.Grenade.WalkLeft"
 {
-	"channel"       "CHAN_BODY"
+	"channel"       "CHAN_VOICE_BASE"
 
 	"soundlevel"	"SNDLVL_NORM"
 	"volume"		".85"
@@ -6909,7 +6910,7 @@
 
 "Infected.Grenade.WalkRight"
 {
-	"channel"       "CHAN_BODY"
+	"channel"       "CHAN_VOICE_BASE"
 
 	"soundlevel"	"SNDLVL_NORM"
 	"volume"		".85"
@@ -6923,7 +6924,7 @@
 
 "Infected.Wood.WalkLeft"
 {
-	"channel"       "CHAN_BODY"
+	"channel"       "CHAN_VOICE_BASE"
 
 	"soundlevel"	"SNDLVL_NORM"
 	"volume"		".85"
@@ -6937,7 +6938,7 @@
 
 "Infected.Wood.WalkRight"
 {
-	"channel"       "CHAN_BODY"
+	"channel"       "CHAN_VOICE_BASE"
 
 	"soundlevel"	"SNDLVL_NORM"
 	"volume"		".85"
@@ -6951,7 +6952,7 @@
 
 "Infected.Wood_Box.WalkLeft"
 {
-	"channel"       "CHAN_BODY"
+	"channel"       "CHAN_VOICE_BASE"
 
 	"soundlevel"	"SNDLVL_NORM"
 	"volume"		".85"
@@ -6965,7 +6966,7 @@
 
 "Infected.Wood_Box.WalkRight"
 {
-	"channel"       "CHAN_BODY"
+	"channel"       "CHAN_VOICE_BASE"
 
 	"soundlevel"	"SNDLVL_NORM"
 	"volume"		".85"
@@ -6979,7 +6980,7 @@
 
 "Infected.Wood_Crate.WalkLeft"
 {
-	"channel"       "CHAN_BODY"
+	"channel"       "CHAN_VOICE_BASE"
 
 	"soundlevel"	"SNDLVL_NORM"
 	"volume"		".85"
@@ -6993,7 +6994,7 @@
 
 "Infected.Wood_Crate.WalkRight"
 {
-	"channel"       "CHAN_BODY"
+	"channel"       "CHAN_VOICE_BASE"
 
 	"soundlevel"	"SNDLVL_NORM"
 	"volume"		".85"
@@ -7007,7 +7008,7 @@
 
 "Infected.Wood_Panel.WalkLeft"
 {
-	"channel"       "CHAN_BODY"
+	"channel"       "CHAN_VOICE_BASE"
 
 	"soundlevel"	"SNDLVL_NORM"
 	"volume"		".85"
@@ -7021,7 +7022,7 @@
 
 "Infected.Wood_Panel.WalkRight"
 {
-	"channel"       "CHAN_BODY"
+	"channel"       "CHAN_VOICE_BASE"
 
 	"soundlevel"	"SNDLVL_NORM"
 	"volume"		".85"
@@ -7035,7 +7036,7 @@
 
 "Infected.Metal_Box.WalkLeft"
 {
-	"channel"       "CHAN_BODY"
+	"channel"       "CHAN_VOICE_BASE"
 
 	"soundlevel"	"SNDLVL_NORM"
 	"volume"		".85"
@@ -7049,7 +7050,7 @@
 
 "Infected.Metal_Box.WalkRight"
 {
-	"channel"       "CHAN_BODY"
+	"channel"       "CHAN_VOICE_BASE"
 
 	"soundlevel"	"SNDLVL_NORM"
 	"volume"		".85"
@@ -7063,7 +7064,7 @@
 
 "Infected.weapon.WalkLeft"
 {
-	"channel"       "CHAN_BODY"
+	"channel"       "CHAN_VOICE_BASE"
 
 	"soundlevel"	"SNDLVL_NORM"
 	"volume"		".85"
@@ -7073,7 +7074,7 @@
 
 "Infected.weapon.WalkRight"
 {
-	"channel"       "CHAN_BODY"
+	"channel"       "CHAN_VOICE_BASE"
 
 	"soundlevel"	"SNDLVL_NORM"
 	"volume"		".85"
@@ -7084,7 +7085,7 @@
 
 "Infected.SugarCane.WalkLeft"
 {
-	"channel"       "CHAN_BODY"
+	"channel"       "CHAN_VOICE_BASE"
 
 	"soundlevel"	"SNDLVL_NORM"
 	"volume"		".66"
@@ -7098,7 +7099,7 @@
 
 "Infected.SugarCane.WalkRight"
 {
-	"channel"       "CHAN_BODY"
+	"channel"       "CHAN_VOICE_BASE"
 
 	"soundlevel"	"SNDLVL_NORM"
 	"volume"		".66"
@@ -7112,7 +7113,7 @@
 
 "Infected.Foliage.WalkLeft"
 {
-	"channel"       "CHAN_BODY"
+	"channel"       "CHAN_VOICE_BASE"
 
 	"soundlevel"	"SNDLVL_NORM"
 	"volume"		".6"
@@ -7126,7 +7127,7 @@
 
 "Infected.Foliage.WalkRight"
 {
-	"channel"       "CHAN_BODY"
+	"channel"       "CHAN_VOICE_BASE"
 
 	"soundlevel"	"SNDLVL_NORM"
 	"volume"		".3"
@@ -7143,7 +7144,7 @@
 //----------------------------------------------------------------------------------------------------------------------------------------//
 "Boomer.Default.StepLeft"
 {
-	"channel"       "CHAN_BODY"
+	"channel"       "CHAN_VOICE_BASE"
 
 	"soundlevel"	"SNDLVL_NORM"
 	"volume"			".96"
@@ -7157,7 +7158,7 @@
 
 "Boomer.Default.StepRight"
 {
-	"channel"       "CHAN_BODY"
+	"channel"       "CHAN_VOICE_BASE"
 
 	"soundlevel"	"SNDLVL_NORM"
 	"pitch"			"95,105"
@@ -7171,7 +7172,7 @@
 
 "Boomer.SolidMetal.StepLeft"
 {
-	"channel"       "CHAN_BODY"
+	"channel"       "CHAN_VOICE_BASE"
 
 	"soundlevel"	"SNDLVL_NORM"
 	"pitch"			"95,105"
@@ -7185,7 +7186,7 @@
 
 "Boomer.SolidMetal.StepRight"
 {
-	"channel"       "CHAN_BODY"
+	"channel"       "CHAN_VOICE_BASE"
 
 	"soundlevel"	"SNDLVL_NORM"
 	"pitch"			"95,105"
@@ -7199,7 +7200,7 @@
 
 "Boomer.Metalgrate.StepLeft"
 {
-	"channel"       "CHAN_BODY"
+	"channel"       "CHAN_VOICE_BASE"
 
 
 	"soundlevel"	"SNDLVL_NORM"
@@ -7217,7 +7218,7 @@
 
 "Boomer.Metalgrate.StepRight"
 {
-	"channel"       "CHAN_BODY"
+	"channel"       "CHAN_VOICE_BASE"
 
 
 	"soundlevel"	"SNDLVL_NORM"
@@ -7234,7 +7235,7 @@
 
 "Boomer.Snow.StepLeft"
 {
-	"channel"       "CHAN_BODY"
+	"channel"       "CHAN_VOICE_BASE"
 
 	"soundlevel"	"SNDLVL_NORM"
 	"volume"		".96"
@@ -7248,7 +7249,7 @@
 
 "Boomer.Snow.StepRight"
 {
-	"channel"       "CHAN_BODY"
+	"channel"       "CHAN_VOICE_BASE"
 
 	"soundlevel"	"SNDLVL_NORM"
 	"volume"		".96"
@@ -7262,7 +7263,7 @@
 
 "Boomer.Dirt.StepLeft"
 {
-	"channel"       "CHAN_BODY"
+	"channel"       "CHAN_VOICE_BASE"
 
 	"soundlevel"	"SNDLVL_NORM"
 	"pitch"			"95,105"
@@ -7276,7 +7277,7 @@
 
 "Boomer.Dirt.StepRight"
 {
-	"channel"       "CHAN_BODY"
+	"channel"       "CHAN_VOICE_BASE"
 
 	"soundlevel"	"SNDLVL_NORM"
 	"pitch"			"95,105"
@@ -7290,7 +7291,7 @@
 
 "Boomer.Mud.StepLeft"
 {
-	"channel"       "CHAN_BODY"
+	"channel"       "CHAN_VOICE_BASE"
 
 	"soundlevel"	"SNDLVL_NORM"
 	"volume"		".6"
@@ -7304,7 +7305,7 @@
 
 "Boomer.Mud.StepRight"
 {
-	"channel"       "CHAN_BODY"
+	"channel"       "CHAN_VOICE_BASE"
 
 	"soundlevel"	"SNDLVL_NORM"
 	"volume"		".6"
@@ -7318,7 +7319,7 @@
 
 "Boomer.SlipperySlime.StepLeft"
 {
-	"channel"       "CHAN_BODY"
+	"channel"       "CHAN_VOICE_BASE"
 
 	"soundlevel"	"SNDLVL_NORM"
 	"volume"		"0.6"
@@ -7332,7 +7333,7 @@
 
 "Boomer.SlipperySlime.StepRight"
 {
-	"channel"       "CHAN_BODY"
+	"channel"       "CHAN_VOICE_BASE"
 
 	"soundlevel"	"SNDLVL_NORM"
 	"volume"		"0.6"
@@ -7346,7 +7347,7 @@
 
 "Boomer.Grass.StepLeft"
 {
-	"channel"       "CHAN_BODY"
+	"channel"       "CHAN_VOICE_BASE"
 
 	"soundlevel"	"SNDLVL_NORM"
 	"volume"		".96"
@@ -7360,7 +7361,7 @@
 
 "Boomer.Grass.StepRight"
 {
-	"channel"       "CHAN_BODY"
+	"channel"       "CHAN_VOICE_BASE"
 
 	"soundlevel"	"SNDLVL_NORM"
 	"volume"		".96"
@@ -7374,7 +7375,7 @@
 
 "Boomer.MetalVent.StepLeft"
 {
-	"channel"       "CHAN_BODY"
+	"channel"       "CHAN_VOICE_BASE"
 
 	"soundlevel"	"SNDLVL_NORM"
 	"volume"		".96"
@@ -7388,7 +7389,7 @@
 
 "Boomer.MetalVent.StepRight"
 {
-	"channel"       "CHAN_BODY"
+	"channel"       "CHAN_VOICE_BASE"
 
 	"soundlevel"	"SNDLVL_NORM"
 	"volume"		".96"
@@ -7401,7 +7402,7 @@
 
 "Boomer.Tile.StepLeft"
 {
-	"channel"       "CHAN_BODY"
+	"channel"       "CHAN_VOICE_BASE"
 
 	"soundlevel"	"SNDLVL_NORM"
 	"volume"		".96"
@@ -7415,7 +7416,7 @@
 
 "Boomer.Tile.StepRight"
 {
-	"channel"       "CHAN_BODY"
+	"channel"       "CHAN_VOICE_BASE"
 
 	"soundlevel"	"SNDLVL_NORM"
 	"volume"		".96"
@@ -7429,7 +7430,7 @@
 
 "Boomer.Water.StepLeft"
 {
-	"channel"       "CHAN_AUTO"
+	"channel"       "CHAN_VOICE_BASE"
 
 	"soundlevel"	"SNDLVL_NORM"
 	"volume"		".96"
@@ -7443,7 +7444,7 @@
 
 "Boomer.Water.StepRight"
 {
-	"channel"       "CHAN_AUTO"
+	"channel"       "CHAN_VOICE_BASE"
 
 	"soundlevel"	"SNDLVL_NORM"
 	"volume"		".96"
@@ -7457,7 +7458,7 @@
 
 "Boomer.Wade.StepLeft"
 {
-	"channel"       "CHAN_AUTO"
+	"channel"       "CHAN_VOICE_BASE"
 
 	"soundlevel"	"SNDLVL_NORM"
 	"volume"		"0.96"
@@ -7471,7 +7472,7 @@
 
 "Boomer.Wade.StepRight"
 {
-	"channel"       "CHAN_AUTO"
+	"channel"       "CHAN_VOICE_BASE"
 
 	"soundlevel"	"SNDLVL_NORM"
 	"volume"		"0.96"
@@ -7486,7 +7487,7 @@
 
 "Boomer.Ladder.StepLeft"
 {
-	"channel"       "CHAN_BODY"
+	"channel"       "CHAN_VOICE_BASE"
 
 	"soundlevel"	"SNDLVL_NORM"
 	"volume"		".96"
@@ -7500,7 +7501,7 @@
 
 "Boomer.Ladder.StepRight"
 {
-	"channel"       "CHAN_BODY"
+	"channel"       "CHAN_VOICE_BASE"
 
 	"soundlevel"	"SNDLVL_NORM"
 	"volume"		".96"
@@ -7514,7 +7515,7 @@
 
 "Boomer.Glass.StepLeft"
 {
-	"channel"       "CHAN_BODY"
+	"channel"       "CHAN_VOICE_BASE"
 
 	"soundlevel"	"SNDLVL_NORM"
 	"volume"		".96"
@@ -7528,7 +7529,7 @@
 
 "Boomer.Glass.StepRight"
 {
-	"channel"       "CHAN_BODY"
+	"channel"       "CHAN_VOICE_BASE"
 
 	"soundlevel"	"SNDLVL_NORM"
 	"volume"		".96"
@@ -7542,7 +7543,7 @@
 
 "Boomer.Concrete.StepLeft"
 {
-	"channel"       "CHAN_BODY"
+	"channel"       "CHAN_VOICE_BASE"
 
 	"soundlevel"	"SNDLVL_NORM"
 	"volume"		".96"
@@ -7556,7 +7557,7 @@
 
 "Boomer.Concrete.StepRight"
 {
-	"channel"       "CHAN_BODY"
+	"channel"       "CHAN_VOICE_BASE"
 
 	"soundlevel"	"SNDLVL_NORM"
 	"volume"		".96"
@@ -7570,7 +7571,7 @@
 
 "Boomer.Gravel.StepLeft"
 {
-	"channel"       "CHAN_BODY"
+	"channel"       "CHAN_VOICE_BASE"
 
 	"soundlevel"	"SNDLVL_NORM"
 	"volume"		".96"
@@ -7584,7 +7585,7 @@
 
 "Boomer.Gravel.StepRight"
 {
-	"channel"       "CHAN_BODY"
+	"channel"       "CHAN_VOICE_BASE"
 
 	"soundlevel"	"SNDLVL_NORM"
 	"volume"		".96"
@@ -7598,7 +7599,7 @@
 
 "Boomer.ChainLink.StepLeft"
 {
-	"channel"       "CHAN_BODY"
+	"channel"       "CHAN_VOICE_BASE"
 
 	"soundlevel"	"SNDLVL_NORM"
 	"volume"		".96"
@@ -7612,7 +7613,7 @@
 
 "Boomer.ChainLink.StepRight"
 {
-	"channel"       "CHAN_BODY"
+	"channel"       "CHAN_VOICE_BASE"
 
 	"soundlevel"	"SNDLVL_NORM"
 	"volume"		".96"
@@ -7626,7 +7627,7 @@
 
 "Boomer.Flesh.StepLeft"
 {
-	"channel"       "CHAN_BODY"
+	"channel"       "CHAN_VOICE_BASE"
 
 	"soundlevel"	"SNDLVL_NORM"
 	"volume"		".96"
@@ -7640,7 +7641,7 @@
 
 "Boomer.Flesh.StepRight"
 {
-	"channel"       "CHAN_BODY"
+	"channel"       "CHAN_VOICE_BASE"
 
 	"soundlevel"	"SNDLVL_NORM"
 	"volume"		".96"
@@ -7654,7 +7655,7 @@
 
 "Boomer.Sand.StepLeft"
 {
-	"channel"       "CHAN_BODY"
+	"channel"       "CHAN_VOICE_BASE"
 
 	"soundlevel"	"SNDLVL_NORM"
 	"volume"		".96"
@@ -7668,7 +7669,7 @@
 
 "Boomer.Sand.StepRight"
 {
-	"channel"       "CHAN_BODY"
+	"channel"       "CHAN_VOICE_BASE"
 
 	"soundlevel"	"SNDLVL_NORM"
 	"volume"		".96"
@@ -7682,7 +7683,7 @@
 
 "Boomer.GlassBottle.StepLeft"
 {
-	"channel"       "CHAN_BODY"
+	"channel"       "CHAN_VOICE_BASE"
 
 	"soundlevel"	"SNDLVL_NORM"
 	"volume"		"0.2"
@@ -7696,7 +7697,7 @@
 
 "Boomer.GlassBottle.StepRight"
 {
-	"channel"       "CHAN_BODY"
+	"channel"       "CHAN_VOICE_BASE"
 
 	"soundlevel"	"SNDLVL_NORM"
 	"volume"		"0.2"
@@ -7710,7 +7711,7 @@
 
 "Boomer.ceiling_tile.StepLeft"
 {
-	"channel"       "CHAN_BODY"
+	"channel"       "CHAN_VOICE_BASE"
 
 	"soundlevel"	"SNDLVL_NORM"
 	"volume"		".96"
@@ -7724,7 +7725,7 @@
 
 "Boomer.ceiling_tile.StepRight"
 {
-	"channel"       "CHAN_BODY"
+	"channel"       "CHAN_VOICE_BASE"
 
 	"soundlevel"	"SNDLVL_NORM"
 	"volume"		".96"
@@ -7738,7 +7739,7 @@
 
 "Boomer.drywall.StepLeft"
 {
-	"channel"       "CHAN_BODY"
+	"channel"       "CHAN_VOICE_BASE"
 
 	"soundlevel"	"SNDLVL_NORM"
 	"volume"		".96"
@@ -7752,7 +7753,7 @@
 
 "Boomer.drywall.StepRight"
 {
-	"channel"       "CHAN_BODY"
+	"channel"       "CHAN_VOICE_BASE"
 
 	"soundlevel"	"SNDLVL_NORM"
 	"volume"		".96"
@@ -7766,7 +7767,7 @@
 
 "Boomer.Plaster.StepLeft"
 {
-	"channel"       "CHAN_BODY"
+	"channel"       "CHAN_VOICE_BASE"
 
 	"soundlevel"	"SNDLVL_NORM"
 	"volume"		".96"
@@ -7780,7 +7781,7 @@
 
 "Boomer.Plaster.StepRight"
 {
-	"channel"       "CHAN_BODY"
+	"channel"       "CHAN_VOICE_BASE"
 
 	"soundlevel"	"SNDLVL_NORM"
 	"volume"		".96"
@@ -7794,7 +7795,7 @@
 
 "Boomer.Cardboard.StepLeft"
 {
-	"channel"       "CHAN_BODY"
+	"channel"       "CHAN_VOICE_BASE"
 
 	"soundlevel"	"SNDLVL_NORM"
 	"pitch"			"95,105"
@@ -7808,7 +7809,7 @@
 
 "Boomer.Cardboard.StepRight"
 {
-	"channel"       "CHAN_BODY"
+	"channel"       "CHAN_VOICE_BASE"
 
 	"soundlevel"	"SNDLVL_NORM"
 	"pitch"			"95,105"
@@ -7822,7 +7823,7 @@
 
 "Boomer.Plastic_Barrel.StepLeft"
 {
-	"channel"       "CHAN_BODY"
+	"channel"       "CHAN_VOICE_BASE"
 
 	"soundlevel"	"SNDLVL_NORM"
 	"pitch"			"95,105"
@@ -7836,7 +7837,7 @@
 
 "Boomer.Plastic_Barrel.StepRight"
 {
-	"channel"       "CHAN_BODY"
+	"channel"       "CHAN_VOICE_BASE"
 
 	"soundlevel"	"SNDLVL_NORM"
 	"pitch"			"95,105"
@@ -7850,7 +7851,7 @@
 
 "Boomer.Plastic_Box.StepLeft"
 {
-	"channel"       "CHAN_BODY"
+	"channel"       "CHAN_VOICE_BASE"
 
 	"soundlevel"	"SNDLVL_NORM"
 	"pitch"			"95,105"
@@ -7864,7 +7865,7 @@
 
 "Boomer.Plastic_Box.StepRight"
 {
-	"channel"       "CHAN_BODY"
+	"channel"       "CHAN_VOICE_BASE"
 
 	"soundlevel"	"SNDLVL_NORM"
 	"pitch"			"95,105"
@@ -7878,7 +7879,7 @@
 
 "Boomer.Rubber.StepLeft"
 {
-	"channel"       "CHAN_BODY"
+	"channel"       "CHAN_VOICE_BASE"
 
 	"soundlevel"	"SNDLVL_NORM"
 	"pitch"			"98,102"
@@ -7888,7 +7889,7 @@
 
 "Boomer.Rubber.StepRight"
 {
-	"channel"       "CHAN_BODY"
+	"channel"       "CHAN_VOICE_BASE"
 
 	"soundlevel"	"SNDLVL_NORM"
 	"pitch"			"98,102"
@@ -7898,7 +7899,7 @@
 
 "Boomer.Grenade.StepLeft"
 {
-	"channel"       "CHAN_BODY"
+	"channel"       "CHAN_VOICE_BASE"
 
 	"soundlevel"	"SNDLVL_NORM"
 	"volume"		".96"
@@ -7912,7 +7913,7 @@
 
 "Boomer.Grenade.StepRight"
 {
-	"channel"       "CHAN_BODY"
+	"channel"       "CHAN_VOICE_BASE"
 
 	"soundlevel"	"SNDLVL_NORM"
 	"volume"		".96"
@@ -7926,7 +7927,7 @@
 
 "Boomer.Wood.StepLeft"
 {
-	"channel"       "CHAN_BODY"
+	"channel"       "CHAN_VOICE_BASE"
 
 	"soundlevel"	"SNDLVL_NORM"
 	"volume"		".96"
@@ -7940,7 +7941,7 @@
 
 "Boomer.Wood.StepRight"
 {
-	"channel"       "CHAN_BODY"
+	"channel"       "CHAN_VOICE_BASE"
 
 	"soundlevel"	"SNDLVL_NORM"
 	"volume"		".96"
@@ -7954,7 +7955,7 @@
 
 "Boomer.Wood_Box.StepLeft"
 {
-	"channel"       "CHAN_BODY"
+	"channel"       "CHAN_VOICE_BASE"
 
 	"soundlevel"	"SNDLVL_NORM"
 	"volume"		".96"
@@ -7968,7 +7969,7 @@
 
 "Boomer.Wood_Box.StepRight"
 {
-	"channel"       "CHAN_BODY"
+	"channel"       "CHAN_VOICE_BASE"
 
 	"soundlevel"	"SNDLVL_NORM"
 	"volume"		".96"
@@ -7982,7 +7983,7 @@
 
 "Boomer.Wood_Crate.StepLeft"
 {
-	"channel"       "CHAN_BODY"
+	"channel"       "CHAN_VOICE_BASE"
 
 	"soundlevel"	"SNDLVL_NORM"
 	"volume"		".96"
@@ -7996,7 +7997,7 @@
 
 "Boomer.Wood_Crate.StepRight"
 {
-	"channel"       "CHAN_BODY"
+	"channel"       "CHAN_VOICE_BASE"
 
 	"soundlevel"	"SNDLVL_NORM"
 	"volume"		".96"
@@ -8010,7 +8011,7 @@
 
 "Boomer.Wood_Panel.StepLeft"
 {
-	"channel"       "CHAN_BODY"
+	"channel"       "CHAN_VOICE_BASE"
 
 	"soundlevel"	"SNDLVL_NORM"
 	"volume"		".96"
@@ -8024,7 +8025,7 @@
 
 "Boomer.Wood_Panel.StepRight"
 {
-	"channel"       "CHAN_BODY"
+	"channel"       "CHAN_VOICE_BASE"
 
 	"soundlevel"	"SNDLVL_NORM"
 	"volume"		".96"
@@ -8038,7 +8039,7 @@
 
 "Boomer.Metal_Box.StepLeft"
 {
-	"channel"       "CHAN_BODY"
+	"channel"       "CHAN_VOICE_BASE"
 
 	"soundlevel"	"SNDLVL_NORM"
 	"volume"		".96"
@@ -8052,7 +8053,7 @@
 
 "Boomer.Metal_Box.StepRight"
 {
-	"channel"       "CHAN_BODY"
+	"channel"       "CHAN_VOICE_BASE"
 
 	"soundlevel"	"SNDLVL_NORM"
 	"volume"		".96"
@@ -8066,7 +8067,7 @@
 
 "Boomer.weapon.StepLeft"
 {
-	"channel"       "CHAN_BODY"
+	"channel"       "CHAN_VOICE_BASE"
 
 	"soundlevel"	"SNDLVL_NORM"
 	"volume"		".96"
@@ -8076,7 +8077,7 @@
 
 "Boomer.weapon.StepRight"
 {
-	"channel"       "CHAN_BODY"
+	"channel"       "CHAN_VOICE_BASE"
 
 	"soundlevel"	"SNDLVL_NORM"
 	"volume"		".96"
@@ -8087,7 +8088,7 @@
 
 "Boomer.SugarCane.StepLeft"
 {
-	"channel"       "CHAN_BODY"
+	"channel"       "CHAN_VOICE_BASE"
 
 	"soundlevel"	"SNDLVL_NORM"
 	"volume"		".66"
@@ -8101,7 +8102,7 @@
 
 "Boomer.SugarCane.StepRight"
 {
-	"channel"       "CHAN_BODY"
+	"channel"       "CHAN_VOICE_BASE"
 
 	"soundlevel"	"SNDLVL_NORM"
 	"volume"		".66"
@@ -8115,7 +8116,7 @@
 
 "Boomer.Foliage.StepLeft"
 {
-	"channel"       "CHAN_BODY"
+	"channel"       "CHAN_VOICE_BASE"
 
 	"soundlevel"	"SNDLVL_NORM"
 	"volume"		".5"
@@ -8129,7 +8130,7 @@
 
 "Boomer.Foliage.StepRight"
 {
-	"channel"       "CHAN_BODY"
+	"channel"       "CHAN_VOICE_BASE"
 
 	"soundlevel"	"SNDLVL_NORM"
 	"volume"		".5"
@@ -8147,7 +8148,7 @@
 
 "Boomer.Default.WalkLeft"
 {
-	"channel"       "CHAN_BODY"
+	"channel"       "CHAN_VOICE_BASE"
 
 	"soundlevel"	"SNDLVL_NORM"
 	"volume"			".86"
@@ -8161,7 +8162,7 @@
 
 "Boomer.Default.WalkRight"
 {
-	"channel"       "CHAN_BODY"
+	"channel"       "CHAN_VOICE_BASE"
 
 	"soundlevel"	"SNDLVL_NORM"
 	"pitch"			"95,105"
@@ -8175,7 +8176,7 @@
 
 "Boomer.SolidMetal.WalkLeft"
 {
-	"channel"       "CHAN_BODY"
+	"channel"       "CHAN_VOICE_BASE"
 
 	"soundlevel"	"SNDLVL_NORM"
 	"pitch"			"95,105"
@@ -8189,7 +8190,7 @@
 
 "Boomer.SolidMetal.WalkRight"
 {
-	"channel"       "CHAN_BODY"
+	"channel"       "CHAN_VOICE_BASE"
 
 	"soundlevel"	"SNDLVL_NORM"
 	"pitch"			"95,105"
@@ -8203,7 +8204,7 @@
 
 "Boomer.Metalgrate.WalkLeft"
 {
-	"channel"       "CHAN_BODY"
+	"channel"       "CHAN_VOICE_BASE"
 
 
 	"soundlevel"	"SNDLVL_NORM"
@@ -8221,7 +8222,7 @@
 
 "Boomer.Metalgrate.WalkRight"
 {
-	"channel"       "CHAN_BODY"
+	"channel"       "CHAN_VOICE_BASE"
 
 
 	"soundlevel"	"SNDLVL_NORM"
@@ -8238,7 +8239,7 @@
 
 "Boomer.Snow.WalkLeft"
 {
-	"channel"       "CHAN_BODY"
+	"channel"       "CHAN_VOICE_BASE"
 
 	"soundlevel"	"SNDLVL_NORM"
 	"volume"		".96"
@@ -8252,7 +8253,7 @@
 
 "Boomer.Snow.WalkRight"
 {
-	"channel"       "CHAN_BODY"
+	"channel"       "CHAN_VOICE_BASE"
 
 	"soundlevel"	"SNDLVL_NORM"
 	"volume"		".96"
@@ -8266,7 +8267,7 @@
 
 "Boomer.Dirt.WalkLeft"
 {
-	"channel"       "CHAN_BODY"
+	"channel"       "CHAN_VOICE_BASE"
 
 	"soundlevel"	"SNDLVL_NORM"
 	"pitch"			"95,105"
@@ -8280,7 +8281,7 @@
 
 "Boomer.Dirt.WalkRight"
 {
-	"channel"       "CHAN_BODY"
+	"channel"       "CHAN_VOICE_BASE"
 
 	"soundlevel"	"SNDLVL_NORM"
 	"pitch"			"95,105"
@@ -8294,7 +8295,7 @@
 
 "Boomer.Mud.WalkLeft"
 {
-	"channel"       "CHAN_BODY"
+	"channel"       "CHAN_VOICE_BASE"
 
 	"soundlevel"	"SNDLVL_NORM"
 	"volume"		".6"
@@ -8308,7 +8309,7 @@
 
 "Boomer.Mud.WalkRight"
 {
-	"channel"       "CHAN_BODY"
+	"channel"       "CHAN_VOICE_BASE"
 
 	"soundlevel"	"SNDLVL_NORM"
 	"volume"		".6"
@@ -8322,7 +8323,7 @@
 
 "Boomer.SlipperySlime.WalkLeft"
 {
-	"channel"       "CHAN_BODY"
+	"channel"       "CHAN_VOICE_BASE"
 
 	"soundlevel"	"SNDLVL_NORM"
 	"volume"		"0.6"
@@ -8336,7 +8337,7 @@
 
 "Boomer.SlipperySlime.WalkRight"
 {
-	"channel"       "CHAN_BODY"
+	"channel"       "CHAN_VOICE_BASE"
 
 	"soundlevel"	"SNDLVL_NORM"
 	"volume"		"0.6"
@@ -8350,7 +8351,7 @@
 
 "Boomer.Grass.WalkLeft"
 {
-	"channel"       "CHAN_BODY"
+	"channel"       "CHAN_VOICE_BASE"
 
 	"soundlevel"	"SNDLVL_NORM"
 	"volume"		".86"
@@ -8364,7 +8365,7 @@
 
 "Boomer.Grass.WalkRight"
 {
-	"channel"       "CHAN_BODY"
+	"channel"       "CHAN_VOICE_BASE"
 
 	"soundlevel"	"SNDLVL_NORM"
 	"volume"		".86"
@@ -8378,7 +8379,7 @@
 
 "Boomer.MetalVent.WalkLeft"
 {
-	"channel"       "CHAN_BODY"
+	"channel"       "CHAN_VOICE_BASE"
 
 	"soundlevel"	"SNDLVL_NORM"
 	"volume"		".86"
@@ -8392,7 +8393,7 @@
 
 "Boomer.MetalVent.WalkRight"
 {
-	"channel"       "CHAN_BODY"
+	"channel"       "CHAN_VOICE_BASE"
 
 	"soundlevel"	"SNDLVL_NORM"
 	"volume"		".86"
@@ -8405,7 +8406,7 @@
 
 "Boomer.Tile.WalkLeft"
 {
-	"channel"       "CHAN_BODY"
+	"channel"       "CHAN_VOICE_BASE"
 
 	"soundlevel"	"SNDLVL_NORM"
 	"volume"		".86"
@@ -8419,7 +8420,7 @@
 
 "Boomer.Tile.WalkRight"
 {
-	"channel"       "CHAN_BODY"
+	"channel"       "CHAN_VOICE_BASE"
 
 	"soundlevel"	"SNDLVL_NORM"
 	"volume"		".86"
@@ -8433,7 +8434,7 @@
 
 "Boomer.Water.WalkLeft"
 {
-	"channel"       "CHAN_AUTO"
+	"channel"       "CHAN_VOICE_BASE"
 
 	"soundlevel"	"SNDLVL_NORM"
 	"volume"		".86"
@@ -8447,7 +8448,7 @@
 
 "Boomer.Water.WalkRight"
 {
-	"channel"       "CHAN_AUTO"
+	"channel"       "CHAN_VOICE_BASE"
 
 	"soundlevel"	"SNDLVL_NORM"
 	"volume"		".86"
@@ -8461,7 +8462,7 @@
 
 "Boomer.Wade.WalkLeft"
 {
-	"channel"       "CHAN_AUTO"
+	"channel"       "CHAN_VOICE_BASE"
 
 	"soundlevel"	"SNDLVL_NORM"
 	"volume"		"0.86"
@@ -8475,7 +8476,7 @@
 
 "Boomer.Wade.WalkRight"
 {
-	"channel"       "CHAN_AUTO"
+	"channel"       "CHAN_VOICE_BASE"
 
 	"soundlevel"	"SNDLVL_NORM"
 	"volume"		"0.86"
@@ -8490,7 +8491,7 @@
 
 "Boomer.Ladder.WalkLeft"
 {
-	"channel"       "CHAN_BODY"
+	"channel"       "CHAN_VOICE_BASE"
 
 	"soundlevel"	"SNDLVL_NORM"
 	"volume"		".86"
@@ -8504,7 +8505,7 @@
 
 "Boomer.Ladder.WalkRight"
 {
-	"channel"       "CHAN_BODY"
+	"channel"       "CHAN_VOICE_BASE"
 
 	"soundlevel"	"SNDLVL_NORM"
 	"volume"		".86"
@@ -8518,7 +8519,7 @@
 
 "Boomer.Glass.WalkLeft"
 {
-	"channel"       "CHAN_BODY"
+	"channel"       "CHAN_VOICE_BASE"
 
 	"soundlevel"	"SNDLVL_NORM"
 	"volume"		".86"
@@ -8532,7 +8533,7 @@
 
 "Boomer.Glass.WalkRight"
 {
-	"channel"       "CHAN_BODY"
+	"channel"       "CHAN_VOICE_BASE"
 
 	"soundlevel"	"SNDLVL_NORM"
 	"volume"		".86"
@@ -8546,7 +8547,7 @@
 
 "Boomer.Concrete.WalkLeft"
 {
-	"channel"       "CHAN_BODY"
+	"channel"       "CHAN_VOICE_BASE"
 
 	"soundlevel"	"SNDLVL_NORM"
 	"volume"		".86"
@@ -8560,7 +8561,7 @@
 
 "Boomer.Concrete.WalkRight"
 {
-	"channel"       "CHAN_BODY"
+	"channel"       "CHAN_VOICE_BASE"
 
 	"soundlevel"	"SNDLVL_NORM"
 	"volume"		".86"
@@ -8574,7 +8575,7 @@
 
 "Boomer.Gravel.WalkLeft"
 {
-	"channel"       "CHAN_BODY"
+	"channel"       "CHAN_VOICE_BASE"
 
 	"soundlevel"	"SNDLVL_NORM"
 	"volume"		".86"
@@ -8588,7 +8589,7 @@
 
 "Boomer.Gravel.WalkRight"
 {
-	"channel"       "CHAN_BODY"
+	"channel"       "CHAN_VOICE_BASE"
 
 	"soundlevel"	"SNDLVL_NORM"
 	"volume"		".86"
@@ -8602,7 +8603,7 @@
 
 "Boomer.ChainLink.WalkLeft"
 {
-	"channel"       "CHAN_BODY"
+	"channel"       "CHAN_VOICE_BASE"
 
 	"soundlevel"	"SNDLVL_NORM"
 	"volume"		".86"
@@ -8616,7 +8617,7 @@
 
 "Boomer.ChainLink.WalkRight"
 {
-	"channel"       "CHAN_BODY"
+	"channel"       "CHAN_VOICE_BASE"
 
 	"soundlevel"	"SNDLVL_NORM"
 	"volume"		".86"
@@ -8630,7 +8631,7 @@
 
 "Boomer.Flesh.WalkLeft"
 {
-	"channel"       "CHAN_BODY"
+	"channel"       "CHAN_VOICE_BASE"
 
 	"soundlevel"	"SNDLVL_NORM"
 	"volume"		".86"
@@ -8644,7 +8645,7 @@
 
 "Boomer.Flesh.WalkRight"
 {
-	"channel"       "CHAN_BODY"
+	"channel"       "CHAN_VOICE_BASE"
 
 	"soundlevel"	"SNDLVL_NORM"
 	"volume"		".86"
@@ -8658,7 +8659,7 @@
 
 "Boomer.Sand.WalkLeft"
 {
-	"channel"       "CHAN_BODY"
+	"channel"       "CHAN_VOICE_BASE"
 
 	"soundlevel"	"SNDLVL_NORM"
 	"volume"		".86"
@@ -8672,7 +8673,7 @@
 
 "Boomer.Sand.WalkRight"
 {
-	"channel"       "CHAN_BODY"
+	"channel"       "CHAN_VOICE_BASE"
 
 	"soundlevel"	"SNDLVL_NORM"
 	"volume"		".86"
@@ -8686,7 +8687,7 @@
 
 "Boomer.GlassBottle.WalkLeft"
 {
-	"channel"       "CHAN_BODY"
+	"channel"       "CHAN_VOICE_BASE"
 
 	"soundlevel"	"SNDLVL_NORM"
 	"volume"		"0.2"
@@ -8700,7 +8701,7 @@
 
 "Boomer.GlassBottle.WalkRight"
 {
-	"channel"       "CHAN_BODY"
+	"channel"       "CHAN_VOICE_BASE"
 
 	"soundlevel"	"SNDLVL_NORM"
 	"volume"		"0.2"
@@ -8714,7 +8715,7 @@
 
 "Boomer.ceiling_tile.WalkLeft"
 {
-	"channel"       "CHAN_BODY"
+	"channel"       "CHAN_VOICE_BASE"
 
 	"soundlevel"	"SNDLVL_NORM"
 	"volume"		".86"
@@ -8728,7 +8729,7 @@
 
 "Boomer.ceiling_tile.WalkRight"
 {
-	"channel"       "CHAN_BODY"
+	"channel"       "CHAN_VOICE_BASE"
 
 	"soundlevel"	"SNDLVL_NORM"
 	"volume"		".86"
@@ -8742,7 +8743,7 @@
 
 "Boomer.drywall.WalkLeft"
 {
-	"channel"       "CHAN_BODY"
+	"channel"       "CHAN_VOICE_BASE"
 
 	"soundlevel"	"SNDLVL_NORM"
 	"volume"		".86"
@@ -8756,7 +8757,7 @@
 
 "Boomer.drywall.WalkRight"
 {
-	"channel"       "CHAN_BODY"
+	"channel"       "CHAN_VOICE_BASE"
 
 	"soundlevel"	"SNDLVL_NORM"
 	"volume"		".86"
@@ -8770,7 +8771,7 @@
 
 "Boomer.Plaster.WalkLeft"
 {
-	"channel"       "CHAN_BODY"
+	"channel"       "CHAN_VOICE_BASE"
 
 	"soundlevel"	"SNDLVL_NORM"
 	"volume"		".86"
@@ -8784,7 +8785,7 @@
 
 "Boomer.Plaster.WalkRight"
 {
-	"channel"       "CHAN_BODY"
+	"channel"       "CHAN_VOICE_BASE"
 
 	"soundlevel"	"SNDLVL_NORM"
 	"volume"		".86"
@@ -8798,7 +8799,7 @@
 
 "Boomer.Cardboard.WalkLeft"
 {
-	"channel"       "CHAN_BODY"
+	"channel"       "CHAN_VOICE_BASE"
 
 	"soundlevel"	"SNDLVL_NORM"
 	"pitch"			"95,105"
@@ -8812,7 +8813,7 @@
 
 "Boomer.Cardboard.WalkRight"
 {
-	"channel"       "CHAN_BODY"
+	"channel"       "CHAN_VOICE_BASE"
 
 	"soundlevel"	"SNDLVL_NORM"
 	"pitch"			"95,105"
@@ -8826,7 +8827,7 @@
 
 "Boomer.Plastic_Barrel.WalkLeft"
 {
-	"channel"       "CHAN_BODY"
+	"channel"       "CHAN_VOICE_BASE"
 
 	"soundlevel"	"SNDLVL_NORM"
 	"pitch"			"95,105"
@@ -8840,7 +8841,7 @@
 
 "Boomer.Plastic_Barrel.WalkRight"
 {
-	"channel"       "CHAN_BODY"
+	"channel"       "CHAN_VOICE_BASE"
 
 	"soundlevel"	"SNDLVL_NORM"
 	"pitch"			"95,105"
@@ -8854,7 +8855,7 @@
 
 "Boomer.Plastic_Box.WalkLeft"
 {
-	"channel"       "CHAN_BODY"
+	"channel"       "CHAN_VOICE_BASE"
 
 	"soundlevel"	"SNDLVL_NORM"
 	"pitch"			"95,105"
@@ -8868,7 +8869,7 @@
 
 "Boomer.Plastic_Box.WalkRight"
 {
-	"channel"       "CHAN_BODY"
+	"channel"       "CHAN_VOICE_BASE"
 
 	"soundlevel"	"SNDLVL_NORM"
 	"pitch"			"95,105"
@@ -8882,7 +8883,7 @@
 
 "Boomer.Rubber.WalkLeft"
 {
-	"channel"       "CHAN_BODY"
+	"channel"       "CHAN_VOICE_BASE"
 
 	"soundlevel"	"SNDLVL_NORM"
 	"pitch"			"98,102"
@@ -8892,7 +8893,7 @@
 
 "Boomer.Rubber.WalkRight"
 {
-	"channel"       "CHAN_BODY"
+	"channel"       "CHAN_VOICE_BASE"
 
 	"soundlevel"	"SNDLVL_NORM"
 	"pitch"			"98,102"
@@ -8902,7 +8903,7 @@
 
 "Boomer.Grenade.WalkLeft"
 {
-	"channel"       "CHAN_BODY"
+	"channel"       "CHAN_VOICE_BASE"
 
 	"soundlevel"	"SNDLVL_NORM"
 	"volume"		".86"
@@ -8916,7 +8917,7 @@
 
 "Boomer.Grenade.WalkRight"
 {
-	"channel"       "CHAN_BODY"
+	"channel"       "CHAN_VOICE_BASE"
 
 	"soundlevel"	"SNDLVL_NORM"
 	"volume"		".86"
@@ -8930,7 +8931,7 @@
 
 "Boomer.Wood.WalkLeft"
 {
-	"channel"       "CHAN_BODY"
+	"channel"       "CHAN_VOICE_BASE"
 
 	"soundlevel"	"SNDLVL_NORM"
 	"volume"		".86"
@@ -8944,7 +8945,7 @@
 
 "Boomer.Wood.WalkRight"
 {
-	"channel"       "CHAN_BODY"
+	"channel"       "CHAN_VOICE_BASE"
 
 	"soundlevel"	"SNDLVL_NORM"
 	"volume"		".86"
@@ -8958,7 +8959,7 @@
 
 "Boomer.Wood_Box.WalkLeft"
 {
-	"channel"       "CHAN_BODY"
+	"channel"       "CHAN_VOICE_BASE"
 
 	"soundlevel"	"SNDLVL_NORM"
 	"volume"		".86"
@@ -8972,7 +8973,7 @@
 
 "Boomer.Wood_Box.WalkRight"
 {
-	"channel"       "CHAN_BODY"
+	"channel"       "CHAN_VOICE_BASE"
 
 	"soundlevel"	"SNDLVL_NORM"
 	"volume"		".86"
@@ -8986,7 +8987,7 @@
 
 "Boomer.Wood_Crate.WalkLeft"
 {
-	"channel"       "CHAN_BODY"
+	"channel"       "CHAN_VOICE_BASE"
 
 	"soundlevel"	"SNDLVL_NORM"
 	"volume"		".86"
@@ -9000,7 +9001,7 @@
 
 "Boomer.Wood_Crate.WalkRight"
 {
-	"channel"       "CHAN_BODY"
+	"channel"       "CHAN_VOICE_BASE"
 
 	"soundlevel"	"SNDLVL_NORM"
 	"volume"		".86"
@@ -9014,7 +9015,7 @@
 
 "Boomer.Wood_Panel.WalkLeft"
 {
-	"channel"       "CHAN_BODY"
+	"channel"       "CHAN_VOICE_BASE"
 
 	"soundlevel"	"SNDLVL_NORM"
 	"volume"		".86"
@@ -9028,7 +9029,7 @@
 
 "Boomer.Wood_Panel.WalkRight"
 {
-	"channel"       "CHAN_BODY"
+	"channel"       "CHAN_VOICE_BASE"
 
 	"soundlevel"	"SNDLVL_NORM"
 	"volume"		".86"
@@ -9042,7 +9043,7 @@
 
 "Boomer.Metal_Box.WalkLeft"
 {
-	"channel"       "CHAN_BODY"
+	"channel"       "CHAN_VOICE_BASE"
 
 	"soundlevel"	"SNDLVL_NORM"
 	"volume"		".86"
@@ -9056,7 +9057,7 @@
 
 "Boomer.Metal_Box.WalkRight"
 {
-	"channel"       "CHAN_BODY"
+	"channel"       "CHAN_VOICE_BASE"
 
 	"soundlevel"	"SNDLVL_NORM"
 	"volume"		".86"
@@ -9070,7 +9071,7 @@
 
 "Boomer.weapon.WalkLeft"
 {
-	"channel"       "CHAN_BODY"
+	"channel"       "CHAN_VOICE_BASE"
 
 	"soundlevel"	"SNDLVL_NORM"
 	"volume"		".86"
@@ -9080,7 +9081,7 @@
 
 "Boomer.weapon.WalkRight"
 {
-	"channel"       "CHAN_BODY"
+	"channel"       "CHAN_VOICE_BASE"
 
 	"soundlevel"	"SNDLVL_NORM"
 	"volume"		".86"
@@ -9091,7 +9092,7 @@
 
 "Boomer.SugarCane.WalkLeft"
 {
-	"channel"       "CHAN_BODY"
+	"channel"       "CHAN_VOICE_BASE"
 
 	"soundlevel"	"SNDLVL_NORM"
 	"volume"		".66"
@@ -9105,7 +9106,7 @@
 
 "Boomer.SugarCane.WalkRight"
 {
-	"channel"       "CHAN_BODY"
+	"channel"       "CHAN_VOICE_BASE"
 
 	"soundlevel"	"SNDLVL_NORM"
 	"volume"		".66"
@@ -9119,7 +9120,7 @@
 
 "Boomer.Foliage.WalkLeft"
 {
-	"channel"       "CHAN_BODY"
+	"channel"       "CHAN_VOICE_BASE"
 
 	"soundlevel"	"SNDLVL_NORM"
 	"volume"		".5"
@@ -9133,7 +9134,7 @@
 
 "Boomer.Foliage.WalkRight"
 {
-	"channel"       "CHAN_BODY"
+	"channel"       "CHAN_VOICE_BASE"
 
 	"soundlevel"	"SNDLVL_NORM"
 	"volume"		".5"
@@ -9150,7 +9151,7 @@
 //----------------------------------------------------------------------------------------------------------------------------------------//
 "Witch.Default.StepLeft"
 {
-	"channel"       "CHAN_BODY"
+	"channel"       "CHAN_VOICE_BASE"
 
 	"soundlevel"	"SNDLVL_NORM"
 	"volume"			".94"
@@ -9164,7 +9165,7 @@
 
 "Witch.Default.StepRight"
 {
-	"channel"       "CHAN_BODY"
+	"channel"       "CHAN_VOICE_BASE"
 
 	"soundlevel"	"SNDLVL_NORM"
 	"pitch"			"95,105"
@@ -9178,7 +9179,7 @@
 
 "Witch.SolidMetal.StepLeft"
 {
-	"channel"       "CHAN_BODY"
+	"channel"       "CHAN_VOICE_BASE"
 
 	"soundlevel"	"SNDLVL_NORM"
 	"pitch"			"95,105"
@@ -9192,7 +9193,7 @@
 
 "Witch.SolidMetal.StepRight"
 {
-	"channel"       "CHAN_BODY"
+	"channel"       "CHAN_VOICE_BASE"
 
 	"soundlevel"	"SNDLVL_NORM"
 	"pitch"			"95,105"
@@ -9206,7 +9207,7 @@
 
 "Witch.Metalgrate.StepLeft"
 {
-	"channel"       "CHAN_BODY"
+	"channel"       "CHAN_VOICE_BASE"
 
 	"soundlevel"	"SNDLVL_NORM"
 	"volume"			".94"
@@ -9220,7 +9221,7 @@
 
 "Witch.Metalgrate.StepRight"
 {
-	"channel"       "CHAN_BODY"
+	"channel"       "CHAN_VOICE_BASE"
 
 	"soundlevel"	"SNDLVL_NORM"
 	"volume"			".94"
@@ -9234,7 +9235,7 @@
 
 "Witch.Snow.StepLeft"
 {
-	"channel"       "CHAN_BODY"
+	"channel"       "CHAN_VOICE_BASE"
 
 	"soundlevel"	"SNDLVL_NORM"
 	"pitch"			"95,105"
@@ -9248,7 +9249,7 @@
 
 "Witch.Snow.StepRight"
 {
-	"channel"       "CHAN_BODY"
+	"channel"       "CHAN_VOICE_BASE"
 
 	"soundlevel"	"SNDLVL_NORM"
 	"pitch"			"95,105"
@@ -9262,7 +9263,7 @@
 
 "Witch.Dirt.StepLeft"
 {
-	"channel"       "CHAN_BODY"
+	"channel"       "CHAN_VOICE_BASE"
 
 	"soundlevel"	"SNDLVL_NORM"
 	"pitch"			"95,105"
@@ -9276,7 +9277,7 @@
 
 "Witch.Dirt.StepRight"
 {
-	"channel"       "CHAN_BODY"
+	"channel"       "CHAN_VOICE_BASE"
 
 	"soundlevel"	"SNDLVL_NORM"
 	"pitch"			"95,105"
@@ -9290,7 +9291,7 @@
 
 "Witch.Mud.StepLeft"
 {
-	"channel"       "CHAN_BODY"
+	"channel"       "CHAN_VOICE_BASE"
 
 	"soundlevel"	"SNDLVL_NORM"
 	"volume"		".6"
@@ -9304,7 +9305,7 @@
 
 "Witch.Mud.StepRight"
 {
-	"channel"       "CHAN_BODY"
+	"channel"       "CHAN_VOICE_BASE"
 
 	"soundlevel"	"SNDLVL_NORM"
 	"volume"		".6"
@@ -9318,7 +9319,7 @@
 
 "Witch.SlipperySlime.StepLeft"
 {
-	"channel"       "CHAN_BODY"
+	"channel"       "CHAN_VOICE_BASE"
 
 	"soundlevel"	"SNDLVL_NORM"
 	"volume"		"0.6"
@@ -9332,7 +9333,7 @@
 
 "Witch.SlipperySlime.StepRight"
 {
-	"channel"       "CHAN_BODY"
+	"channel"       "CHAN_VOICE_BASE"
 
 	"soundlevel"	"SNDLVL_NORM"
 	"volume"		"0.6"
@@ -9346,7 +9347,7 @@
 
 "Witch.Grass.StepLeft"
 {
-	"channel"       "CHAN_BODY"
+	"channel"       "CHAN_VOICE_BASE"
 
 	"soundlevel"	"SNDLVL_NORM"
 	"pitch"			"95,105"
@@ -9360,7 +9361,7 @@
 
 "Witch.Grass.StepRight"
 {
-	"channel"       "CHAN_BODY"
+	"channel"       "CHAN_VOICE_BASE"
 
 	"soundlevel"	"SNDLVL_NORM"
 	"pitch"			"95,105"
@@ -9374,7 +9375,7 @@
 
 "Witch.MetalVent.StepLeft"
 {
-	"channel"       "CHAN_BODY"
+	"channel"       "CHAN_VOICE_BASE"
 
 	"soundlevel"	"SNDLVL_NORM"
 	"volume"		".94"
@@ -9388,7 +9389,7 @@
 
 "Witch.MetalVent.StepRight"
 {
-	"channel"       "CHAN_BODY"
+	"channel"       "CHAN_VOICE_BASE"
 
 	"soundlevel"	"SNDLVL_NORM"
 	"volume"		".94"
@@ -9401,7 +9402,7 @@
 
 "Witch.Tile.StepLeft"
 {
-	"channel"       "CHAN_BODY"
+	"channel"       "CHAN_VOICE_BASE"
 
 	"soundlevel"	"SNDLVL_NORM"
 	"volume"		".94"
@@ -9415,7 +9416,7 @@
 
 "Witch.Tile.StepRight"
 {
-	"channel"       "CHAN_BODY"
+	"channel"       "CHAN_VOICE_BASE"
 
 	"soundlevel"	"SNDLVL_NORM"
 	"volume"		".94"
@@ -9429,7 +9430,7 @@
 
 "Witch.Water.StepLeft"
 {
-	"channel"       "CHAN_BODY"
+	"channel"       "CHAN_VOICE_BASE"
 
 	"soundlevel"	"SNDLVL_NORM"
 	"volume"		".94"
@@ -9443,7 +9444,7 @@
 
 "Witch.Water.StepRight"
 {
-	"channel"       "CHAN_BODY"
+	"channel"       "CHAN_VOICE_BASE"
 
 	"soundlevel"	"SNDLVL_NORM"
 	"volume"		".94"
@@ -9457,7 +9458,7 @@
 
 "Witch.Wade.StepLeft"
 {
-	"channel"       "CHAN_BODY"
+	"channel"       "CHAN_VOICE_BASE"
 
 	"soundlevel"	"SNDLVL_NORM"
 	"volume"		"0.94"
@@ -9471,7 +9472,7 @@
 
 "Witch.Wade.StepRight"
 {
-	"channel"       "CHAN_BODY"
+	"channel"       "CHAN_VOICE_BASE"
 
 	"soundlevel"	"SNDLVL_NORM"
 	"volume"		"0.94"
@@ -9486,7 +9487,7 @@
 
 "Witch.Ladder.StepLeft"
 {
-	"channel"       "CHAN_BODY"
+	"channel"       "CHAN_VOICE_BASE"
 
 	"soundlevel"	"SNDLVL_NORM"
 	"pitch"			"95,105"
@@ -9501,7 +9502,7 @@
 
 "Witch.Ladder.StepRight"
 {
-	"channel"       "CHAN_BODY"
+	"channel"       "CHAN_VOICE_BASE"
 
 	"soundlevel"	"SNDLVL_NORM"
 	"pitch"			"95,105"
@@ -9516,7 +9517,7 @@
 
 "Witch.Glass.StepLeft"
 {
-	"channel"       "CHAN_BODY"
+	"channel"       "CHAN_VOICE_BASE"
 
 	"soundlevel"	"SNDLVL_NORM"
 	"pitch"			"95,105"
@@ -9531,7 +9532,7 @@
 
 "Witch.Glass.StepRight"
 {
-	"channel"       "CHAN_BODY"
+	"channel"       "CHAN_VOICE_BASE"
 
 	"soundlevel"	"SNDLVL_NORM"
 	"pitch"			"95,105"
@@ -9546,7 +9547,7 @@
 
 "Witch.Concrete.StepLeft"
 {
-	"channel"       "CHAN_BODY"
+	"channel"       "CHAN_VOICE_BASE"
 
 	"soundlevel"	"SNDLVL_NORM"
 	"volume"		".94"
@@ -9560,7 +9561,7 @@
 
 "Witch.Concrete.StepRight"
 {
-	"channel"       "CHAN_BODY"
+	"channel"       "CHAN_VOICE_BASE"
 
 	"soundlevel"	"SNDLVL_NORM"
 	"volume"		".94"
@@ -9574,7 +9575,7 @@
 
 "Witch.Gravel.StepLeft"
 {
-	"channel"       "CHAN_BODY"
+	"channel"       "CHAN_VOICE_BASE"
 
 	"soundlevel"	"SNDLVL_NORM"
 	"pitch"			"95,105"
@@ -9589,7 +9590,7 @@
 
 "Witch.Gravel.StepRight"
 {
-	"channel"       "CHAN_BODY"
+	"channel"       "CHAN_VOICE_BASE"
 
 	"soundlevel"	"SNDLVL_NORM"
 	"pitch"			"95,105"
@@ -9604,7 +9605,7 @@
 
 "Witch.ChainLink.StepLeft"
 {
-	"channel"       "CHAN_BODY"
+	"channel"       "CHAN_VOICE_BASE"
 
 	"soundlevel"	"SNDLVL_NORM"
 	"pitch"			"95,105"
@@ -9619,7 +9620,7 @@
 
 "Witch.ChainLink.StepRight"
 {
-	"channel"       "CHAN_BODY"
+	"channel"       "CHAN_VOICE_BASE"
 
 	"soundlevel"	"SNDLVL_NORM"
 	"volume"		".94"
@@ -9633,7 +9634,7 @@
 
 "Witch.Flesh.StepLeft"
 {
-	"channel"       "CHAN_BODY"
+	"channel"       "CHAN_VOICE_BASE"
 
 	"soundlevel"	"SNDLVL_NORM"
 	"pitch"			"95,105"
@@ -9647,7 +9648,7 @@
 
 "Witch.Flesh.StepRight"
 {
-	"channel"       "CHAN_BODY"
+	"channel"       "CHAN_VOICE_BASE"
 
 	"soundlevel"	"SNDLVL_NORM"
 	"pitch"			"95,105"
@@ -9661,7 +9662,7 @@
 
 "Witch.Sand.StepLeft"
 {
-	"channel"       "CHAN_BODY"
+	"channel"       "CHAN_VOICE_BASE"
 
 	"soundlevel"	"SNDLVL_NORM"
 	"pitch"			"95,105"
@@ -9675,7 +9676,7 @@
 
 "Witch.Sand.StepRight"
 {
-	"channel"       "CHAN_BODY"
+	"channel"       "CHAN_VOICE_BASE"
 
 	"soundlevel"	"SNDLVL_NORM"
 	"pitch"			"95,105"
@@ -9689,7 +9690,7 @@
 
 "Witch.GlassBottle.StepLeft"
 {
-	"channel"       "CHAN_BODY"
+	"channel"       "CHAN_VOICE_BASE"
 
 	"soundlevel"	"SNDLVL_NORM"
 	"volume"		"0.2"
@@ -9703,7 +9704,7 @@
 
 "Witch.GlassBottle.StepRight"
 {
-	"channel"       "CHAN_BODY"
+	"channel"       "CHAN_VOICE_BASE"
 
 	"soundlevel"	"SNDLVL_NORM"
 	"volume"		"0.2"
@@ -9717,7 +9718,7 @@
 
 "Witch.ceiling_tile.StepLeft"
 {
-	"channel"       "CHAN_BODY"
+	"channel"       "CHAN_VOICE_BASE"
 
 	"soundlevel"	"SNDLVL_NORM"
 	"volume"		".94"
@@ -9731,7 +9732,7 @@
 
 "Witch.ceiling_tile.StepRight"
 {
-	"channel"       "CHAN_BODY"
+	"channel"       "CHAN_VOICE_BASE"
 
 	"soundlevel"	"SNDLVL_NORM"
 	"volume"		".94"
@@ -9745,7 +9746,7 @@
 
 "Witch.drywall.StepLeft"
 {
-	"channel"       "CHAN_BODY"
+	"channel"       "CHAN_VOICE_BASE"
 
 	"soundlevel"	"SNDLVL_NORM"
 	"pitch"			"95,105"
@@ -9759,7 +9760,7 @@
 
 "Witch.drywall.StepRight"
 {
-	"channel"       "CHAN_BODY"
+	"channel"       "CHAN_VOICE_BASE"
 
 	"soundlevel"	"SNDLVL_NORM"
 	"pitch"			"95,105"
@@ -9773,7 +9774,7 @@
 
 "Witch.Plaster.StepLeft"
 {
-	"channel"       "CHAN_BODY"
+	"channel"       "CHAN_VOICE_BASE"
 
 	"soundlevel"	"SNDLVL_NORM"
 	"pitch"			"95,105"
@@ -9787,7 +9788,7 @@
 
 "Witch.Plaster.StepRight"
 {
-	"channel"       "CHAN_BODY"
+	"channel"       "CHAN_VOICE_BASE"
 
 	"soundlevel"	"SNDLVL_NORM"
 	"pitch"			"95,105"
@@ -9801,7 +9802,7 @@
 
 "Witch.Cardboard.StepLeft"
 {
-	"channel"       "CHAN_BODY"
+	"channel"       "CHAN_VOICE_BASE"
 
 	"soundlevel"	"SNDLVL_NORM"
 	"pitch"			"95,105"
@@ -9815,7 +9816,7 @@
 
 "Witch.Cardboard.StepRight"
 {
-	"channel"       "CHAN_BODY"
+	"channel"       "CHAN_VOICE_BASE"
 
 	"soundlevel"	"SNDLVL_NORM"
 	"pitch"			"95,105"
@@ -9829,7 +9830,7 @@
 
 "Witch.Plastic_Barrel.StepLeft"
 {
-	"channel"       "CHAN_BODY"
+	"channel"       "CHAN_VOICE_BASE"
 
 	"soundlevel"	"SNDLVL_NORM"
 	"pitch"			"95,105"
@@ -9843,7 +9844,7 @@
 
 "Witch.Plastic_Barrel.StepRight"
 {
-	"channel"       "CHAN_BODY"
+	"channel"       "CHAN_VOICE_BASE"
 
 	"soundlevel"	"SNDLVL_NORM"
 	"pitch"			"95,105"
@@ -9857,7 +9858,7 @@
 
 "Witch.Plastic_Box.StepLeft"
 {
-	"channel"       "CHAN_BODY"
+	"channel"       "CHAN_VOICE_BASE"
 
 	"soundlevel"	"SNDLVL_NORM"
 	"pitch"			"95,105"
@@ -9871,7 +9872,7 @@
 
 "Witch.Plastic_Box.StepRight"
 {
-	"channel"       "CHAN_BODY"
+	"channel"       "CHAN_VOICE_BASE"
 
 	"soundlevel"	"SNDLVL_NORM"
 	"pitch"			"95,105"
@@ -9885,7 +9886,7 @@
 
 "Witch.Rubber.StepLeft"
 {
-	"channel"       "CHAN_BODY"
+	"channel"       "CHAN_VOICE_BASE"
 
 	"soundlevel"	"SNDLVL_NORM"
 	"pitch"			"98,102"
@@ -9895,7 +9896,7 @@
 
 "Witch.Rubber.StepRight"
 {
-	"channel"       "CHAN_BODY"
+	"channel"       "CHAN_VOICE_BASE"
 
 	"soundlevel"	"SNDLVL_NORM"
 	"pitch"			"98,102"
@@ -9905,7 +9906,7 @@
 
 "Witch.Grenade.StepLeft"
 {
-	"channel"       "CHAN_BODY"
+	"channel"       "CHAN_VOICE_BASE"
 
 	"soundlevel"	"SNDLVL_NORM"
 	"pitch"			"95,105"
@@ -9919,7 +9920,7 @@
 
 "Witch.Grenade.StepRight"
 {
-	"channel"       "CHAN_BODY"
+	"channel"       "CHAN_VOICE_BASE"
 
 	"soundlevel"	"SNDLVL_NORM"
 	"pitch"			"95,105"
@@ -9933,7 +9934,7 @@
 
 "Witch.Wood.StepLeft"
 {
-	"channel"       "CHAN_BODY"
+	"channel"       "CHAN_VOICE_BASE"
 
 	"soundlevel"	"SNDLVL_NORM"
 	"volume"		".94"
@@ -9947,7 +9948,7 @@
 
 "Witch.Wood.StepRight"
 {
-	"channel"       "CHAN_BODY"
+	"channel"       "CHAN_VOICE_BASE"
 
 	"soundlevel"	"SNDLVL_NORM"
 	"volume"		".94"
@@ -9961,7 +9962,7 @@
 
 "Witch.Wood_Box.StepLeft"
 {
-	"channel"       "CHAN_BODY"
+	"channel"       "CHAN_VOICE_BASE"
 
 	"soundlevel"	"SNDLVL_NORM"
 	"volume"		".94"
@@ -9975,7 +9976,7 @@
 
 "Witch.Wood_Box.StepRight"
 {
-	"channel"       "CHAN_BODY"
+	"channel"       "CHAN_VOICE_BASE"
 
 	"soundlevel"	"SNDLVL_NORM"
 	"volume"		".94"
@@ -9989,7 +9990,7 @@
 
 "Witch.Wood_Crate.StepLeft"
 {
-	"channel"       "CHAN_BODY"
+	"channel"       "CHAN_VOICE_BASE"
 
 	"soundlevel"	"SNDLVL_NORM"
 	"volume"		".94"
@@ -10003,7 +10004,7 @@
 
 "Witch.Wood_Crate.StepRight"
 {
-	"channel"       "CHAN_BODY"
+	"channel"       "CHAN_VOICE_BASE"
 
 	"soundlevel"	"SNDLVL_NORM"
 	"volume"		".94"
@@ -10017,7 +10018,7 @@
 
 "Witch.Wood_Panel.StepLeft"
 {
-	"channel"       "CHAN_BODY"
+	"channel"       "CHAN_VOICE_BASE"
 
 	"soundlevel"	"SNDLVL_NORM"
 	"volume"		".94"
@@ -10031,7 +10032,7 @@
 
 "Witch.Wood_Panel.StepRight"
 {
-	"channel"       "CHAN_BODY"
+	"channel"       "CHAN_VOICE_BASE"
 
 	"soundlevel"	"SNDLVL_NORM"
 	"volume"		".94"
@@ -10045,7 +10046,7 @@
 
 "Witch.Metal_Box.StepLeft"
 {
-	"channel"       "CHAN_BODY"
+	"channel"       "CHAN_VOICE_BASE"
 
 	"soundlevel"	"SNDLVL_NORM"
 	"pitch"			"95,105"
@@ -10059,7 +10060,7 @@
 
 "Witch.Metal_Box.StepRight"
 {
-	"channel"       "CHAN_BODY"
+	"channel"       "CHAN_VOICE_BASE"
 
 	"soundlevel"	"SNDLVL_NORM"
 	"pitch"			"95,105"
@@ -10073,7 +10074,7 @@
 
 "Witch.weapon.StepLeft"
 {
-	"channel"       "CHAN_BODY"
+	"channel"       "CHAN_VOICE_BASE"
 
 	"soundlevel"	"SNDLVL_NORM"
 	"volume"		".94"
@@ -10083,7 +10084,7 @@
 
 "Witch.weapon.StepRight"
 {
-	"channel"       "CHAN_BODY"
+	"channel"       "CHAN_VOICE_BASE"
 
 	"soundlevel"	"SNDLVL_NORM"
 	"volume"		".94"
@@ -10094,7 +10095,7 @@
 
 "Witch.SugarCane.StepLeft"
 {
-	"channel"       "CHAN_BODY"
+	"channel"       "CHAN_VOICE_BASE"
 
 	"soundlevel"	"SNDLVL_NORM"
 	"volume"		".66"
@@ -10108,7 +10109,7 @@
 
 "Witch.SugarCane.StepRight"
 {
-	"channel"       "CHAN_BODY"
+	"channel"       "CHAN_VOICE_BASE"
 
 	"soundlevel"	"SNDLVL_NORM"
 	"volume"		".66"
@@ -10122,7 +10123,7 @@
 
 "Witch.Foliage.StepLeft"
 {
-	"channel"       "CHAN_BODY"
+	"channel"       "CHAN_VOICE_BASE"
 
 	"soundlevel"	"SNDLVL_NORM"
 	"volume"		".5"
@@ -10136,7 +10137,7 @@
 
 "Witch.Foliage.StepRight"
 {
-	"channel"       "CHAN_BODY"
+	"channel"       "CHAN_VOICE_BASE"
 
 	"soundlevel"	"SNDLVL_NORM"
 	"volume"		".5"
@@ -10153,7 +10154,7 @@
 //---------------------------------------------------------------------------------------------------------------------------------//
 "Witch.Default.WalkLeft"
 {
-	"channel"       "CHAN_BODY"
+	"channel"       "CHAN_VOICE_BASE"
 
 	"soundlevel"	"SNDLVL_NORM"
 	"volume"			".94"
@@ -10167,7 +10168,7 @@
 
 "Witch.Default.WalkRight"
 {
-	"channel"       "CHAN_BODY"
+	"channel"       "CHAN_VOICE_BASE"
 
 	"soundlevel"	"SNDLVL_NORM"
 	"pitch"			"95,105"
@@ -10181,7 +10182,7 @@
 
 "Witch.SolidMetal.WalkLeft"
 {
-	"channel"       "CHAN_BODY"
+	"channel"       "CHAN_VOICE_BASE"
 
 	"soundlevel"	"SNDLVL_NORM"
 	"pitch"			"95,105"
@@ -10195,7 +10196,7 @@
 
 "Witch.SolidMetal.WalkRight"
 {
-	"channel"       "CHAN_BODY"
+	"channel"       "CHAN_VOICE_BASE"
 
 	"soundlevel"	"SNDLVL_NORM"
 	"pitch"			"95,105"
@@ -10209,7 +10210,7 @@
 
 "Witch.Metalgrate.WalkLeft"
 {
-	"channel"       "CHAN_BODY"
+	"channel"       "CHAN_VOICE_BASE"
 
 	"soundlevel"	"SNDLVL_NORM"
 	"volume"			".94"
@@ -10223,7 +10224,7 @@
 
 "Witch.Metalgrate.WalkRight"
 {
-	"channel"       "CHAN_BODY"
+	"channel"       "CHAN_VOICE_BASE"
 
 	"soundlevel"	"SNDLVL_NORM"
 	"volume"			".94"
@@ -10237,7 +10238,7 @@
 
 "Witch.Snow.WalkLeft"
 {
-	"channel"       "CHAN_BODY"
+	"channel"       "CHAN_VOICE_BASE"
 
 	"soundlevel"	"SNDLVL_NORM"
 	"pitch"			"95,105"
@@ -10251,7 +10252,7 @@
 
 "Witch.Snow.WalkRight"
 {
-	"channel"       "CHAN_BODY"
+	"channel"       "CHAN_VOICE_BASE"
 
 	"soundlevel"	"SNDLVL_NORM"
 	"pitch"			"95,105"
@@ -10265,7 +10266,7 @@
 
 "Witch.Dirt.WalkLeft"
 {
-	"channel"       "CHAN_BODY"
+	"channel"       "CHAN_VOICE_BASE"
 
 	"soundlevel"	"SNDLVL_NORM"
 	"pitch"			"95,105"
@@ -10279,7 +10280,7 @@
 
 "Witch.Dirt.WalkRight"
 {
-	"channel"       "CHAN_BODY"
+	"channel"       "CHAN_VOICE_BASE"
 
 	"soundlevel"	"SNDLVL_NORM"
 	"pitch"			"95,105"
@@ -10293,7 +10294,7 @@
 
 "Witch.Mud.WalkLeft"
 {
-	"channel"       "CHAN_BODY"
+	"channel"       "CHAN_VOICE_BASE"
 
 	"soundlevel"	"SNDLVL_NORM"
 	"volume"		".6"
@@ -10307,7 +10308,7 @@
 
 "Witch.Mud.WalkRight"
 {
-	"channel"       "CHAN_BODY"
+	"channel"       "CHAN_VOICE_BASE"
 
 	"soundlevel"	"SNDLVL_NORM"
 	"volume"		".6"
@@ -10321,7 +10322,7 @@
 
 "Witch.SlipperySlime.WalkLeft"
 {
-	"channel"       "CHAN_BODY"
+	"channel"       "CHAN_VOICE_BASE"
 
 	"soundlevel"	"SNDLVL_NORM"
 	"volume"		"0.6"
@@ -10335,7 +10336,7 @@
 
 "Witch.SlipperySlime.WalkRight"
 {
-	"channel"       "CHAN_BODY"
+	"channel"       "CHAN_VOICE_BASE"
 
 	"soundlevel"	"SNDLVL_NORM"
 	"volume"		"0.6"
@@ -10349,7 +10350,7 @@
 
 "Witch.Grass.WalkLeft"
 {
-	"channel"       "CHAN_BODY"
+	"channel"       "CHAN_VOICE_BASE"
 
 	"soundlevel"	"SNDLVL_NORM"
 	"pitch"			"95,105"
@@ -10363,7 +10364,7 @@
 
 "Witch.Grass.WalkRight"
 {
-	"channel"       "CHAN_BODY"
+	"channel"       "CHAN_VOICE_BASE"
 
 	"soundlevel"	"SNDLVL_NORM"
 	"pitch"			"95,105"
@@ -10377,7 +10378,7 @@
 
 "Witch.MetalVent.WalkLeft"
 {
-	"channel"       "CHAN_BODY"
+	"channel"       "CHAN_VOICE_BASE"
 
 	"soundlevel"	"SNDLVL_NORM"
 	"volume"		".94"
@@ -10391,7 +10392,7 @@
 
 "Witch.MetalVent.WalkRight"
 {
-	"channel"       "CHAN_BODY"
+	"channel"       "CHAN_VOICE_BASE"
 
 	"soundlevel"	"SNDLVL_NORM"
 	"volume"		".94"
@@ -10404,7 +10405,7 @@
 
 "Witch.Tile.WalkLeft"
 {
-	"channel"       "CHAN_BODY"
+	"channel"       "CHAN_VOICE_BASE"
 
 	"soundlevel"	"SNDLVL_NORM"
 	"volume"		".94"
@@ -10418,7 +10419,7 @@
 
 "Witch.Tile.WalkRight"
 {
-	"channel"       "CHAN_BODY"
+	"channel"       "CHAN_VOICE_BASE"
 
 	"soundlevel"	"SNDLVL_NORM"
 	"volume"		".94"
@@ -10432,7 +10433,7 @@
 
 "Witch.Water.WalkLeft"
 {
-	"channel"       "CHAN_BODY"
+	"channel"       "CHAN_VOICE_BASE"
 
 	"soundlevel"	"SNDLVL_NORM"
 	"volume"		".94"
@@ -10446,7 +10447,7 @@
 
 "Witch.Water.WalkRight"
 {
-	"channel"       "CHAN_BODY"
+	"channel"       "CHAN_VOICE_BASE"
 
 	"soundlevel"	"SNDLVL_NORM"
 	"volume"		".94"
@@ -10460,7 +10461,7 @@
 
 "Witch.Wade.WalkLeft"
 {
-	"channel"       "CHAN_BODY"
+	"channel"       "CHAN_VOICE_BASE"
 
 	"soundlevel"	"SNDLVL_NORM"
 	"volume"		"0.94"
@@ -10474,7 +10475,7 @@
 
 "Witch.Wade.WalkRight"
 {
-	"channel"       "CHAN_BODY"
+	"channel"       "CHAN_VOICE_BASE"
 
 	"soundlevel"	"SNDLVL_NORM"
 	"volume"		"0.94"
@@ -10489,7 +10490,7 @@
 
 "Witch.Ladder.WalkLeft"
 {
-	"channel"       "CHAN_BODY"
+	"channel"       "CHAN_VOICE_BASE"
 
 	"soundlevel"	"SNDLVL_NORM"
 	"pitch"			"95,105"
@@ -10504,7 +10505,7 @@
 
 "Witch.Ladder.WalkRight"
 {
-	"channel"       "CHAN_BODY"
+	"channel"       "CHAN_VOICE_BASE"
 
 	"soundlevel"	"SNDLVL_NORM"
 	"pitch"			"95,105"
@@ -10519,7 +10520,7 @@
 
 "Witch.Glass.WalkLeft"
 {
-	"channel"       "CHAN_BODY"
+	"channel"       "CHAN_VOICE_BASE"
 
 	"soundlevel"	"SNDLVL_NORM"
 	"pitch"			"95,105"
@@ -10534,7 +10535,7 @@
 
 "Witch.Glass.WalkRight"
 {
-	"channel"       "CHAN_BODY"
+	"channel"       "CHAN_VOICE_BASE"
 
 	"soundlevel"	"SNDLVL_NORM"
 	"pitch"			"95,105"
@@ -10549,7 +10550,7 @@
 
 "Witch.Concrete.WalkLeft"
 {
-	"channel"       "CHAN_BODY"
+	"channel"       "CHAN_VOICE_BASE"
 
 	"soundlevel"	"SNDLVL_NORM"
 	"volume"		".94"
@@ -10563,7 +10564,7 @@
 
 "Witch.Concrete.WalkRight"
 {
-	"channel"       "CHAN_BODY"
+	"channel"       "CHAN_VOICE_BASE"
 
 	"soundlevel"	"SNDLVL_NORM"
 	"volume"		".94"
@@ -10577,7 +10578,7 @@
 
 "Witch.Gravel.WalkLeft"
 {
-	"channel"       "CHAN_BODY"
+	"channel"       "CHAN_VOICE_BASE"
 
 	"soundlevel"	"SNDLVL_NORM"
 	"pitch"			"95,105"
@@ -10592,7 +10593,7 @@
 
 "Witch.Gravel.WalkRight"
 {
-	"channel"       "CHAN_BODY"
+	"channel"       "CHAN_VOICE_BASE"
 
 	"soundlevel"	"SNDLVL_NORM"
 	"pitch"			"95,105"
@@ -10607,7 +10608,7 @@
 
 "Witch.ChainLink.WalkLeft"
 {
-	"channel"       "CHAN_BODY"
+	"channel"       "CHAN_VOICE_BASE"
 
 	"soundlevel"	"SNDLVL_NORM"
 	"pitch"			"95,105"
@@ -10622,7 +10623,7 @@
 
 "Witch.ChainLink.WalkRight"
 {
-	"channel"       "CHAN_BODY"
+	"channel"       "CHAN_VOICE_BASE"
 
 	"soundlevel"	"SNDLVL_NORM"
 	"volume"		".94"
@@ -10636,7 +10637,7 @@
 
 "Witch.Flesh.WalkLeft"
 {
-	"channel"       "CHAN_BODY"
+	"channel"       "CHAN_VOICE_BASE"
 
 	"soundlevel"	"SNDLVL_NORM"
 	"pitch"			"95,105"
@@ -10650,7 +10651,7 @@
 
 "Witch.Flesh.WalkRight"
 {
-	"channel"       "CHAN_BODY"
+	"channel"       "CHAN_VOICE_BASE"
 
 	"soundlevel"	"SNDLVL_NORM"
 	"pitch"			"95,105"
@@ -10664,7 +10665,7 @@
 
 "Witch.Sand.WalkLeft"
 {
-	"channel"       "CHAN_BODY"
+	"channel"       "CHAN_VOICE_BASE"
 
 	"soundlevel"	"SNDLVL_NORM"
 	"pitch"			"95,105"
@@ -10678,7 +10679,7 @@
 
 "Witch.Sand.WalkRight"
 {
-	"channel"       "CHAN_BODY"
+	"channel"       "CHAN_VOICE_BASE"
 
 	"soundlevel"	"SNDLVL_NORM"
 	"pitch"			"95,105"
@@ -10692,7 +10693,7 @@
 
 "Witch.GlassBottle.WalkLeft"
 {
-	"channel"       "CHAN_BODY"
+	"channel"       "CHAN_VOICE_BASE"
 
 	"soundlevel"	"SNDLVL_NORM"
 	"volume"		"0.2"
@@ -10706,7 +10707,7 @@
 
 "Witch.GlassBottle.WalkRight"
 {
-	"channel"       "CHAN_BODY"
+	"channel"       "CHAN_VOICE_BASE"
 
 	"soundlevel"	"SNDLVL_NORM"
 	"volume"		"0.2"
@@ -10720,7 +10721,7 @@
 
 "Witch.ceiling_tile.WalkLeft"
 {
-	"channel"       "CHAN_BODY"
+	"channel"       "CHAN_VOICE_BASE"
 
 	"soundlevel"	"SNDLVL_NORM"
 	"volume"		".94"
@@ -10734,7 +10735,7 @@
 
 "Witch.ceiling_tile.WalkRight"
 {
-	"channel"       "CHAN_BODY"
+	"channel"       "CHAN_VOICE_BASE"
 
 	"soundlevel"	"SNDLVL_NORM"
 	"volume"		".94"
@@ -10748,7 +10749,7 @@
 
 "Witch.drywall.WalkLeft"
 {
-	"channel"       "CHAN_BODY"
+	"channel"       "CHAN_VOICE_BASE"
 
 	"soundlevel"	"SNDLVL_NORM"
 	"pitch"			"95,105"
@@ -10762,7 +10763,7 @@
 
 "Witch.drywall.WalkRight"
 {
-	"channel"       "CHAN_BODY"
+	"channel"       "CHAN_VOICE_BASE"
 
 	"soundlevel"	"SNDLVL_NORM"
 	"pitch"			"95,105"
@@ -10776,7 +10777,7 @@
 
 "Witch.Plaster.WalkLeft"
 {
-	"channel"       "CHAN_BODY"
+	"channel"       "CHAN_VOICE_BASE"
 
 	"soundlevel"	"SNDLVL_NORM"
 	"pitch"			"95,105"
@@ -10790,7 +10791,7 @@
 
 "Witch.Plaster.WalkRight"
 {
-	"channel"       "CHAN_BODY"
+	"channel"       "CHAN_VOICE_BASE"
 
 	"soundlevel"	"SNDLVL_NORM"
 	"pitch"			"95,105"
@@ -10804,7 +10805,7 @@
 
 "Witch.Cardboard.WalkLeft"
 {
-	"channel"       "CHAN_BODY"
+	"channel"       "CHAN_VOICE_BASE"
 
 	"soundlevel"	"SNDLVL_NORM"
 	"pitch"			"95,105"
@@ -10818,7 +10819,7 @@
 
 "Witch.Cardboard.WalkRight"
 {
-	"channel"       "CHAN_BODY"
+	"channel"       "CHAN_VOICE_BASE"
 
 	"soundlevel"	"SNDLVL_NORM"
 	"pitch"			"95,105"
@@ -10832,7 +10833,7 @@
 
 "Witch.Plastic_Barrel.WalkLeft"
 {
-	"channel"       "CHAN_BODY"
+	"channel"       "CHAN_VOICE_BASE"
 
 	"soundlevel"	"SNDLVL_NORM"
 	"pitch"			"95,105"
@@ -10846,7 +10847,7 @@
 
 "Witch.Plastic_Barrel.WalkRight"
 {
-	"channel"       "CHAN_BODY"
+	"channel"       "CHAN_VOICE_BASE"
 
 	"soundlevel"	"SNDLVL_NORM"
 	"pitch"			"95,105"
@@ -10860,7 +10861,7 @@
 
 "Witch.Plastic_Box.WalkLeft"
 {
-	"channel"       "CHAN_BODY"
+	"channel"       "CHAN_VOICE_BASE"
 
 	"soundlevel"	"SNDLVL_NORM"
 	"pitch"			"95,105"
@@ -10874,7 +10875,7 @@
 
 "Witch.Plastic_Box.WalkRight"
 {
-	"channel"       "CHAN_BODY"
+	"channel"       "CHAN_VOICE_BASE"
 
 	"soundlevel"	"SNDLVL_NORM"
 	"pitch"			"95,105"
@@ -10888,7 +10889,7 @@
 
 "Witch.Rubber.WalkLeft"
 {
-	"channel"       "CHAN_BODY"
+	"channel"       "CHAN_VOICE_BASE"
 
 	"soundlevel"	"SNDLVL_NORM"
 	"pitch"			"98,102"
@@ -10898,7 +10899,7 @@
 
 "Witch.Rubber.WalkRight"
 {
-	"channel"       "CHAN_BODY"
+	"channel"       "CHAN_VOICE_BASE"
 
 	"soundlevel"	"SNDLVL_NORM"
 	"pitch"			"98,102"
@@ -10908,7 +10909,7 @@
 
 "Witch.Grenade.WalkLeft"
 {
-	"channel"       "CHAN_BODY"
+	"channel"       "CHAN_VOICE_BASE"
 
 	"soundlevel"	"SNDLVL_NORM"
 	"pitch"			"95,105"
@@ -10922,7 +10923,7 @@
 
 "Witch.Grenade.WalkRight"
 {
-	"channel"       "CHAN_BODY"
+	"channel"       "CHAN_VOICE_BASE"
 
 	"soundlevel"	"SNDLVL_NORM"
 	"pitch"			"95,105"
@@ -10936,7 +10937,7 @@
 
 "Witch.Wood.WalkLeft"
 {
-	"channel"       "CHAN_BODY"
+	"channel"       "CHAN_VOICE_BASE"
 
 	"soundlevel"	"SNDLVL_NORM"
 	"volume"		".94"
@@ -10950,7 +10951,7 @@
 
 "Witch.Wood.WalkRight"
 {
-	"channel"       "CHAN_BODY"
+	"channel"       "CHAN_VOICE_BASE"
 
 	"soundlevel"	"SNDLVL_NORM"
 	"volume"		".94"
@@ -10964,7 +10965,7 @@
 
 "Witch.Wood_Box.WalkLeft"
 {
-	"channel"       "CHAN_BODY"
+	"channel"       "CHAN_VOICE_BASE"
 
 	"soundlevel"	"SNDLVL_NORM"
 	"volume"		".94"
@@ -10978,7 +10979,7 @@
 
 "Witch.Wood_Box.WalkRight"
 {
-	"channel"       "CHAN_BODY"
+	"channel"       "CHAN_VOICE_BASE"
 
 	"soundlevel"	"SNDLVL_NORM"
 	"volume"		".94"
@@ -10992,7 +10993,7 @@
 
 "Witch.Wood_Crate.WalkLeft"
 {
-	"channel"       "CHAN_BODY"
+	"channel"       "CHAN_VOICE_BASE"
 
 	"soundlevel"	"SNDLVL_NORM"
 	"volume"		".94"
@@ -11006,7 +11007,7 @@
 
 "Witch.Wood_Crate.WalkRight"
 {
-	"channel"       "CHAN_BODY"
+	"channel"       "CHAN_VOICE_BASE"
 
 	"soundlevel"	"SNDLVL_NORM"
 	"volume"		".94"
@@ -11020,7 +11021,7 @@
 
 "Witch.Wood_Panel.WalkLeft"
 {
-	"channel"       "CHAN_BODY"
+	"channel"       "CHAN_VOICE_BASE"
 
 	"soundlevel"	"SNDLVL_NORM"
 	"volume"		".94"
@@ -11034,7 +11035,7 @@
 
 "Witch.Wood_Panel.WalkRight"
 {
-	"channel"       "CHAN_BODY"
+	"channel"       "CHAN_VOICE_BASE"
 
 	"soundlevel"	"SNDLVL_NORM"
 	"volume"		".94"
@@ -11048,7 +11049,7 @@
 
 "Witch.Metal_Box.WalkLeft"
 {
-	"channel"       "CHAN_BODY"
+	"channel"       "CHAN_VOICE_BASE"
 
 	"soundlevel"	"SNDLVL_NORM"
 	"pitch"			"95,105"
@@ -11062,7 +11063,7 @@
 
 "Witch.Metal_Box.WalkRight"
 {
-	"channel"       "CHAN_BODY"
+	"channel"       "CHAN_VOICE_BASE"
 
 	"soundlevel"	"SNDLVL_NORM"
 	"pitch"			"95,105"
@@ -11076,7 +11077,7 @@
 
 "Witch.weapon.WalkLeft"
 {
-	"channel"       "CHAN_BODY"
+	"channel"       "CHAN_VOICE_BASE"
 
 	"soundlevel"	"SNDLVL_NORM"
 	"volume"		".94"
@@ -11086,7 +11087,7 @@
 
 "Witch.weapon.WalkRight"
 {
-	"channel"       "CHAN_BODY"
+	"channel"       "CHAN_VOICE_BASE"
 
 	"soundlevel"	"SNDLVL_NORM"
 	"volume"		".94"
@@ -11097,7 +11098,7 @@
 
 "Witch.SugarCane.WalkLeft"
 {
-	"channel"       "CHAN_BODY"
+	"channel"       "CHAN_VOICE_BASE"
 
 	"soundlevel"	"SNDLVL_NORM"
 	"volume"		".66"
@@ -11111,7 +11112,7 @@
 
 "Witch.SugarCane.WalkRight"
 {
-	"channel"       "CHAN_BODY"
+	"channel"       "CHAN_VOICE_BASE"
 
 	"soundlevel"	"SNDLVL_NORM"
 	"volume"		".66"
@@ -11125,7 +11126,7 @@
 
 "Witch.Foliage.WalkLeft"
 {
-	"channel"       "CHAN_BODY"
+	"channel"       "CHAN_VOICE_BASE"
 
 	"soundlevel"	"SNDLVL_NORM"
 	"volume"		".5"
@@ -11139,7 +11140,7 @@
 
 "Witch.Foliage.WalkRight"
 {
-	"channel"       "CHAN_BODY"
+	"channel"       "CHAN_VOICE_BASE"
 
 	"soundlevel"	"SNDLVL_NORM"
 	"volume"		".5"
@@ -11157,7 +11158,7 @@
 //----------------------------------------------------------------------------------------------------------------------------------------
 "Charger.Default.RunLeft"
 {
-	"channel"       "CHAN_BODY"
+	"channel"       "CHAN_VOICE_BASE"
 
 	"soundlevel"	"SNDLVL_90dB"
 	"volume"			".9"
@@ -11173,7 +11174,7 @@
 
 "Charger.Default.RunRight"
 {
-	"channel"       "CHAN_BODY"
+	"channel"       "CHAN_VOICE_BASE"
 
 	"soundlevel"	"SNDLVL_90dB"
 	"pitch"			"PITCH_NORM"
@@ -11193,7 +11194,7 @@
 //----------------------------------------------------------------------------------------------------------------------------------------
 "Tank.Default.StepLeft"
 {
-	"channel"       "CHAN_AUTO"
+	"channel"       "CHAN_VOICE_BASE"
 
 	"soundlevel"	"SNDLVL_120dB"
 	"volume"			"1.0"
@@ -11208,7 +11209,7 @@
 
 "Tank.Default.StepRight"
 {
-	"channel"       "CHAN_AUTO"
+	"channel"       "CHAN_VOICE_BASE"
 
 	"soundlevel"	"SNDLVL_120dB"
 	"pitch"			"95,105"
@@ -11223,7 +11224,7 @@
 
 "Tank.SugarCane.WalkLeft"
 {
-	"channel"       "CHAN_AUTO"
+	"channel"       "CHAN_VOICE_BASE"
 
 	"soundlevel"	"SNDLVL_120dB"
 	"volume"			"1.0"
@@ -11238,7 +11239,7 @@
 
 "Tank.SugarCane.WalkRight"
 {
-	"channel"       "CHAN_AUTO"
+	"channel"       "CHAN_VOICE_BASE"
 
 	"soundlevel"	"SNDLVL_120dB"
 	"pitch"			"95,105"
@@ -11253,7 +11254,7 @@
 
 "Tank.Foliage.WalkLeft"
 {
-	"channel"       "CHAN_BODY"
+	"channel"       "CHAN_VOICE_BASE"
 
 	"soundlevel"	"SNDLVL_120dB"
 	"volume"			"1.0"
@@ -11268,7 +11269,7 @@
 
 "Tank.Foliage.WalkRight"
 {
-	"channel"       "CHAN_BODY"
+	"channel"       "CHAN_VOICE_BASE"
 
 	"soundlevel"	"SNDLVL_120dB"
 	"pitch"			"95,105"
@@ -11283,7 +11284,7 @@
 
 "Tank.SugarCane.StepLeft"
 {
-	"channel"       "CHAN_AUTO"
+	"channel"       "CHAN_VOICE_BASE"
 
 	"soundlevel"	"SNDLVL_120dB"
 	"volume"			"1.0"
@@ -11298,7 +11299,7 @@
 
 "Tank.SugarCane.StepRight"
 {
-	"channel"       "CHAN_AUTO"
+	"channel"       "CHAN_VOICE_BASE"
 
 	"soundlevel"	"SNDLVL_120dB"
 	"pitch"			"95,105"
@@ -11313,7 +11314,7 @@
 
 "Tank.Foliage.StepLeft"
 {
-	"channel"       "CHAN_BODY"
+	"channel"       "CHAN_VOICE_BASE"
 
 	"soundlevel"	"SNDLVL_120dB"
 	"volume"			"1.0"
@@ -11328,7 +11329,7 @@
 
 "Tank.Foliage.StepRight"
 {
-	"channel"       "CHAN_BODY"
+	"channel"       "CHAN_VOICE_BASE"
 
 	"soundlevel"	"SNDLVL_120dB"
 	"pitch"			"95,105"
@@ -11343,7 +11344,7 @@
 
 "Tank.SolidMetal.StepLeft"
 {
-	"channel"       "CHAN_AUTO"
+	"channel"       "CHAN_VOICE_BASE"
 
 	"soundlevel"	"SNDLVL_120dB"
 	"pitch"			"95,105"
@@ -11358,7 +11359,7 @@
 
 "Tank.SolidMetal.StepRight"
 {
-	"channel"       "CHAN_AUTO"
+	"channel"       "CHAN_VOICE_BASE"
 
 	"soundlevel"	"SNDLVL_120dB"
 	"pitch"			"95,105"
@@ -11373,7 +11374,7 @@
 
 "Tank.Metalgrate.StepLeft"
 {
-	"channel"       "CHAN_AUTO"
+	"channel"       "CHAN_VOICE_BASE"
 
 
 	"soundlevel"	"SNDLVL_120dB"
@@ -11390,7 +11391,7 @@
 
 "Tank.Metalgrate.StepRight"
 {
-	"channel"       "CHAN_AUTO"
+	"channel"       "CHAN_VOICE_BASE"
 
 
 	"soundlevel"	"SNDLVL_120dB"
@@ -11408,7 +11409,7 @@
 
 "Tank.Snow.StepLeft"
 {
-	"channel"       "CHAN_AUTO"
+	"channel"       "CHAN_VOICE_BASE"
 
 
 	"soundlevel"	"SNDLVL_120dB"
@@ -11426,7 +11427,7 @@
 
 "Tank.Snow.StepRight"
 {
-	"channel"       "CHAN_AUTO"
+	"channel"       "CHAN_VOICE_BASE"
 
 
 	"soundlevel"	"SNDLVL_120dB"
@@ -11444,7 +11445,7 @@
 
 "Tank.Dirt.StepLeft"
 {
-	"channel"       "CHAN_AUTO"
+	"channel"       "CHAN_VOICE_BASE"
 
 	"soundlevel"	"SNDLVL_120dB"
 	"pitch"			"95,105"
@@ -11459,7 +11460,7 @@
 
 "Tank.Dirt.StepRight"
 {
-	"channel"       "CHAN_AUTO"
+	"channel"       "CHAN_VOICE_BASE"
 
 	"soundlevel"	"SNDLVL_120dB"
 	"pitch"			"95,105"
@@ -11474,7 +11475,7 @@
 
 "Tank.Mud.StepLeft"
 {
-	"channel"       "CHAN_AUTO"
+	"channel"       "CHAN_VOICE_BASE"
 
 	"soundlevel"	"SNDLVL_120dB"
 	"volume"		"1.0"
@@ -11489,7 +11490,7 @@
 
 "Tank.Mud.StepRight"
 {
-	"channel"       "CHAN_AUTO"
+	"channel"       "CHAN_VOICE_BASE"
 
 	"soundlevel"	"SNDLVL_120dB"
 	"volume"		"1.0"
@@ -11504,7 +11505,7 @@
 
 "Tank.SlipperySlime.StepLeft"
 {
-	"channel"       "CHAN_AUTO"
+	"channel"       "CHAN_VOICE_BASE"
 
 	"soundlevel"	"SNDLVL_120dB"
 	"volume"		"1.0"
@@ -11519,7 +11520,7 @@
 
 "Tank.SlipperySlime.StepRight"
 {
-	"channel"       "CHAN_AUTO"
+	"channel"       "CHAN_VOICE_BASE"
 
 	"soundlevel"	"SNDLVL_120dB"
 	"volume"		"1.0"
@@ -11534,7 +11535,7 @@
 
 "Tank.Grass.StepLeft"
 {
-	"channel"       "CHAN_AUTO"
+	"channel"       "CHAN_VOICE_BASE"
 
 	"soundlevel"	"SNDLVL_120dB"
 	"volume"		"1.0"
@@ -11549,7 +11550,7 @@
 
 "Tank.Grass.StepRight"
 {
-	"channel"       "CHAN_AUTO"
+	"channel"       "CHAN_VOICE_BASE"
 
 	"soundlevel"	"SNDLVL_120dB"
 	"volume"		"1.0"
@@ -11564,7 +11565,7 @@
 
 "Tank.MetalVent.StepLeft"
 {
-	"channel"       "CHAN_AUTO"
+	"channel"       "CHAN_VOICE_BASE"
 
 	"soundlevel"	"SNDLVL_120dB"
 	"volume"		"1.0"
@@ -11579,7 +11580,7 @@
 
 "Tank.MetalVent.StepRight"
 {
-	"channel"       "CHAN_AUTO"
+	"channel"       "CHAN_VOICE_BASE"
 
 	"soundlevel"	"SNDLVL_120dB"
 	"volume"		"1.0"
@@ -11593,7 +11594,7 @@
 
 "Tank.Tile.StepLeft"
 {
-	"channel"       "CHAN_AUTO"
+	"channel"       "CHAN_VOICE_BASE"
 
 	"soundlevel"	"SNDLVL_120dB"
 	"volume"		"1.0"
@@ -11608,7 +11609,7 @@
 
 "Tank.Tile.StepRight"
 {
-	"channel"       "CHAN_AUTO"
+	"channel"       "CHAN_VOICE_BASE"
 
 	"soundlevel"	"SNDLVL_120dB"
 	"volume"		"1.0"
@@ -11623,7 +11624,7 @@
 
 "Tank.Water.StepLeft"
 {
-	"channel"       "CHAN_AUTO"
+	"channel"       "CHAN_VOICE_BASE"
 
 	"soundlevel"	"SNDLVL_120dB"
 	"volume"		"1.0"
@@ -11638,7 +11639,7 @@
 
 "Tank.Water.StepRight"
 {
-	"channel"       "CHAN_AUTO"
+	"channel"       "CHAN_VOICE_BASE"
 
 	"soundlevel"	"SNDLVL_120dB"
 	"volume"		"1.0"
@@ -11653,7 +11654,7 @@
 
 "Tank.Wade.StepLeft"
 {
-	"channel"       "CHAN_AUTO"
+	"channel"       "CHAN_VOICE_BASE"
 
 	"soundlevel"	"SNDLVL_120dB"
 	"volume"		"1.0"
@@ -11668,7 +11669,7 @@
 
 "Tank.Wade.StepRight"
 {
-	"channel"       "CHAN_AUTO"
+	"channel"       "CHAN_VOICE_BASE"
 
 	"soundlevel"	"SNDLVL_120dB"
 	"volume"		"1.0"
@@ -11684,7 +11685,7 @@
 
 "Tank.Ladder.StepLeft"
 {
-	"channel"       "CHAN_AUTO"
+	"channel"       "CHAN_VOICE_BASE"
 
 	"soundlevel"	"SNDLVL_120dB"
 	"volume"		"1.0"
@@ -11699,7 +11700,7 @@
 
 "Tank.Ladder.StepRight"
 {
-	"channel"       "CHAN_AUTO"
+	"channel"       "CHAN_VOICE_BASE"
 
 	"soundlevel"	"SNDLVL_120dB"
 	"volume"		"1.0"
@@ -11714,7 +11715,7 @@
 
 "Tank.Glass.StepLeft"
 {
-	"channel"       "CHAN_AUTO"
+	"channel"       "CHAN_VOICE_BASE"
 
 	"soundlevel"	"SNDLVL_120dB"
 	"volume"		"1.0"
@@ -11729,7 +11730,7 @@
 
 "Tank.Glass.StepRight"
 {
-	"channel"       "CHAN_AUTO"
+	"channel"       "CHAN_VOICE_BASE"
 
 	"soundlevel"	"SNDLVL_120dB"
 	"volume"		"1.0"
@@ -11744,7 +11745,7 @@
 
 "Tank.Concrete.StepLeft"
 {
-	"channel"       "CHAN_AUTO"
+	"channel"       "CHAN_VOICE_BASE"
 
 	"soundlevel"	"SNDLVL_120dB"
 	"volume"		"1.0"
@@ -11759,7 +11760,7 @@
 
 "Tank.Concrete.StepRight"
 {
-	"channel"       "CHAN_AUTO"
+	"channel"       "CHAN_VOICE_BASE"
 
 	"soundlevel"	"SNDLVL_120dB"
 	"volume"		"1.0"
@@ -11774,7 +11775,7 @@
 
 "Tank.Gravel.StepLeft"
 {
-	"channel"       "CHAN_AUTO"
+	"channel"       "CHAN_VOICE_BASE"
 
 	"soundlevel"	"SNDLVL_120dB"
 	"volume"		"1.0"
@@ -11789,7 +11790,7 @@
 
 "Tank.Gravel.StepRight"
 {
-	"channel"       "CHAN_AUTO"
+	"channel"       "CHAN_VOICE_BASE"
 
 	"soundlevel"	"SNDLVL_120dB"
 	"volume"		"1.0"
@@ -11804,7 +11805,7 @@
 
 "Tank.ChainLink.StepLeft"
 {
-	"channel"       "CHAN_AUTO"
+	"channel"       "CHAN_VOICE_BASE"
 
 	"soundlevel"	"SNDLVL_120dB"
 	"volume"		"1.0"
@@ -11819,7 +11820,7 @@
 
 "Tank.ChainLink.StepRight"
 {
-	"channel"       "CHAN_AUTO"
+	"channel"       "CHAN_VOICE_BASE"
 
 	"soundlevel"	"SNDLVL_120dB"
 	"volume"		"1.0"
@@ -11834,7 +11835,7 @@
 
 "Tank.Flesh.StepLeft"
 {
-	"channel"       "CHAN_AUTO"
+	"channel"       "CHAN_VOICE_BASE"
 
 	"soundlevel"	"SNDLVL_120dB"
 	"volume"		"1.0"
@@ -11849,7 +11850,7 @@
 
 "Tank.Flesh.StepRight"
 {
-	"channel"       "CHAN_AUTO"
+	"channel"       "CHAN_VOICE_BASE"
 
 	"soundlevel"	"SNDLVL_120dB"
 	"volume"		"1.0"
@@ -11864,7 +11865,7 @@
 
 "Tank.Sand.StepLeft"
 {
-	"channel"       "CHAN_AUTO"
+	"channel"       "CHAN_VOICE_BASE"
 
 	"soundlevel"	"SNDLVL_120dB"
 	"volume"		"1.0"
@@ -11879,7 +11880,7 @@
 
 "Tank.Sand.StepRight"
 {
-	"channel"       "CHAN_AUTO"
+	"channel"       "CHAN_VOICE_BASE"
 
 	"soundlevel"	"SNDLVL_120dB"
 	"volume"		"1.0"
@@ -11894,7 +11895,7 @@
 
 "Tank.GlassBottle.StepLeft"
 {
-	"channel"       "CHAN_AUTO"
+	"channel"       "CHAN_VOICE_BASE"
 
 	"soundlevel"	"SNDLVL_120dB"
 	"volume"		"1.0"
@@ -11909,7 +11910,7 @@
 
 "Tank.GlassBottle.StepRight"
 {
-	"channel"       "CHAN_AUTO"
+	"channel"       "CHAN_VOICE_BASE"
 
 	"soundlevel"	"SNDLVL_120dB"
 	"volume"		"1.0"
@@ -11924,7 +11925,7 @@
 
 "Tank.ceiling_tile.StepLeft"
 {
-	"channel"       "CHAN_AUTO"
+	"channel"       "CHAN_VOICE_BASE"
 
 	"soundlevel"	"SNDLVL_120dB"
 	"volume"		"1.0"
@@ -11939,7 +11940,7 @@
 
 "Tank.ceiling_tile.StepRight"
 {
-	"channel"       "CHAN_AUTO"
+	"channel"       "CHAN_VOICE_BASE"
 
 	"soundlevel"	"SNDLVL_120dB"
 	"volume"		"1.0"
@@ -11954,7 +11955,7 @@
 
 "Tank.drywall.StepLeft"
 {
-	"channel"       "CHAN_AUTO"
+	"channel"       "CHAN_VOICE_BASE"
 
 	"soundlevel"	"SNDLVL_120dB"
 	"volume"		"1.0"
@@ -11969,7 +11970,7 @@
 
 "Tank.drywall.StepRight"
 {
-	"channel"       "CHAN_AUTO"
+	"channel"       "CHAN_VOICE_BASE"
 
 	"soundlevel"	"SNDLVL_120dB"
 	"volume"		"1.0"
@@ -11984,7 +11985,7 @@
 
 "Tank.Plaster.StepLeft"
 {
-	"channel"       "CHAN_AUTO"
+	"channel"       "CHAN_VOICE_BASE"
 
 	"soundlevel"	"SNDLVL_120dB"
 	"volume"		"1.0"
@@ -11999,7 +12000,7 @@
 
 "Tank.Plaster.StepRight"
 {
-	"channel"       "CHAN_AUTO"
+	"channel"       "CHAN_VOICE_BASE"
 
 	"soundlevel"	"SNDLVL_120dB"
 	"volume"		"1.0"
@@ -12014,7 +12015,7 @@
 
 "Tank.Cardboard.StepLeft"
 {
-	"channel"       "CHAN_AUTO"
+	"channel"       "CHAN_VOICE_BASE"
 
 	"soundlevel"	"SNDLVL_120dB"
 	"pitch"			"95,105"
@@ -12029,7 +12030,7 @@
 
 "Tank.Cardboard.StepRight"
 {
-	"channel"       "CHAN_AUTO"
+	"channel"       "CHAN_VOICE_BASE"
 
 	"soundlevel"	"SNDLVL_120dB"
 	"pitch"			"95,105"
@@ -12044,7 +12045,7 @@
 
 "Tank.Plastic_Barrel.StepLeft"
 {
-	"channel"       "CHAN_AUTO"
+	"channel"       "CHAN_VOICE_BASE"
 
 	"soundlevel"	"SNDLVL_120dB"
 	"pitch"			"95,105"
@@ -12059,7 +12060,7 @@
 
 "Tank.Plastic_Barrel.StepRight"
 {
-	"channel"       "CHAN_AUTO"
+	"channel"       "CHAN_VOICE_BASE"
 
 	"soundlevel"	"SNDLVL_120dB"
 	"pitch"			"95,105"
@@ -12074,7 +12075,7 @@
 
 "Tank.Plastic_Box.StepLeft"
 {
-	"channel"       "CHAN_AUTO"
+	"channel"       "CHAN_VOICE_BASE"
 
 	"soundlevel"	"SNDLVL_120dB"
 	"pitch"			"95,105"
@@ -12089,7 +12090,7 @@
 
 "Tank.Plastic_Box.StepRight"
 {
-	"channel"       "CHAN_AUTO"
+	"channel"       "CHAN_VOICE_BASE"
 
 	"soundlevel"	"SNDLVL_120dB"
 	"pitch"			"95,105"
@@ -12104,7 +12105,7 @@
 
 "Tank.Rubber.StepLeft"
 {
-	"channel"       "CHAN_AUTO"
+	"channel"       "CHAN_VOICE_BASE"
 
 	"soundlevel"	"SNDLVL_120dB"
 	"pitch"			"98,102"
@@ -12119,7 +12120,7 @@
 
 "Tank.Rubber.StepRight"
 {
-	"channel"       "CHAN_AUTO"
+	"channel"       "CHAN_VOICE_BASE"
 
 	"soundlevel"	"SNDLVL_120dB"
 	"pitch"			"98,102"
@@ -12134,7 +12135,7 @@
 
 "Tank.Grenade.StepLeft"
 {
-	"channel"       "CHAN_AUTO"
+	"channel"       "CHAN_VOICE_BASE"
 
 	"soundlevel"	"SNDLVL_120dB"
 	"pitch"			"95,105"
@@ -12149,7 +12150,7 @@
 
 "Tank.Grenade.StepRight"
 {
-	"channel"       "CHAN_AUTO"
+	"channel"       "CHAN_VOICE_BASE"
 
 	"soundlevel"	"SNDLVL_120dB"
 	"pitch"			"95,105"
@@ -12164,7 +12165,7 @@
 
 "Tank.Wood.StepLeft"
 {
-	"channel"       "CHAN_AUTO"
+	"channel"       "CHAN_VOICE_BASE"
 
 	"soundlevel"	"SNDLVL_120dB"
 	"volume"		"1.0"
@@ -12179,7 +12180,7 @@
 
 "Tank.Wood.StepRight"
 {
-	"channel"       "CHAN_AUTO"
+	"channel"       "CHAN_VOICE_BASE"
 
 	"soundlevel"	"SNDLVL_120dB"
 	"volume"		"1.0"
@@ -12194,7 +12195,7 @@
 
 "Tank.Wood_Box.StepLeft"
 {
-	"channel"       "CHAN_AUTO"
+	"channel"       "CHAN_VOICE_BASE"
 
 	"soundlevel"	"SNDLVL_120dB"
 	"volume"		"1.0"
@@ -12209,7 +12210,7 @@
 
 "Tank.Wood_Box.StepRight"
 {
-	"channel"       "CHAN_AUTO"
+	"channel"       "CHAN_VOICE_BASE"
 
 	"soundlevel"	"SNDLVL_120dB"
 	"volume"		"1.0"
@@ -12224,7 +12225,7 @@
 
 "Tank.Wood_Crate.StepLeft"
 {
-	"channel"       "CHAN_AUTO"
+	"channel"       "CHAN_VOICE_BASE"
 
 	"soundlevel"	"SNDLVL_120dB"
 	"volume"		"1.0"
@@ -12239,7 +12240,7 @@
 
 "Tank.Wood_Crate.StepRight"
 {
-	"channel"       "CHAN_AUTO"
+	"channel"       "CHAN_VOICE_BASE"
 
 	"soundlevel"	"SNDLVL_120dB"
 	"volume"		"1.0"
@@ -12254,7 +12255,7 @@
 
 "Tank.Wood_Panel.StepLeft"
 {
-	"channel"       "CHAN_AUTO"
+	"channel"       "CHAN_VOICE_BASE"
 
 	"soundlevel"	"SNDLVL_120dB"
 	"volume"		"1.0"
@@ -12269,7 +12270,7 @@
 
 "Tank.Wood_Panel.StepRight"
 {
-	"channel"       "CHAN_AUTO"
+	"channel"       "CHAN_VOICE_BASE"
 
 	"soundlevel"	"SNDLVL_120dB"
 	"volume"		"1.0"
@@ -12284,7 +12285,7 @@
 
 "Tank.Metal_Box.StepLeft"
 {
-	"channel"       "CHAN_AUTO"
+	"channel"       "CHAN_VOICE_BASE"
 
 	"soundlevel"	"SNDLVL_120dB"
 	"volume"		"1.0"
@@ -12299,7 +12300,7 @@
 
 "Tank.Metal_Box.StepRight"
 {
-	"channel"       "CHAN_AUTO"
+	"channel"       "CHAN_VOICE_BASE"
 
 	"soundlevel"	"SNDLVL_120dB"
 	"volume"		"1.0"
@@ -12314,7 +12315,7 @@
 
 "Tank.weapon.StepLeft"
 {
-	"channel"       "CHAN_AUTO"
+	"channel"       "CHAN_VOICE_BASE"
 
 	"soundlevel"	"SNDLVL_120dB"
 	"volume"		"1.0"
@@ -12329,7 +12330,7 @@
 
 "Tank.weapon.StepRight"
 {
-	"channel"       "CHAN_AUTO"
+	"channel"       "CHAN_VOICE_BASE"
 
 	"soundlevel"	"SNDLVL_120dB"
 	"volume"		"1.0"
@@ -12349,7 +12350,7 @@
 
 "Tank.Default.WalkLeft"
 {
-	"channel"       "CHAN_AUTO"
+	"channel"       "CHAN_VOICE_BASE"
 
 	"soundlevel"	"SNDLVL_120dB"
 	"volume"			"1.0"
@@ -12364,7 +12365,7 @@
 
 "Tank.Default.WalkRight"
 {
-	"channel"       "CHAN_AUTO"
+	"channel"       "CHAN_VOICE_BASE"
 
 	"soundlevel"	"SNDLVL_120dB"
 	"pitch"			"95,105"
@@ -12379,7 +12380,7 @@
 
 "Tank.SolidMetal.WalkLeft"
 {
-	"channel"       "CHAN_AUTO"
+	"channel"       "CHAN_VOICE_BASE"
 
 	"soundlevel"	"SNDLVL_120dB"
 	"pitch"			"95,105"
@@ -12394,7 +12395,7 @@
 
 "Tank.SolidMetal.WalkRight"
 {
-	"channel"       "CHAN_AUTO"
+	"channel"       "CHAN_VOICE_BASE"
 
 	"soundlevel"	"SNDLVL_120dB"
 	"pitch"			"95,105"
@@ -12409,7 +12410,7 @@
 
 "Tank.Metalgrate.WalkLeft"
 {
-	"channel"       "CHAN_AUTO"
+	"channel"       "CHAN_VOICE_BASE"
 
 
 	"soundlevel"	"SNDLVL_120dB"
@@ -12425,7 +12426,7 @@
 
 "Tank.Metalgrate.WalkRight"
 {
-	"channel"       "CHAN_AUTO"
+	"channel"       "CHAN_VOICE_BASE"
 
 
 	"soundlevel"	"SNDLVL_120dB"
@@ -12441,7 +12442,7 @@
 
 "Tank.Snow.WalkLeft"
 {
-	"channel"       "CHAN_AUTO"
+	"channel"       "CHAN_VOICE_BASE"
 
 
 	"soundlevel"	"SNDLVL_120dB"
@@ -12457,7 +12458,7 @@
 
 "Tank.Snow.WalkRight"
 {
-	"channel"       "CHAN_AUTO"
+	"channel"       "CHAN_VOICE_BASE"
 
 
 	"soundlevel"	"SNDLVL_120dB"
@@ -12473,7 +12474,7 @@
 
 "Tank.Dirt.WalkLeft"
 {
-	"channel"       "CHAN_AUTO"
+	"channel"       "CHAN_VOICE_BASE"
 
 	"soundlevel"	"SNDLVL_120dB"
 	"pitch"			"95,105"
@@ -12488,7 +12489,7 @@
 
 "Tank.Dirt.WalkRight"
 {
-	"channel"       "CHAN_AUTO"
+	"channel"       "CHAN_VOICE_BASE"
 
 	"soundlevel"	"SNDLVL_120dB"
 	"pitch"			"95,105"
@@ -12503,7 +12504,7 @@
 
 "Tank.Mud.WalkLeft"
 {
-	"channel"       "CHAN_AUTO"
+	"channel"       "CHAN_VOICE_BASE"
 
 	"soundlevel"	"SNDLVL_120dB"
 	"volume"		"1.0"
@@ -12518,7 +12519,7 @@
 
 "Tank.Mud.WalkRight"
 {
-	"channel"       "CHAN_AUTO"
+	"channel"       "CHAN_VOICE_BASE"
 
 	"soundlevel"	"SNDLVL_120dB"
 	"volume"		"1.0"
@@ -12533,7 +12534,7 @@
 
 "Tank.SlipperySlime.WalkLeft"
 {
-	"channel"       "CHAN_AUTO"
+	"channel"       "CHAN_VOICE_BASE"
 
 	"soundlevel"	"SNDLVL_120dB"
 	"volume"		"1.0"
@@ -12548,7 +12549,7 @@
 
 "Tank.SlipperySlime.WalkRight"
 {
-	"channel"       "CHAN_AUTO"
+	"channel"       "CHAN_VOICE_BASE"
 
 	"soundlevel"	"SNDLVL_120dB"
 	"volume"		"1.0"
@@ -12563,7 +12564,7 @@
 
 "Tank.Grass.WalkLeft"
 {
-	"channel"       "CHAN_AUTO"
+	"channel"       "CHAN_VOICE_BASE"
 
 	"soundlevel"	"SNDLVL_120dB"
 	"volume"		"1.0"
@@ -12578,7 +12579,7 @@
 
 "Tank.Grass.WalkRight"
 {
-	"channel"       "CHAN_AUTO"
+	"channel"       "CHAN_VOICE_BASE"
 
 	"soundlevel"	"SNDLVL_120dB"
 	"volume"		"1.0"
@@ -12593,7 +12594,7 @@
 
 "Tank.MetalVent.WalkLeft"
 {
-	"channel"       "CHAN_AUTO"
+	"channel"       "CHAN_VOICE_BASE"
 
 	"soundlevel"	"SNDLVL_120dB"
 	"volume"		"1.0"
@@ -12608,7 +12609,7 @@
 
 "Tank.MetalVent.WalkRight"
 {
-	"channel"       "CHAN_AUTO"
+	"channel"       "CHAN_VOICE_BASE"
 
 	"soundlevel"	"SNDLVL_120dB"
 	"volume"		"1.0"
@@ -12622,7 +12623,7 @@
 
 "Tank.Tile.WalkLeft"
 {
-	"channel"       "CHAN_AUTO"
+	"channel"       "CHAN_VOICE_BASE"
 
 	"soundlevel"	"SNDLVL_120dB"
 	"volume"		"1.0"
@@ -12637,7 +12638,7 @@
 
 "Tank.Tile.WalkRight"
 {
-	"channel"       "CHAN_AUTO"
+	"channel"       "CHAN_VOICE_BASE"
 
 	"soundlevel"	"SNDLVL_120dB"
 	"volume"		"1.0"
@@ -12652,7 +12653,7 @@
 
 "Tank.Water.WalkLeft"
 {
-	"channel"       "CHAN_AUTO"
+	"channel"       "CHAN_VOICE_BASE"
 
 	"soundlevel"	"SNDLVL_120dB"
 	"volume"		"1.0"
@@ -12667,7 +12668,7 @@
 
 "Tank.Water.WalkRight"
 {
-	"channel"       "CHAN_AUTO"
+	"channel"       "CHAN_VOICE_BASE"
 
 	"soundlevel"	"SNDLVL_120dB"
 	"volume"		"1.0"
@@ -12682,7 +12683,7 @@
 
 "Tank.Wade.WalkLeft"
 {
-	"channel"       "CHAN_AUTO"
+	"channel"       "CHAN_VOICE_BASE"
 
 	"soundlevel"	"SNDLVL_120dB"
 	"volume"		"1.0"
@@ -12697,7 +12698,7 @@
 
 "Tank.Wade.WalkRight"
 {
-	"channel"       "CHAN_AUTO"
+	"channel"       "CHAN_VOICE_BASE"
 
 	"soundlevel"	"SNDLVL_120dB"
 	"volume"		"1.0"
@@ -12713,7 +12714,7 @@
 
 "Tank.Ladder.WalkLeft"
 {
-	"channel"       "CHAN_AUTO"
+	"channel"       "CHAN_VOICE_BASE"
 
 	"soundlevel"	"SNDLVL_120dB"
 	"volume"		"1.0"
@@ -12728,7 +12729,7 @@
 
 "Tank.Ladder.WalkRight"
 {
-	"channel"       "CHAN_AUTO"
+	"channel"       "CHAN_VOICE_BASE"
 
 	"soundlevel"	"SNDLVL_120dB"
 	"volume"		"1.0"
@@ -12743,7 +12744,7 @@
 
 "Tank.Glass.WalkLeft"
 {
-	"channel"       "CHAN_AUTO"
+	"channel"       "CHAN_VOICE_BASE"
 
 	"soundlevel"	"SNDLVL_120dB"
 	"volume"		"1.0"
@@ -12758,7 +12759,7 @@
 
 "Tank.Glass.WalkRight"
 {
-	"channel"       "CHAN_AUTO"
+	"channel"       "CHAN_VOICE_BASE"
 
 	"soundlevel"	"SNDLVL_120dB"
 	"volume"		"1.0"
@@ -12773,7 +12774,7 @@
 
 "Tank.Concrete.WalkLeft"
 {
-	"channel"       "CHAN_AUTO"
+	"channel"       "CHAN_VOICE_BASE"
 
 	"soundlevel"	"SNDLVL_120dB"
 	"volume"		"1.0"
@@ -12788,7 +12789,7 @@
 
 "Tank.Concrete.WalkRight"
 {
-	"channel"       "CHAN_AUTO"
+	"channel"       "CHAN_VOICE_BASE"
 
 	"soundlevel"	"SNDLVL_120dB"
 	"volume"		"1.0"
@@ -12803,7 +12804,7 @@
 
 "Tank.Gravel.WalkLeft"
 {
-	"channel"       "CHAN_AUTO"
+	"channel"       "CHAN_VOICE_BASE"
 
 	"soundlevel"	"SNDLVL_120dB"
 	"volume"		"1.0"
@@ -12818,7 +12819,7 @@
 
 "Tank.Gravel.WalkRight"
 {
-	"channel"       "CHAN_AUTO"
+	"channel"       "CHAN_VOICE_BASE"
 
 	"soundlevel"	"SNDLVL_120dB"
 	"volume"		"1.0"
@@ -12833,7 +12834,7 @@
 
 "Tank.ChainLink.WalkLeft"
 {
-	"channel"       "CHAN_AUTO"
+	"channel"       "CHAN_VOICE_BASE"
 
 	"soundlevel"	"SNDLVL_120dB"
 	"volume"		"1.0"
@@ -12848,7 +12849,7 @@
 
 "Tank.ChainLink.WalkRight"
 {
-	"channel"       "CHAN_AUTO"
+	"channel"       "CHAN_VOICE_BASE"
 
 	"soundlevel"	"SNDLVL_120dB"
 	"volume"		"1.0"
@@ -12863,7 +12864,7 @@
 
 "Tank.Flesh.WalkLeft"
 {
-	"channel"       "CHAN_AUTO"
+	"channel"       "CHAN_VOICE_BASE"
 
 	"soundlevel"	"SNDLVL_120dB"
 	"volume"		"1.0"
@@ -12878,7 +12879,7 @@
 
 "Tank.Flesh.WalkRight"
 {
-	"channel"       "CHAN_AUTO"
+	"channel"       "CHAN_VOICE_BASE"
 
 	"soundlevel"	"SNDLVL_120dB"
 	"volume"		"1.0"
@@ -12893,7 +12894,7 @@
 
 "Tank.Sand.WalkLeft"
 {
-	"channel"       "CHAN_AUTO"
+	"channel"       "CHAN_VOICE_BASE"
 
 	"soundlevel"	"SNDLVL_120dB"
 	"volume"		"1.0"
@@ -12908,7 +12909,7 @@
 
 "Tank.Sand.WalkRight"
 {
-	"channel"       "CHAN_AUTO"
+	"channel"       "CHAN_VOICE_BASE"
 
 	"soundlevel"	"SNDLVL_120dB"
 	"volume"		"1.0"
@@ -12923,7 +12924,7 @@
 
 "Tank.GlassBottle.WalkLeft"
 {
-	"channel"       "CHAN_AUTO"
+	"channel"       "CHAN_VOICE_BASE"
 
 	"soundlevel"	"SNDLVL_120dB"
 	"volume"		"1.0"
@@ -12938,7 +12939,7 @@
 
 "Tank.GlassBottle.WalkRight"
 {
-	"channel"       "CHAN_AUTO"
+	"channel"       "CHAN_VOICE_BASE"
 
 	"soundlevel"	"SNDLVL_120dB"
 	"volume"		"1.0"
@@ -12953,7 +12954,7 @@
 
 "Tank.ceiling_tile.WalkLeft"
 {
-	"channel"       "CHAN_AUTO"
+	"channel"       "CHAN_VOICE_BASE"
 
 	"soundlevel"	"SNDLVL_120dB"
 	"volume"		"1.0"
@@ -12968,7 +12969,7 @@
 
 "Tank.ceiling_tile.WalkRight"
 {
-	"channel"       "CHAN_AUTO"
+	"channel"       "CHAN_VOICE_BASE"
 
 	"soundlevel"	"SNDLVL_120dB"
 	"volume"		"1.0"
@@ -12983,7 +12984,7 @@
 
 "Tank.drywall.WalkLeft"
 {
-	"channel"       "CHAN_AUTO"
+	"channel"       "CHAN_VOICE_BASE"
 
 	"soundlevel"	"SNDLVL_120dB"
 	"volume"		"1.0"
@@ -12998,7 +12999,7 @@
 
 "Tank.drywall.WalkRight"
 {
-	"channel"       "CHAN_AUTO"
+	"channel"       "CHAN_VOICE_BASE"
 
 	"soundlevel"	"SNDLVL_120dB"
 	"volume"		"1.0"
@@ -13013,7 +13014,7 @@
 
 "Tank.Plaster.WalkLeft"
 {
-	"channel"       "CHAN_AUTO"
+	"channel"       "CHAN_VOICE_BASE"
 
 	"soundlevel"	"SNDLVL_120dB"
 	"volume"		"1.0"
@@ -13028,7 +13029,7 @@
 
 "Tank.Plaster.WalkRight"
 {
-	"channel"       "CHAN_AUTO"
+	"channel"       "CHAN_VOICE_BASE"
 
 	"soundlevel"	"SNDLVL_120dB"
 	"volume"		"1.0"
@@ -13045,7 +13046,7 @@
 
 "Tank.Cardboard.WalkLeft"
 {
-	"channel"       "CHAN_AUTO"
+	"channel"       "CHAN_VOICE_BASE"
 
 	"soundlevel"	"SNDLVL_120dB"
 	"pitch"			"95,105"
@@ -13060,7 +13061,7 @@
 
 "Tank.Cardboard.WalkRight"
 {
-	"channel"       "CHAN_AUTO"
+	"channel"       "CHAN_VOICE_BASE"
 
 	"soundlevel"	"SNDLVL_120dB"
 	"pitch"			"95,105"
@@ -13075,7 +13076,7 @@
 
 "Tank.Plastic_Barrel.WalkLeft"
 {
-	"channel"       "CHAN_AUTO"
+	"channel"       "CHAN_VOICE_BASE"
 
 	"soundlevel"	"SNDLVL_120dB"
 	"pitch"			"95,105"
@@ -13090,7 +13091,7 @@
 
 "Tank.Plastic_Barrel.WalkRight"
 {
-	"channel"       "CHAN_AUTO"
+	"channel"       "CHAN_VOICE_BASE"
 
 	"soundlevel"	"SNDLVL_120dB"
 	"pitch"			"95,105"
@@ -13105,7 +13106,7 @@
 
 "Tank.Plastic_Box.WalkLeft"
 {
-	"channel"       "CHAN_AUTO"
+	"channel"       "CHAN_VOICE_BASE"
 
 	"soundlevel"	"SNDLVL_120dB"
 	"pitch"			"95,105"
@@ -13120,7 +13121,7 @@
 
 "Tank.Plastic_Box.WalkRight"
 {
-	"channel"       "CHAN_AUTO"
+	"channel"       "CHAN_VOICE_BASE"
 
 	"soundlevel"	"SNDLVL_120dB"
 	"pitch"			"95,105"
@@ -13135,7 +13136,7 @@
 
 "Tank.Rubber.WalkLeft"
 {
-	"channel"       "CHAN_AUTO"
+	"channel"       "CHAN_VOICE_BASE"
 
 	"soundlevel"	"SNDLVL_120dB"
 	"pitch"			"98,102"
@@ -13150,7 +13151,7 @@
 
 "Tank.Rubber.WalkRight"
 {
-	"channel"       "CHAN_AUTO"
+	"channel"       "CHAN_VOICE_BASE"
 
 	"soundlevel"	"SNDLVL_120dB"
 	"pitch"			"98,102"
@@ -13165,7 +13166,7 @@
 
 "Tank.Grenade.WalkLeft"
 {
-	"channel"       "CHAN_AUTO"
+	"channel"       "CHAN_VOICE_BASE"
 
 	"soundlevel"	"SNDLVL_120dB"
 	"pitch"			"95,105"
@@ -13180,7 +13181,7 @@
 
 "Tank.Grenade.WalkRight"
 {
-	"channel"       "CHAN_AUTO"
+	"channel"       "CHAN_VOICE_BASE"
 
 	"soundlevel"	"SNDLVL_120dB"
 	"pitch"			"95,105"
@@ -13195,7 +13196,7 @@
 
 "Tank.Wood.WalkLeft"
 {
-	"channel"       "CHAN_AUTO"
+	"channel"       "CHAN_VOICE_BASE"
 
 	"soundlevel"	"SNDLVL_120dB"
 	"volume"		"1.0"
@@ -13210,7 +13211,7 @@
 
 "Tank.Wood.WalkRight"
 {
-	"channel"       "CHAN_AUTO"
+	"channel"       "CHAN_VOICE_BASE"
 
 	"soundlevel"	"SNDLVL_120dB"
 	"volume"		"1.0"
@@ -13225,7 +13226,7 @@
 
 "Tank.Wood_Box.WalkLeft"
 {
-	"channel"       "CHAN_AUTO"
+	"channel"       "CHAN_VOICE_BASE"
 
 	"soundlevel"	"SNDLVL_120dB"
 	"volume"		"1.0"
@@ -13240,7 +13241,7 @@
 
 "Tank.Wood_Box.WalkRight"
 {
-	"channel"       "CHAN_AUTO"
+	"channel"       "CHAN_VOICE_BASE"
 
 	"soundlevel"	"SNDLVL_120dB"
 	"volume"		"1.0"
@@ -13255,7 +13256,7 @@
 
 "Tank.Wood_Crate.WalkLeft"
 {
-	"channel"       "CHAN_AUTO"
+	"channel"       "CHAN_VOICE_BASE"
 
 	"soundlevel"	"SNDLVL_120dB"
 	"volume"		"1.0"
@@ -13270,7 +13271,7 @@
 
 "Tank.Wood_Crate.WalkRight"
 {
-	"channel"       "CHAN_AUTO"
+	"channel"       "CHAN_VOICE_BASE"
 
 	"soundlevel"	"SNDLVL_120dB"
 	"volume"		"1.0"
@@ -13285,7 +13286,7 @@
 
 "Tank.Wood_Panel.WalkLeft"
 {
-	"channel"       "CHAN_AUTO"
+	"channel"       "CHAN_VOICE_BASE"
 
 	"soundlevel"	"SNDLVL_120dB"
 	"volume"		"1.0"
@@ -13300,7 +13301,7 @@
 
 "Tank.Wood_Panel.WalkRight"
 {
-	"channel"       "CHAN_AUTO"
+	"channel"       "CHAN_VOICE_BASE"
 
 	"soundlevel"	"SNDLVL_120dB"
 	"volume"		"1.0"
@@ -13315,7 +13316,7 @@
 
 "Tank.Metal_Box.WalkLeft"
 {
-	"channel"       "CHAN_AUTO"
+	"channel"       "CHAN_VOICE_BASE"
 
 	"soundlevel"	"SNDLVL_120dB"
 	"volume"		"1.0"
@@ -13330,7 +13331,7 @@
 
 "Tank.Metal_Box.WalkRight"
 {
-	"channel"       "CHAN_AUTO"
+	"channel"       "CHAN_VOICE_BASE"
 
 	"soundlevel"	"SNDLVL_120dB"
 	"volume"		"1.0"
@@ -13345,7 +13346,7 @@
 
 "Tank.weapon.WalkLeft"
 {
-	"channel"       "CHAN_AUTO"
+	"channel"       "CHAN_VOICE_BASE"
 
 	"soundlevel"	"SNDLVL_120dB"
 	"volume"		"1.0"
@@ -13360,7 +13361,7 @@
 
 "Tank.weapon.WalkRight"
 {
-	"channel"       "CHAN_AUTO"
+	"channel"       "CHAN_VOICE_BASE"
 
 	"soundlevel"	"SNDLVL_120dB"
 	"volume"		"1.0"
@@ -13380,7 +13381,7 @@
 
 "Clown.Default.StepLeft"
 {
-	"channel"       "CHAN_AUTO"
+	"channel"       "CHAN_VOICE_BASE"
 
 	"soundlevel"	"SNDLVL_120dB"
 	"volume"		"1.0"
@@ -13396,7 +13397,7 @@
 
 "Clown.Default.StepRight"
 {
-	"channel"       "CHAN_AUTO"
+	"channel"       "CHAN_VOICE_BASE"
 
 	"soundlevel"	"SNDLVL_120dB"
 	"volume"		"1.0"
@@ -13416,7 +13417,7 @@
 //----------------------------------------------------------------------------------------------------------------------------------------//
 "Jockey.Default.StepLeft"
 {
-	"channel"       "CHAN_BODY"
+	"channel"       "CHAN_VOICE_BASE"
 
 	"soundlevel"	"SNDLVL_NORM"
 	"volume"			".96"
@@ -13430,7 +13431,7 @@
 
 "Jockey.Default.StepRight"
 {
-	"channel"       "CHAN_BODY"
+	"channel"       "CHAN_VOICE_BASE"
 
 	"soundlevel"	"SNDLVL_NORM"
 	"pitch"			"95,105"
@@ -13444,7 +13445,7 @@
 
 "Jockey.SolidMetal.StepLeft"
 {
-	"channel"       "CHAN_BODY"
+	"channel"       "CHAN_VOICE_BASE"
 
 	"soundlevel"	"SNDLVL_NORM"
 	"pitch"			"95,105"
@@ -13458,7 +13459,7 @@
 
 "Jockey.SolidMetal.StepRight"
 {
-	"channel"       "CHAN_BODY"
+	"channel"       "CHAN_VOICE_BASE"
 
 	"soundlevel"	"SNDLVL_NORM"
 	"pitch"			"95,105"
@@ -13472,7 +13473,7 @@
 
 "Jockey.Metalgrate.StepLeft"
 {
-	"channel"       "CHAN_BODY"
+	"channel"       "CHAN_VOICE_BASE"
 
 
 	"soundlevel"	"SNDLVL_NORM"
@@ -13490,7 +13491,7 @@
 
 "Jockey.Metalgrate.StepRight"
 {
-	"channel"       "CHAN_BODY"
+	"channel"       "CHAN_VOICE_BASE"
 
 
 	"soundlevel"	"SNDLVL_NORM"
@@ -13507,7 +13508,7 @@
 
 "Jockey.Snow.StepLeft"
 {
-	"channel"       "CHAN_BODY"
+	"channel"       "CHAN_VOICE_BASE"
 
 	"soundlevel"	"SNDLVL_NORM"
 	"volume"		".96"
@@ -13521,7 +13522,7 @@
 
 "Jockey.Snow.StepRight"
 {
-	"channel"       "CHAN_BODY"
+	"channel"       "CHAN_VOICE_BASE"
 
 	"soundlevel"	"SNDLVL_NORM"
 	"volume"		".96"
@@ -13535,7 +13536,7 @@
 
 "Jockey.Dirt.StepLeft"
 {
-	"channel"       "CHAN_BODY"
+	"channel"       "CHAN_VOICE_BASE"
 
 	"soundlevel"	"SNDLVL_NORM"
 	"pitch"			"95,105"
@@ -13549,7 +13550,7 @@
 
 "Jockey.Dirt.StepRight"
 {
-	"channel"       "CHAN_BODY"
+	"channel"       "CHAN_VOICE_BASE"
 
 	"soundlevel"	"SNDLVL_NORM"
 	"pitch"			"95,105"
@@ -13563,7 +13564,7 @@
 
 "Jockey.Mud.StepLeft"
 {
-	"channel"       "CHAN_BODY"
+	"channel"       "CHAN_VOICE_BASE"
 
 	"soundlevel"	"SNDLVL_NORM"
 	"volume"		".6"
@@ -13577,7 +13578,7 @@
 
 "Jockey.Mud.StepRight"
 {
-	"channel"       "CHAN_BODY"
+	"channel"       "CHAN_VOICE_BASE"
 
 	"soundlevel"	"SNDLVL_NORM"
 	"volume"		".6"
@@ -13591,7 +13592,7 @@
 
 "Jockey.SlipperySlime.StepLeft"
 {
-	"channel"       "CHAN_BODY"
+	"channel"       "CHAN_VOICE_BASE"
 
 	"soundlevel"	"SNDLVL_NORM"
 	"volume"		"0.6"
@@ -13605,7 +13606,7 @@
 
 "Jockey.SlipperySlime.StepRight"
 {
-	"channel"       "CHAN_BODY"
+	"channel"       "CHAN_VOICE_BASE"
 
 	"soundlevel"	"SNDLVL_NORM"
 	"volume"		"0.6"
@@ -13619,7 +13620,7 @@
 
 "Jockey.Grass.StepLeft"
 {
-	"channel"       "CHAN_BODY"
+	"channel"       "CHAN_VOICE_BASE"
 
 	"soundlevel"	"SNDLVL_NORM"
 	"volume"		".96"
@@ -13633,7 +13634,7 @@
 
 "Jockey.Grass.StepRight"
 {
-	"channel"       "CHAN_BODY"
+	"channel"       "CHAN_VOICE_BASE"
 
 	"soundlevel"	"SNDLVL_NORM"
 	"volume"		".96"
@@ -13647,7 +13648,7 @@
 
 "Jockey.MetalVent.StepLeft"
 {
-	"channel"       "CHAN_BODY"
+	"channel"       "CHAN_VOICE_BASE"
 
 	"soundlevel"	"SNDLVL_NORM"
 	"volume"		".96"
@@ -13661,7 +13662,7 @@
 
 "Jockey.MetalVent.StepRight"
 {
-	"channel"       "CHAN_BODY"
+	"channel"       "CHAN_VOICE_BASE"
 
 	"soundlevel"	"SNDLVL_NORM"
 	"volume"		".96"
@@ -13674,7 +13675,7 @@
 
 "Jockey.Tile.StepLeft"
 {
-	"channel"       "CHAN_BODY"
+	"channel"       "CHAN_VOICE_BASE"
 
 	"soundlevel"	"SNDLVL_NORM"
 	"volume"		".96"
@@ -13688,7 +13689,7 @@
 
 "Jockey.Tile.StepRight"
 {
-	"channel"       "CHAN_BODY"
+	"channel"       "CHAN_VOICE_BASE"
 
 	"soundlevel"	"SNDLVL_NORM"
 	"volume"		".96"
@@ -13702,7 +13703,7 @@
 
 "Jockey.Water.StepLeft"
 {
-	"channel"       "CHAN_AUTO"
+	"channel"       "CHAN_VOICE_BASE"
 
 	"soundlevel"	"SNDLVL_NORM"
 	"volume"		".96"
@@ -13716,7 +13717,7 @@
 
 "Jockey.Water.StepRight"
 {
-	"channel"       "CHAN_AUTO"
+	"channel"       "CHAN_VOICE_BASE"
 
 	"soundlevel"	"SNDLVL_NORM"
 	"volume"		".96"
@@ -13730,7 +13731,7 @@
 
 "Jockey.Wade.StepLeft"
 {
-	"channel"       "CHAN_AUTO"
+	"channel"       "CHAN_VOICE_BASE"
 
 	"soundlevel"	"SNDLVL_NORM"
 	"volume"		"0.96"
@@ -13744,7 +13745,7 @@
 
 "Jockey.Wade.StepRight"
 {
-	"channel"       "CHAN_AUTO"
+	"channel"       "CHAN_VOICE_BASE"
 
 	"soundlevel"	"SNDLVL_NORM"
 	"volume"		"0.96"
@@ -13759,7 +13760,7 @@
 
 "Jockey.Ladder.StepLeft"
 {
-	"channel"       "CHAN_BODY"
+	"channel"       "CHAN_VOICE_BASE"
 
 	"soundlevel"	"SNDLVL_NORM"
 	"volume"		".96"
@@ -13773,7 +13774,7 @@
 
 "Jockey.Ladder.StepRight"
 {
-	"channel"       "CHAN_BODY"
+	"channel"       "CHAN_VOICE_BASE"
 
 	"soundlevel"	"SNDLVL_NORM"
 	"volume"		".96"
@@ -13787,7 +13788,7 @@
 
 "Jockey.Glass.StepLeft"
 {
-	"channel"       "CHAN_BODY"
+	"channel"       "CHAN_VOICE_BASE"
 
 	"soundlevel"	"SNDLVL_NORM"
 	"volume"		".96"
@@ -13801,7 +13802,7 @@
 
 "Jockey.Glass.StepRight"
 {
-	"channel"       "CHAN_BODY"
+	"channel"       "CHAN_VOICE_BASE"
 
 	"soundlevel"	"SNDLVL_NORM"
 	"volume"		".96"
@@ -13815,7 +13816,7 @@
 
 "Jockey.Concrete.StepLeft"
 {
-	"channel"       "CHAN_BODY"
+	"channel"       "CHAN_VOICE_BASE"
 
 	"soundlevel"	"SNDLVL_NORM"
 	"volume"		".96"
@@ -13829,7 +13830,7 @@
 
 "Jockey.Concrete.StepRight"
 {
-	"channel"       "CHAN_BODY"
+	"channel"       "CHAN_VOICE_BASE"
 
 	"soundlevel"	"SNDLVL_NORM"
 	"volume"		".96"
@@ -13843,7 +13844,7 @@
 
 "Jockey.Gravel.StepLeft"
 {
-	"channel"       "CHAN_BODY"
+	"channel"       "CHAN_VOICE_BASE"
 
 	"soundlevel"	"SNDLVL_NORM"
 	"volume"		".96"
@@ -13857,7 +13858,7 @@
 
 "Jockey.Gravel.StepRight"
 {
-	"channel"       "CHAN_BODY"
+	"channel"       "CHAN_VOICE_BASE"
 
 	"soundlevel"	"SNDLVL_NORM"
 	"volume"		".96"
@@ -13871,7 +13872,7 @@
 
 "Jockey.ChainLink.StepLeft"
 {
-	"channel"       "CHAN_BODY"
+	"channel"       "CHAN_VOICE_BASE"
 
 	"soundlevel"	"SNDLVL_NORM"
 	"volume"		".96"
@@ -13885,7 +13886,7 @@
 
 "Jockey.ChainLink.StepRight"
 {
-	"channel"       "CHAN_BODY"
+	"channel"       "CHAN_VOICE_BASE"
 
 	"soundlevel"	"SNDLVL_NORM"
 	"volume"		".96"
@@ -13899,7 +13900,7 @@
 
 "Jockey.Flesh.StepLeft"
 {
-	"channel"       "CHAN_BODY"
+	"channel"       "CHAN_VOICE_BASE"
 
 	"soundlevel"	"SNDLVL_NORM"
 	"volume"		".96"
@@ -13913,7 +13914,7 @@
 
 "Jockey.Flesh.StepRight"
 {
-	"channel"       "CHAN_BODY"
+	"channel"       "CHAN_VOICE_BASE"
 
 	"soundlevel"	"SNDLVL_NORM"
 	"volume"		".96"
@@ -13927,7 +13928,7 @@
 
 "Jockey.Sand.StepLeft"
 {
-	"channel"       "CHAN_BODY"
+	"channel"       "CHAN_VOICE_BASE"
 
 	"soundlevel"	"SNDLVL_NORM"
 	"volume"		".96"
@@ -13941,7 +13942,7 @@
 
 "Jockey.Sand.StepRight"
 {
-	"channel"       "CHAN_BODY"
+	"channel"       "CHAN_VOICE_BASE"
 
 	"soundlevel"	"SNDLVL_NORM"
 	"volume"		".96"
@@ -13955,7 +13956,7 @@
 
 "Jockey.GlassBottle.StepLeft"
 {
-	"channel"       "CHAN_BODY"
+	"channel"       "CHAN_VOICE_BASE"
 
 	"soundlevel"	"SNDLVL_NORM"
 	"volume"		"0.2"
@@ -13969,7 +13970,7 @@
 
 "Jockey.GlassBottle.StepRight"
 {
-	"channel"       "CHAN_BODY"
+	"channel"       "CHAN_VOICE_BASE"
 
 	"soundlevel"	"SNDLVL_NORM"
 	"volume"		"0.2"
@@ -13983,7 +13984,7 @@
 
 "Jockey.ceiling_tile.StepLeft"
 {
-	"channel"       "CHAN_BODY"
+	"channel"       "CHAN_VOICE_BASE"
 
 	"soundlevel"	"SNDLVL_NORM"
 	"volume"		".96"
@@ -13997,7 +13998,7 @@
 
 "Jockey.ceiling_tile.StepRight"
 {
-	"channel"       "CHAN_BODY"
+	"channel"       "CHAN_VOICE_BASE"
 
 	"soundlevel"	"SNDLVL_NORM"
 	"volume"		".96"
@@ -14011,7 +14012,7 @@
 
 "Jockey.drywall.StepLeft"
 {
-	"channel"       "CHAN_BODY"
+	"channel"       "CHAN_VOICE_BASE"
 
 	"soundlevel"	"SNDLVL_NORM"
 	"volume"		".96"
@@ -14025,7 +14026,7 @@
 
 "Jockey.drywall.StepRight"
 {
-	"channel"       "CHAN_BODY"
+	"channel"       "CHAN_VOICE_BASE"
 
 	"soundlevel"	"SNDLVL_NORM"
 	"volume"		".96"
@@ -14039,7 +14040,7 @@
 
 "Jockey.Plaster.StepLeft"
 {
-	"channel"       "CHAN_BODY"
+	"channel"       "CHAN_VOICE_BASE"
 
 	"soundlevel"	"SNDLVL_NORM"
 	"volume"		".96"
@@ -14053,7 +14054,7 @@
 
 "Jockey.Plaster.StepRight"
 {
-	"channel"       "CHAN_BODY"
+	"channel"       "CHAN_VOICE_BASE"
 
 	"soundlevel"	"SNDLVL_NORM"
 	"volume"		".96"
@@ -14067,7 +14068,7 @@
 
 "Jockey.Cardboard.StepLeft"
 {
-	"channel"       "CHAN_BODY"
+	"channel"       "CHAN_VOICE_BASE"
 
 	"soundlevel"	"SNDLVL_NORM"
 	"pitch"			"95,105"
@@ -14081,7 +14082,7 @@
 
 "Jockey.Cardboard.StepRight"
 {
-	"channel"       "CHAN_BODY"
+	"channel"       "CHAN_VOICE_BASE"
 
 	"soundlevel"	"SNDLVL_NORM"
 	"pitch"			"95,105"
@@ -14095,7 +14096,7 @@
 
 "Jockey.Plastic_Barrel.StepLeft"
 {
-	"channel"       "CHAN_BODY"
+	"channel"       "CHAN_VOICE_BASE"
 
 	"soundlevel"	"SNDLVL_NORM"
 	"pitch"			"95,105"
@@ -14109,7 +14110,7 @@
 
 "Boomer.Plastic_Barrel.StepRight"
 {
-	"channel"       "CHAN_BODY"
+	"channel"       "CHAN_VOICE_BASE"
 
 	"soundlevel"	"SNDLVL_NORM"
 	"pitch"			"95,105"
@@ -14123,7 +14124,7 @@
 
 "Jockey.Plastic_Box.StepLeft"
 {
-	"channel"       "CHAN_BODY"
+	"channel"       "CHAN_VOICE_BASE"
 
 	"soundlevel"	"SNDLVL_NORM"
 	"pitch"			"95,105"
@@ -14137,7 +14138,7 @@
 
 "Jockey.Plastic_Box.StepRight"
 {
-	"channel"       "CHAN_BODY"
+	"channel"       "CHAN_VOICE_BASE"
 
 	"soundlevel"	"SNDLVL_NORM"
 	"pitch"			"95,105"
@@ -14151,7 +14152,7 @@
 
 "Jockey.Rubber.StepLeft"
 {
-	"channel"       "CHAN_BODY"
+	"channel"       "CHAN_VOICE_BASE"
 
 	"soundlevel"	"SNDLVL_NORM"
 	"pitch"			"98,102"
@@ -14161,7 +14162,7 @@
 
 "Jockey.Rubber.StepRight"
 {
-	"channel"       "CHAN_BODY"
+	"channel"       "CHAN_VOICE_BASE"
 
 	"soundlevel"	"SNDLVL_NORM"
 	"pitch"			"98,102"
@@ -14171,7 +14172,7 @@
 
 "Jockey.Grenade.StepLeft"
 {
-	"channel"       "CHAN_BODY"
+	"channel"       "CHAN_VOICE_BASE"
 
 	"soundlevel"	"SNDLVL_NORM"
 	"volume"		".96"
@@ -14185,7 +14186,7 @@
 
 "Jockey.Grenade.StepRight"
 {
-	"channel"       "CHAN_BODY"
+	"channel"       "CHAN_VOICE_BASE"
 
 	"soundlevel"	"SNDLVL_NORM"
 	"volume"		".96"
@@ -14199,7 +14200,7 @@
 
 "Jockey.Wood.StepLeft"
 {
-	"channel"       "CHAN_BODY"
+	"channel"       "CHAN_VOICE_BASE"
 
 	"soundlevel"	"SNDLVL_NORM"
 	"volume"		".96"
@@ -14213,7 +14214,7 @@
 
 "Jockey.Wood.StepRight"
 {
-	"channel"       "CHAN_BODY"
+	"channel"       "CHAN_VOICE_BASE"
 
 	"soundlevel"	"SNDLVL_NORM"
 	"volume"		".96"
@@ -14227,7 +14228,7 @@
 
 "Jockey.Wood_Box.StepLeft"
 {
-	"channel"       "CHAN_BODY"
+	"channel"       "CHAN_VOICE_BASE"
 
 	"soundlevel"	"SNDLVL_NORM"
 	"volume"		".96"
@@ -14241,7 +14242,7 @@
 
 "Jockey.Wood_Box.StepRight"
 {
-	"channel"       "CHAN_BODY"
+	"channel"       "CHAN_VOICE_BASE"
 
 	"soundlevel"	"SNDLVL_NORM"
 	"volume"		".96"
@@ -14255,7 +14256,7 @@
 
 "Jockey.Wood_Crate.StepLeft"
 {
-	"channel"       "CHAN_BODY"
+	"channel"       "CHAN_VOICE_BASE"
 
 	"soundlevel"	"SNDLVL_NORM"
 	"volume"		".96"
@@ -14269,7 +14270,7 @@
 
 "Jockey.Wood_Crate.StepRight"
 {
-	"channel"       "CHAN_BODY"
+	"channel"       "CHAN_VOICE_BASE"
 
 	"soundlevel"	"SNDLVL_NORM"
 	"volume"		".96"
@@ -14283,7 +14284,7 @@
 
 "Jockey.Wood_Panel.StepLeft"
 {
-	"channel"       "CHAN_BODY"
+	"channel"       "CHAN_VOICE_BASE"
 
 	"soundlevel"	"SNDLVL_NORM"
 	"volume"		".96"
@@ -14297,7 +14298,7 @@
 
 "Jockey.Wood_Panel.StepRight"
 {
-	"channel"       "CHAN_BODY"
+	"channel"       "CHAN_VOICE_BASE"
 
 	"soundlevel"	"SNDLVL_NORM"
 	"volume"		".96"
@@ -14311,7 +14312,7 @@
 
 "Jockey.Metal_Box.StepLeft"
 {
-	"channel"       "CHAN_BODY"
+	"channel"       "CHAN_VOICE_BASE"
 
 	"soundlevel"	"SNDLVL_NORM"
 	"volume"		".96"
@@ -14325,7 +14326,7 @@
 
 "Jockey.Metal_Box.StepRight"
 {
-	"channel"       "CHAN_BODY"
+	"channel"       "CHAN_VOICE_BASE"
 
 	"soundlevel"	"SNDLVL_NORM"
 	"volume"		".96"
@@ -14339,7 +14340,7 @@
 
 "Jockey.weapon.StepLeft"
 {
-	"channel"       "CHAN_BODY"
+	"channel"       "CHAN_VOICE_BASE"
 
 	"soundlevel"	"SNDLVL_NORM"
 	"volume"		".96"
@@ -14349,7 +14350,7 @@
 
 "Jockey.weapon.StepRight"
 {
-	"channel"       "CHAN_BODY"
+	"channel"       "CHAN_VOICE_BASE"
 
 	"soundlevel"	"SNDLVL_NORM"
 	"volume"		".96"
@@ -14360,7 +14361,7 @@
 
 "Jockey.SugarCane.StepLeft"
 {
-	"channel"       "CHAN_BODY"
+	"channel"       "CHAN_VOICE_BASE"
 
 	"soundlevel"	"SNDLVL_NORM"
 	"volume"		".66"
@@ -14374,7 +14375,7 @@
 
 "Jockey.SugarCane.StepRight"
 {
-	"channel"       "CHAN_BODY"
+	"channel"       "CHAN_VOICE_BASE"
 
 	"soundlevel"	"SNDLVL_NORM"
 	"volume"		".66"
@@ -14388,7 +14389,7 @@
 
 "Jockey.Foliage.StepLeft"
 {
-	"channel"       "CHAN_BODY"
+	"channel"       "CHAN_VOICE_BASE"
 
 	"soundlevel"	"SNDLVL_NORM"
 	"volume"		".5"
@@ -14402,7 +14403,7 @@
 
 "Jockey.Foliage.StepRight"
 {
-	"channel"       "CHAN_BODY"
+	"channel"       "CHAN_VOICE_BASE"
 
 	"soundlevel"	"SNDLVL_NORM"
 	"volume"		".5"
@@ -14420,7 +14421,7 @@
 
 "Jockey.Default.WalkLeft"
 {
-	"channel"       "CHAN_BODY"
+	"channel"       "CHAN_VOICE_BASE"
 
 	"soundlevel"	"SNDLVL_NORM"
 	"volume"			".86"
@@ -14434,7 +14435,7 @@
 
 "Jockey.Default.WalkRight"
 {
-	"channel"       "CHAN_BODY"
+	"channel"       "CHAN_VOICE_BASE"
 
 	"soundlevel"	"SNDLVL_NORM"
 	"pitch"			"95,105"
@@ -14448,7 +14449,7 @@
 
 "Jockey.SolidMetal.WalkLeft"
 {
-	"channel"       "CHAN_BODY"
+	"channel"       "CHAN_VOICE_BASE"
 
 	"soundlevel"	"SNDLVL_NORM"
 	"pitch"			"95,105"
@@ -14462,7 +14463,7 @@
 
 "Jockey.SolidMetal.WalkRight"
 {
-	"channel"       "CHAN_BODY"
+	"channel"       "CHAN_VOICE_BASE"
 
 	"soundlevel"	"SNDLVL_NORM"
 	"pitch"			"95,105"
@@ -14476,7 +14477,7 @@
 
 "Jockey.Metalgrate.WalkLeft"
 {
-	"channel"       "CHAN_BODY"
+	"channel"       "CHAN_VOICE_BASE"
 
 
 	"soundlevel"	"SNDLVL_NORM"
@@ -14494,7 +14495,7 @@
 
 "Jockey.Metalgrate.WalkRight"
 {
-	"channel"       "CHAN_BODY"
+	"channel"       "CHAN_VOICE_BASE"
 
 
 	"soundlevel"	"SNDLVL_NORM"
@@ -14511,7 +14512,7 @@
 
 "Jockey.Snow.WalkLeft"
 {
-	"channel"       "CHAN_BODY"
+	"channel"       "CHAN_VOICE_BASE"
 
 	"soundlevel"	"SNDLVL_NORM"
 	"volume"		".96"
@@ -14525,7 +14526,7 @@
 
 "Jockey.Snow.WalkRight"
 {
-	"channel"       "CHAN_BODY"
+	"channel"       "CHAN_VOICE_BASE"
 
 	"soundlevel"	"SNDLVL_NORM"
 	"volume"		".96"
@@ -14539,7 +14540,7 @@
 
 "Jockey.Dirt.WalkLeft"
 {
-	"channel"       "CHAN_BODY"
+	"channel"       "CHAN_VOICE_BASE"
 
 	"soundlevel"	"SNDLVL_NORM"
 	"pitch"			"95,105"
@@ -14553,7 +14554,7 @@
 
 "Jockey.Dirt.WalkRight"
 {
-	"channel"       "CHAN_BODY"
+	"channel"       "CHAN_VOICE_BASE"
 
 	"soundlevel"	"SNDLVL_NORM"
 	"pitch"			"95,105"
@@ -14567,7 +14568,7 @@
 
 "Jockey.Mud.WalkLeft"
 {
-	"channel"       "CHAN_BODY"
+	"channel"       "CHAN_VOICE_BASE"
 
 	"soundlevel"	"SNDLVL_NORM"
 	"volume"		".6"
@@ -14581,7 +14582,7 @@
 
 "Jockey.Mud.WalkRight"
 {
-	"channel"       "CHAN_BODY"
+	"channel"       "CHAN_VOICE_BASE"
 
 	"soundlevel"	"SNDLVL_NORM"
 	"volume"		".6"
@@ -14595,7 +14596,7 @@
 
 "Jockey.SlipperySlime.WalkLeft"
 {
-	"channel"       "CHAN_BODY"
+	"channel"       "CHAN_VOICE_BASE"
 
 	"soundlevel"	"SNDLVL_NORM"
 	"volume"		"0.6"
@@ -14609,7 +14610,7 @@
 
 "Jockey.SlipperySlime.WalkRight"
 {
-	"channel"       "CHAN_BODY"
+	"channel"       "CHAN_VOICE_BASE"
 
 	"soundlevel"	"SNDLVL_NORM"
 	"volume"		"0.6"
@@ -14623,7 +14624,7 @@
 
 "Jockey.Grass.WalkLeft"
 {
-	"channel"       "CHAN_BODY"
+	"channel"       "CHAN_VOICE_BASE"
 
 	"soundlevel"	"SNDLVL_NORM"
 	"volume"		".86"
@@ -14637,7 +14638,7 @@
 
 "Jockey.Grass.WalkRight"
 {
-	"channel"       "CHAN_BODY"
+	"channel"       "CHAN_VOICE_BASE"
 
 	"soundlevel"	"SNDLVL_NORM"
 	"volume"		".86"
@@ -14651,7 +14652,7 @@
 
 "Jockey.MetalVent.WalkLeft"
 {
-	"channel"       "CHAN_BODY"
+	"channel"       "CHAN_VOICE_BASE"
 
 	"soundlevel"	"SNDLVL_NORM"
 	"volume"		".86"
@@ -14665,7 +14666,7 @@
 
 "Jockey.MetalVent.WalkRight"
 {
-	"channel"       "CHAN_BODY"
+	"channel"       "CHAN_VOICE_BASE"
 
 	"soundlevel"	"SNDLVL_NORM"
 	"volume"		".86"
@@ -14678,7 +14679,7 @@
 
 "Jockey.Tile.WalkLeft"
 {
-	"channel"       "CHAN_BODY"
+	"channel"       "CHAN_VOICE_BASE"
 
 	"soundlevel"	"SNDLVL_NORM"
 	"volume"		".86"
@@ -14692,7 +14693,7 @@
 
 "Jockey.Tile.WalkRight"
 {
-	"channel"       "CHAN_BODY"
+	"channel"       "CHAN_VOICE_BASE"
 
 	"soundlevel"	"SNDLVL_NORM"
 	"volume"		".86"
@@ -14706,7 +14707,7 @@
 
 "Jockey.Water.WalkLeft"
 {
-	"channel"       "CHAN_AUTO"
+	"channel"       "CHAN_VOICE_BASE"
 
 	"soundlevel"	"SNDLVL_NORM"
 	"volume"		".86"
@@ -14720,7 +14721,7 @@
 
 "Jockey.Water.WalkRight"
 {
-	"channel"       "CHAN_AUTO"
+	"channel"       "CHAN_VOICE_BASE"
 
 	"soundlevel"	"SNDLVL_NORM"
 	"volume"		".86"
@@ -14734,7 +14735,7 @@
 
 "Jockey.Wade.WalkLeft"
 {
-	"channel"       "CHAN_AUTO"
+	"channel"       "CHAN_VOICE_BASE"
 
 	"soundlevel"	"SNDLVL_NORM"
 	"volume"		"0.86"
@@ -14748,7 +14749,7 @@
 
 "Jockey.Wade.WalkRight"
 {
-	"channel"       "CHAN_AUTO"
+	"channel"       "CHAN_VOICE_BASE"
 
 	"soundlevel"	"SNDLVL_NORM"
 	"volume"		"0.86"
@@ -14763,7 +14764,7 @@
 
 "Jockey.Ladder.WalkLeft"
 {
-	"channel"       "CHAN_BODY"
+	"channel"       "CHAN_VOICE_BASE"
 
 	"soundlevel"	"SNDLVL_NORM"
 	"volume"		".86"
@@ -14777,7 +14778,7 @@
 
 "Jockey.Ladder.WalkRight"
 {
-	"channel"       "CHAN_BODY"
+	"channel"       "CHAN_VOICE_BASE"
 
 	"soundlevel"	"SNDLVL_NORM"
 	"volume"		".86"
@@ -14791,7 +14792,7 @@
 
 "Jockey.Glass.WalkLeft"
 {
-	"channel"       "CHAN_BODY"
+	"channel"       "CHAN_VOICE_BASE"
 
 	"soundlevel"	"SNDLVL_NORM"
 	"volume"		".86"
@@ -14805,7 +14806,7 @@
 
 "Jockey.Glass.WalkRight"
 {
-	"channel"       "CHAN_BODY"
+	"channel"       "CHAN_VOICE_BASE"
 
 	"soundlevel"	"SNDLVL_NORM"
 	"volume"		".86"
@@ -14819,7 +14820,7 @@
 
 "Jockey.Concrete.WalkLeft"
 {
-	"channel"       "CHAN_BODY"
+	"channel"       "CHAN_VOICE_BASE"
 
 	"soundlevel"	"SNDLVL_NORM"
 	"volume"		".86"
@@ -14833,7 +14834,7 @@
 
 "Jockey.Concrete.WalkRight"
 {
-	"channel"       "CHAN_BODY"
+	"channel"       "CHAN_VOICE_BASE"
 
 	"soundlevel"	"SNDLVL_NORM"
 	"volume"		".86"
@@ -14847,7 +14848,7 @@
 
 "Jockey.Gravel.WalkLeft"
 {
-	"channel"       "CHAN_BODY"
+	"channel"       "CHAN_VOICE_BASE"
 
 	"soundlevel"	"SNDLVL_NORM"
 	"volume"		".86"
@@ -14861,7 +14862,7 @@
 
 "Jockey.Gravel.WalkRight"
 {
-	"channel"       "CHAN_BODY"
+	"channel"       "CHAN_VOICE_BASE"
 
 	"soundlevel"	"SNDLVL_NORM"
 	"volume"		".86"
@@ -14875,7 +14876,7 @@
 
 "Jockey.ChainLink.WalkLeft"
 {
-	"channel"       "CHAN_BODY"
+	"channel"       "CHAN_VOICE_BASE"
 
 	"soundlevel"	"SNDLVL_NORM"
 	"volume"		".86"
@@ -14889,7 +14890,7 @@
 
 "Jockey.ChainLink.WalkRight"
 {
-	"channel"       "CHAN_BODY"
+	"channel"       "CHAN_VOICE_BASE"
 
 	"soundlevel"	"SNDLVL_NORM"
 	"volume"		".86"
@@ -14903,7 +14904,7 @@
 
 "Jockey.Flesh.WalkLeft"
 {
-	"channel"       "CHAN_BODY"
+	"channel"       "CHAN_VOICE_BASE"
 
 	"soundlevel"	"SNDLVL_NORM"
 	"volume"		".86"
@@ -14917,7 +14918,7 @@
 
 "Jockey.Flesh.WalkRight"
 {
-	"channel"       "CHAN_BODY"
+	"channel"       "CHAN_VOICE_BASE"
 
 	"soundlevel"	"SNDLVL_NORM"
 	"volume"		".86"
@@ -14931,7 +14932,7 @@
 
 "Jockey.Sand.WalkLeft"
 {
-	"channel"       "CHAN_BODY"
+	"channel"       "CHAN_VOICE_BASE"
 
 	"soundlevel"	"SNDLVL_NORM"
 	"volume"		".86"
@@ -14945,7 +14946,7 @@
 
 "Jockey.Sand.WalkRight"
 {
-	"channel"       "CHAN_BODY"
+	"channel"       "CHAN_VOICE_BASE"
 
 	"soundlevel"	"SNDLVL_NORM"
 	"volume"		".86"
@@ -14959,7 +14960,7 @@
 
 "Jockey.GlassBottle.WalkLeft"
 {
-	"channel"       "CHAN_BODY"
+	"channel"       "CHAN_VOICE_BASE"
 
 	"soundlevel"	"SNDLVL_NORM"
 	"volume"		"0.2"
@@ -14973,7 +14974,7 @@
 
 "Jockey.GlassBottle.WalkRight"
 {
-	"channel"       "CHAN_BODY"
+	"channel"       "CHAN_VOICE_BASE"
 
 	"soundlevel"	"SNDLVL_NORM"
 	"volume"		"0.2"
@@ -14987,7 +14988,7 @@
 
 "Jockey.ceiling_tile.WalkLeft"
 {
-	"channel"       "CHAN_BODY"
+	"channel"       "CHAN_VOICE_BASE"
 
 	"soundlevel"	"SNDLVL_NORM"
 	"volume"		".86"
@@ -15001,7 +15002,7 @@
 
 "Jockey.ceiling_tile.WalkRight"
 {
-	"channel"       "CHAN_BODY"
+	"channel"       "CHAN_VOICE_BASE"
 
 	"soundlevel"	"SNDLVL_NORM"
 	"volume"		".86"
@@ -15015,7 +15016,7 @@
 
 "Jockey.drywall.WalkLeft"
 {
-	"channel"       "CHAN_BODY"
+	"channel"       "CHAN_VOICE_BASE"
 
 	"soundlevel"	"SNDLVL_NORM"
 	"volume"		".86"
@@ -15029,7 +15030,7 @@
 
 "Jockey.drywall.WalkRight"
 {
-	"channel"       "CHAN_BODY"
+	"channel"       "CHAN_VOICE_BASE"
 
 	"soundlevel"	"SNDLVL_NORM"
 	"volume"		".86"
@@ -15043,7 +15044,7 @@
 
 "Jockey.Plaster.WalkLeft"
 {
-	"channel"       "CHAN_BODY"
+	"channel"       "CHAN_VOICE_BASE"
 
 	"soundlevel"	"SNDLVL_NORM"
 	"volume"		".86"
@@ -15057,7 +15058,7 @@
 
 "Jockey.Plaster.WalkRight"
 {
-	"channel"       "CHAN_BODY"
+	"channel"       "CHAN_VOICE_BASE"
 
 	"soundlevel"	"SNDLVL_NORM"
 	"volume"		".86"
@@ -15071,7 +15072,7 @@
 
 "Jockey.Cardboard.WalkLeft"
 {
-	"channel"       "CHAN_BODY"
+	"channel"       "CHAN_VOICE_BASE"
 
 	"soundlevel"	"SNDLVL_NORM"
 	"pitch"			"95,105"
@@ -15085,7 +15086,7 @@
 
 "Jockey.Cardboard.WalkRight"
 {
-	"channel"       "CHAN_BODY"
+	"channel"       "CHAN_VOICE_BASE"
 
 	"soundlevel"	"SNDLVL_NORM"
 	"pitch"			"95,105"
@@ -15099,7 +15100,7 @@
 
 "Jockey.Plastic_Barrel.WalkLeft"
 {
-	"channel"       "CHAN_BODY"
+	"channel"       "CHAN_VOICE_BASE"
 
 	"soundlevel"	"SNDLVL_NORM"
 	"pitch"			"95,105"
@@ -15113,7 +15114,7 @@
 
 "Jockey.Plastic_Barrel.WalkRight"
 {
-	"channel"       "CHAN_BODY"
+	"channel"       "CHAN_VOICE_BASE"
 
 	"soundlevel"	"SNDLVL_NORM"
 	"pitch"			"95,105"
@@ -15127,7 +15128,7 @@
 
 "Jockey.Plastic_Box.WalkLeft"
 {
-	"channel"       "CHAN_BODY"
+	"channel"       "CHAN_VOICE_BASE"
 
 	"soundlevel"	"SNDLVL_NORM"
 	"pitch"			"95,105"
@@ -15141,7 +15142,7 @@
 
 "Jockey.Plastic_Box.WalkRight"
 {
-	"channel"       "CHAN_BODY"
+	"channel"       "CHAN_VOICE_BASE"
 
 	"soundlevel"	"SNDLVL_NORM"
 	"pitch"			"95,105"
@@ -15155,7 +15156,7 @@
 
 "Jockey.Rubber.WalkLeft"
 {
-	"channel"       "CHAN_BODY"
+	"channel"       "CHAN_VOICE_BASE"
 
 	"soundlevel"	"SNDLVL_NORM"
 	"pitch"			"98,102"
@@ -15165,7 +15166,7 @@
 
 "Jockey.Rubber.WalkRight"
 {
-	"channel"       "CHAN_BODY"
+	"channel"       "CHAN_VOICE_BASE"
 
 	"soundlevel"	"SNDLVL_NORM"
 	"pitch"			"98,102"
@@ -15175,7 +15176,7 @@
 
 "Jockey.Grenade.WalkLeft"
 {
-	"channel"       "CHAN_BODY"
+	"channel"       "CHAN_VOICE_BASE"
 
 	"soundlevel"	"SNDLVL_NORM"
 	"volume"		".86"
@@ -15189,7 +15190,7 @@
 
 "Jockey.Grenade.WalkRight"
 {
-	"channel"       "CHAN_BODY"
+	"channel"       "CHAN_VOICE_BASE"
 
 	"soundlevel"	"SNDLVL_NORM"
 	"volume"		".86"
@@ -15203,7 +15204,7 @@
 
 "Jockey.Wood.WalkLeft"
 {
-	"channel"       "CHAN_BODY"
+	"channel"       "CHAN_VOICE_BASE"
 
 	"soundlevel"	"SNDLVL_NORM"
 	"volume"		".86"
@@ -15217,7 +15218,7 @@
 
 "Jockey.Wood.WalkRight"
 {
-	"channel"       "CHAN_BODY"
+	"channel"       "CHAN_VOICE_BASE"
 
 	"soundlevel"	"SNDLVL_NORM"
 	"volume"		".86"
@@ -15231,7 +15232,7 @@
 
 "Jockey.Wood_Box.WalkLeft"
 {
-	"channel"       "CHAN_BODY"
+	"channel"       "CHAN_VOICE_BASE"
 
 	"soundlevel"	"SNDLVL_NORM"
 	"volume"		".86"
@@ -15245,7 +15246,7 @@
 
 "Jockey.Wood_Box.WalkRight"
 {
-	"channel"       "CHAN_BODY"
+	"channel"       "CHAN_VOICE_BASE"
 
 	"soundlevel"	"SNDLVL_NORM"
 	"volume"		".86"
@@ -15259,7 +15260,7 @@
 
 "Jockey.Wood_Crate.WalkLeft"
 {
-	"channel"       "CHAN_BODY"
+	"channel"       "CHAN_VOICE_BASE"
 
 	"soundlevel"	"SNDLVL_NORM"
 	"volume"		".86"
@@ -15273,7 +15274,7 @@
 
 "Jockey.Wood_Crate.WalkRight"
 {
-	"channel"       "CHAN_BODY"
+	"channel"       "CHAN_VOICE_BASE"
 
 	"soundlevel"	"SNDLVL_NORM"
 	"volume"		".86"
@@ -15287,7 +15288,7 @@
 
 "Jockey.Wood_Panel.WalkLeft"
 {
-	"channel"       "CHAN_BODY"
+	"channel"       "CHAN_VOICE_BASE"
 
 	"soundlevel"	"SNDLVL_NORM"
 	"volume"		".86"
@@ -15301,7 +15302,7 @@
 
 "Jockey.Wood_Panel.WalkRight"
 {
-	"channel"       "CHAN_BODY"
+	"channel"       "CHAN_VOICE_BASE"
 
 	"soundlevel"	"SNDLVL_NORM"
 	"volume"		".86"
@@ -15315,7 +15316,7 @@
 
 "Jockey.Metal_Box.WalkLeft"
 {
-	"channel"       "CHAN_BODY"
+	"channel"       "CHAN_VOICE_BASE"
 
 	"soundlevel"	"SNDLVL_NORM"
 	"volume"		".86"
@@ -15329,7 +15330,7 @@
 
 "Jockey.Metal_Box.WalkRight"
 {
-	"channel"       "CHAN_BODY"
+	"channel"       "CHAN_VOICE_BASE"
 
 	"soundlevel"	"SNDLVL_NORM"
 	"volume"		".86"
@@ -15343,7 +15344,7 @@
 
 "Jockey.weapon.WalkLeft"
 {
-	"channel"       "CHAN_BODY"
+	"channel"       "CHAN_VOICE_BASE"
 
 	"soundlevel"	"SNDLVL_NORM"
 	"volume"		".86"
@@ -15353,7 +15354,7 @@
 
 "Jockey.weapon.WalkRight"
 {
-	"channel"       "CHAN_BODY"
+	"channel"       "CHAN_VOICE_BASE"
 
 	"soundlevel"	"SNDLVL_NORM"
 	"volume"		".86"
@@ -15364,7 +15365,7 @@
 
 "Jockey.SugarCane.WalkLeft"
 {
-	"channel"       "CHAN_BODY"
+	"channel"       "CHAN_VOICE_BASE"
 
 	"soundlevel"	"SNDLVL_NORM"
 	"volume"		".66"
@@ -15378,7 +15379,7 @@
 
 "Jockey.SugarCane.WalkRight"
 {
-	"channel"       "CHAN_BODY"
+	"channel"       "CHAN_VOICE_BASE"
 
 	"soundlevel"	"SNDLVL_NORM"
 	"volume"		".66"
@@ -15392,7 +15393,7 @@
 
 "Jockey.Foliage.WalkLeft"
 {
-	"channel"       "CHAN_BODY"
+	"channel"       "CHAN_VOICE_BASE"
 
 	"soundlevel"	"SNDLVL_NORM"
 	"volume"		".5"
@@ -15406,7 +15407,7 @@
 
 "Jockey.Foliage.WalkRight"
 {
-	"channel"       "CHAN_BODY"
+	"channel"       "CHAN_VOICE_BASE"
 
 	"soundlevel"	"SNDLVL_NORM"
 	"volume"		".5"
@@ -15418,3 +15419,22 @@
 	}
 }
 
+
+//----------------------------------------------------------------------------------------------------------------------------------------//
+//Unused, might make use of it tho :)
+//----------------------------------------------------------------------------------------------------------------------------------------//
+"Hunter.Footstep"
+{
+	"channel"       "CHAN_VOICE_BASE"
+
+	"soundlevel"	"65"
+	"volume"			".02"
+	"pitch"			"95,105"
+	"rndwave"
+	{
+		"wave"		"player/footsteps/witch/run/concrete1.wav"
+		"wave"		"player/footsteps/witch/run/concrete2.wav"
+		"wave"		"player/footsteps/witch/run/concrete3.wav"
+		"wave"		"player/footsteps/witch/run/concrete4.wav"
+	}
+}
