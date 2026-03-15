@@ -15375,7 +15375,7 @@
 	}
 }
 
-"Boomer.Snow.RunLeft"
+"Boomer.Snow.StepLeft"
 {
 	"channel"       "CHAN_VOICE_BASE"
 
@@ -15390,7 +15390,7 @@
 	}
 }
 
-"Boomer.Snow.RunRight"
+"Boomer.Snow.StepRight"
 {
 	"channel"       "CHAN_VOICE_BASE"
 
@@ -15435,7 +15435,7 @@
 	}
 }
 
-"Jockey.Snow.RunLeft"
+"Jockey.Snow.StepLeft"
 {
 	"channel"       "CHAN_VOICE_BASE"
 
@@ -15450,7 +15450,7 @@
 	}
 }
 
-"Jockey.Snow.RunRight"
+"Jockey.Snow.StepRight"
 {
 	"channel"       "CHAN_VOICE_BASE"
 
