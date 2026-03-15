@@ -7,8 +7,14 @@
 	"channel"		"CHAN_STATIC"
 	"volume"		"1.0"
 	"soundlevel"	"SNDLVL_NONE"
-	
-	"wave" "@#ui/gamestartup1.mp3"
+	"rndwave"
+	{
+		"wave" "@#music/l4d2/l4d2_c1.wav"
+		"wave" "@#music/l4d2/l4d2_c2.wav"
+		"wave" "@#music/l4d2/l4d2_c3.wav"
+		"wave" "@#music/l4d2/l4d2_c4.wav"
+		"wave" "@#music/l4d2/l4d2_c5.wav"
+	}
 }
 "Event.MissionStart_Survival"
 {
