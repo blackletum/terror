@@ -13380,34 +13380,6 @@
 
 }
 
-"Jockey.Snow.StepLeft"
-{
-	"channel"       "CHAN_VOICE_BASE"
-
-	"soundlevel"	"SNDLVL_NORM"
-	"volume"		".96"
-	"pitch"			"95,105"
-	"rndwave"
-	{
-		"wave"		"player/footsteps/boomer/run/sand1.wav"
-		"wave"		"player/footsteps/boomer/run/sand3.wav"
-	}
-}
-
-"Jockey.Snow.StepRight"
-{
-	"channel"       "CHAN_VOICE_BASE"
-
-	"soundlevel"	"SNDLVL_NORM"
-	"volume"		".96"
-	"pitch"			"95,105"
-	"rndwave"
-	{
-		"wave"		"player/footsteps/boomer/run/sand2.wav"
-		"wave"		"player/footsteps/boomer/run/sand4.wav"
-	}
-}
-
 "Jockey.Dirt.StepLeft"
 {
 	"channel"       "CHAN_VOICE_BASE"

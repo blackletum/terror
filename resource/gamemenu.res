@@ -15,7 +15,7 @@
 	"3"
 	{
 		"label" "CALL A VOTE"
-		"command" "engine show_menu CallVote; gameui_hide"
+		"command" "callvote"
 		"OnlyInGame" "1"
 	}
 	"4"

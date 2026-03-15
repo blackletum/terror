@@ -2,6 +2,14 @@
 //----------------------------------------------------------------------------------------
 // Events 
 //
+"Event.BackgroundMap"
+{
+	"channel"		"CHAN_STATIC"
+	"volume"		"1.0"
+	"soundlevel"	"SNDLVL_NONE"
+	
+	"wave" "@#ui/gamestartup1.mp3"
+}
 "Event.MissionStart_Survival"
 {
 	"channel"		"CHAN_STATIC"
