@@ -2405,19 +2405,19 @@ criterion "IsDeadManager"		"DeadCharacter"	"manager"		required
 
 
 criterion "IsNotTalkBiker"   "TalkBiker" "1" required                                                                                                                                                                                        
-criterion "IsTalkBiker"   "TalkBiker" "!=1" required      //default and should be on every record that can be squelched
+criterion "IsTalkBiker"   "Who" "biker" required      //default and should be on every record that can be squelched
 
 criterion "IsNotTalkNamVet"   "TalkNamVet" "1" required                                                                                                                                                                                        
-criterion "IsTalkNamVet"   "TalkNamVet" "!=1" required      //default and should be on every record that can be squelched
+criterion "IsTalkNamVet"   "Who" "namvet" required      //default and should be on every record that can be squelched
 
 criterion "IsNotTalkTeenGirl"   "TalkTeenGirl" "1" required                                                                                                                                                                                        
-criterion "IsTalkTeenGirl"   "TalkTeenGirl" "!=1" required      //default and should be on every record that can be squelched
+criterion "IsTalkTeenGirl"   "who" "teengirl" required      //default and should be on every record that can be squelched
 
 criterion "IsNotTalkManager"   "TalkManager" "1" required                                                                                                                                                                                        
-criterion "IsTalkManager"   "TalkManager" "!=1" required      //default and should be on every record that can be squelched
+criterion "IsTalkManager"   "who" "manager" required      //default and should be on every record that can be squelched
 
 criterion "IsTeenGirlAlive"   "IsTeenGirlAlive" "1" required      
-criterion "IsManagerAlive"   "IsManager	" "1" required      
+criterion "IsManagerAlive"   "IsManagerAlive" "1" required      
 criterion "IsBikerAlive"   "IsBikerAlive" "1" required      
 criterion "IsNamVetAlive"   "IsNamVetAlive" "1" required      
 

@@ -57,9 +57,9 @@
 			// in folders where they don't exist.  (Searching a VPK is much faster than making an operating
 			// system call.)
 
-			game			|appid_240|cstrike
-			game			|appid_240|cstrike/cstrike_english.vpk
-			game			|appid_240|cstrike/cstrike_pak.vpk
+				game			|appid_240|cstrike
+				game			|appid_240|cstrike/cstrike_english.vpk
+				game			|appid_240|cstrike/cstrike_pak.vpk
 
 			game				|all_source_engine_paths|hl2/hl2_textures.vpk
 			game				|all_source_engine_paths|hl2/hl2_sound_vo_english.vpk
@@ -72,16 +72,16 @@
 			game				|all_source_engine_paths|hl2
 			platform			|all_source_engine_paths|platform
 
-			game			|appid_550|left4dead2
-			game			|appid_550|left4dead2_dlc1
-			game			|appid_550|left4dead2_dlc2
-			game			|appid_550|left4dead2_dlc3
-			game			|appid_550|update
-			game			|appid_550|left4dead2\pak01.vpk
-			game			|appid_550|left4dead2_dlc1\pak01.vpk
-			game			|appid_550|left4dead2_dlc2\pak01.vpk
-			game			|appid_550|left4dead2_dlc3\pak01.vpk
-			game			|appid_550|update\pak01.vpk
+				game			|appid_550|left4dead2
+				game			|appid_550|left4dead2_dlc1
+				game			|appid_550|left4dead2_dlc2
+				game			|appid_550|left4dead2_dlc3
+				game			|appid_550|update
+				game			|appid_550|left4dead2\pak01.vpk
+				game			|appid_550|left4dead2_dlc1\pak01.vpk
+				game			|appid_550|left4dead2_dlc2\pak01.vpk
+				game			|appid_550|left4dead2_dlc3\pak01.vpk
+				game			|appid_550|update\pak01.vpk
 			// Random files downloaded from gameservers go into a seperate directory, so
 			// that it's easy to keep those files segregated from the official game files
 			// or customizations intentially installed by the user.

@@ -21,7 +21,7 @@ Response NPCC1M2WhitakerPutCola
 }
 Rule NPCC1M2WhitakerPutCola
 {
-	criteria Conceptwhitakerputcola IsTalk IsNotSaidwhitakerputcola
+	criteria ConceptwhitakerputcolaIsNotSaidwhitakerputcola
 	ApplyContext "Saidwhitakerputcola:1:20"
 	applycontexttoworld
 	Response NPCC1M2WhitakerPutCola
