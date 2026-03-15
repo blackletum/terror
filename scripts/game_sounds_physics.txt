@@ -15313,8 +15313,9 @@
 	}
 }
 
+// THE LAST STAND!!!!!!!!!!!!!!!!!!!!!!!!!!!
 
-"Infected.Snow.RunLeft"
+"Infected.Snow.StepLeft"
 {
 	"channel"       "CHAN_VOICE_BASE"
 
@@ -15329,7 +15330,7 @@
 	}
 }
 
-"Infected.Snow.RunRight"
+"Infected.Snow.StepRight"
 {
 	"channel"       "CHAN_VOICE_BASE"
 
