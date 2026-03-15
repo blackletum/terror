@@ -2347,26 +2347,26 @@
 	// }
 // }
 
-// // Played when attacking
-// "SpitterZombie.Attack"
-// {
-	// "channel"		"CHAN_VOICE"
-	// "volume"		"1"
-	// "soundlevel"	"SNDLVL_110dB"
-	// "pitch"			"95, 105"
+// Played when attacking
+"SpitterZombie.Attack"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"1"
+	"soundlevel"	"SNDLVL_110dB"
+	"pitch"			"95, 105"
 
-	//"GameData"
-	//{
-	//	"Priority"	"Interesting"
-	//}
+	"GameData"
+	{
+		"Priority"	"Interesting"
+	}
 
-	// "rndwave"
-	// {
-		// "wave"	"player/spitter/voice/attack/Spitter_Attack_01.wav"
-		// "wave"	"player/spitter/voice/attack/Spitter_Attack_02.wav"
+	"rndwave"
+	{
+		"wave"	"player/spitter/voice/attack/Spitter_Attack_01.wav"
+		"wave"	"player/spitter/voice/attack/Spitter_Attack_02.wav"
 
-	// }
-// }
+	}
+}
 
 // In pain
 "SpitterZombie.Pain"
