@@ -182,7 +182,7 @@ criterion "IsGamblerActor"   "GamblerActor"     "1"      required
 
 response C1M2GrabbingColaCoach
 {
-	scene "scenes/npcs/Orator_Blank.vcd"  then Coach C1M2GrabbingCola2 CoachActor:1 0 // [BLANK]	
+	scene "scenes/npcs/Orator_Blank.vcd"  //then Coach C1M2GrabbingCola2 CoachActor:1 0 // [BLANK]	
 }
 
 rule C1M2GrabbingColaCoach
@@ -196,7 +196,7 @@ rule C1M2GrabbingColaCoach
 
 response C1M2GrabbingColaGambler
 {
-	scene "scenes/npcs/Orator_Blank.vcd"  then Gambler C1M2GrabbingCola2 GamblerActor:1 0 // [BLANK]	
+	scene "scenes/npcs/Orator_Blank.vcd"  //then Gambler C1M2GrabbingCola2 GamblerActor:1 0 // [BLANK]	
 }
 
 rule C1M2GrabbingColaGambler
@@ -211,7 +211,7 @@ rule C1M2GrabbingColaGambler
 
 response C1M2GrabbingColaMechanic
 {							    
-	scene "scenes/npcs/Orator_Blank.vcd"  then Mechanic C1M2GrabbingCola2 MechanicActor:1 0 // [BLANK]	
+	scene "scenes/npcs/Orator_Blank.vcd"  //then Mechanic C1M2GrabbingCola2 MechanicActor:1 0 // [BLANK]	
 }
 
 rule C1M2GrabbingColaMechanic
@@ -224,7 +224,7 @@ rule C1M2GrabbingColaMechanic
 
 response C1M2GrabbingColaProducer
 {
-	scene "scenes/npcs/Orator_Blank.vcd"  then Producer C1M2GrabbingCola2 ProducerActor:1 0 // [BLANK]	
+	scene "scenes/npcs/Orator_Blank.vcd"  //then Producer C1M2GrabbingCola2 ProducerActor:1 0 // [BLANK]	
 }
 
 rule C1M2GrabbingColaProducer
@@ -282,7 +282,7 @@ rule C1M2GrabbingColaProducer
 criterion "ConceptC3M1CallFerry"   "Concept" "C3M1CallFerry"	required
 response C3M1CallFerryProducer
 {
-	scene "scenes/NPCS/Orator_Blank.vcd"  then any C3M1CallFerry2 ProducerActor:1 0
+	scene "scenes/NPCS/Orator_Blank.vcd"  //then any C3M1CallFerry2 ProducerActor:1 0
 }
 
 rule C3M1CallFerryProducer
@@ -294,7 +294,7 @@ rule C3M1CallFerryProducer
 
 response C3M1CallFerryGambler
 {
-	scene "scenes/NPCS/Orator_Blank.vcd"  then any C3M1CallFerry2 GamblerActor:1 0
+	scene "scenes/NPCS/Orator_Blank.vcd"  //then any C3M1CallFerry2 GamblerActor:1 0
 }
 
 rule C3M1CallFerryGambler
@@ -307,7 +307,7 @@ rule C3M1CallFerryGambler
 
 response C3M1CallFerryMechanic
 {
-	scene "scenes/NPCS/Orator_Blank.vcd"  then any C3M1CallFerry2 MechanicActor:1 0
+	scene "scenes/NPCS/Orator_Blank.vcd"  //then any C3M1CallFerry2 MechanicActor:1 0
 }
 
 rule C3M1CallFerryMechanic
@@ -319,7 +319,7 @@ rule C3M1CallFerryMechanic
 
 response C3M1CallFerryCoach
 {
-	scene "scenes/NPCS/Orator_Blank.vcd"  then any C3M1CallFerry2 CoachActor:1 0
+	scene "scenes/NPCS/Orator_Blank.vcd"  //then any C3M1CallFerry2 CoachActor:1 0
 }
 
 rule C3M1CallFerryCoach
@@ -334,7 +334,7 @@ rule C3M1CallFerryCoach
 criterion "ConceptC3M1FerryLanded"   "Concept" "C3M1FerryLanded"	required
 response C3M1FerryLanded
 {
-	scene "scenes/NPCS/Orator_Blank.vcd"  then any C3M1FerryLanded2 foo:0 0
+	scene "scenes/NPCS/Orator_Blank.vcd"  //then any C3M1FerryLanded2 foo:0 0
 }
 
 rule C3M1FerryLanded
@@ -347,7 +347,7 @@ rule C3M1FerryLanded
 criterion "ConceptC3M1FerryLaunched"   "Concept" "C3M1FerryLaunched"	required
 response C3M1FerryLaunched
 {
-	scene "scenes/NPCS/Orator_Blank.vcd"  then any C3M1FerryLaunched2 foo:0 0
+	scene "scenes/NPCS/Orator_Blank.vcd"  //then any C3M1FerryLaunched2 foo:0 0
 }
 
 rule C3M1FerryLaunched
@@ -367,7 +367,7 @@ Criterion "IsNotSaidC3M2OpenDoor" "worldSaidC3M2OpenDoor" "!=1" "required" weigh
 Criterion "IsNotSaidC3M2OpenDoor2" "worldSaidC3M2OpenDoor2" "!=1" "required" weight 0
 response C3M2OpenDoorProducer
 {
-	scene "scenes/NPCS/Orator_Blank.vcd"  then any C3M2OpenDoor2 ProducerActor:1 0
+	scene "scenes/NPCS/Orator_Blank.vcd"  //then any C3M2OpenDoor2 ProducerActor:1 0
 }
 
 rule C3M2OpenDoorProducer
@@ -379,7 +379,7 @@ rule C3M2OpenDoorProducer
 
 response C3M2OpenDoorGambler
 {
-	scene "scenes/NPCS/Orator_Blank.vcd"  then any C3M2OpenDoor2 GamblerActor:1 0
+	scene "scenes/NPCS/Orator_Blank.vcd"  //then any C3M2OpenDoor2 GamblerActor:1 0
 }
 
 rule C3M2OpenDoorGambler
@@ -392,7 +392,7 @@ rule C3M2OpenDoorGambler
 
 response C3M2OpenDoorMechanic
 {
-	scene "scenes/NPCS/Orator_Blank.vcd"  then any C3M2OpenDoor2 MechanicActor:1 0
+	scene "scenes/NPCS/Orator_Blank.vcd"  //then any C3M2OpenDoor2 MechanicActor:1 0
 }
 
 rule C3M2OpenDoorMechanic
@@ -404,7 +404,7 @@ rule C3M2OpenDoorMechanic
 
 response C3M2OpenDoorCoach
 {
-	scene "scenes/NPCS/Orator_Blank.vcd"  then any C3M2OpenDoor2 CoachActor:1 0
+	scene "scenes/NPCS/Orator_Blank.vcd"  //then any C3M2OpenDoor2 CoachActor:1 0
 }
 
 rule C3M2OpenDoorCoach
@@ -428,7 +428,7 @@ Criterion "IsNotSaidc5m4floatend2" "worldSaidc5m4floatend2" "!=1" "required" wei
 
 response c5m4floatstartProducer
 {
-	scene "scenes/NPCS/Orator_Blank.vcd"  then producer c5m4floatstart2 ProducerActor:1 0
+	scene "scenes/NPCS/Orator_Blank.vcd"  //then producer c5m4floatstart2 ProducerActor:1 0
 }
 
 rule c5m4floatstartProducer
@@ -440,7 +440,7 @@ rule c5m4floatstartProducer
 
 response c5m4floatstartGambler
 {
-	scene "scenes/NPCS/Orator_Blank.vcd"  then gambler c5m4floatstart2 GamblerActor:1 0
+	scene "scenes/NPCS/Orator_Blank.vcd"  //then gambler c5m4floatstart2 GamblerActor:1 0
 }
 
 rule c5m4floatstartGambler
@@ -453,7 +453,7 @@ rule c5m4floatstartGambler
 
 response c5m4floatstartMechanic
 {
-	scene "scenes/NPCS/Orator_Blank.vcd"  then mechanic c5m4floatstart2 MechanicActor:1 0
+	scene "scenes/NPCS/Orator_Blank.vcd"  //then mechanic c5m4floatstart2 MechanicActor:1 0
 }
 
 rule c5m4floatstartMechanic
@@ -465,7 +465,7 @@ rule c5m4floatstartMechanic
 
 response c5m4floatstartCoach
 {
-	scene "scenes/NPCS/Orator_Blank.vcd"  then coach c5m4floatstart2 CoachActor:1 0
+	scene "scenes/NPCS/Orator_Blank.vcd"  //then coach c5m4floatstart2 CoachActor:1 0
 }
 
 rule c5m4floatstartCoach

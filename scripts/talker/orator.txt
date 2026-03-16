@@ -10,7 +10,7 @@
 //--------------------------------------------------------------------------------------------------------------
 Response c1m1_elevator_readyOrator
 {
-	scene "scenes/npcs/orator_blank.vcd"  then any c1m1_elevator_ready2 foo:0 0 //
+	scene "scenes/npcs/orator_blank.vcd"  //then any c1m1_elevator_ready2 foo:0 0 //
 }
 Rule c1m1_elevator_readyOrator
 {
@@ -20,7 +20,7 @@ Rule c1m1_elevator_readyOrator
 
 Response Playerc1m1_elevator_startOrator
 {
-	scene "scenes/npcs/orator_blank.vcd"  then any _C1M1_ElevatorHello01 foo:0 0.01 //
+	scene "scenes/npcs/orator_blank.vcd"  //then any _C1M1_ElevatorHello01 foo:0 0.01 //
 }
 Rule Playerc1m1_elevator_startOrator
 {
@@ -32,7 +32,7 @@ Rule Playerc1m1_elevator_startOrator
 
 Response PlayerC1M2ColaInDoorOrator
 {
-	scene "scenes/npcs/orator_blank.vcd"  then self C1M2ClearingPath foo:0 5 //
+	scene "scenes/npcs/orator_blank.vcd"  //then self C1M2ClearingPath foo:0 5 //
 }
 Rule PlayerC1M2ColaInDoorOrator
 {
@@ -48,7 +48,7 @@ Rule PlayerC1M2ColaInDoorOrator
 //--------------------------------------------------------------------------------------------------------------
 Response C1M2InsideGunShopCoach
 {
-	scene "scenes/npcs/orator_blank.vcd"  then coach C1M2InsideGunShop2 foo:0 0 //Blank
+	scene "scenes/npcs/orator_blank.vcd"  //then coach C1M2InsideGunShop2 foo:0 0 //Blank
 }
 Rule C1M2InsideGunShopCoach
 {
@@ -58,7 +58,7 @@ Rule C1M2InsideGunShopCoach
 
 Response C1M2InsideGunShopGambler
 {
-	scene "scenes/npcs/orator_blank.vcd"  then gambler C1M2InsideGunShop2 foo:0 0 //Blank
+	scene "scenes/npcs/orator_blank.vcd"  //then gambler C1M2InsideGunShop2 foo:0 0 //Blank
 }
 Rule C1M2InsideGunShopGambler
 {
@@ -68,7 +68,7 @@ Rule C1M2InsideGunShopGambler
 
 Response C1M2InsideGunShopMechanic
 {
-	scene "scenes/npcs/orator_blank.vcd"  then mechanic C1M2InsideGunShop2 foo:0 0 //Blank
+	scene "scenes/npcs/orator_blank.vcd"  //then mechanic C1M2InsideGunShop2 foo:0 0 //Blank
 }
 Rule C1M2InsideGunShopMechanic
 {
@@ -78,7 +78,7 @@ Rule C1M2InsideGunShopMechanic
 
 Response C1M2InsideGunShopProducer
 {
-	scene "scenes/npcs/orator_blank.vcd"  then producer C1M2InsideGunShop2 foo:0 0 //Blank
+	scene "scenes/npcs/orator_blank.vcd"  //then producer C1M2InsideGunShop2 foo:0 0 //Blank
 }
 Rule C1M2InsideGunShopProducer
 {
@@ -88,7 +88,7 @@ Rule C1M2InsideGunShopProducer
 
 Response C1M2TankerAttackOrator
 {
-	scene "scenes/npcs/orator_blank.vcd"  then any C1M2TankerAttack2 foo:0 3 //
+	scene "scenes/npcs/orator_blank.vcd"  //then any C1M2TankerAttack2 foo:0 3 //
 }
 Rule C1M2TankerAttackOrator
 {
@@ -194,7 +194,7 @@ Rule Conceptc2m4GateOpenOrator
 //--------------------------------------------------------------------------------------------------------------
 Response C2M5_Button2Orator
 {
-	scene "scenes/npcs/orator_blank.vcd"  then any C2M5_Button2Yell foo:0 2.0 //
+	scene "scenes/npcs/orator_blank.vcd"  //then any C2M5_Button2Yell foo:0 2.0 //
 }
 Rule C2M5_Button2Orator
 {
@@ -216,7 +216,7 @@ Rule C2M5_OratorBlank01Orator
 
 Response C2M5_OratorBlank02Orator
 {
-	scene "scenes/npcs/orator_blank.vcd"  then any C2M5_lipsync002 foo:0 0.01 //
+	scene "scenes/npcs/orator_blank.vcd"  //then any C2M5_lipsync002 foo:0 0.01 //
 }
 Rule C2M5_OratorBlank02Orator
 {
@@ -226,7 +226,7 @@ Rule C2M5_OratorBlank02Orator
 
 Response C2M5ChopperComingOrator
 {
-	scene "scenes/npcs/orator_blank.vcd"  then any C2M5_Choppercoming foo:0 0.1 //
+	scene "scenes/npcs/orator_blank.vcd"  //then any C2M5_Choppercoming foo:0 0.1 //
 }
 Rule C2M5ChopperComingOrator
 {
@@ -236,7 +236,7 @@ Rule C2M5ChopperComingOrator
 
 Response C2M5ChopperReadyOrator
 {
-	scene "scenes/npcs/orator_blank.vcd"  then orator C2M5_PilotNag foo:0 0.1 //
+	scene "scenes/npcs/orator_blank.vcd"  //then orator C2M5_PilotNag foo:0 0.1 //
 }
 Rule C2M5ChopperReadyOrator
 {
@@ -264,7 +264,7 @@ Rule C2M5InArenaOrator
 //--------------------------------------------------------------------------------------------------------------
 Response C3M1FerryEndOrator
 {
-	scene "scenes/npcs/orator_blank.vcd"  then any C3M1FerryEnd2 foo:0 0.01 //
+	scene "scenes/npcs/orator_blank.vcd"  //then any C3M1FerryEnd2 foo:0 0.01 //
 }
 Rule C3M1FerryEndOrator
 {
@@ -280,11 +280,11 @@ Rule C3M1FerryEndOrator
 //--------------------------------------------------------------------------------------------------------------
 Response C3M4Button2COrator
 {
-	scene "scenes/npcs/orator_blank.vcd"  then coach C3M4Button201 foo:0 0.01 //
+	scene "scenes/npcs/orator_blank.vcd"  //then coach C3M4Button201 foo:0 0.01 //
 }
 Rule C3M4Button2COrator
 {
-	criteria ConceptC3M4Button2 PanicEventCoach AutoIsNotScavenge AutoIsNotSurvival _auto_IsButton1 _auto_NotButton2
+	criteria ConceptC3M4Button2 PanicEventCoach AutoIsNotScavenge AutoIsNotSurvival //_auto_IsButton1 //_auto_NotButton2
 	ApplyContext "_auto_Button1:1:0,_auto_Button2:1:0"
 	applycontexttoworld
 	Response C3M4Button2COrator
@@ -292,11 +292,11 @@ Rule C3M4Button2COrator
 
 Response C3M4Button2GOrator
 {
-	scene "scenes/npcs/orator_blank.vcd"  then gambler C3M4Button201 foo:0 0.01 //
+	scene "scenes/npcs/orator_blank.vcd"  //then gambler C3M4Button201 foo:0 0.01 //
 }
 Rule C3M4Button2GOrator
 {
-	criteria ConceptC3M4Button2 PanicEventGambler AutoIsNotScavenge AutoIsNotSurvival _auto_IsButton1 _auto_NotButton2
+	criteria ConceptC3M4Button2 PanicEventGambler AutoIsNotScavenge AutoIsNotSurvival //_auto_IsButton1 //_auto_NotButton2
 	ApplyContext "_auto_Button1:1:0,_auto_Button2:1:0"
 	applycontexttoworld
 	Response C3M4Button2GOrator
@@ -304,11 +304,11 @@ Rule C3M4Button2GOrator
 
 Response C3M4Button2MOrator
 {
-	scene "scenes/npcs/orator_blank.vcd"  then mechanic C3M4Button201 foo:0 0.01 //
+	scene "scenes/npcs/orator_blank.vcd"  //then mechanic C3M4Button201 foo:0 0.01 //
 }
 Rule C3M4Button2MOrator
 {
-	criteria ConceptC3M4Button2 PanicEventMechanic AutoIsNotScavenge AutoIsNotSurvival _auto_IsButton1 _auto_NotButton2
+	criteria ConceptC3M4Button2 PanicEventMechanic AutoIsNotScavenge AutoIsNotSurvival //_auto_IsButton1 //_auto_NotButton2
 	ApplyContext "_auto_Button1:1:0,_auto_Button2:1:0"
 	applycontexttoworld
 	Response C3M4Button2MOrator
@@ -316,11 +316,11 @@ Rule C3M4Button2MOrator
 
 Response C3M4Button2POrator
 {
-	scene "scenes/npcs/orator_blank.vcd"  then producer C3M4Button201 foo:0 0.01 //
+	scene "scenes/npcs/orator_blank.vcd"  //then producer C3M4Button201 foo:0 0.01 //
 }
 Rule C3M4Button2POrator
 {
-	criteria ConceptC3M4Button2 PanicEventProducer AutoIsNotScavenge AutoIsNotSurvival _auto_IsButton1 _auto_NotButton2
+	criteria ConceptC3M4Button2 PanicEventProducer AutoIsNotScavenge AutoIsNotSurvival //_auto_IsButton1 //_auto_NotButton2
 	ApplyContext "_auto_Button1:1:0,_auto_Button2:1:0"
 	applycontexttoworld
 	Response C3M4Button2POrator
@@ -328,7 +328,7 @@ Rule C3M4Button2POrator
 
 Response C3M4GateExplosionOrator
 {
-	scene "scenes/npcs/orator_blank.vcd"  then any C3M4GateBlow01 foo:0 0.01 //
+	scene "scenes/npcs/orator_blank.vcd"  //then any C3M4GateBlow01 foo:0 0.01 //
 }
 Rule C3M4GateExplosionOrator
 {
@@ -344,11 +344,11 @@ Rule C3M4GateExplosionOrator
 //--------------------------------------------------------------------------------------------------------------
 Response C4BigStormHitsCoachOrator
 {
-	scene "scenes/npcs/orator_blank.vcd"  then Coach _C4_BigStormHits01 foo:0 0.01 //
+	scene "scenes/npcs/orator_blank.vcd"  //then Coach _C4_BigStormHits01 foo:0 0.01 //
 }
 Rule C4BigStormHitsCoachOrator
 {
-	criteria Conceptc4_storm_start _auto_NotC4CoachInCover
+	criteria Conceptc4_storm_start //_auto_NotC4CoachInCover
 	ApplyContext "Talk:1:2,_auto_TimerLockA:1:5,_auto_TimerA:1:25"
 	applycontexttoworld
 	Response C4BigStormHitsCoachOrator
@@ -356,11 +356,11 @@ Rule C4BigStormHitsCoachOrator
 
 Response C4BigStormHitsGamblerOrator
 {
-	scene "scenes/npcs/orator_blank.vcd"  then Gambler _C4_BigStormHits01 foo:0 0.01 //
+	scene "scenes/npcs/orator_blank.vcd"  //then Gambler _C4_BigStormHits01 foo:0 0.01 //
 }
 Rule C4BigStormHitsGamblerOrator
 {
-	criteria Conceptc4_storm_start _auto_NotC4GamblerInCover
+	criteria Conceptc4_storm_start //_auto_NotC4GamblerInCover
 	ApplyContext "Talk:1:2,_auto_TimerLockA:1:5,_auto_TimerA:1:25"
 	applycontexttoworld
 	Response C4BigStormHitsGamblerOrator
@@ -368,11 +368,11 @@ Rule C4BigStormHitsGamblerOrator
 
 Response C4BigStormHitsMechanicOrator
 {
-	scene "scenes/npcs/orator_blank.vcd"  then Mechanic _C4_BigStormHits01 foo:0 0.01 //
+	scene "scenes/npcs/orator_blank.vcd"  //then Mechanic _C4_BigStormHits01 foo:0 0.01 //
 }
 Rule C4BigStormHitsMechanicOrator
 {
-	criteria Conceptc4_storm_start _auto_NotC4MechanicInCover
+	criteria Conceptc4_storm_start //_auto_NotC4MechanicInCover
 	ApplyContext "Talk:1:2,_auto_TimerLockA:1:5,_auto_TimerA:1:25"
 	applycontexttoworld
 	Response C4BigStormHitsMechanicOrator
@@ -380,11 +380,11 @@ Rule C4BigStormHitsMechanicOrator
 
 Response C4BigStormHitsProducerOrator
 {
-	scene "scenes/npcs/orator_blank.vcd"  then Producer _C4_BigStormHits01 foo:0 0.01 //
+	scene "scenes/npcs/orator_blank.vcd"  //then Producer _C4_BigStormHits01 foo:0 0.01 //
 }
 Rule C4BigStormHitsProducerOrator
 {
-	criteria Conceptc4_storm_start _auto_NotC4ProducerInCover
+	criteria Conceptc4_storm_start //_auto_NotC4ProducerInCover
 	ApplyContext "Talk:1:2,_auto_TimerLockA:1:5,_auto_TimerA:1:25"
 	applycontexttoworld
 	Response C4BigStormHitsProducerOrator
@@ -396,7 +396,7 @@ Rule C4BigStormHitsProducerOrator
 //--------------------------------------------------------------------------------------------------------------
 Response C4M2ElevatorHereOrator
 {
-	scene "scenes/npcs/orator_blank.vcd"  then any _c4m2_ElevatorHere01 foo:0 0.01 //
+	scene "scenes/npcs/orator_blank.vcd"  //then any _c4m2_ElevatorHere01 foo:0 0.01 //
 }
 Rule C4M2ElevatorHereOrator
 {
@@ -410,7 +410,7 @@ Response C4M2EnterCaneCoachOrator
 }
 Rule C4M2EnterCaneCoachOrator
 {
-	criteria Conceptc4m2_enter_canefield PanicEventCoach AutoIsNotScavenge AutoIsNotSurvival _auto_NotCaneExitedCoach
+	criteria Conceptc4m2_enter_canefield PanicEventCoach AutoIsNotScavenge AutoIsNotSurvival //_auto_NotCaneExitedCoach
 	ApplyContext "_auto_CoachInCane:1:0"
 	applycontexttoworld
 	Response C4M2EnterCaneCoachOrator
@@ -418,7 +418,7 @@ Rule C4M2EnterCaneCoachOrator
 
 Rule C4M2EnterCaneGamblerOrator
 {
-	criteria Conceptc4m2_enter_canefield PanicEventGambler AutoIsNotScavenge AutoIsNotSurvival _auto_NotCaneExitedGambler
+	criteria Conceptc4m2_enter_canefield PanicEventGambler AutoIsNotScavenge AutoIsNotSurvival //_auto_NotCaneExitedGambler
 	ApplyContext "_auto_GamblerInCane:1:0"
 	applycontexttoworld
 	Response C4M2EnterCaneCoachOrator
@@ -426,7 +426,7 @@ Rule C4M2EnterCaneGamblerOrator
 
 Rule C4M2EnterCaneMechanicOrator
 {
-	criteria Conceptc4m2_enter_canefield PanicEventMechanic AutoIsNotScavenge AutoIsNotSurvival _auto_NotCaneExitedMechanic
+	criteria Conceptc4m2_enter_canefield PanicEventMechanic AutoIsNotScavenge AutoIsNotSurvival //_auto_NotCaneExitedMechanic
 	ApplyContext "_auto_MechanicInCane:1:0"
 	applycontexttoworld
 	Response C4M2EnterCaneCoachOrator
@@ -434,7 +434,7 @@ Rule C4M2EnterCaneMechanicOrator
 
 Rule C4M2EnterCaneProducerOrator
 {
-	criteria Conceptc4m2_enter_canefield PanicEventProducer AutoIsNotScavenge AutoIsNotSurvival _auto_NotCaneExitedProducer
+	criteria Conceptc4m2_enter_canefield PanicEventProducer AutoIsNotScavenge AutoIsNotSurvival //_auto_NotCaneExitedProducer
 	ApplyContext "_auto_ProducerInCane:1:0"
 	applycontexttoworld
 	Response C4M2EnterCaneCoachOrator
@@ -530,7 +530,7 @@ Rule C4M2ExitCaneProducerOrator
 //--------------------------------------------------------------------------------------------------------------
 Response C5M1FlyByOrator
 {
-	scene "scenes/npcs/orator_blank.vcd"  then any C5M1Flyby01 foo:0 0.01 //Blank
+	scene "scenes/npcs/orator_blank.vcd"  //then any C5M1Flyby01 foo:0 0.01 //Blank
 }
 Rule C5M1FlyByOrator
 {
@@ -558,7 +558,7 @@ Rule C5M2_BusDoors01Orator
 
 Response C5M2AlarmOffOrator
 {
-	scene "scenes/npcs/orator_blank.vcd"  then any WorldC502AlarmStopped foo:0 0.01 //
+	scene "scenes/npcs/orator_blank.vcd"  //then any WorldC502AlarmStopped foo:0 0.01 //
 }
 Rule C5M2AlarmOffOrator
 {
@@ -570,7 +570,7 @@ Rule C5M2AlarmOffOrator
 
 Response C5M2AlarmTriggeredOrator
 {
-	scene "scenes/npcs/orator_blank.vcd"  then any WorldC502AlarmButton foo:0 0.01 //
+	scene "scenes/npcs/orator_blank.vcd"  //then any WorldC502AlarmButton foo:0 0.01 //
 }
 Rule C5M2AlarmTriggeredOrator
 {
@@ -586,7 +586,7 @@ Rule C5M2AlarmTriggeredOrator
 //--------------------------------------------------------------------------------------------------------------
 Response C5M3InAlarmFieldOrator
 {
-	scene "scenes/npcs/orator_blank.vcd"  then any C5M1Flyby01 foo:0 0.01 //Blank
+	scene "scenes/npcs/orator_blank.vcd"  //then any C5M1Flyby01 foo:0 0.01 //Blank
 }
 Rule C5M3InAlarmFieldOrator
 {
@@ -598,7 +598,7 @@ Rule C5M3InAlarmFieldOrator
 
 Response C5M3JetsCOrator
 {
-	scene "scenes/npcs/orator_blank.vcd"  then coach C5M3Jets2 foo:0 2 //Blank
+	scene "scenes/npcs/orator_blank.vcd"  //then coach C5M3Jets2 foo:0 2 //Blank
 }
 Rule C5M3JetsCOrator
 {
@@ -610,7 +610,7 @@ Rule C5M3JetsCOrator
 
 Response C5M3JetsGOrator
 {
-	scene "scenes/npcs/orator_blank.vcd"  then gambler C5M3Jets2 foo:0 2 //Blank
+	scene "scenes/npcs/orator_blank.vcd"  //then gambler C5M3Jets2 foo:0 2 //Blank
 }
 Rule C5M3JetsGOrator
 {
@@ -622,7 +622,7 @@ Rule C5M3JetsGOrator
 
 Response C5M3JetsMOrator
 {
-	scene "scenes/npcs/orator_blank.vcd"  then mechanic C5M3Jets2 foo:0 2 //Blank
+	scene "scenes/npcs/orator_blank.vcd"  //then mechanic C5M3Jets2 foo:0 2 //Blank
 }
 Rule C5M3JetsMOrator
 {
@@ -634,7 +634,7 @@ Rule C5M3JetsMOrator
 
 Response C5M3JetsPOrator
 {
-	scene "scenes/npcs/orator_blank.vcd"  then producer C5M3Jets2 foo:0 2 //Blank
+	scene "scenes/npcs/orator_blank.vcd"  //then producer C5M3Jets2 foo:0 2 //Blank
 }
 Rule C5M3JetsPOrator
 {
@@ -646,7 +646,7 @@ Rule C5M3JetsPOrator
 
 Response C5M3OutOfAlarmFieldOrator
 {
-	scene "scenes/npcs/orator_blank.vcd"  then any C5M1Flyby01 foo:0 0.01 //Blank
+	scene "scenes/npcs/orator_blank.vcd"  //then any C5M1Flyby01 foo:0 0.01 //Blank
 }
 Rule C5M3OutOfAlarmFieldOrator
 {
@@ -662,12 +662,12 @@ Rule C5M3OutOfAlarmFieldOrator
 //--------------------------------------------------------------------------------------------------------------
 Response C5M4BombExtOrator
 {
-	scene "scenes/npcs/orator_blank.vcd"  then any C5M4BombExt01 foo:0 0.01 //Blank
-	scene "scenes/npcs/orator_blank.vcd"  then any C5M4BombInt01 foo:0 0.5 //Blank
+	scene "scenes/npcs/orator_blank.vcd"  //then any C5M4BombExt01 foo:0 0.01 //Blank
+	scene "scenes/npcs/orator_blank.vcd"  //then any C5M4BombInt01 foo:0 0.5 //Blank
 }
 Rule C5M4BombExtOrator
 {
-	criteria Conceptc5m4bombingexterior AutoIsNotScavenge AutoIsNotSurvival IsNotSrcGrp_C5M4BOMB_100 _auto_NotBomb1 _auto_NotInMiniFinale _auto_NotSawBridge _auto_NotTellingStory
+	criteria Conceptc5m4bombingexterior AutoIsNotScavenge AutoIsNotSurvival IsNotSrcGrp_C5M4BOMB_100 //_auto_NotBomb1 //_auto_NotInMiniFinale //_auto_NotSawBridge //_auto_NotTellingStory
 	ApplyContext "Saidremark_caralarm:1:0,_auto_StoryGate:1:15,SrcGrp_C5M4BOMB_100:1:0"
 	applycontexttoworld
 	Response C5M4BombExtOrator
@@ -675,11 +675,11 @@ Rule C5M4BombExtOrator
 
 Response C5M4BombInt1Orator
 {
-	scene "scenes/npcs/orator_blank.vcd"  then any C5M4BombInt01 foo:0 2.7 //Blank
+	scene "scenes/npcs/orator_blank.vcd"  //then any C5M4BombInt01 foo:0 2.7 //Blank
 }
 Rule C5M4BombInt1Orator
 {
-	criteria Conceptc5m4bombingInterior AutoIsNotScavenge AutoIsNotSurvival _auto_NotBomb1 _auto_NotInMiniFinale _auto_NotSawBridge _auto_NotTellingStory
+	criteria Conceptc5m4bombingInterior AutoIsNotScavenge AutoIsNotSurvival //_auto_NotBomb1 //_auto_NotInMiniFinale //_auto_NotSawBridge //_auto_NotTellingStory
 	ApplyContext "Saidremark_caralarm:1:0,_auto_StoryGate:1:15"
 	applycontexttoworld
 	Response C5M4BombInt1Orator
@@ -687,27 +687,27 @@ Rule C5M4BombInt1Orator
 
 Response C5M4BombInt2Orator
 {
-	scene "scenes/npcs/orator_blank.vcd"  then any C5M4BombInt02 foo:0 2.7 //Blank
+	scene "scenes/npcs/orator_blank.vcd"  //then any C5M4BombInt02 foo:0 2.7 //Blank
 }
 Rule C5M4BombInt2Orator
 {
-	criteria Conceptc5m4bombingInterior ChanceToFire70Percent AutoIsNotScavenge AutoIsNotSurvival IsNotInStartArea _auto_IsBomb1 _auto_NotBomb2 _auto_NotInMiniFinale _auto_NotSawBridge
+	criteria Conceptc5m4bombingInterior ChanceToFire70Percent AutoIsNotScavenge AutoIsNotSurvival IsNotInStartArea //_auto_IsBomb1 //_auto_NotBomb2 //_auto_NotInMiniFinale //_auto_NotSawBridge
 	Response C5M4BombInt2Orator
 }
 
 Response C5M4BombInt3Orator
 {
-	scene "scenes/npcs/orator_blank.vcd"  then any C5M4BombInt03 foo:0 2.7 //Blank
+	scene "scenes/npcs/orator_blank.vcd"  //then any C5M4BombInt03 foo:0 2.7 //Blank
 }
 Rule C5M4BombInt3Orator
 {
-	criteria Conceptc5m4bombingInterior ChanceToFire70Percent AutoIsNotScavenge AutoIsNotSurvival IsNotInStartArea _auto_IsBomb1 _auto_IsBomb2 _auto_NotBomb3 _auto_NotInMiniFinale _auto_NotSawBridge
+	criteria Conceptc5m4bombingInterior ChanceToFire70Percent AutoIsNotScavenge AutoIsNotSurvival IsNotInStartArea //_auto_IsBomb1 //_auto_IsBomb2 //_auto_NotBomb3 //_auto_NotInMiniFinale //_auto_NotSawBridge
 	Response C5M4BombInt3Orator
 }
 
 Rule C5M4BombInt4Orator
 {
-	criteria Conceptc5m4bombingInterior ChanceToFire20Percent AutoIsNotScavenge AutoIsNotSurvival IsNotInStartArea _auto_IsBomb3 _auto_NotInMiniFinale _auto_NotSawBridge
+	criteria Conceptc5m4bombingInterior ChanceToFire20Percent AutoIsNotScavenge AutoIsNotSurvival IsNotInStartArea //_auto_IsBomb3 //_auto_NotInMiniFinale //_auto_NotSawBridge
 	forceweight 200
 	Response C5M4BombInt3Orator
 }
@@ -718,7 +718,7 @@ Rule C5M4BombInt4Orator
 //--------------------------------------------------------------------------------------------------------------
 Response C5M5Button2Orator
 {
-	scene "scenes/npcs/orator_blank.vcd"  then all C5M5_Button2 foo:0 0.01 //
+	scene "scenes/npcs/orator_blank.vcd"  //then all C5M5_Button2 foo:0 0.01 //
 }
 Rule C5M5Button2Orator
 {
@@ -730,7 +730,7 @@ Rule C5M5Button2Orator
 
 Response C5M5Button2EllisOrator
 {
-	scene "scenes/npcs/orator_blank.vcd"  then mechanic C5M5_Button2099 foo:0 0.01 //
+	scene "scenes/npcs/orator_blank.vcd"  //then mechanic C5M5_Button2099 foo:0 0.01 //
 }
 Rule C5M5Button2EllisOrator
 {
@@ -742,7 +742,7 @@ Rule C5M5Button2EllisOrator
 
 Response C5M5GateDownOrator
 {
-	scene "scenes/npcs/orator_blank.vcd"  then any C5M5_GateDown foo:0 0.01 //
+	scene "scenes/npcs/orator_blank.vcd"  //then any C5M5_GateDown foo:0 0.01 //
 }
 Rule C5M5GateDownOrator
 {
@@ -758,7 +758,7 @@ Rule C5M5GateDownOrator
 //--------------------------------------------------------------------------------------------------------------
 Response C1M3AlarmOffCoach
 {
-	scene "scenes/npcs/orator_blank.vcd"  then coach C1M3AlarmOff2 foo:0 0 //
+	scene "scenes/npcs/orator_blank.vcd"  //then coach C1M3AlarmOff2 foo:0 0 //
 }
 Rule C1M3AlarmOffCoach
 {
@@ -770,7 +770,7 @@ Rule C1M3AlarmOffCoach
 
 Response C1M3AlarmOffGambler
 {
-	scene "scenes/npcs/orator_blank.vcd"  then gambler C1M3AlarmOff2 foo:0 0 //
+	scene "scenes/npcs/orator_blank.vcd"  //then gambler C1M3AlarmOff2 foo:0 0 //
 }
 Rule C1M3AlarmOffGambler
 {
@@ -782,7 +782,7 @@ Rule C1M3AlarmOffGambler
 
 Response C1M3AlarmOffMechanic
 {
-	scene "scenes/npcs/orator_blank.vcd"  then mechanic C1M3AlarmOff2 foo:0 0 //
+	scene "scenes/npcs/orator_blank.vcd"  //then mechanic C1M3AlarmOff2 foo:0 0 //
 }
 Rule C1M3AlarmOffMechanic
 {
@@ -794,7 +794,7 @@ Rule C1M3AlarmOffMechanic
 
 Response C1M3AlarmOffProducer
 {
-	scene "scenes/npcs/orator_blank.vcd"  then producer C1M3AlarmOff2 foo:0 0 //
+	scene "scenes/npcs/orator_blank.vcd"  //then producer C1M3AlarmOff2 foo:0 0 //
 }
 Rule C1M3AlarmOffProducer
 {
@@ -806,7 +806,7 @@ Rule C1M3AlarmOffProducer
 
 Response C1M3BrokeWindowCoach
 {
-	scene "scenes/npcs/orator_blank.vcd"  then coach C1M3BrokeWindow2 foo:0 0 //
+	scene "scenes/npcs/orator_blank.vcd"  //then coach C1M3BrokeWindow2 foo:0 0 //
 }
 Rule C1M3BrokeWindowCoach
 {
@@ -818,7 +818,7 @@ Rule C1M3BrokeWindowCoach
 
 Response C1M3BrokeWindowGambler
 {
-	scene "scenes/npcs/orator_blank.vcd"  then gambler C1M3BrokeWindow2 foo:0 0 //
+	scene "scenes/npcs/orator_blank.vcd"  //then gambler C1M3BrokeWindow2 foo:0 0 //
 }
 Rule C1M3BrokeWindowGambler
 {
@@ -830,7 +830,7 @@ Rule C1M3BrokeWindowGambler
 
 Response C1M3BrokeWindowMechanic
 {
-	scene "scenes/npcs/orator_blank.vcd"  then mechanic C1M3BrokeWindow2 foo:0 0 //
+	scene "scenes/npcs/orator_blank.vcd"  //then mechanic C1M3BrokeWindow2 foo:0 0 //
 }
 Rule C1M3BrokeWindowMechanic
 {
@@ -842,7 +842,7 @@ Rule C1M3BrokeWindowMechanic
 
 Response C1M3BrokeWindowProducer
 {
-	scene "scenes/npcs/orator_blank.vcd"  then producer C1M3BrokeWindow2 foo:0 0 //
+	scene "scenes/npcs/orator_blank.vcd"  //then producer C1M3BrokeWindow2 foo:0 0 //
 }
 Rule C1M3BrokeWindowProducer
 {
@@ -854,7 +854,7 @@ Rule C1M3BrokeWindowProducer
 
 Response C1M3DoorAlarmOratorCoach
 {
-	scene "scenes/npcs/orator_blank.vcd"  then coach C1M3DoorAlarm2 foo:0 0 //
+	scene "scenes/npcs/orator_blank.vcd"  //then coach C1M3DoorAlarm2 foo:0 0 //
 }
 Rule C1M3DoorAlarmOratorCoach
 {
@@ -864,7 +864,7 @@ Rule C1M3DoorAlarmOratorCoach
 
 Response C1M3DoorAlarmOratorGambler
 {
-	scene "scenes/npcs/orator_blank.vcd"  then gambler C1M3DoorAlarm2 foo:0 0 //
+	scene "scenes/npcs/orator_blank.vcd"  //then gambler C1M3DoorAlarm2 foo:0 0 //
 }
 Rule C1M3DoorAlarmOratorGambler
 {
@@ -874,7 +874,7 @@ Rule C1M3DoorAlarmOratorGambler
 
 Response C1M3DoorAlarmOratorMechanic
 {
-	scene "scenes/npcs/orator_blank.vcd"  then mechanic C1M3DoorAlarm2 foo:0 0 //
+	scene "scenes/npcs/orator_blank.vcd"  //then mechanic C1M3DoorAlarm2 foo:0 0 //
 }
 Rule C1M3DoorAlarmOratorMechanic
 {
@@ -884,7 +884,7 @@ Rule C1M3DoorAlarmOratorMechanic
 
 Response C1M3DoorAlarmOratorProducer
 {
-	scene "scenes/npcs/orator_blank.vcd"  then producer C1M3DoorAlarm2 foo:0 0 //
+	scene "scenes/npcs/orator_blank.vcd"  //then producer C1M3DoorAlarm2 foo:0 0 //
 }
 Rule C1M3DoorAlarmOratorProducer
 {
@@ -894,10 +894,10 @@ Rule C1M3DoorAlarmOratorProducer
 
 Response oratorc4m1_rainingOrator
 {
-	scene "scenes/npcs/orator_blank.vcd"  then Gambler _c4m1_rainresponse foo:0 0.01 //
-	scene "scenes/npcs/orator_blank.vcd"  then Coach _c4m1_rainresponse foo:0 0.01 //
-	scene "scenes/npcs/orator_blank.vcd"  then Producer _c4m1_rainresponse foo:0 0.01 //
-	scene "scenes/npcs/orator_blank.vcd"  then Mechanic _c4m1_rainresponse foo:0 0.01 //
+	scene "scenes/npcs/orator_blank.vcd"  //then Gambler _c4m1_rainresponse foo:0 0.01 //
+	scene "scenes/npcs/orator_blank.vcd"  //then Coach _c4m1_rainresponse foo:0 0.01 //
+	scene "scenes/npcs/orator_blank.vcd"  //then Producer _c4m1_rainresponse foo:0 0.01 //
+	scene "scenes/npcs/orator_blank.vcd"  //then Mechanic _c4m1_rainresponse foo:0 0.01 //
 }
 Rule oratorc4m1_rainingOrator
 {
@@ -907,7 +907,7 @@ Rule oratorc4m1_rainingOrator
 
 Response ShotMannequinCoachOrator
 {
-	scene "scenes/npcs/orator_blank.vcd"  then coach ShotMannequin2 foo:0 0 //
+	scene "scenes/npcs/orator_blank.vcd"  //then coach ShotMannequin2 foo:0 0 //
 }
 Rule ShotMannequinCoachOrator
 {
@@ -919,7 +919,7 @@ Rule ShotMannequinCoachOrator
 
 Response ShotMannequinGamblerOrator
 {
-	scene "scenes/npcs/orator_blank.vcd"  then gambler ShotMannequin2 foo:0 0 //
+	scene "scenes/npcs/orator_blank.vcd"  //then gambler ShotMannequin2 foo:0 0 //
 }
 Rule ShotMannequinGamblerOrator
 {
@@ -931,7 +931,7 @@ Rule ShotMannequinGamblerOrator
 
 Response ShotMannequinmechanicOrator
 {
-	scene "scenes/npcs/orator_blank.vcd"  then mechanic ShotMannequin2 foo:0 0 //
+	scene "scenes/npcs/orator_blank.vcd"  //then mechanic ShotMannequin2 foo:0 0 //
 }
 Rule ShotMannequinmechanicOrator
 {
@@ -943,7 +943,7 @@ Rule ShotMannequinmechanicOrator
 
 Response ShotMannequinProducerOrator
 {
-	scene "scenes/npcs/orator_blank.vcd"  then producer ShotMannequin2 foo:0 0 //
+	scene "scenes/npcs/orator_blank.vcd"  //then producer ShotMannequin2 foo:0 0 //
 }
 Rule ShotMannequinProducerOrator
 {

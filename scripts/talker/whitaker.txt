@@ -35,7 +35,7 @@ Response C1M2GoodLuckGettingToTheMall
 {
 	scene "scenes/npcs/Whitaker_MissionCompleted17.vcd"  //Good luck now!
 	scene "scenes/npcs/Whitaker_MissionCompleted20.vcd"  //Good luck to you, gang.
-	scene "scenes/npcs/Whitaker_MissionCompleted21.vcd"  then mechanic C1M2_GoodLuck01 foo:0 0.2 //God watch over you.
+	scene "scenes/npcs/Whitaker_MissionCompleted21.vcd"  //then mechanic C1M2_GoodLuck01 foo:0 0.2 //God watch over you.
 	scene "scenes/npcs/Whitaker_MissionCompleted22.vcd"  //Good luck gettin' to that mall.
 	scene "scenes/npcs/Whitaker_MissionCompleted23.vcd"  //Good luck gettin' to that mall.
 }
@@ -47,9 +47,9 @@ Rule C1M2GoodLuckGettingToTheMall
 
 Response C1M2GunRoomDoorResponse1Whitaker
 {
-	scene "scenes/npcs/Whitaker_Conversation03.vcd"  then orator Whitaker.Nags foo:0 10 //I am a man of my word, sir. Procure my colas and I'll clear a path to the mall for you. The guns are on the house.
-	scene "scenes/npcs/Whitaker_Conversation04.vcd"  then orator Whitaker.Nags foo:0 10 //Procure my colas and my help is guaranteed, sir. Consider the guns a generous donation to the cause.
-	scene "scenes/npcs/Whitaker_Conversation08.vcd"  then orator Whitaker.Nags foo:0 10 //On my word as a gentleman I will do no screwing, sir. I'd come down there and shake on it, but I already welded the door shut.
+	scene "scenes/npcs/Whitaker_Conversation03.vcd"  //then orator Whitaker.Nags foo:0 10 //I am a man of my word, sir. Procure my colas and I'll clear a path to the mall for you. The guns are on the house.
+	scene "scenes/npcs/Whitaker_Conversation04.vcd"  //then orator Whitaker.Nags foo:0 10 //Procure my colas and my help is guaranteed, sir. Consider the guns a generous donation to the cause.
+	scene "scenes/npcs/Whitaker_Conversation08.vcd"  //then orator Whitaker.Nags foo:0 10 //On my word as a gentleman I will do no screwing, sir. I'd come down there and shake on it, but I already welded the door shut.
 }
 Rule C1M2GunRoomDoorResponse1Whitaker
 {
@@ -59,8 +59,8 @@ Rule C1M2GunRoomDoorResponse1Whitaker
 
 Response C1M2GunRoomDoorResponse2Whitaker
 {
-	scene "scenes/npcs/Whitaker_Conversation12.vcd"  then orator Whitaker.Nags foo:0 10 //If they can be of service to you in your endeavor, please keep them.
-	scene "scenes/npcs/Whitaker_Conversation13.vcd"  then orator Whitaker.Nags foo:0 10 //Only your promise that you'll put them to good use.
+	scene "scenes/npcs/Whitaker_Conversation12.vcd"  //then orator Whitaker.Nags foo:0 10 //If they can be of service to you in your endeavor, please keep them.
+	scene "scenes/npcs/Whitaker_Conversation13.vcd"  //then orator Whitaker.Nags foo:0 10 //Only your promise that you'll put them to good use.
 }
 Rule C1M2GunRoomDoorResponse2Whitaker
 {
@@ -70,7 +70,7 @@ Rule C1M2GunRoomDoorResponse2Whitaker
 
 Response C1M2GunRoomDoorResponse3Whitaker
 {
-	scene "scenes/npcs/Whitaker_Conversation02.vcd"  then orator Whitaker.Nags foo:0 10 //Not only will I help you get to the mall, I'll even throw in the guns you stole from me, free of charge.
+	scene "scenes/npcs/Whitaker_Conversation02.vcd"  //then orator Whitaker.Nags foo:0 10 //Not only will I help you get to the mall, I'll even throw in the guns you stole from me, free of charge.
 }
 Rule C1M2GunRoomDoorResponse3Whitaker
 {
@@ -80,8 +80,8 @@ Rule C1M2GunRoomDoorResponse3Whitaker
 
 Response C1M2GunRoomDoorResponse4Whitaker
 {
-	scene "scenes/npcs/Whitaker_Conversation05.vcd"  then orator Whitaker.Nags foo:0 10 //I am not a man to weasel out of a deal. I'd shake on it with you, but there's no way in hell I'm going back down there.
-	scene "scenes/npcs/Whitaker_Conversation14.vcd"  then orator Whitaker.Nags foo:0 10 //Only your promise that you'll put them to good use. And, as I mentioned, the colas.
+	scene "scenes/npcs/Whitaker_Conversation05.vcd"  //then orator Whitaker.Nags foo:0 10 //I am not a man to weasel out of a deal. I'd shake on it with you, but there's no way in hell I'm going back down there.
+	scene "scenes/npcs/Whitaker_Conversation14.vcd"  //then orator Whitaker.Nags foo:0 10 //Only your promise that you'll put them to good use. And, as I mentioned, the colas.
 }
 Rule C1M2GunRoomDoorResponse4Whitaker
 {
@@ -91,8 +91,8 @@ Rule C1M2GunRoomDoorResponse4Whitaker
 
 Response C1M2GunRoomDoorResponse5Whitaker
 {
-	scene "scenes/npcs/Whitaker_Conversation06.vcd"  then orator Whitaker.Nags foo:0 10 //I been on this world sixty years, ma'am, and I've weaseled nothing from nobody. You got my word as a gentleman.
-	scene "scenes/npcs/Whitaker_Conversation07.vcd"  then orator Whitaker.Nags foo:0 10 //I'm a man of my word, ma'am. You got my word on that.
+	scene "scenes/npcs/Whitaker_Conversation06.vcd"  //then orator Whitaker.Nags foo:0 10 //I been on this world sixty years, ma'am, and I've weaseled nothing from nobody. You got my word as a gentleman.
+	scene "scenes/npcs/Whitaker_Conversation07.vcd"  //then orator Whitaker.Nags foo:0 10 //I'm a man of my word, ma'am. You got my word on that.
 }
 Rule C1M2GunRoomDoorResponse5Whitaker
 {
@@ -108,10 +108,10 @@ Response C1M2GunRoomDoorWhit
 {
 	sequential
 	norepeat
-	scene "scenes/npcs/Whitaker_ComeUpstairsLongerD01.vcd"  then orator C1M2GunRoomDoor foo:0 0 //Hello there.
-	scene "scenes/npcs/Whitaker_WayBlockedLongerE01.vcd"  then orator C1M2GunRoomDoor foo:0 0 //I've barricaded myself on the roof with ample provisions.
-	scene "scenes/npcs/Whitaker_WayBlockedLongerE02.vcd"  then orator C1M2GunRoomDoor foo:0 0 //But in my haste I forgot cola.
-	scene "scenes/npcs/Whitaker_WayBlockedLongerF01.vcd"  then any C1M2GunRoomDoorResponse foo:0 0 //So here is my proposition: If you go find me some cola at yonder food store, I'll clear a path to the mall for you.
+	scene "scenes/npcs/Whitaker_ComeUpstairsLongerD01.vcd"  //then orator C1M2GunRoomDoor foo:0 0 //Hello there.
+	scene "scenes/npcs/Whitaker_WayBlockedLongerE01.vcd"  //then orator C1M2GunRoomDoor foo:0 0 //I've barricaded myself on the roof with ample provisions.
+	scene "scenes/npcs/Whitaker_WayBlockedLongerE02.vcd"  //then orator C1M2GunRoomDoor foo:0 0 //But in my haste I forgot cola.
+	scene "scenes/npcs/Whitaker_WayBlockedLongerF01.vcd"  //then any C1M2GunRoomDoorResponse foo:0 0 //So here is my proposition: If you go find me some cola at yonder food store, I'll clear a path to the mall for you.
 }
 Rule C1M2GunRoomDoorWhit
 {
@@ -138,7 +138,7 @@ Response Whitaker.NagsWhitaker
 }
 Rule Whitaker.NagsWhitaker
 {
-	criteria ConceptWhitaker.Nags IsWhitaker _auto_NotSaidC1M2GrabbedCola
+	criteria ConceptWhitaker.Nags IsWhitaker //_auto_NotSaidC1M2GrabbedCola
 	Response Whitaker.NagsWhitaker
 }
 

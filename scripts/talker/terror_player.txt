@@ -1980,7 +1980,7 @@ criterion "IsC3M#BridgeDown"   "subject" "C3M#BridgeDown"	  required
 criterion "ConceptPlayerNegative"   "Concept" "PlayerNegative"	  required
  
 
-//Then response concepts
+////then response concepts
 criterion "ConceptBounceReaction"   "Concept" "BounceReaction"	  required
 criterion "ConceptProducerSuggestsCrane"   "Concept" "ProducerSuggestsCrane"	  required
 criterion "ConceptCoachSuggestsCrane"   "Concept" "CoachSuggestsCrane"	  required
@@ -2280,7 +2280,7 @@ rule HunterTaunt
 
 response TheDumpsterIsDown
 {
-	scene "scenes/npcs/orator_blank.vcd"  then any airport02_creshendo03 foo:0 .01 // [BLANK]
+	scene "scenes/npcs/orator_blank.vcd"  //then any airport02_creshendo03 foo:0 .01 // [BLANK]
 }
 rule TheDumpsterIsDown
 {
@@ -2290,7 +2290,7 @@ rule TheDumpsterIsDown
 
 response HitCraneButtonCoach
 {
-	scene "scenes/npcs/orator_blank.vcd"  then Coach airport02_creshendoCrane foo:0  .01 // [BLANK]
+	scene "scenes/npcs/orator_blank.vcd"  //then Coach airport02_creshendoCrane foo:0  .01 // [BLANK]
 }
 rule HitCraneButtonCoach
 {
@@ -2299,7 +2299,7 @@ rule HitCraneButtonCoach
 }
 response HitCraneButtonProducer
 {
-	scene "scenes/npcs/orator_blank.vcd"  then Producer airport02_creshendoCrane foo:0  .01 // [BLANK]
+	scene "scenes/npcs/orator_blank.vcd"  //then Producer airport02_creshendoCrane foo:0  .01 // [BLANK]
 }
 rule HitCraneButtonProducer
 {
@@ -2308,7 +2308,7 @@ rule HitCraneButtonProducer
 }
 response HitCraneButtonGambler
 {
-	scene "scenes/npcs/orator_blank.vcd"  then Gambler airport02_creshendoCrane foo:0  .01 // [BLANK]
+	scene "scenes/npcs/orator_blank.vcd"  //then Gambler airport02_creshendoCrane foo:0  .01 // [BLANK]
 }
 rule HitCraneButtonGambler
 {
@@ -2317,7 +2317,7 @@ rule HitCraneButtonGambler
 }
 response HitCraneButtonMechanic
 {
-	scene "scenes/npcs/orator_blank.vcd"  then Mechanic airport02_creshendoCrane foo:0  .01 // [BLANK]
+	scene "scenes/npcs/orator_blank.vcd"  //then Mechanic airport02_creshendoCrane foo:0  .01 // [BLANK]
 }
 rule HitCraneButtonMechanic
 {
@@ -2329,7 +2329,7 @@ rule HitCraneButtonMechanic
 
 response Airport03FireStartedCoach
 {
-	scene "scenes/npcs/Barricade_Orator_blank.vcd"  then Coach Airport03FireStartedX foo:0  .01 // [BLANK]
+	scene "scenes/npcs/Barricade_Orator_blank.vcd"  //then Coach Airport03FireStartedX foo:0  .01 // [BLANK]
 }
 rule Airport03FireStartedCoach
 {
@@ -2338,7 +2338,7 @@ rule Airport03FireStartedCoach
 }
 response Airport03FireStartedProducer
 {
-	scene "scenes/npcs/Barricade_Orator_blank.vcd"  then Producer Airport03FireStartedX foo:0  .01 // [BLANK]
+	scene "scenes/npcs/Barricade_Orator_blank.vcd"  //then Producer Airport03FireStartedX foo:0  .01 // [BLANK]
 }
 rule Airport03FireStartedProducer
 {
@@ -2347,7 +2347,7 @@ rule Airport03FireStartedProducer
 }
 response Airport03FireStartedGambler
 {
-	scene "scenes/npcs/Barricade_Orator_blank.vcd"  then Gambler Airport03FireStartedX foo:0  .01 // [BLANK]
+	scene "scenes/npcs/Barricade_Orator_blank.vcd"  //then Gambler Airport03FireStartedX foo:0  .01 // [BLANK]
 }
 rule Airport03FireStartedGambler
 {
@@ -2356,7 +2356,7 @@ rule Airport03FireStartedGambler
 }
 response Airport03FireStartedMechanic
 {
-	scene "scenes/npcs/Barricade_Orator_blank.vcd"  then Mechanic Airport03FireStartedX foo:0  .01 // [BLANK]
+	scene "scenes/npcs/Barricade_Orator_blank.vcd"  //then Mechanic Airport03FireStartedX foo:0  .01 // [BLANK]
 }
 rule Airport03FireStartedMechanic
 {
@@ -2367,7 +2367,7 @@ rule Airport03FireStartedMechanic
 
 response Airport03FirePathClear
 {
-	scene "scenes/npcs/Barricade_Orator_blank.vcd"  then any Airport03FirePathClearX foo:0 .01 // [BLANK]
+	scene "scenes/npcs/Barricade_Orator_blank.vcd"  //then any Airport03FirePathClearX foo:0 .01 // [BLANK]
 }
 rule Airport03FirePathClear
 {
@@ -2377,7 +2377,7 @@ rule Airport03FirePathClear
 
 response Airport04PathClearVan
 {
-	scene "scenes/npcs/Barricade_Orator_blank.vcd"  then any PathClearVan foo:0 .01 // [BLANK]
+	scene "scenes/npcs/Barricade_Orator_blank.vcd"  //then any PathClearVan foo:0 .01 // [BLANK]
 }
 rule Airport04PathClearVan
 {
