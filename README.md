@@ -5,3 +5,5 @@
 - The ability to read
   
 This mod is attempting to remake L4D2 in it's entireity in Source 2013 using reverse engineered and decompiled code.
+
+### Source code coming soon! (I just need to clean it up first.)
