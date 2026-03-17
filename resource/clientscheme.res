@@ -255,16 +255,16 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Stubble-bold"
-				"tall"		"12"
+				"name"		"Stubble bold"
+				"tall"		"14"
 				"weight"	"900"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
 				"yres"	"480 599"
 			}
 			"2"
 			{
-				"name"		"Stubble-bold"
-				"tall"		"13"	[$WIN32]
+				"name"		"Stubble bold"
+				"tall"		"15"	[$WIN32]
 				"tall"		"20"	[$X360]
 				"weight"	"900"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
@@ -272,8 +272,8 @@ Scheme
 			}
 			"3"
 			{
-				"name"		"Stubble-bold"
-				"tall"		"14"
+				"name"		"Stubble bold"
+				"tall"		"15"
 				"weight"	"900"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
 				"yres"	"768 1023"
@@ -281,8 +281,8 @@ Scheme
 			}
 			"4"
 			{
-				"name"		"Stubble-bold"
-				"tall"		"20"
+				"name"		"Stubble bold"
+				"tall"		"24"
 				"weight"	"900"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
 				"yres"	"1024 1199"
@@ -290,24 +290,24 @@ Scheme
 			}
 			"5" // Misyl: Proportional
 			{
-				"name"		"Stubble-bold"
-				"tall"		"9"
+				"name"		"Stubble bold"
+				"tall"		"13"
 				"weight"	"900"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
 				"antialias"	"1"
 			}
 			"6"
 			{
-				"name"		"Stubble-bold"
-				"tall"		"9" [!$LINUX]
+				"name"		"Stubble bold"
+				"tall"		"13" [!$LINUX]
 				"tall"		"11" [$LINUX]
 				"range" 		"0x0000 0x00FF"
 				"weight"		"900"
 			}
 			"7"
 			{
-				"name"		"Arial"
-				"tall"		"12"
+				"name"		"Stubble bold"
+				"tall"		"16"
 				"range" 		"0x0000 0x00FF"
 				"weight"		"800"
 			}
@@ -316,24 +316,24 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Stubble-bold"
-				"tall"		"12"
+				"name"		"Stubble bold"
+				"tall"		"16"
 				"weight"	"1100"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
 				"yres"	"480 599"
 			}
 			"2"
 			{
-				"name"		"Stubble-bold"
-				"tall"		"15"
+				"name"		"Stubble bold"
+				"tall"		"19"
 				"weight"	"1100"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
 				"yres"	"600 767"
 			}
 			"3"
 			{
-				"name"		"Stubble-bold"
-				"tall"		"19"
+				"name"		"Stubble bold"
+				"tall"		"20"
 				"weight"	"1100"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
 				"yres"	"768 1023"
@@ -341,7 +341,7 @@ Scheme
 			}
 			"4"
 			{
-				"name"		"Stubble-bold"
+				"name"		"Stubble bold"
 				"tall"		"26"
 				"weight"	"1100"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
@@ -350,16 +350,16 @@ Scheme
 			}
 			"6" // Misyl: Proportional
 			{
-				"name"		"Stubble-bold"
-				"tall"		"14"
+				"name"		"Stubble bold"
+				"tall"		"18"
 				"weight"	"900"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
 				"antialias"	"1"
 			}
 			"7"
 			{
-				"name"		"Stubble-bold"
-				"tall"		"18"
+				"name"		"Stubble bold"
+				"tall"		"16"
 				"range" 		"0x0000 0x00FF"
 				"weight"		"900"
 			}
@@ -368,7 +368,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Stubble-bold"
+				"name"		"Stubble bold"
 				"tall"		"18"
 				"weight"	"900"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
@@ -376,7 +376,7 @@ Scheme
 			}
 			"2"
 			{
-				"name"		"Stubble-bold"
+				"name"		"Stubble bold"
 				"tall"		"21"
 				"weight"	"900"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
@@ -384,7 +384,7 @@ Scheme
 			}
 			"3"
 			{
-				"name"		"Stubble-bold"
+				"name"		"Stubble bold"
 				"tall"		"22"
 				"weight"	"900"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
@@ -393,7 +393,7 @@ Scheme
 			}
 			"4"
 			{
-				"name"		"Stubble-bold"
+				"name"		"Stubble bold"
 				"tall"		"28"
 				"weight"	"900"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
@@ -402,7 +402,7 @@ Scheme
 			}
 			"5" // Misyl: Proportional
 			{
-				"name"		"Stubble-bold"
+				"name"		"Stubble bold"
 				"tall"		"18"
 				"weight"	"900"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
@@ -410,14 +410,14 @@ Scheme
 			}
 			"6"
 			{
-				"name"		"Stubble-bold"
+				"name"		"Stubble bold"
 				"tall"		"20"
 				"range" 		"0x0000 0x00FF"
 				"weight"		"900"
 			}
 			"7"
 			{
-				"name"		"Arial"
+				"name"		"Stubble bold"
 				"tall"		"20"
 				"range" 		"0x0000 0x00FF"
 				"weight"		"800"
@@ -428,7 +428,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Stubble-bold"
+				"name"		"Stubble bold"
 				"tall"		"19"
 				"weight"	"1100"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
@@ -436,7 +436,7 @@ Scheme
 			}
 			"2"
 			{
-				"name"		"Stubble-bold"
+				"name"		"Stubble bold"
 				"tall"		"24"
 				"weight"	"1100"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
@@ -444,7 +444,7 @@ Scheme
 			}
 			"3"
 			{
-				"name"		"Stubble-bold"
+				"name"		"Stubble bold"
 				"tall"		"31"
 				"weight"	"1100"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
@@ -453,7 +453,7 @@ Scheme
 			}
 			"4"
 			{
-				"name"		"Stubble-bold"
+				"name"		"Stubble bold"
 				"tall"		"41"
 				"weight"	"1100"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
@@ -462,7 +462,7 @@ Scheme
 			}
 			"5" // Misyl: Proportional
 			{
-				"name"		"Stubble-bold"
+				"name"		"Stubble bold"
 				"tall"		"19"
 				"weight"	"900"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
@@ -470,7 +470,7 @@ Scheme
 			}
 			"6"
 			{
-				"name"		"Stubble-bold"
+				"name"		"Stubble bold"
 				"tall"		"22"
 				"range" 		"0x0000 0x00FF"
 				"weight"		"900"
@@ -481,7 +481,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Stubble-bold"
+				"name"		"Stubble bold"
 				"tall"		"22"
 				"weight"	"1300"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
@@ -489,7 +489,7 @@ Scheme
 			}
 			"2"
 			{
-				"name"		"Stubble-bold"
+				"name"		"Stubble bold"
 				"tall"		"28"
 				"weight"	"1300"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
@@ -497,7 +497,7 @@ Scheme
 			}
 			"3"
 			{
-				"name"		"Stubble-bold"
+				"name"		"Stubble bold"
 				"tall"		"36"
 				"weight"	"1300"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
@@ -506,7 +506,7 @@ Scheme
 			}
 			"4"
 			{
-				"name"		"Stubble-bold"
+				"name"		"Stubble bold"
 				"tall"		"48"
 				"weight"	"1300"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
@@ -515,7 +515,7 @@ Scheme
 			}
 			"5" // Misyl: Proportional
 			{
-				"name"		"Stubble-bold"
+				"name"		"Stubble bold"
 				"tall"		"22"
 				"weight"	"900"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
@@ -523,7 +523,7 @@ Scheme
 			}
 			"6"
 			{
-				"name"		"Stubble-bold"
+				"name"		"Stubble bold"
 				"tall"		"28"
 				"range" 		"0x0000 0x00FF"
 				"weight"		"900"
@@ -534,7 +534,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Stubble-bold"
+				"name"		"Stubble bold"
 				"tall"		"24"
 				"weight"	"1300"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
@@ -542,7 +542,7 @@ Scheme
 			}
 			"2"
 			{
-				"name"		"Stubble-bold"
+				"name"		"Stubble bold"
 				"tall"		"34"
 				"weight"	"1300"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
@@ -550,7 +550,7 @@ Scheme
 			}
 			"3"
 			{
-				"name"		"Stubble-bold"
+				"name"		"Stubble bold"
 				"tall"		"42"
 				"weight"	"1300"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
@@ -559,7 +559,7 @@ Scheme
 			}
 			"4"
 			{
-				"name"		"Stubble-bold"
+				"name"		"Stubble bold"
 				"tall"		"54"
 				"weight"	"1300"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
@@ -568,7 +568,7 @@ Scheme
 			}
 			"5" // Misyl: Proportional
 			{
-				"name"		"Stubble-bold"
+				"name"		"Stubble bold"
 				"tall"		"24"
 				"weight"	"900"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
@@ -576,7 +576,7 @@ Scheme
 			}
 			"6"
 			{
-				"name"		"Stubble-bold"
+				"name"		"Stubble bold"
 				"tall"		"32"
 				"range" 		"0x0000 0x00FF"
 				"weight"		"900"
@@ -587,7 +587,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Stubble-bold"
+				"name"		"Stubble bold"
 				"tall"		"14"
 				"weight"	"700"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
@@ -606,7 +606,7 @@ Scheme
 			}
 			"2"
 			{
-				"name"		"Arial"
+				"name"		"Stubble bold"
 				"tall"		"11"
 				"range" 		"0x0000 0x00FF"
 				"weight"		"800"
@@ -616,7 +616,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Stubble-bold"
+				"name"		"Stubble bold"
 				"tall"		"10"
 				"weight"	"0"
 				"range"		"0x0000 0x017F"
@@ -625,7 +625,7 @@ Scheme
 			}
 			"2"
 			{
-				"name"		"Stubble-bold"
+				"name"		"Stubble bold"
 				"tall"		"12"
 				"weight"	"0"
 				"range"		"0x0000 0x017F"
@@ -634,7 +634,7 @@ Scheme
 			}
 			"3"
 			{
-				"name"		"Stubble-bold"
+				"name"		"Stubble bold"
 				"tall"		"15"
 				"weight"	"0"
 				"range"		"0x0000 0x017F"
@@ -643,7 +643,7 @@ Scheme
 			}
 			"4"
 			{
-				"name"		"Stubble-bold"
+				"name"		"Stubble bold"
 				"tall"		"20"
 				"weight"	"0"
 				"range"		"0x0000 0x017F"
@@ -652,7 +652,7 @@ Scheme
 			}
 			"5" // Misyl: Proportional
 			{
-				"name"		"Stubble-bold"
+				"name"		"Stubble bold"
 				"tall"		"10"
 				"weight"	"900"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
@@ -660,7 +660,7 @@ Scheme
 			}
 			"6"
 			{
-				"name"		"Arial"
+				"name"		"Stubble bold"
 				"tall"		"12"
 				"range" 		"0x0000 0x00FF"
 				"weight"		"0"
@@ -671,7 +671,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Stubble-bold"
+				"name"		"Stubble bold"
 				"tall"		"12"
 				"weight"	"0"
 				"range"		"0x0000 0x017F"
@@ -680,7 +680,7 @@ Scheme
 			}
 			"2"
 			{
-				"name"		"Stubble-bold"
+				"name"		"Stubble bold"
 				"tall"		"13"
 				"weight"	"0"
 				"range"		"0x0000 0x017F"
@@ -689,7 +689,7 @@ Scheme
 			}
 			"3"
 			{
-				"name"		"Stubble-bold"
+				"name"		"Stubble bold"
 				"tall"		"14"
 				"weight"	"0"
 				"range"		"0x0000 0x017F"
@@ -699,7 +699,7 @@ Scheme
 			}
 			"4"
 			{
-				"name"		"Stubble-bold"
+				"name"		"Stubble bold"
 				"tall"		"20"
 				"weight"	"0"
 				"range"		"0x0000 0x017F"
@@ -709,7 +709,7 @@ Scheme
 			}
 			"5" // Misyl: Proportional
 			{
-				"name"		"Stubble-bold"
+				"name"		"Stubble bold"
 				"tall"		"12"
 				"weight"	"900"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
@@ -718,7 +718,7 @@ Scheme
 			}
 			"6"
 			{
-				"name"		"Arial"
+				"name"		"Stubble bold"
 				"tall"		"12"
 				"range" 		"0x0000 0x00FF"
 				"weight"		"0"
@@ -729,7 +729,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Stubble-bold"
+				"name"		"Stubble bold"
 				"tall"		"10"
 				"weight"	"0"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
@@ -737,7 +737,7 @@ Scheme
 			}
 			"2"
 			{
-				"name"		"Stubble-bold"
+				"name"		"Stubble bold"
 				"tall"		"12"
 				"weight"	"0"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
@@ -745,7 +745,7 @@ Scheme
 			}
 			"3"
 			{
-				"name"		"Stubble-bold"
+				"name"		"Stubble bold"
 				"tall"		"15"
 				"weight"	"0"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
@@ -754,7 +754,7 @@ Scheme
 			}
 			"4"
 			{
-				"name"		"Stubble-bold"
+				"name"		"Stubble bold"
 				"tall"		"20"
 				"weight"	"0"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
@@ -763,7 +763,7 @@ Scheme
 			}
 			"5" // Misyl: Proportional
 			{
-				"name"		"Stubble-bold"
+				"name"		"Stubble bold"
 				"tall"		"10"
 				"weight"	"900"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
@@ -771,14 +771,14 @@ Scheme
 			}
 			"6"
 			{
-				"name"		"Stubble-bold"
+				"name"		"Stubble bold"
 				"tall"		"12"
 				"range" 		"0x0000 0x00FF"
 				"weight"		"0"
 			}
 			"7"
 			{
-				"name"		"Arial"
+				"name"		"Stubble bold"
 				"tall"		"11"
 				"range" 		"0x0000 0x00FF"
 				"weight"		"0"
@@ -789,7 +789,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Stubble-bold"
+				"name"		"Stubble bold"
 				"tall"		"10"
 				"weight"	"0"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
@@ -798,7 +798,7 @@ Scheme
 			}
 			"2"
 			{
-				"name"		"Stubble-bold"
+				"name"		"Stubble bold"
 				"tall"		"12"
 				"weight"	"0"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
@@ -807,7 +807,7 @@ Scheme
 			}
 			"3" // Misyl: Proportional
 			{
-				"name"		"Stubble-bold"
+				"name"		"Stubble bold"
 				"tall"		"10"
 				"weight"	"900"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
@@ -831,36 +831,36 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Stubble-bold"
-				"tall"		"12"
+				"name"		"Stubble bold"
+				"tall"		"16"
 				"weight"	"700"
 				"yres"	"480 599"
 			}
 			"2"
 			{
-				"name"		"Stubble-bold"
-				"tall"		"13"
+				"name"		"Stubble bold"
+				"tall"		"17"
 				"weight"	"700"
 				"yres"	"600 767"
 			}
 			"3"
 			{
-				"name"		"Stubble-bold"
-				"tall"		"14"
+				"name"		"Stubble bold"
+				"tall"		"18"
 				"weight"	"700"
 				"yres"	"768 1023"
 			}
 			"4"
 			{
-				"name"		"Stubble-bold"
-				"tall"		"20"
+				"name"		"Stubble bold"
+				"tall"		"24"
 				"weight"	"700"
 				"yres"	"1024 1199"
 			}
 			"5" // Misyl: Proportional
 			{
-				"name"		"Stubble-bold"
-				"tall"		"10"
+				"name"		"Stubble bold"
+				"tall"		"16"
 				"weight"	"900"
 				"antialias"	"1"
 			}
@@ -869,7 +869,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Arial"
+				"name"		"Stubble bold"
 				"tall"		"16"
 				"weight"	"1000"
 				"additive"	"1"
@@ -882,7 +882,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Stubble-bold"
+				"name"		"Stubble bold"
 				"tall"		"11"
 				"weight"	"700"
 				"antialias" "1"
@@ -895,7 +895,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Stubble-bold"
+				"name"		"Stubble bold"
 				"tall"		"11"
 				"weight"	"700"
 				"antialias" "1"
@@ -905,7 +905,7 @@ Scheme
 			}
 			"2"
 			{
-				"name"		"Stubble-bold"
+				"name"		"Stubble bold"
 				"tall"		"11"
 				"weight"	"700"
 				"antialias" "1"
@@ -915,7 +915,7 @@ Scheme
 			}
 			"3"
 			{
-				"name"		"Stubble-bold"
+				"name"		"Stubble bold"
 				"tall"		"12"
 				"weight"	"900"
 				"antialias" "1"
@@ -924,7 +924,7 @@ Scheme
 			}
 			"4"
 			{
-				"name"		"Stubble-bold"
+				"name"		"Stubble bold"
 				"tall"		"16"
 				"weight"	"900"
 				"antialias" "1"
@@ -933,7 +933,7 @@ Scheme
 			}
 			"5" // Misyl: Proportional
 			{
-				"name"		"Stubble-bold"
+				"name"		"Stubble bold"
 				"tall"		"8"
 				"weight"	"900"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
@@ -1104,7 +1104,7 @@ Scheme
 			}
 			"2"
 			{
-				"name"  "Stubble-bold"
+				"name"  "Stubble bold"
 				"tall"  "28"
 				"weight" "0"
 				"additive" "1"
@@ -1116,7 +1116,7 @@ Scheme
 			"1"
 			{
 				"name"		"Tahoma"
-				"tall"		"16"
+				"tall"		"12"
 				"weight"	"500"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
 			}
@@ -1126,7 +1126,7 @@ Scheme
 			"1"
 			{
 				"name"		"Tahoma"
-				"tall"		"16"
+				"tall"		"12"
 				"weight"	"500"
 				"italic"	"1"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
@@ -1137,7 +1137,7 @@ Scheme
 			"1"
 			{
 				"name"		"Tahoma"
-				"tall"		"16"
+				"tall"		"12"
 				"weight"	"900"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
 			}
@@ -1147,7 +1147,7 @@ Scheme
 			"1"
 			{
 				"name"		"Tahoma"
-				"tall"		"16"
+				"tall"		"12"
 				"weight"	"900"
 				"italic"	"1"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
@@ -1169,7 +1169,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Stubble-bold Bold"
+				"name"		"Stubble bold"
 				"tall"		"18"
 				"weight"	"500"
 				"antialias"	"1"
@@ -1225,7 +1225,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Stubble-bold"
+				"name"		"Stubble bold"
 				"tall"		"12"
 				"weight"	"700"
 				"yres"	"480 599"
@@ -1233,7 +1233,7 @@ Scheme
 			}
 			"2"
 			{
-				"name"		"Stubble-bold"
+				"name"		"Stubble bold"
 				"tall"		"13"
 				"weight"	"700"
 				"yres"	"600 767"
@@ -1241,7 +1241,7 @@ Scheme
 			}
 			"3"
 			{
-				"name"		"Stubble-bold"
+				"name"		"Stubble bold"
 				"tall"		"14"
 				"weight"	"700"
 				"yres"	"768 1023"
@@ -1249,7 +1249,7 @@ Scheme
 			}
 			"4"
 			{
-				"name"		"Stubble-bold"
+				"name"		"Stubble bold"
 				"tall"		"20"
 				"weight"	"700"
 				"yres"	"1024 1199"
@@ -1257,7 +1257,7 @@ Scheme
 			}
 			"5" // Misyl: Proportional
 			{
-				"name"		"Stubble-bold"
+				"name"		"Stubble bold"
 				"tall"		"12"
 				"weight"	"900"
 				"antialias"	"1"
@@ -1267,7 +1267,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Stubble-bold"
+				"name"		"Stubble bold"
 				"tall"		"12"
 				"weight"	"700"
 				"yres"	"480 599"
@@ -1275,7 +1275,7 @@ Scheme
 			}
 			"2"
 			{
-				"name"		"Stubble-bold"
+				"name"		"Stubble bold"
 				"tall"		"13"
 				"weight"	"700"
 				"yres"	"600 767"
@@ -1283,7 +1283,7 @@ Scheme
 			}
 			"3"
 			{
-				"name"		"Stubble-bold"
+				"name"		"Stubble bold"
 				"tall"		"14"
 				"weight"	"700"
 				"yres"	"768 1023"
@@ -1291,7 +1291,7 @@ Scheme
 			}
 			"4"
 			{
-				"name"		"Stubble-bold"
+				"name"		"Stubble bold"
 				"tall"		"20"
 				"weight"	"700"
 				"yres"	"1024 1199"
@@ -1299,7 +1299,7 @@ Scheme
 			}
 			"5" // Misyl: Proportional
 			{
-				"name"		"Stubble-bold"
+				"name"		"Stubble bold"
 				"tall"		"9"
 				"weight"	"700"
 				"antialias"	"1"
@@ -1311,8 +1311,8 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Stubble-bold" [!$OSX]
-				"name"		"Stubble-bold Bold" [$OSX]
+				"name"		"Stubble bold" [!$OSX]
+				"name"		"Stubble bold" [$OSX]
 				"tall"		"16"
 				"weight"	"1200"
 				"antialias" "1"
@@ -1323,8 +1323,8 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Stubble-bold" [!$OSX]
-				"name"		"Stubble-bold Bold" [$OSX]
+				"name"		"Stubble bold" [!$OSX]
+				"name"		"Stubble bold" [$OSX]
 				"tall"		"12"
 				"weight"	"1200"
 				"antialias" "1"
@@ -1333,7 +1333,7 @@ Scheme
 			}
 			"2" // Misyl: Proportional
 			{
-				"name"		"Stubble-bold"
+				"name"		"Stubble bold"
 				"tall"		"12"
 				"weight"	"1200"
 				"antialias"	"1"
@@ -1346,7 +1346,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Arial" [!$OSX]
+				"name"		"Stubble bold" [!$OSX]
 				"name"		"Helvetica Bold" [$OSX]
 				"weight"		"1200"
 				"tall"			"11"
@@ -1358,7 +1358,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Arial" [!$OSX]
+				"name"		"Stubble bold" [!$OSX]
 				"name"		"Helvetica" [$OSX]
 				"weight"		"800"
 				"tall"			"9"
@@ -1370,7 +1370,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Stubble-bold" [!$OSX]
+				"name"		"Stubble bold" [!$OSX]
 				"name"		"Helvetica Bold" [$OSX]
 				"weight"		"1200"
 				"tall"			"12"
@@ -1382,7 +1382,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Stubble-bold" [!$OSX]
+				"name"		"Stubble bold" [!$OSX]
 				"name"		"Helvetica" [$OSX]
 				"weight"		"700"
 				"tall"			"9"
@@ -1394,7 +1394,7 @@ Scheme
 		{		
 			"1"
 			{
-				"name"		"Stubble-bold Bold" [!$OSX]
+				"name"		"Stubble bold" [!$OSX]
 				"name"		"Helvetica" [$OSX]
 				"tall"		"9"
 				"weight"	"900"
@@ -1407,7 +1407,7 @@ Scheme
 		{		
 			"1"
 			{
-				"name"		"Stubble-bold Bold" [!$OSX]
+				"name"		"Stubble bold" [!$OSX]
 				"name"		"Helvetica" [$OSX]
 				"tall"		"14"
 				"weight"	"600"
@@ -1420,7 +1420,7 @@ Scheme
 		{	
 			"1"
 			{
-				"name"		"Stubble-bold Bold" [!$OSX]
+				"name"		"Stubble bold" [!$OSX]
 				"name"		"Helvetica" [$OSX]
 				"tall"		"18"
 				"weight"	"600"
@@ -1433,7 +1433,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Stubble-bold" [!$OSX]
+				"name"		"Stubble bold" [!$OSX]
 				"name"		"Helvetica" [$OSX]
 				"tall"		"14"
 				"weight"	"700"
@@ -1446,8 +1446,8 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Stubble-bold Bold" [!$OSX]
-				"name"		"Stubble-bold" [$OSX]
+				"name"		"Stubble bold" [!$OSX]
+				"name"		"Stubble bold" [$OSX]
 				"tall"		"9" 
 				"weight"	"0"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
@@ -1471,7 +1471,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Stubble-bold"
+				"name"		"Stubble bold"
 				"tall"		"6"
 				"weight"	"0"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
@@ -1479,7 +1479,7 @@ Scheme
 			}
 			"2"
 			{
-				"name"		"Stubble-bold"
+				"name"		"Stubble bold"
 				"tall"		"8"
 				"weight"	"0"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
@@ -1487,7 +1487,7 @@ Scheme
 			}
 			"3"
 			{
-				"name"		"Stubble-bold"
+				"name"		"Stubble bold"
 				"tall"		"10"
 				"weight"	"0"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
@@ -1496,7 +1496,7 @@ Scheme
 			}
 			"4"
 			{
-				"name"		"Stubble-bold"
+				"name"		"Stubble bold"
 				"tall"		"13"
 				"weight"	"0"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
@@ -1505,7 +1505,7 @@ Scheme
 			}
 			"5"
 			{
-				"name"		"Stubble-bold"
+				"name"		"Stubble bold"
 				"tall"		"14"
 				"weight"	"0"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
@@ -1514,7 +1514,7 @@ Scheme
 			}
 			"6" // Misyl: Proportional
 			{
-				"name"		"Stubble-bold"
+				"name"		"Stubble bold"
 				"tall"		"16"
 				"weight"	"900"
 				"antialias"	"1"
@@ -1526,7 +1526,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Stubble-bold bold"
+				"name"		"Stubble bold"
 				"tall"		"8"
 				"weight"	"0"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
@@ -1538,7 +1538,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Stubble-bold bold"
+				"name"		"Stubble bold"
 				"tall"		"14"
 				"weight"	"0"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
@@ -1550,7 +1550,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Stubble-bold bold"
+				"name"		"Stubble bold"
 				"tall"		"45"
 				"weight"	"0"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
@@ -1562,7 +1562,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Stubble-bold bold"
+				"name"		"Stubble bold"
 				"tall"		"8"
 				"weight"	"0"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
@@ -1574,7 +1574,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Stubble-bold bold"
+				"name"		"Stubble bold"
 				"tall"		"12"
 				"weight"	"0"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
@@ -1586,7 +1586,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Stubble-bold bold"
+				"name"		"Stubble bold"
 				"tall"		"10"
 				"weight"	"0"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
@@ -1598,7 +1598,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Stubble-bold" 
+				"name"		"Stubble bold" 
 				"tall"		"10" [!$OSX]
 				"tall"		"11" [$OSX]
 				"weight"	"0"
@@ -1611,7 +1611,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Stubble-bold" 
+				"name"		"Stubble bold" 
 				"tall"		"8" [!$OSX]
 				"tall"		"9" [$OSX]
 				"weight"	"0"
@@ -1624,7 +1624,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Stubble-bold" 
+				"name"		"Stubble bold" 
 				"tall"		"7" [!$OSX]
 				"tall"		"8" [$OSX]
 				"weight"	"0"
@@ -1637,7 +1637,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Stubble-bold"
+				"name"		"Stubble bold"
 				"tall"		"10"
 				"weight"	"0"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
@@ -2422,6 +2422,7 @@ Scheme
 		"2"		"resource/csd.ttf"
 		"3"		"resource/Cstrike.ttf"
 		"4"		"resource/CSlogo.ttf"
+		"5"		"resource/Stubble bold.ttf"
 	}
 
 }
