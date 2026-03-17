@@ -498,12 +498,16 @@
 		"enabled" "1"
 		"xpos"	 "0"
 		"ypos"	 "0"
-		"wide"	 "f0"
-		"tall"	 "480"
+		"wide"	 "628"
+		"tall"	 "468"
 
 		"MaxDeathNotices" "6"
-		"IconSize"		"16"
+		"LineHeight"	  "22"
+		"RightJustify"	  "0"	// If 1, draw notices from the right
+		
 		"TextFont"				"Default"
+		"CTTextColor"			"CT_Blue"
+		"TerroristTextColor"	"T_Red"	
 	}
 
 	HudVehicle
