@@ -1263,6 +1263,99 @@ Scheme
 				"antialias"	"1"
 			}
 		}
+		
+		"Credits"
+		{
+			"1"
+			{
+				"name"		"Stubble bold"
+				"tall"		"30"
+				"weight"	"400"
+				"range"		"0x0000 0x007F"	//	Basic Latin
+				"antialias" "1"
+				"additive"	"1"
+			}
+		}
+		
+		HL2WeaponIcons [$WIN32]
+		{
+			"1"
+			{
+				"name"			"HalfLife2"
+				"tall"			"64"
+				"weight"		"0"
+				"antialias"		"1"
+				"additive"		"1"
+				"custom"		"1"
+			}
+		}
+		
+		"L4D_Icons"
+		{
+			"1"
+			{
+				"name"		"ToolBox"
+				"tall"		"16"
+				"weight"	"400"
+				"range"		"0x0000 0x007F"	//	Basic Latin
+				"antialias" "1"
+				"additive"	"1"
+			}
+		}
+		
+		"L4D_Icons_medium"
+		{
+			"1"
+			{
+				"name"		"ToolBox"
+				"tall"		"18"
+				"weight"	"400"
+				"range"		"0x0000 0x007F"	//	Basic Latin
+				"antialias" "1"
+				"additive"	"1"
+			}
+		}
+		
+		"L4D_Icons_large"
+		{
+			"1"
+			{
+				"name"		"ToolBox"
+				"tall"		"24"
+				"weight"	"400"
+				"range"		"0x0000 0x007F"	//	Basic Latin
+				"antialias" "1"
+				"additive"	"1"
+			}
+		}
+		
+		"L4D_Weapons"
+		{
+			"1"
+			{
+				"name"		"ToolBox"
+				"tall"		"30"
+				"weight"	"400"
+				"range"		"0x0000 0x007F"	//	Basic Latin
+				"antialias" "1"
+				"additive"	"1"
+			}
+		}
+		
+		"L4D_WeaponsSmall"
+		{
+			"1"
+			{
+				"name"		"ToolBox"
+				"tall"		"28"
+				"weight"	"400"
+				"range"		"0x0000 0x007F"	//	Basic Latin
+				"antialias" "1"
+				"additive"	"1"
+			}
+		}
+		
+		
 		"ChatFont"
 		{
 			"1"
