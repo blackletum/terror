@@ -309,7 +309,7 @@
 	{
 		"volume"	"1"
 		"pitch"		"100"
-		"wave"		"(ambient/Ambience/StreetWind01_loop.wav"
+		"wave"		")ambient/Ambience/StreetWind01_loop.wav"
 		"position"	"random"
 	}
 	//Fire 
@@ -409,7 +409,7 @@
 	{
 		"volume"	"0.04"
 		"pitch"		"125"
-		"wave"		"(ambient/ambience/Cicada_Loop.wav"
+		"wave"		")ambient/ambience/Cicada_Loop.wav"
 		"position"	"random"
 	}
 
@@ -700,7 +700,7 @@
 	{
 		"volume"	"0.24"
 		"pitch"		"97"
-		"wave"		"(ambient/ambience/courtyard_birds_loop.wav"
+		"wave"		")ambient/ambience/courtyard_birds_loop.wav"
 		"position"	"random"
 	}
 	
@@ -857,7 +857,7 @@
 	{
 		"volume"	"0.08"
 		"pitch"		"97"
-		"wave"		"(ambient/ambience/courtyard_birds_loop.wav"
+		"wave"		")ambient/ambience/courtyard_birds_loop.wav"
 		"position"	"random"
 	}
 	"playlooping"

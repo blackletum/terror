@@ -18,7 +18,7 @@
 	{
 		"volume"	"0.98"
 		"pitch"		"100"
-		"wave"		"(ambient/ambience/crucial_AirportAmbWindOutside.wav"
+		"wave"		")ambient/ambience/crucial_AirportAmbWindOutside.wav"
 		"position"	"random"
 	}
 	
@@ -128,7 +128,7 @@
 	{
 		"volume"	"1"
 		"pitch"		"100"
-		"wave"		"(ambient/Ambience/StreetWind01_loop.wav"
+		"wave"		")ambient/Ambience/StreetWind01_loop.wav"
 		"position"	"random"
 	}
 
@@ -529,7 +529,7 @@
 	{
 		"volume"	"1"
 		"pitch"		"100"
-		"wave"		"(ambient/Ambience/StreetWind01_loop.wav"
+		"wave"		")ambient/Ambience/StreetWind01_loop.wav"
 		"position"	"random"
 	}
 	// paper gusts
@@ -692,7 +692,7 @@
 	{
 		"volume"	"0.44"
 		"pitch"		"70"
-		"wave"		"(ambient/Ambience/Generator_Amb01_loop.wav"
+		"wave"		")ambient/Ambience/Generator_Amb01_loop.wav"
 		"position"	"random"
 	}
 	// gusts
@@ -806,7 +806,7 @@
 	{
 		"volume"	".7"
 		"pitch"		"100"
-		"wave"		"(ambient/Ambience/crucial_1a_Communications_Room_Amb.wav"
+		"wave"		")ambient/Ambience/crucial_1a_Communications_Room_Amb.wav"
 		"position"	"random"
 	}
 	// position 0 comes from a flourescent light
@@ -949,7 +949,7 @@
 	{
 		"volume"	".6"
 		"pitch"		"100"
-		"wave"		"(ambient/Ambience/crucial_MedRoomtone_Amb_loop.wav"
+		"wave"		")ambient/Ambience/crucial_MedRoomtone_Amb_loop.wav"
 		"position"	"random"
 	}
 	
@@ -1059,14 +1059,14 @@
 	{
 		"volume"	".5"
 		"pitch"		"100"
-		"wave"		"(ambient/atmosphere/corridor2.wav"
+		"wave"		")ambient/atmosphere/corridor2.wav"
 		"position"	"random"
 	}
 	"playlooping"
 	{
 		"volume"	".4"
 		"pitch"		"100"
-		"wave"		"(ambient/atmosphere/crucial_Drone1LP.wav"
+		"wave"		")ambient/atmosphere/crucial_Drone1LP.wav"
 		"position"	"random"
 	}
 	"playrandom"
@@ -1116,7 +1116,7 @@
 	{
 		"volume"	".5"
 		"pitch"		"76"
-		"wave"		"(ambient/atmosphere/crucial_undercity_loop1.wav"
+		"wave"		")ambient/atmosphere/crucial_undercity_loop1.wav"
 		"position"	"random"
 	}
 	"playrandom"
@@ -1287,7 +1287,7 @@
 	{
 		"volume"	".9"
 		"pitch"		"90"
-		"wave"		"(ambient/Ambience/crucial_InsidePlaneAmb_loop.wav"
+		"wave"		")ambient/Ambience/crucial_InsidePlaneAmb_loop.wav"
 		"position"	"random"
 	}
 }

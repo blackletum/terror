@@ -633,7 +633,7 @@
 	// underlying area "tone"
 	"playlooping"
 	{
-		"wave"		"(ambient/Ambience/crucial_MedRoomtone_Amb_loop.wav"
+		"wave"		")ambient/Ambience/crucial_MedRoomtone_Amb_loop.wav"
 		"volume" 	".65"
 		"position"	"random"
 	}
@@ -710,7 +710,7 @@
 
 	"playlooping"
 	{
-		"wave"		"(ambient/Ambience/crucial_MedRoomtone_Amb_loop.wav"
+		"wave"		")ambient/Ambience/crucial_MedRoomtone_Amb_loop.wav"
 		"volume" 	".67"
 		"position"	"random"
 	}
@@ -834,7 +834,7 @@
 
 	"playlooping"
 	{
-		"wave"		"(ambient/Ambience/crucial_UnderGroundRumbleTone_loop.wav"
+		"wave"		")ambient/Ambience/crucial_UnderGroundRumbleTone_loop.wav"
 		"volume" 	".67"
 		"position"	"random"
 	}
@@ -913,7 +913,7 @@
 
 	"playlooping"
 	{
-		"wave"		"(ambient/Ambience/crucial_UnderGroundRumbleTone_loop.wav"
+		"wave"		")ambient/Ambience/crucial_UnderGroundRumbleTone_loop.wav"
 		"volume" 	".7"
 		"position"	"random"
 	}
@@ -1142,7 +1142,7 @@
 
 	"playlooping"
 	{
-		"wave"		"(ambient/Ambience/crucial_BigWarehouseAmb_loop.wav"
+		"wave"		")ambient/Ambience/crucial_BigWarehouseAmb_loop.wav"
 		"volume" 	".5"
 		"position"	"random"
 	}
@@ -1293,7 +1293,7 @@
 
 	"playlooping"
 	{
-		"wave"		"(ambient/Ambience/crucial_MedRoomtone_Amb_loop.wav"
+		"wave"		")ambient/Ambience/crucial_MedRoomtone_Amb_loop.wav"
 		"volume" 	".6"
 		"position"	"random"
 	}
@@ -1425,7 +1425,7 @@
 	{
 		"volume"	".15"
 		"pitch"		"100"
-		"wave"		"(ambient/Ambience/WindInGrass_loop.wav"
+		"wave"		")ambient/Ambience/WindInGrass_loop.wav"
 		"position"	"random"
 	}
 	
@@ -1477,7 +1477,7 @@
 	{
 		"volume"	"0.48"
 		"pitch"		"100"
-		"wave"		"(ambient/ambience/Bug_loop.wav"
+		"wave"		")ambient/ambience/Bug_loop.wav"
 		"position"	"random"
 	}
 	"playlooping"
@@ -1682,7 +1682,7 @@
 	{
 		"volume"	"0.16"
 		"pitch"		"97"
-		"wave"		"(ambient/ambience/courtyard_birds_loop.wav"
+		"wave"		")ambient/ambience/courtyard_birds_loop.wav"
 		"position"	"random"
 	}
 	"playlooping"
@@ -1984,7 +1984,7 @@
 
 	"playlooping"
 	{
-		"wave"		"(ambient/Ambience/crucial_GenRoom_stereo_loop.wav"
+		"wave"		")ambient/Ambience/crucial_GenRoom_stereo_loop.wav"
 		"volume" 	"1"
 		"pitch"		"60"
 	}
@@ -2354,7 +2354,7 @@
 
 	"playlooping"
 	{
-		"wave"		"(ambient/Ambience/crucial_UnderGroundRumbleTone_loop.wav"
+		"wave"		")ambient/Ambience/crucial_UnderGroundRumbleTone_loop.wav"
 		"volume" 	".6"
 		"position"	"random"
 	}
@@ -2658,7 +2658,7 @@
 	{
 		"volume"	"0.5"
 		"pitch"		"100"
-		"wave"		"(ambient/ambience/crucial_URB4b_ShaftWind_Loop.wav"
+		"wave"		")ambient/ambience/crucial_URB4b_ShaftWind_Loop.wav"
 		"position"	"random"
 	}
 
@@ -2762,7 +2762,7 @@
 	{
 		"volume"	"0.9"
 		"pitch"		"100"
-		"wave"		"(ambient/ambience/crucial_URB4b_TopFloorWind_Loop.wav"
+		"wave"		")ambient/ambience/crucial_URB4b_TopFloorWind_Loop.wav"
 		"position"	"random"
 	}
 
@@ -2912,14 +2912,14 @@
 	{
 		"volume"	"0.56"
 		"pitch"		"100"
-		"wave"		"(ambient/ambience/crucial_URB4b_TopFloorWind_Loop.wav"
+		"wave"		")ambient/ambience/crucial_URB4b_TopFloorWind_Loop.wav"
 		"position"	"random"
 	}
 	"playlooping"
 	{
 		"volume"	"0.37"
 		"pitch"		"100"
-		"wave"		"(vehicles/helicopter/HelicopterWind_Loop.wav"
+		"wave"		")vehicles/helicopter/HelicopterWind_Loop.wav"
 		"position"	"random"
 	}
 
@@ -3137,7 +3137,7 @@
 	{
 		"volume"	"0.22"
 		"pitch"		"100"
-		"wave"		"(ambient/c5m4/crucial_c5m4_Waves_Amb_loop.wav"
+		"wave"		")ambient/c5m4/crucial_c5m4_Waves_Amb_loop.wav"
 		"position"	"random"
 	}
 	//Dock noises
@@ -3187,7 +3187,7 @@
 	{
 		"volume"	"0.44"
 		"pitch"		"100"
-		"wave"		"(ambient/c5m4/crucial_c5m4_Waves_Amb_loop.wav"
+		"wave"		")ambient/c5m4/crucial_c5m4_Waves_Amb_loop.wav"
 		"position"	"random"
 	}
 
@@ -3228,7 +3228,7 @@
 	{
 		"volume"	"0.33"
 		"pitch"		"100"
-		"wave"		"(ambient/c5m4/crucial_c5m4_Waves_Amb_loop.wav"
+		"wave"		")ambient/c5m4/crucial_c5m4_Waves_Amb_loop.wav"
 		"position"	"random"
 	}
 	// bird sounds

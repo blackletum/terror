@@ -248,14 +248,14 @@
 	{
 		"volume"	"1.0"
 		"pitch"		"95"
-		"wave"		"(ambient/Ambience/crucial_URB4b_Shaftwind_Loop.wav"
+		"wave"		")ambient/Ambience/crucial_URB4b_Shaftwind_Loop.wav"
 		"position"	"random"
 	}
 	"playlooping"
 	{
 		"volume"	".4"
 		"pitch"		"67"
-		"wave"		"(ambient/Ambience/crucial_pumproom_amb_loop.wav"
+		"wave"		")ambient/Ambience/crucial_pumproom_amb_loop.wav"
 		"position"	"random"
 	}
 

@@ -64,7 +64,7 @@
 	{
 		"volume"	".75"
 		"pitch"		"100"
-		"wave"		"(ambient/ambience/Bug_loop.wav"
+		"wave"		")ambient/ambience/Bug_loop.wav"
 		"position"	"random"
 	}
 
@@ -129,7 +129,7 @@
 	{
 		"volume"	".4"
 		"pitch"		"100"
-		"wave"		"(ambient/ambience/Bug_loop.wav"
+		"wave"		")ambient/ambience/Bug_loop.wav"
 		"position"	"random"
 	}
 	
@@ -148,7 +148,7 @@
 	{
 		"volume"	"0.2"
 		"pitch"		"100"
-		"wave"		"(ambient/ambience/Bug_loop.wav"
+		"wave"		")ambient/ambience/Bug_loop.wav"
 		"position"	"random"
 
 	}	
@@ -189,7 +189,7 @@
 	{
 		"volume"	".3"
 		"pitch"		"100"
-		"wave"		"(ambient/ambience/Bug_loop.wav"
+		"wave"		")ambient/ambience/Bug_loop.wav"
 		"position"	"random"
 	}
 	
@@ -205,7 +205,7 @@
 	{
 		"volume"	".76"
 		"pitch"		"100"
-		"wave"		"(ambient/ambience/crucial_Cemetery_Quiet_Amb.wav"
+		"wave"		")ambient/ambience/crucial_Cemetery_Quiet_Amb.wav"
 		"position"	"random"
 	}
 
@@ -213,7 +213,7 @@
 	{
 		"volume"	"1"
 		"pitch"		"100"
-		"wave"		"(ambient/ambience/Bug_loop.wav"
+		"wave"		")ambient/ambience/Bug_loop.wav"
 		"position"	"random"
 	}
 
@@ -272,7 +272,7 @@
 	{
 		"volume"	"1"
 		"pitch"		"100"
-		"wave"		"(ambient/ambience/Bug_loop.wav"
+		"wave"		")ambient/ambience/Bug_loop.wav"
 		"position"	"random"
 	}
 
@@ -341,7 +341,7 @@
 
 	"playlooping"
 	{
-		"wave"		"(ambient/Ambience/crucial_MedRoomtone_Amb_loop.wav"
+		"wave"		")ambient/Ambience/crucial_MedRoomtone_Amb_loop.wav"
 		"volume" 	".65"
 		"position"	"random"
 	}
@@ -369,7 +369,7 @@
 
 	"playlooping"
 	{
-		"wave"		"(ambient/Ambience/crucial_RoomTone_Warehouse.wav"
+		"wave"		")ambient/Ambience/crucial_RoomTone_Warehouse.wav"
 		"volume" 	"1"
 		"position"	"random"
 	}
@@ -451,7 +451,7 @@
 	{
 		"volume"	".24"
 		"pitch"		"100"
-		"wave"		"(ambient/ambience/crucial_Tunnel_Water_Loop.wav"
+		"wave"		")ambient/ambience/crucial_Tunnel_Water_Loop.wav"
 		"position"	"random"
 	}
 
@@ -459,7 +459,7 @@
 	{
 		"volume"	".3"
 		"pitch"		"100"
-		"wave"		"(ambient/ambience/Tunnel_Tone_Loop.wav"
+		"wave"		")ambient/ambience/Tunnel_Tone_Loop.wav"
 		"position"	"random"
 	}
 	
@@ -517,7 +517,7 @@
 	{
 		"volume"	".45"
 		"pitch"		"100"
-		"wave"		"(ambient/ambience/Tunnel_Tone_Loop.wav"
+		"wave"		")ambient/ambience/Tunnel_Tone_Loop.wav"
 		"position"	"random"
 	}
 
@@ -554,7 +554,7 @@
 	{
 		"volume"	".3"
 		"pitch"		"100"
-		"wave"		"(ambient/ambience/Tunnel_Tone_Loop.wav"
+		"wave"		")ambient/ambience/Tunnel_Tone_Loop.wav"
 		"position"	"random"
 	}
 
@@ -583,7 +583,7 @@
 	{
 		"volume"	".76"
 		"pitch"		"100"
-		"wave"		"(ambient/ambience/crucial_Cemetery_Quiet_Amb.wav"
+		"wave"		")ambient/ambience/crucial_Cemetery_Quiet_Amb.wav"
 		"position"	"random"
 	}
 
@@ -591,7 +591,7 @@
 	{
 		"volume"	"1"
 		"pitch"		"100"
-		"wave"		"(ambient/ambience/Bug_loop.wav"
+		"wave"		")ambient/ambience/Bug_loop.wav"
 		"position"	"random"
 	}
 
@@ -613,7 +613,7 @@
 	{
 		"volume"	".76"
 		"pitch"		"100"
-		"wave"		"(ambient/ambience/crucial_Cemetery_Quiet_Amb.wav"
+		"wave"		")ambient/ambience/crucial_Cemetery_Quiet_Amb.wav"
 		"position"	"random"
 	}
 
@@ -621,7 +621,7 @@
 	{
 		"volume"	"1"
 		"pitch"		"100"
-		"wave"		"(ambient/ambience/Bug_loop.wav"
+		"wave"		")ambient/ambience/Bug_loop.wav"
 		"position"	"random"
 	}
 
@@ -702,7 +702,7 @@
 	{
 		"volume"	".6"
 		"pitch"		"100"
-		"wave"		"(ambient/Drones/Drone_Mvmnt_01.wav"
+		"wave"		")ambient/Drones/Drone_Mvmnt_01.wav"
 		"position"	"random"
 	}
 
@@ -710,7 +710,7 @@
 	{
 		"volume"	".4"
 		"pitch"		"100"
-		"wave"		"(ambient/ambience/crucial_urb4b_shaftwind_loop.wav"
+		"wave"		")ambient/ambience/crucial_urb4b_shaftwind_loop.wav"
 		"position"	"random"
 	}
 
@@ -718,7 +718,7 @@
 	{
 		"volume"	".5"
 		"pitch"		"100"
-		"wave"		"(ambient/ambience/Bug_loop.wav"
+		"wave"		")ambient/ambience/Bug_loop.wav"
 		"position"	"random"
 	}
 
@@ -797,7 +797,7 @@
 	{
 		"volume"	"1"
 		"pitch"		"100"
-		"wave"		"(ambient/ambience/Bug_loop.wav"
+		"wave"		")ambient/ambience/Bug_loop.wav"
 		"position"	"random"
 	}
 
@@ -848,7 +848,7 @@
 	{
 		"volume"	".5"
 		"pitch"		"100"
-		"wave"		"(ambient/ambience/Bug_loop.wav"
+		"wave"		")ambient/ambience/Bug_loop.wav"
 		"position"	"random"
 	}
 
@@ -971,7 +971,7 @@
 	{
 		"volume"	".44"
 		"pitch"		"100"
-		"wave"		"(ambient/ambience/Tunnel_Tone_Loop.wav"
+		"wave"		")ambient/ambience/Tunnel_Tone_Loop.wav"
 		"position"	"random"
 	}
 	"playlooping"
@@ -1045,7 +1045,7 @@
 	{
 		"volume"	".44"
 		"pitch"		"100"
-		"wave"		"(ambient/ambience/Tunnel_Tone_Loop.wav"
+		"wave"		")ambient/ambience/Tunnel_Tone_Loop.wav"
 		"position"	"random"
 	}
 
@@ -1100,7 +1100,7 @@
 	 {
 		 "volume"	"0.24"
 		 "pitch"	"100"
-		 "wave"		"(ambient/Ambience/crucial_Arena_Tone_loop.wav"
+		 "wave"		")ambient/Ambience/crucial_Arena_Tone_loop.wav"
 		 "position"	"random"
 	 }
 
@@ -1108,7 +1108,7 @@
 	{
 		"volume"	".4"
 		"pitch"		"100"
-		"wave"		"(ambient/ambience/Bug_loop.wav"
+		"wave"		")ambient/ambience/Bug_loop.wav"
 		"position"	"random"
 	}
 

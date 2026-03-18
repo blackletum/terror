@@ -222,7 +222,7 @@
 	{
 		"volume"	"0.3"
 		"pitch"		"100"
-		"wave"		"(ambient/swamps/crucial_cricket_amb_01.wav"
+		"wave"		")ambient/swamps/crucial_cricket_amb_01.wav"
 		"position"	"random"
 	}
 
@@ -239,7 +239,7 @@
 	{
 		"volume"	"0.3"
 		"pitch"		"100"
-		"wave"		"(ambient/swamps/crucial_cricket_amb_01.wav"
+		"wave"		")ambient/swamps/crucial_cricket_amb_01.wav"
 		"position"	"random"
 	}
 	// underlying area "tone"
@@ -247,7 +247,7 @@
 	{
 		"volume"	".45"
 		"pitch"		"100"
-		"wave"		"(ambient/swamps/crucial_frog_cricket_01_loop.wav"
+		"wave"		")ambient/swamps/crucial_frog_cricket_01_loop.wav"
 		"position"	"random"
 	}
 
@@ -299,7 +299,7 @@
 	{
 		"volume"	".55"
 		"pitch"		"100"
-		"wave"		"(ambient/swamps/crucial_frog_cricket_01_loop.wav"
+		"wave"		")ambient/swamps/crucial_frog_cricket_01_loop.wav"
 		"position"	"random"
 	}
 
@@ -307,7 +307,7 @@
 	{
 		"volume"	"0.33"
 		"pitch"		"103"
-		"wave"		"(ambient/ambience/mosquito_loop_st.wav"
+		"wave"		")ambient/ambience/mosquito_loop_st.wav"
 		"position"	"random"
 
 	}
@@ -404,7 +404,7 @@
 	{
 		"volume"	".3"
 		"pitch"		"100"
-		"wave"		"(ambient/swamps/crucial_frog_cricket_01_loop.wav"
+		"wave"		")ambient/swamps/crucial_frog_cricket_01_loop.wav"
 		"position"	"random"
 	}
 	
@@ -466,7 +466,7 @@
 	{
 		"volume"	".3"
 		"pitch"		"100"
-		"wave"		"(ambient/swamps/crucial_frog_cricket_01_loop.wav"
+		"wave"		")ambient/swamps/crucial_frog_cricket_01_loop.wav"
 		"position"	"random"
 	}
 	
@@ -510,7 +510,7 @@
 	{
 		"volume"	".1"
 		"pitch"		"100"
-		"wave"		"(ambient/swamps/crucial_frog_cricket_01_loop.wav"
+		"wave"		")ambient/swamps/crucial_frog_cricket_01_loop.wav"
 		"position"	"random"
 	}
 	
@@ -518,7 +518,7 @@
 	{
 		"volume"	".2"
 		"pitch"		"100"
-		"wave"		"(ambient/swamps/crucial_frog_cricket_02_loop.wav"
+		"wave"		")ambient/swamps/crucial_frog_cricket_02_loop.wav"
 		"position"	"random"
 	}
 
@@ -555,7 +555,7 @@
 	{
 		"volume"	".27"
 		"pitch"		"100"
-		"wave"		"(ambient/swamps/crucial_frog_cricket_01_loop.wav"
+		"wave"		")ambient/swamps/crucial_frog_cricket_01_loop.wav"
 		"position"	"random"
 	}
 	
@@ -563,7 +563,7 @@
 	{
 		"volume"	".2"
 		"pitch"		"100"
-		"wave"		"(ambient/swamps/crucial_cricket_amb_01.wav"
+		"wave"		")ambient/swamps/crucial_cricket_amb_01.wav"
 		"position"	"random"
 	}
 
@@ -595,7 +595,7 @@
 	{
 		"volume"	".52"
 		"pitch"		"100"
-		"wave"		"(ambient/swamps/crucial_cricket_amb_02.wav"
+		"wave"		")ambient/swamps/crucial_cricket_amb_02.wav"
 		"position"	"random"
 	}
 
@@ -603,7 +603,7 @@
 	{
 		"volume"	".65"
 		"pitch"		"100"
-		"wave"		"(ambient/ambience/Bug_loop.wav"
+		"wave"		")ambient/ambience/Bug_loop.wav"
 		"position"	"random"
 	}
 
@@ -634,7 +634,7 @@
 	{
 		"volume"	".6"
 		"pitch"		"100"
-		"wave"		"(ambient/ambience/crucial_orchard_bird_cricket_01.wav"
+		"wave"		")ambient/ambience/crucial_orchard_bird_cricket_01.wav"
 		"position"	"random"
 	}
 
@@ -642,7 +642,7 @@
 	{
 		"volume"	".55"
 		"pitch"		"100"
-		"wave"		"(ambient/swamps/crucial_cricket_amb_02.wav"
+		"wave"		")ambient/swamps/crucial_cricket_amb_02.wav"
 		"position"	"random"
 	}
 

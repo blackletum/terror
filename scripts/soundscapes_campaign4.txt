@@ -292,7 +292,7 @@
 	{
 		"volume"	".74"
 		"pitch"		"100"
-		"wave"		"(ambient\ambience\rainscapes\rain\crucial_wind_rain_loop.wav"
+		"wave"		")ambient\ambience\rainscapes\rain\crucial_wind_rain_loop.wav"
 		"position"	"random"
 	}
 
@@ -300,7 +300,7 @@
 	{
 		"volume"	".87"
 		"pitch"		"100"
-		"wave"		"(ambient\ambience\rainscapes\rain\whistle_debris_loop.wav"
+		"wave"		")ambient\ambience\rainscapes\rain\whistle_debris_loop.wav"
 		"position"	"random"
 	}
 
@@ -381,7 +381,7 @@
 	{
 		"volume"	".7"
 		"pitch"		"100"
-		"wave"		"(ambient\ambience\rainscapes\rain\whistle_debris_loop.wav"
+		"wave"		")ambient\ambience\rainscapes\rain\whistle_debris_loop.wav"
 		"position"	"random"
 	}
 
@@ -496,7 +496,7 @@
 	{
 		"volume"	"0.48"
 		"pitch"		"100"
-		"wave"		"(ambient/ambience/Bug_loop.wav"
+		"wave"		")ambient/ambience/Bug_loop.wav"
 		"position"	"random"
 	}
 
@@ -1269,7 +1269,7 @@
 	{
 		"volume"	"1"
 		"pitch"		"100"
-		"wave"		"(ambient\ambience\rainscapes\rain\heavy_wind01.wav"
+		"wave"		")ambient\ambience\rainscapes\rain\heavy_wind01.wav"
 		"position"	"random"
 	}
 

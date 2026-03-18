@@ -828,7 +828,7 @@
 	{
 		"volume"	".4"
 		"pitch"		"100"
-		"wave"		"(ambient/ambience/crucial_orchard_bird_cricket_01.wav"
+		"wave"		")ambient/ambience/crucial_orchard_bird_cricket_01.wav"
 		"position"	"random"
 	}
 	// underlying area "tone"
@@ -836,7 +836,7 @@
 	{
 		"volume"	".43"
 		"pitch"		"100"
-		"wave"		"(ambient/swamps/crucial_frog_cricket_01_loop.wav"
+		"wave"		")ambient/swamps/crucial_frog_cricket_01_loop.wav"
 		"position"	"random"
 	}
 	// position specific water sounds

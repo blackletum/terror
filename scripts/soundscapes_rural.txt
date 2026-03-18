@@ -75,7 +75,7 @@
 	{
 		"volume"	".6"
 		"pitch"		"100"
-		"wave"		"(ambient/Ambience/Rur_1a_HilltopAmb_Cricket1c.wav"
+		"wave"		")ambient/Ambience/Rur_1a_HilltopAmb_Cricket1c.wav"
 		"position"	"random"
 		
 	}
@@ -163,7 +163,7 @@
 	{
 		"volume"	"0.42"
 		"pitch"		"100"
-		"wave"		"(ambient/levels/forest/crucial_frogs_loop1.wav"
+		"wave"		")ambient/levels/forest/crucial_frogs_loop1.wav"
 		"position"	"random"
 	}
 
@@ -1219,7 +1219,7 @@
 	{
 		"volume"	".4"
 		"pitch"		"100"
-		"wave"		"(ambient/Ambience/Rur_1a_HilltopAmb_Cricket1c.wav"
+		"wave"		")ambient/Ambience/Rur_1a_HilltopAmb_Cricket1c.wav"
 		"position"	"random"
 		
 	}
@@ -1660,7 +1660,7 @@
 	{
 		"volume"	"1"
 		"pitch"		"100"
-		"wave"		"(ambient/Ambience/RUR5b_WatersEdgeAmb.wav"
+		"wave"		")ambient/Ambience/RUR5b_WatersEdgeAmb.wav"
 		"position"	"random"
 	
 	}
@@ -1681,7 +1681,7 @@
 		"volume"	".3"
 		"pitch"		"100"
 		"position"	"random"
-		"wave"		"(ambient/Ambience/crucial_RUR5b_cricket_loop02.wav"
+		"wave"		")ambient/Ambience/crucial_RUR5b_cricket_loop02.wav"
 	}
 
 
@@ -1767,7 +1767,7 @@
 		"volume"	".4"
 		"pitch"		"100"
 		"position"	"random"
-		"wave"		"(ambient/Ambience/crucial_RUR5b_cricket_loop02.wav"
+		"wave"		")ambient/Ambience/crucial_RUR5b_cricket_loop02.wav"
 	}
 
 
@@ -1844,7 +1844,7 @@
 	{
 		"volume"	".16"
 		"pitch"		"100"
-		"wave"		"(ambient/Ambience/crucial_RUR5b_cricket_loop02.wav"
+		"wave"		")ambient/Ambience/crucial_RUR5b_cricket_loop02.wav"
 	}
 
 	// wind gusts
