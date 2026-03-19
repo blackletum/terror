@@ -56,9 +56,9 @@
 			// in folders where they don't exist.  (Searching a VPK is much faster than making an operating
 			// system call.)
 
-			game			"C:\Program Files (x86)\Steam\steamapps\common\Counter-Strike Source\cstrike\cstrike"
-			game			"C:\Program Files (x86)\Steam\steamapps\common\Counter-Strike Source\cstrike\cstrike/cstrike_english.vpk"
-			game			"C:\Program Files (x86)\Steam\steamapps\common\Counter-Strike Source\cstrike\cstrike/cstrike_pak.vpk"
+			game			"C:\Program Files (x86)\Steam\steamapps\common\Counter-Strike Source\cstrike"
+			game			"C:\Program Files (x86)\Steam\steamapps\common\Counter-Strike Source\cstrike\cstrike_english.vpk"
+			game			"C:\Program Files (x86)\Steam\steamapps\common\Counter-Strike Source\cstrike\cstrike_pak.vpk"
 
 
 			game				|all_source_engine_paths|hl2/hl2_textures.vpk
