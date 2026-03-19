@@ -98,3 +98,5 @@ cfg/server_blacklist.txt
 siobhans_tf_gamestats.dat
 *.ztmp
 cfg/server_blacklist.txt
+maps/gm_bigcity.bsp
+scripts/gm_bigcity.nav

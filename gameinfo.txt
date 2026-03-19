@@ -16,7 +16,7 @@
 		"test_speakers"		1
 		"test_hardware"		1
 	}
-	nodegraph 0
+	nodegraph 1
 	DependsOnAppID 			240
 
 
