@@ -17,7 +17,6 @@
 		"test_hardware"		1
 	}
 	nodegraph 1
-	DependsOnAppID 			240
 
 
 
@@ -57,9 +56,9 @@
 			// in folders where they don't exist.  (Searching a VPK is much faster than making an operating
 			// system call.)
 
-			game			|appid_240|cstrike
-			game			|appid_240|cstrike/cstrike_english.vpk
-			game			|appid_240|cstrike/cstrike_pak.vpk
+			game			"C:\Program Files (x86)\Steam\steamapps\common\Counter-Strike Source\cstrike\cstrike"
+			game			"C:\Program Files (x86)\Steam\steamapps\common\Counter-Strike Source\cstrike\cstrike/cstrike_english.vpk"
+			game			"C:\Program Files (x86)\Steam\steamapps\common\Counter-Strike Source\cstrike\cstrike/cstrike_pak.vpk"
 
 
 			game				|all_source_engine_paths|hl2/hl2_textures.vpk
@@ -73,8 +72,8 @@
 			game				|all_source_engine_paths|hl2
 			platform			|all_source_engine_paths|platform
 			// hl2 episodic content for missing texture fixes
-			game			|appid_220|episodic/ep1_sound_vo_english.vpk
-			game			|appid_220|episodic/ep1_pak.vpk
+			game			"C:\Program Files (x86)\Steam\steamapps\common\Half-Life 2\episodic/ep1_sound_vo_english.vpk"
+			game			"C:\Program Files (x86)\Steam\steamapps\common\Half-Life 2\episodic/ep1_pak.vpk"
 
 			// l4d2, because this is a remake of l4d2 in source 2013
 			game			"C:\Program Files (x86)\Steam\steamapps\common\Left 4 Dead 2\left4dead2"
