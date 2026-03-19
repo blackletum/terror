@@ -96,25 +96,25 @@ criterion "SecondsSinceCombat3" "TimeSinceCombat" ">3.0" required
 
 
 criterion "IsNotTalk"   "worldTalk" "1" required                                                                                                                                                                                        
-criterion "IsTalk"   "name" "" required      //default and should be on every record that can be squelched
+criterion "IsTalk"   "worldTalk" "!=1" required      //default and should be on every record that can be squelched
 
 
 criterion "IsNotTalkCoach"   "TalkCoach" "1" required                                                                                                                                                                                        
-criterion "IsTalkCoach"   "Who" "Coach" required      //default and should be on every record that can be squelched
+criterion "IsTalkCoach"   "TalkCoach" "!=1" required      //default and should be on every record that can be squelched
 
 criterion "IsNotTalkGambler"   "TalkGambler" "1" required                                                                                                                                                                                        
-criterion "IsTalkGambler"   "Who" "Gambler" required      //default and should be on every record that can be squelched
+criterion "IsTalkGambler"   "TalkGambler" "!=1" required      //default and should be on every record that can be squelched
 
 criterion "IsNotTalkProducer"   "TalkProducer" "1" required                                                                                                                                                                                        
-criterion "IsTalkProducer"   "Who" "Producer" required      //default and should be on every record that can be squelched
+criterion "IsTalkProducer"   "TalkProducer" "!=1" required      //default and should be on every record that can be squelched
 
 criterion "IsNotTalkMechanic"   "TalkMechanic" "1" required                                                                                                                                                                                        
-criterion "IsTalkMechanic"   "Who" "Mechanic" required      //default and should be on every record that can be squelched
+criterion "IsTalkMechanic"   "TalkMechanic" "!=1" required      //default and should be on every record that can be squelched
 
-criterion "IsWorldTalkCoach"   "Who" "Coach" required      //default and should be on every record that can be squelched
-criterion "IsWorldTalkMechanic"   "Who" "Mechanic" required      //default and should be on every record that can be squelched
-criterion "IsWorldTalkProducer"   "Who" "Producer" required      //default and should be on every record that can be squelched
-criterion "IsWorldTalkGambler"   "Who" "Gambler" required      //default and should be on every record that can be squelched
+criterion "IsWorldTalkCoach"   "worldTalkCoach" "!=1" required      //default and should be on every record that can be squelched
+criterion "IsWorldTalkMechanic"   "worldTalkMechanic" "!=1" required      //default and should be on every record that can be squelched
+criterion "IsWorldTalkProducer"   "worldTalkProducer" "!=1" required      //default and should be on every record that can be squelched
+criterion "IsWorldTalkGambler"   "worldTalkGambler" "!=1" required      //default and should be on every record that can be squelched
 
 
 
@@ -2386,10 +2386,521 @@ rule Airport04PathClearVan
 }
 
 
+//--------------------------------------------------------------------------------------------------------------
+// CRITERIA
+//--------------------------------------------------------------------------------------------------------------
+
+criterion "IsNotVersus"   "gamemode" "!=versus"	  required
+criterion "IsVersus"   "gamemode" "versus"	  required
+
+criterion "ConceptintroC6M1" "Concept" "introC6M1" required
+
+criterion "IsNotTalkBiker"   "TalkBiker" "1" required                                                                                                                                                                                        
+criterion "IsTalkBiker"   "TalkBiker" "!=1" required      //default and should be on every record that can be squelched
+criterion "IsNotTalkNamVet"   "TalkNamVet" "1" required                                                                                                                                                                                        
+criterion "IsTalkNamVet"   "TalkNamVet" "!=1" required      //default and should be on every record that can be squelched
+criterion "IsNotTalkTeenGirl"   "TalkTeenGirl" "1" required                                                                                                                                                                                        
+criterion "IsTalkTeenGirl"   "TalkTeenGirl" "!=1" required      //default and should be on every record that can be squelched
+criterion "IsNotTalkManager"   "TalkManager" "1" required                                                                                                                                                                                        
+criterion "IsTalkManager"   "TalkManager" "!=1" required      //default and should be on every record that can be squelched
+
+criterion "IsWorldTalkBiker"   "worldTalkBiker" "!=1" required      //default and should be on every record that can be squelched
+criterion "IsWorldTalkNamVet"   "worldTalkNamVet" "!=1" required      //default and should be on every record that can be squelched
+criterion "IsWorldTalkManager"   "worldTalkManager" "!=1" required      //default and should be on every record that can be squelched
+criterion "IsWorldTalkTeenGirl"   "worldTalkTeenGirl" "!=1" required      //default and should be on every record that can be squelched
+
+criterion "IsTeenGirlAlive"   "IsTeenGirlAlive" "1" required      
+criterion "IsManagerAlive"   "IsManagerAlive" "1" required      
+criterion "IsBikerAlive"   "IsBikerAlive" "1" required      
+criterion "IsNamVetAlive"   "IsNamVetAlive" "1" required
+
+criterion "IsL4D1Alive" { IsTeenGirlAlive IsManagerAlive IsBikerAlive IsNamVetAlive } required
+
+criterion "NotTeenGirlAlive"   "IsTeenGirlAlive" "0" required      
+criterion "NotManagerAlive"   "IsManagerAlive" "0" required      
+criterion "NotBikerAlive"   "IsBikerAlive" "0" required      
+criterion "NotNamVetAlive"   "IsNamVetAlive" "0" required
+
+criterion "IsNamVetNear200"   "DistToNamVet" "<200" required      
+criterion "IsNamVetNear400"   "DistToNamVet" "<400" required      
+criterion "IsNamVetNear500"   "DistToNamVet" "<500" required      
+criterion "IsNamVetNear800"   "DistToNamVet" "<800" required      
+criterion "IsNamVetFar400"   "DistToNamVet" ">=400" required      
+
+criterion "IsBikerNear125"   "DistToBiker" "<125" required      
+criterion "IsBikerNear200"   "DistToBiker" "<200" required      
+criterion "IsBikerNear400"   "DistToBiker" "<400" required      
+criterion "IsBikerNear500"   "DistToBiker" "<500" required      
+criterion "IsBikerNear800"   "DistToBiker" "<800" required      
+criterion "IsBikerFar400"   "DistToBiker" ">=400" required      
+
+criterion "IsTeenGirlNear200"   "DistToTeenGirl" "<200" required      
+criterion "IsTeenGirlNear400"   "DistToTeenGirl" "<400" required      
+criterion "IsTeenGirlNear500"   "DistToTeenGirl" "<500" required      
+criterion "IsTeenGirlNear800"   "DistToTeenGirl" "<800" required      
+criterion "IsTeenGirlFar400"   "DistToTeenGirl" ">=400" required      
+
+criterion "IsManagerNear200"   "DistToManager" "<200" required      
+criterion "IsManagerNear400"   "DistToManager" "<400" required      
+criterion "IsManagerNear500"   "DistToManager" "<500" required      
+criterion "IsManagerNear800"   "DistToManager" "<800" required      
+criterion "IsManagerFar400"   "DistToManager" ">=400" required      
+
+criterion "IsBikerFar1000" "DistToBiker" ">600" required      
+criterion "IsTeenGirlFar1000" "DistToTeenGirl" ">600" required      
+criterion "IsManagerFar1000" "DistToManager" ">600" required      
+criterion "IsNamVetFar1000" "DistToNamVet" ">600" required      
+
+
+
 criterion "IsNamVet"		"Who"	"namvet"		required
 criterion "IsBiker"		"Who"	"biker"			required
 criterion "IsTeenGirl"		"Who"	"teengirl"		required
 criterion "IsManager"		"Who"	"manager"		required
+
+criterion "IsDeadNamVet"		"DeadCharacter"	"namvet"		required
+criterion "IsDeadBiker"			"DeadCharacter"	"biker"			required
+criterion "IsDeadTeenGirl"		"DeadCharacter"	"teengirl"		required
+criterion "IsDeadManager"		"DeadCharacter"	"manager"		required
+
+criterion "IsTeam4Francis"		"name"	"silver_francis"			required
+criterion "IsTeam4Bill"		"name"	"silver_bill"			required
+criterion "IsTeam4Louis"		"name"	"silver_louis"			required
+criterion "IsTeam4Zoey"		"name"	"silver_zoey"			required
+
+criterion "SubjectIsBiker"        "Subject"     "Biker"        required weight 0
+criterion "SubjectIsNamVet"        "Subject"     "NamVet"        required weight 0
+criterion "SubjectIsTeenGirl"        "Subject"     "TeenGirl"        required weight 0
+criterion "SubjectIsManager"        "Subject"     "Manager"        required weight 0
+
+criterion "SubjectIsNotBiker"        "Subject"     "!=Biker"        required weight 0
+criterion "SubjectIsNotNamVet"        "Subject"     "!=NamVet"        required weight 0
+criterion "SubjectIsNotTeenGirl"        "Subject"     "!=TeenGirl"        required weight 0
+criterion "SubjectIsNotManager"        "Subject"     "!=Manager"        required weight 0
+
+criterion "FromIsBiker"        "From"     "Biker"        required
+criterion "FromIsNamVet"        "From"     "NamVet"        required
+criterion "FromIsTeenGirl"        "From"     "TeenGirl"        required
+criterion "FromIsManager"        "From"     "Manager"        required
+
+criterion "FromIsNotBiker"        "From"     "!=Biker"        required
+criterion "FromIsNotNamVet"        "From"     "!=NamVet"        required
+criterion "FromIsNotTeenGirl"        "From"     "!=TeenGirl"        required
+criterion "FromIsNotManager"        "From"     "!=Manager"        required
+
+criterion "FromSet1" { FromIsCoach FromIsAnOrator } required
+
+criterion "Iswitch_aggro_onManager"	"witch_aggro_on"     "Manager"		required
+criterion "Iswitch_aggro_onNamVet"	"witch_aggro_on"     "NamVet"		required
+criterion "Iswitch_aggro_onTeenGirl"	"witch_aggro_on"     "TeenGirl"		required
+criterion "Iswitch_aggro_onBiker"	"witch_aggro_on"     "Biker"		required
+
+Criterion "IsNotSaidBeenJockeyedManager" "worldSaidBeenJockeyedManager" "!=1" "required" weight 0
+Criterion "IsNotSaidBeenJockeyedNamVet" "worldSaidBeenJockeyedNamVet" "!=1" "required" weight 0
+Criterion "IsNotSaidBeenJockeyedTeenGirl" "worldSaidBeenJockeyedTeenGirl" "!=1" "required" weight 0
+Criterion "IsNotSaidBeenJockeyedBiker" "worldSaidBeenJockeyedBiker" "!=1" "required" weight 0
+
+Criterion "ThePassing" "campaign" "l4d2_6" "required"
+
+Criterion "Isc6m1_riverbank"  "map"  "c6m1_riverbank" required weight 100
+Criterion "IsNotc6m1_riverbank" "map" "!=c6m1_riverbank"   required 
+
+Criterion "isc6m2_bedlam"  "map"  "c6m2_bedlam" required weight 100
+
+Criterion "Isc6m3_port"  "map"  "c6m3_port" required weight 100
+Criterion "IsNotc6m3_port"  "map"  "!=c6m3_port" required
+
+Criterion "IsNotSaidInCapBounce"  "worldSaidInCapBounce"  "!=1" required
+Criterion "ConceptInCapBounce2"  "Concept"  "InCapBounce2" required
+
+Criterion "IsEllisInLoveC6M1"  "worldEllisInLoveC6M1"  "1" required
+Criterion "IsNotMentionedZoeyC6M2"  "worldMentionedZoeyC6M2"  "!=1" required
+
+Criterion "IsJustSaidWorldC6M1_IntoTheStore" "worldJustSaidWorldC6M1_IntoTheStore" "1" required
+Criterion "IsAtWedding" "worldAtWedding" "1" required
+Criterion "CoachCake" "worldCoachCake" "1" required
+
+Criterion "IsNotSaidC6M2LeavingSafeRoom" "worldSaidC6M2LeavingSafeRoom" "!=1" required
+
+criterion "IsGolfclub"	"weaponname"	"golfclub"		required 
+criterion "IsPickedUpGolfClub"  "ItemPickedUp" "GolfClub" required
+criterion "IsM60"	"weaponname"	"m60"		required 
+criterion "IsPickedUpM60"  "ItemPickedUp" "m60" required
+
+criterion "IsL4D1Survivor"    "Team"    "L4D1_Survivor"    required
+criterion "IsASurvivor" { IsL4D1Survivor } required
+
+criterion "ConceptC6M3Stairs" "Concept" "C6M3Stairs" required
+criterion "IsFrancisIntroActor" "introactor" "francis" required weight 1
+criterion "IsZoeyIntroActor" "introactor" "zoey" required weight 1
+
+
+criterion "Conceptc6m3_elevatorCancel" "Concept" "SceneCancelled" required
+criterion "Conceptc6m3_elevator" "Concept" "c6m3_elevator" required
+criterion "Conceptc6m3_elevator2" "Concept" "c6m3_elevator2" required
+criterion "ConceptC6M3_BridgeDown" "Concept" "C6M3_BridgeDown" required
+
+criterion "ConceptC6M3LureTanksHere" "Concept" "C6M3LureTanksHere" required
+
+criterion "IsSpecialTypeFallen"	"SpecialType" "Fallen"	required 
+Criterion "IsNotSaidFallenWarn" "worldSaidFallenWarn" "!=1" "required" weight 0
+
+
+criterion "ConceptL4D1_NiceJobPour" "Concept" "L4D1_NiceJobPour" required
+criterion "ConceptL4D1_AttractPlayerForThrow" "Concept" "SurvivorBotAttractPlayerForThrow" required
+criterion "ConceptL4D1_SurvivorBotTakeThisItem" "Concept" "SurvivorBotTakeThisItem" required
+
+criterion "ConceptPlayerGivenItem" "Concept" "PlayerGivenItem" required
+criterion "IsDonorBiker"  "ItemDonor" "Biker" required
+criterion "IsDonorTeenGirl"  "ItemDonor" "TeenGirl" required
+criterion "IsDonorNamVet"  "ItemDonor" "NamVet" required
+criterion "IsDonorManager"  "ItemDonor" "Manager" required
+criterion "IsDonorCoach"  "ItemDonor" "Coach" required
+criterion "IsDonorGambler"  "ItemDonor" "Gambler" required
+criterion "IsDonorMechanic"  "ItemDonor" "Mechanic" required
+criterion "IsDonorProducer"  "ItemDonor" "Producer" required
+criterion "IsDonorUnknown"  "ItemDonor" "Unknown" required
+criterion "IsNotDonorBiker"  "ItemDonor" "!=Biker" required
+criterion "IsNotDonorTeenGirl"  "ItemDonor" "!=TeenGirl" required
+criterion "IsNotDonorNamVet"  "ItemDonor" "!=NamVet" required
+criterion "IsNotDonorManager"  "ItemDonor" "!=Manager" required
+criterion "IsNotDonorCoach"  "ItemDonor" "!=Coach" required
+criterion "IsNotDonorGambler"  "ItemDonor" "!=Gambler" required
+criterion "IsNotDonorMechanic"  "ItemDonor" "!=Mechanic" required
+criterion "IsNotDonorProducer"  "ItemDonor" "!=Producer" required
+criterion "IsNotDonorUnknown"  "ItemDonor" "!=Unknown" required
+criterion "HasDonor" { IsDonorBiker IsDonorTeenGirl IsDonorNamVet IsDonorManager IsDonorCoach IsDonorGambler IsDonorMechanic IsDonorProducer IsDonorUnknown } required
+
+Criterion "IsNotSaidC6M3Elevator" "worldSaidC6M3Elevator" "!=1" "required" 
+Criterion "Conceptc6m3_loss" "Concept" "c6m3_loss" "required" 
+Criterion "Conceptc6m3_loss2" "Concept" "c6m3_loss2" "required" 
+Criterion "Conceptc6m3_loss3" "Concept" "c6m3_loss3" "required" 
+Criterion "Conceptc6m3_outro" "Concept" "c6m3_outro" "required" 
+Criterion "Conceptc6m3_outro2" "Concept" "c6m3_outro2" "required" 
+Criterion "Conceptc6m3_outro3" "Concept" "c6m3_outro3" "required" 
+Criterion "Conceptc6m3_escape" "Concept" "c6m3_escape" "required" 
+
+Criterion "MoreThan0"  "campaignrandomnum" ">=0"  required 
+Criterion "MoreThan15" "campaignrandomnum" ">15" required
+Criterion "MoreThan25" "campaignrandomnum" ">25" required 
+Criterion "MoreThan30" "campaignrandomnum" ">30" required 
+Criterion "MoreThan35" "campaignrandomnum" ">35" required 
+Criterion "MoreThan40" "campaignrandomnum" ">40" required 
+Criterion "MoreThan45" "campaignrandomnum" ">45" required 
+Criterion "MoreThan60" "campaignrandomnum" ">60" required 
+Criterion "MoreThan65" "campaignrandomnum" ">65" required 
+Criterion "MoreThan70" "campaignrandomnum" ">70" required 
+Criterion "MoreThan90" "campaignrandomnum" ">90" required 
+
+Criterion "LessThan15"  "campaignrandomnum" "<=15"   required 
+Criterion "LessThan25"  "campaignrandomnum" "<=25"   required 
+Criterion "LessThan30"  "campaignrandomnum" "<=30"   required 
+Criterion "LessThan35"  "campaignrandomnum" "<=35"   required 
+Criterion "LessThan40"  "campaignrandomnum" "<=40"   required 
+Criterion "LessThan45"  "campaignrandomnum" "<=45"   required 
+Criterion "LessThan60"  "campaignrandomnum" "<=60"   required 
+Criterion "LessThan65"  "campaignrandomnum" "<=65"   required 
+Criterion "LessThan70"  "campaignrandomnum" "<=70"   required 
+Criterion "LessThan90"  "campaignrandomnum" "<=90"   required 
+Criterion "LessThan100" "campaignrandomnum" "<=100"  required 
+
+criterion "IsCoachAVampire" "worldC6M1_CoachIsAVampire" "1" required
+criterion "IsProducerAVampire" "worldC6M1_ProducerIsAVampire" "1" required
+
+criterion "ConceptC6M2_OpenGate1" "concept" "C6M2_OpenGate1" required
+criterion "ConceptC6M2_OpenGate2" "concept" "C6M2_OpenGate2" required
+criterion "IsNotSaidOpenedGate1" "worldSaidOpenedGate1" "!=1" required
+criterion "IsNotSaidOpenedGate2" "worldSaidOpenedGate2" "!=1" required
+criterion "IsSaidOpenedGate1BlameEllis" "worldSaidOpenedGate1BlameEllis" "1" required weight 1
+criterion "IsSaidOpenedGate1" "worldSaidOpenedGate1" "1" required    
+criterion "IsSaidc6m3escapeready" "worldSaidc6m3escapeready" "1" required    
+criterion "IsNotSaidc6m3escapeready" "worldSaidc6m3escapeready" "!=1" required    
+criterion "Conceptc6m3escapeready" "concept" "c6m3escapeready" required
+
+
+Criterion "IsNotSaidWorldC6M1_Intothepark" "worldSaidWorldC6M1_Intothepark" "!=1" "required" weight 0
+Criterion "IsNotSaidWorldC6M1_HistoricTour" "worldSaidWorldC6M1_HistoricTour" "!=1" "required" weight 0
+Criterion "CanRemarkWorldC6M1_HistoricTour" "worldRemarkWorldC6M1_HistoricTour" "1" "required" weight 0
+Criterion "IsNotSaidWorldC6M1_IntoTheStore" "worldSaidWorldC6M1_IntoTheStore" "!=1" "required" weight 0
+Criterion "IsNotSaidWorldC6M1_AlleyBelow" "worldSaidWorldC6M1_AlleyBelow" "!=1" "required" weight 0
+Criterion "IsNotSaidWorldC6M1_AlleyIntoBuilding" "worldSaidWorldC6M1_AlleyIntoBuilding" "!=1" "required" weight 0
+Criterion "IsNotSaidWorldC6M1_UpTheStairs2" "worldSaidWorldC6M1_UpTheStairs2" "!=1" "required" weight 0
+Criterion "IsNotSaidWorldC6M1_AcrossHere" "worldSaidWorldC6M1_AcrossHere" "!=1" "required" weight 0
+Criterion "IsNotSaidWorldC6M1_PostWedding" "worldSaidWorldC6M1_PostWedding" "!=1" "required" weight 0
+Criterion "IsNotSaidWorldC6M1_SafeRoomAlley" "worldSaidWorldC6M1_SafeRoomAlley" "!=1" "required" weight 0
+Criterion "IsNotSaidWorldC6M1_ThroughBar" "worldSaidWorldC6M1_ThroughBar" "!=1" "required" weight 0
+Criterion "IsNotSaidWorldC6M1_UpHere" "worldSaidWorldC6M1_UpHere" "!=1" "required" weight 0
+Criterion "IsNotSaidInfoRemWorldC6M1_InApts" "worldSaidInfoRemWorldC6M1_InApts" "!=1" "required" weight 0
+Criterion "IsNotSaidWorldC6M1_InApts" "worldSaidWorldC6M1_InApts" "!=1" "required" weight 0
+Criterion "IsNotSaidWorldC6M1_UpTheStairs" "worldSaidWorldC6M1_UpTheStairs" "!=1" "required" weight 0
+Criterion "IsNotSaidWorldC6M1_IntoThePark2" "worldSaidWorldC6M1_IntoThePark2" "!=1" "required" weight 0
+Criterion "IsNotSaidWorldC6M1_WeddingWarn" "worldSaidWorldC6M1_WeddingWarn" "!=1" "required" weight 0
+Criterion "IsNotSaidWorldC6M2_UpStairs" "worldSaidWorldC6M2_UpStairs" "!=1" "required" weight 0
+Criterion "IsNotSaidWorldC6M2_Tattoo" "worldSaidWorldC6M2_Tattoo" "!=1" "required" weight 0
+Criterion "IsNotSaidWorldC6M2_IntoPoolHall" "worldSaidWorldC6M2_IntoPoolHall" "!=1" "required" weight 0
+Criterion "IsNotSaidWorldC6M2_JukeBox" "worldSaidWorldC6M2_JukeBox" "!=1" "required" weight 0
+Criterion "IsNotSaidWorldC6M2_IntoConstruction" "worldSaidWorldC6M2_IntoConstruction" "!=1" "required" weight 0
+Criterion "IsNotSaidWorldC6M2_DownIntoBuilding" "worldSaidWorldC6M2_DownIntoBuilding" "!=1" "required" weight 0
+Criterion "IsNotSaidWorldC6M2_UpStairs2" "worldSaidWorldC6M2_UpStairs2" "!=1" "required" weight 0
+Criterion "IsNotSaidWorldC6M2_Suitcase" "worldSaidWorldC6M2_Suitcase" "!=1" "required" weight 0
+Criterion "IsNotSaidWorldC6M2_AcrossPlank" "worldSaidWorldC6M2_AcrossPlank" "!=1" "required" weight 0
+Criterion "IsNotSaidWorldC6M2_DownHere" "worldSaidWorldC6M2_DownHere" "!=1" "required" weight 0
+Criterion "IsNotSaidWorldC6M2_InJazzClub" "worldSaidWorldC6M2_InJazzClub" "!=1" "required" weight 0
+Criterion "IsNotSaidWorldC6M2_TourEntrance" "worldSaidWorldC6M2_TourEntrance" "!=1" "required" weight 0
+Criterion "IsNotSaidWorldC6M2_OnTourWalk1" "worldSaidWorldC6M2_OnTourWalk1" "!=1" "required" weight 0
+Criterion "IsNotSaidWorldC6M2_OnTourWalk2" "worldSaidWorldC6M2_OnTourWalk2" "!=1" "required" weight 0
+Criterion "IsNotSaidWorldC6M2_OnTourWalk3" "worldSaidWorldC6M2_OnTourWalk3" "!=1" "required" weight 0
+Criterion "IsNotSaidWorldC6M2_Phase2" "worldSaidWorldC6M2_Phase2" "!=1" "required" weight 0
+Criterion "IsNotSaidWorldC6M2_Phase2Down" "worldSaidWorldC6M2_Phase2Down" "!=1" "required" weight 0
+Criterion "IsNotSaidWorldC6M2_JumpDown" "worldSaidWorldC6M2_JumpDown" "!=1" "required" weight 0
+Criterion "IsNotSaidWorldC6M2_InSewer1" "worldSaidWorldC6M2_InSewer1" "!=1" "required" weight 0
+Criterion "IsSaidWorldC6M2_InSewer1" "worldSaidWorldC6M2_InSewer1" "1" "required" weight 0
+Criterion "IsNotSaidWorldC6M2_InSewer2" "worldSaidWorldC6M2_InSewer2" "!=1" "required" weight 0
+Criterion "IsNotSaidWorldC6M2_InSewerLadder1" "worldSaidWorldC6M2_InSewerLadder1" "!=1" "required" weight 0
+Criterion "IsNotSaidWorldC6M2_OpenGate1" "worldSaidWorldC6M2_OpenGate1" "!=1" "required" weight 0
+Criterion "IsNotSaidWorldC6M2_AfterGate1" "worldSaidWorldC6M2_AfterGate1" "!=1" "required" weight 0
+Criterion "IsNotSaidWorldC6M2_AfterGate2" "worldSaidWorldC6M2_AfterGate2" "!=1" "required" weight 0
+Criterion "IsNotSaidWorldC6M2_UpCatWalk" "worldSaidWorldC6M2_UpCatWalk" "!=1" "required" weight 0
+Criterion "IsNotSaidWorldC6M2_OpenGate2" "worldSaidWorldC6M2_OpenGate2" "!=1" "required" weight 0
+Criterion "IsNotSaidWorldC6M2_FinalWater" "worldSaidWorldC6M2_FinalWater" "!=1" "required" weight 0
+Criterion "IsNotSaidWorldC6M2_FinalWaterGoGo" "worldSaidWorldC6M2_FinalWaterGoGo" "!=1" "required" weight 0
+Criterion "IsNotSaidWorldC6M2_FinalLadder" "worldSaidWorldC6M2_FinalLadder" "!=1" "required" weight 0
+Criterion "IsNotSaidWorldC6M2_SafeRoom" "worldSaidWorldC6M2_SafeRoom" "!=1" "required" weight 0
+Criterion "IsNotSaidWorldC6M3_ByBridge" "worldSaidWorldC6M3_ByBridge" "!=1" "required" weight 0
+Criterion "IsNotSaidWorldC6M3_BridgeRun" "worldSaidWorldC6M3_BridgeRun" "!=1" "required" weight 0
+Criterion "IsNotSaidWorldC6M2_PostGate1" "worldSaidWorldC6M2_PostGate1" "!=1" "required" weight 0
+Criterion "IsNotSaidremark_MidnightRidersBus" "worldSaidremark_MidnightRidersBus" "!=1" "required" weight 0
+Criterion "IsNotSaidWorldFootLocker" "worldSaidWorldFootLocker" "!=1" "required" weight 0
+//##LEAVEHERE1##
+
+criterion "IsWorldC6M1_Intothepark"   "subject" "WorldC6M1_Intothepark"	  required
+criterion "IsWorldC6M1_HistoricTour"   "subject" "WorldC6M1_HistoricTour"	  required
+criterion "IsWorldC6M1_IntoTheStore"   "subject" "WorldC6M1_IntoTheStore"	  required
+criterion "IsWorldC6M1_AlleyBelow"   "subject" "WorldC6M1_AlleyBelow"	  required
+criterion "IsWorldC6M1_AlleyIntoBuilding"   "subject" "WorldC6M1_AlleyIntoBuilding"	  required
+criterion "IsWorldC6M1_UpTheStairs2"   "subject" "WorldC6M1_UpTheStairs2"	  required
+criterion "IsWorldC6M1_AcrossHere"   "subject" "WorldC6M1_AcrossHere"	  required
+criterion "IsWorldC6M1_PostWedding"   "subject" "WorldC6M1_PostWedding"	  required
+criterion "IsWorldC6M1_SafeRoomAlley"   "subject" "WorldC6M1_SafeRoomAlley"	  required
+criterion "IsWorldC6M1_ThroughBar"   "subject" "WorldC6M1_ThroughBar"	  required
+criterion "IsWorldC6M1_UpHere"   "subject" "WorldC6M1_UpHere"	  required
+criterion "IsInfoRemWorldC6M1_InApts"   "subject" "InfoRemWorldC6M1_InApts"	  required
+criterion "IsWorldC6M1_InApts"   "subject" "WorldC6M1_InApts"	  required
+criterion "IsWorldC6M1_UpTheStairs"   "subject" "WorldC6M1_UpTheStairs"	  required
+criterion "IsWorldC6M1_IntoThePark2"   "subject" "WorldC6M1_IntoThePark2"	  required
+criterion "IsWorldC6M1_WeddingWarn"   "subject" "WorldC6M1_WeddingWarn"	  required
+criterion "IsWorldC6M2_UpStairs"   "subject" "WorldC6M2_UpStairs"	  required
+criterion "IsWorldC6M2_Tattoo"   "subject" "WorldC6M2_Tattoo"	  required
+criterion "IsWorldC6M2_IntoPoolHall"   "subject" "WorldC6M2_IntoPoolHall"	  required
+criterion "IsWorldC6M2_JukeBox"   "subject" "WorldC6M2_JukeBox"	  required
+criterion "IsWorldC6M2_IntoConstruction"   "subject" "WorldC6M2_IntoConstruction"	  required
+criterion "IsWorldC6M2_DownIntoBuilding"   "subject" "WorldC6M2_DownIntoBuilding"	  required
+criterion "IsWorldC6M2_UpStairs2"   "subject" "WorldC6M2_UpStairs2"	  required
+criterion "IsWorldC6M2_Suitcase"   "subject" "WorldC6M2_Suitcase"	  required
+criterion "IsWorldC6M2_AcrossPlank"   "subject" "WorldC6M2_AcrossPlank"	  required
+criterion "IsWorldC6M2_DownHere"   "subject" "WorldC6M2_DownHere"	  required
+criterion "IsWorldC6M2_InJazzClub"   "subject" "WorldC6M2_InJazzClub"	  required
+criterion "IsWorldC6M2_TourEntrance"   "subject" "WorldC6M2_TourEntrance"	  required
+criterion "IsWorldC6M2_OnTourWalk1"   "subject" "WorldC6M2_OnTourWalk1"	  required
+criterion "IsWorldC6M2_OnTourWalk2"   "subject" "WorldC6M2_OnTourWalk2"	  required
+criterion "IsWorldC6M2_OnTourWalk3"   "subject" "WorldC6M2_OnTourWalk3"	  required
+criterion "IsWorldC6M2_Phase2"   "subject" "WorldC6M2_Phase2"	  required
+criterion "IsWorldC6M2_Phase2Down"   "subject" "WorldC6M2_Phase2Down"	  required
+criterion "IsWorldC6M2_JumpDown"   "subject" "WorldC6M2_JumpDown"	  required
+criterion "IsWorldC6M2_InSewer1"   "subject" "WorldC6M2_InSewer1"	  required
+criterion "IsWorldC6M2_InSewer2"   "subject" "WorldC6M2_InSewer2"	  required
+criterion "IsWorldC6M2_InSewerLadder1"   "subject" "WorldC6M2_InSewerLadder1"	  required
+criterion "IsWorldC6M2_OpenGate1"   "subject" "WorldC6M2_OpenGate1"	  required
+criterion "IsWorldC6M2_AfterGate1"   "subject" "WorldC6M2_AfterGate1"	  required
+criterion "IsWorldC6M2_AfterGate2"   "subject" "WorldC6M2_AfterGate2"	  required
+criterion "IsWorldC6M2_UpCatWalk"   "subject" "WorldC6M2_UpCatWalk"	  required
+criterion "IsWorldC6M2_OpenGate2"   "subject" "WorldC6M2_OpenGate2"	  required
+criterion "IsWorldC6M2_FinalWater"   "subject" "WorldC6M2_FinalWater"	  required
+criterion "IsWorldC6M2_FinalWaterGoGo"   "subject" "WorldC6M2_FinalWaterGoGo"	  required
+criterion "IsWorldC6M2_FinalLadder"   "subject" "WorldC6M2_FinalLadder"	  required
+criterion "IsWorldC6M2_SafeRoom"   "subject" "WorldC6M2_SafeRoom"	  required
+criterion "IsWorldC6M3_ByBridge"   "subject" "WorldC6M3_ByBridge"	  required
+criterion "IsWorldC6M3_BridgeRun"   "subject" "WorldC6M3_BridgeRun"	  required
+criterion "IsWorldC6M3_Bill"   "subject" "WorldC6M3_Bill"	  required
+criterion "IsWorldC6M2_PostGate1"   "subject" "WorldC6M2_PostGate1"	  required
+criterion "Isremark_MidnightRidersBus"   "subject" "remark_MidnightRidersBus"	  required
+criterion "IsWorldFootLocker"   "subject" "WorldFootLocker"	  required
+//##LEAVEHERE2##
+
+criterion "IsNotSaidFinaleExchange"   "worldSaidFinaleExchange" "!=1"	  required
+criterion "IsSaidFinaleExchange"   "worldSaidFinaleExchange" "1"	  required
+criterion "IsNotSaidEllisBridgeStoryStart" "worldSaidEllisBridgeStoryStart" "!=1" required
+criterion "IsEndEllisBridgeStoryStart" "worldEndEllisBridgeStoryStart" "1" required
+
+
+Response FinaleSceneTriggerFrancisProducer
+{
+	scene "scenes/dlc1_finalechat_01.vcd"
+	scene "scenes/dlc1_finalechat_03.vcd"
+	scene "scenes/dlc1_finalechat_04.vcd"
+	scene "scenes/dlc1_finalechat_04a.vcd"
+	scene "scenes/dlc1_finalechat_06.vcd"
+	scene "scenes/dlc1_finalechat_09.vcd"
+	scene "scenes/dlc1_finalechat_09a.vcd"
+	scene "scenes/dlc1_finalechat_10.vcd"
+}
+Rule FinaleSceneTriggerFrancisProducer
+{
+	criteria ConceptC6M3Stairs IsProducer IsNotSaidFinaleExchange Isc6m3_port IsFrancisIntroActor IsNotVersus
+	ApplyContext "SaidFinaleExchange:1:0,Talk:1:28,SaidEllisBridgeStoryStart:1:60,EndEllisBridgeStoryStart:1:0"
+	applycontexttoworld
+	Response FinaleSceneTriggerFrancisProducer
+}
+
+Response FinaleSceneTriggerLouisProducer
+{
+	scene "scenes/dlc1_finalechat_14.vcd"
+	scene "scenes/dlc1_finalechat_18.vcd"
+}
+Rule FinaleSceneTriggerLouisProducer
+{
+	criteria ConceptC6M3Stairs IsProducer IsNotSaidFinaleExchange Isc6m3_port IsZoeyIntroActor IsNotVersus
+	ApplyContext "SaidFinaleExchange:1:0,Talk:1:23,SaidEllisBridgeStoryStart:1:60,EndEllisBridgeStoryStart:1:0"
+	applycontexttoworld
+	Response FinaleSceneTriggerLouisProducer
+}
+
+Response FinaleSceneTriggerFrancisGambler
+{
+	scene "scenes/dlc1_finalechat_02.vcd"
+	scene "scenes/dlc1_finalechat_05.vcd"
+	scene "scenes/dlc1_finalechat_05a.vcd"
+	scene "scenes/dlc1_finalechat_08.vcd"
+	scene "scenes/dlc1_finalechat_08a.vcd"
+	scene "scenes/dlc1_finalechat_10.vcd"
+}
+Rule FinaleSceneTriggerFrancisGambler
+{
+	criteria ConceptC6M3Stairs IsGambler IsNotSaidFinaleExchange Isc6m3_port IsFrancisIntroActor IsNotVersus
+	ApplyContext "SaidFinaleExchange:1:0,Talk:1:27,SaidEllisBridgeStoryStart:1:60,EndEllisBridgeStoryStart:1:0"
+	applycontexttoworld
+	Response FinaleSceneTriggerFrancisGambler
+}
+
+Response FinaleSceneTriggerZoeyCoach
+{
+	scene "scenes/dlc1_finalechat_07.vcd"
+	scene "scenes/dlc1_finalechat_17.vcd"
+}
+Rule FinaleSceneTriggerZoeyCoach
+{
+	criteria ConceptC6M3Stairs IsCoach IsNotSaidFinaleExchange Isc6m3_port IsZoeyIntroActor IsNotVersus
+	ApplyContext "SaidFinaleExchange:1:0,Talk:1:20,SaidEllisBridgeStoryStart:1:60,EndEllisBridgeStoryStart:1:0"
+	applycontexttoworld
+	Response FinaleSceneTriggerZoeyCoach
+}
+
+Response FinaleSceneTriggerFrancisCoach
+{
+	scene "scenes/dlc1_finalechat_16.vcd"
+}
+Rule FinaleSceneTriggerFrancisCoach
+{
+	criteria ConceptC6M3Stairs IsCoach IsNotSaidFinaleExchange Isc6m3_port IsFrancisIntroActor IsNotVersus
+	ApplyContext "SaidFinaleExchange:1:0,Talk:1:35,SaidEllisBridgeStoryStart:1:60,EndEllisBridgeStoryStart:1:0"
+	applycontexttoworld
+	Response FinaleSceneTriggerFrancisCoach
+}
+
+Response FinaleSceneTriggerZoeyMechanic
+{
+	scene "scenes/dlc1_finalechat_11.vcd"
+}
+Rule FinaleSceneTriggerZoeyMechanic
+{
+	criteria ConceptC6M3Stairs IsMechanic IsNotSaidFinaleExchange Isc6m3_port IsZoeyIntroActor IsNotVersus  
+	ApplyContext "SaidFinaleExchange:1:0,Talk:1:28,SaidEllisBridgeStoryStart:1:60,EndEllisBridgeStoryStart:1:0"
+	applycontexttoworld
+	Response FinaleSceneTriggerZoeyMechanic
+}
+
+Response FinaleSceneTriggerFrancisMechanic
+{
+	scene "scenes/dlc1_finalechat_12.vcd"
+	scene "scenes/dlc1_finalechat_13.vcd"
+}
+Rule FinaleSceneTriggerFrancisMechanic
+{
+	criteria ConceptC6M3Stairs IsMechanic IsNotSaidFinaleExchange Isc6m3_port IsFrancisIntroActor IsNotVersus
+	ApplyContext "SaidFinaleExchange:1:0,Talk:1:29,SaidEllisBridgeStoryStart:1:60,EndEllisBridgeStoryStart:1:0"
+	applycontexttoworld
+	Response FinaleSceneTriggerFrancisMechanic
+}
+
+//--------------------------------------------------------------------------------------------------------------
+// CRITERIA
+//--------------------------------------------------------------------------------------------------------------
+///Missing and added out of order here
+criterion "ConceptPlayerSpotMolotov"		"Concept" "PlayerSpotMolotov"		required
+
+criterion "IsHoldout"   "gamemode" "holdout"	  required
+criterion "IsNotHoldout"   "gamemode" "!=holdout"	  required
+
+
+
+criterion "ConceptPlayerSuggestHealthNamVet"   "Concept" "PlayerSuggestHealthNamVet"	  required
+criterion "ConceptPlayerSuggestHealthBiker"   "Concept" "PlayerSuggestHealthBiker"	  required
+criterion "ConceptPlayerSuggestHealthManager"   "Concept" "PlayerSuggestHealthManager"	  required
+criterion "ConceptPlayerSuggestHealthTeenGirl"   "Concept" "PlayerSuggestHealthTeenGirl"	  required
+
+
+criterion "ConceptTakeShotgunGroovyLouis" "Concept" "TakeShotgunGroovyLouis" required
+criterion "ConceptTakeShotgunGroovyZoey" "Concept" "TakeShotgunGroovyZoey" required
+criterion "ConceptTakeShotgunGroovyZoey2Biker" "Concept" "TakeShotgunGroovyZoey2Biker" required
+criterion "ConceptTakeShotgunGroovy2BikerLaugh" "Concept" "TakeShotgunGroovy2BikerLaugh" required
+
+
+criterion "IsSmallTownBarricadeManager"   "worldSmallTownBarricadeManager" "!=1" required      
+criterion "IsSmallTownBarricadeNamVet"   "worldSmallTownBarricadeNamVet" "!=1" required      
+criterion "IsSmallTownBarricadeTeenGirl"   "worldSmallTownBarricadeTeenGirl" "!=1" required      
+
+
+
+
+//Locational
+criterion "IsFarmhouse"	"map"	"rural01a_hilltop"	required
+criterion "IsCampground""map"	"rural01b_caves"	required
+criterion "IsDeadAir"	"map"	"urban01a_greenhouse"	required
+criterion "IsNoMercy""map"	"c8m1_apartment"	required
+criterion "IsSmalltown04" "map" "l4d_smalltown04_mainstreet" required
+criterion "IsFarm03" "map" "l4d_farm03_bridge" required
+
+criterion "NotFarm03Unhooked" "worldFarm03Unhooked" "<1" required
+criterion "Farm03BridgeDown" "worldFarm03BridgeDown" "1" required
+
+
+
+// Vocalization
+
+
+//picking up items
+//criterion "ConceptPlayerPickup"	"Concept" "PlayerPickup"	required
+//criterion "IsPickedUpAmmo"  "ItemPickedUp" "Ammo" required
+//criterion "IsPickedUpSMG"  "ItemPickedUp" "SMG" required
+//criterion "IsPickedUpPumpShotgun"  "ItemPickedUp" "PumpShotgun" required
+//criterion "IsPickedUpAutoShotgun"  "ItemPickedUp" "AutoShotgun" required
+//criterion "IsPickedUpRifle"  "ItemPickedUp" "Rifle" required
+//criterion "IsPickedUpHuntingRifle"  "ItemPickedUp" "HuntingRifle" required
+//criterion "IsPickedUpMolotov"  "ItemPickedUp" "Molotov" required
+//criterion "IsPickedUpPipeBomb"  "ItemPickedUp" "PipeBomb" required
+//criterion "IsPickedUpPainPills"  "ItemPickedUp" "PainPills" required
+//criterion "IsPickedUpFirstAidKit"  "ItemPickedUp" "FirstAidKit" required
+//criterion "IsPickedUpSecondPistol"  "ItemPickedUp" "SecondPistol" required
+
+
+
+criterion "PanicEventBiker" "WhoDidIt" "Biker" required		//Biker pressed panic event button
+criterion "PanicEventNamVet" "WhoDidIt" "NamVet" required		//NamVet pressed panic event button
+criterion "PanicEventManager" "WhoDidIt" "Manager" required		//Manager pressed panic event button
+criterion "PanicEventTeenGirl" "WhoDidIt" "TeenGirl" required		//TeenGirl pressed panic event button
+
+
+
 
 criterion "IsTriggeredByNamVet"		"TriggeredBy"	"namvet"		required
 criterion "IsTriggeredByBiker"		"TriggeredBy"	"biker"			required
@@ -2398,37 +2909,711 @@ criterion "IsTriggeredByManager"	"TriggeredBy"	"manager"		required
 
 
 
-criterion "IsDeadNamVet"		"DeadCharacter"	"namvet"		required
-criterion "IsDeadBiker"			"DeadCharacter"	"biker"			required
-criterion "IsDeadTeenGirl"		"DeadCharacter"	"teengirl"		required
-criterion "IsDeadManager"		"DeadCharacter"	"manager"		required
 
 
-criterion "IsNotTalkBiker"   "TalkBiker" "1" required                                                                                                                                                                                        
-criterion "IsTalkBiker"   "TalkBiker" "!=1" required      //default and should be on every record that can be squelched
 
-criterion "IsNotTalkNamVet"   "TalkNamVet" "1" required                                                                                                                                                                                        
-criterion "IsTalkNamVet"   "TalkNamVet" "!=1" required      //default and should be on every record that can be squelched
 
-criterion "IsNotTalkTeenGirl"   "TalkTeenGirl" "1" required                                                                                                                                                                                        
-criterion "IsTalkTeenGirl"   "TalkTeenGirl" "!=1" required      //default and should be on every record that can be squelched
 
-criterion "IsNotTalkManager"   "TalkManager" "1" required                                                                                                                                                                                        
-criterion "IsTalkManager"   "TalkManager" "!=1" required      //default and should be on every record that can be squelched
+//Criterion for rule/context adding that spans characters (done to remove error spam)
 
-criterion "IsTeenGirlAlive"   "IsTeenGirlAlive" "1" required      
-criterion "IsManagerAlive"   "IsManager	" "1" required      
-criterion "IsBikerAlive"   "IsBikerAlive" "1" required      
-criterion "IsNamVetAlive"   "IsNamVetAlive" "1" required      
+Criterion "IsNotSaidLouisPounced" "worldSaidLouisPounced" "!=1" "required" weight 0
+Criterion "IsNotSaidFrancisPounced" "worldSaidFrancisPounced" "!=1" "required" weight 0
+Criterion "IsNotSaidZoeyPounced" "worldSaidZoeyPounced" "!=1" "required" weight 0
+Criterion "IsNotSaidBillPounced" "worldSaidBillPounced" "!=1" "required" weight 0
+
+
+Criterion "IsNotSaidairport01_burning" "Saidairport01_burning" "!=1" "required" weight 0
+Criterion "IsNotSaidairport01_path01" "Saidairport01_path01" "!=1" "required" weight 0
+
+Criterion "IsNotSaidhospital01_path01" "worldSaidhospital01_path01" "!=1" "required" weight 0
+Criterion "IsNotSaidhospital01_path02" "worldSaidhospital01_path02" "!=1" "required" weight 0
+Criterion "IsNotSaidhospital01_path03" "worldSaidhospital01_path03" "!=1" "required" weight 0
+Criterion "IsSaidSmalltown01_path01" "worldSaidSmalltown01_path01" "1" "required" weight 0
+Criterion "IsNotSaidSmalltown01_path01" "worldSaidSmalltown01_path01" "!=1" "required" weight 0
+Criterion "IsNotSaidSmalltown01_path02" "worldSaidSmalltown01_path02" "!=1" "required" weight 0
+Criterion "IsNotSaidSmalltown01_path03" "worldSaidSmalltown01_path03" "!=1" "required" weight 0
+Criterion "IsNotSaidSmalltown01_path04" "worldSaidSmalltown01_path04" "!=1" "required" weight 0
+
+Criterion "IsNotSaidhospital02_path01" "worldSaidhospital02_path01" "!=1" "required" weight 0
+Criterion "IsNotSaidhospital02_path02" "worldSaidhospital02_path02" "!=1" "required" weight 0
+Criterion "IsNotSaidhospital02_path03" "worldSaidhospital02_path03" "!=1" "required" weight 0
+Criterion "IsNotSaidhospital02_path04" "worldSaidhospital02_path04" "!=1" "required" weight 0
+Criterion "IsNotSaidhospital03_path01" "worldSaidhospital03_path01" "!=1" "required" weight 0
+Criterion "IsNotSaidhospital03_path02" "worldSaidhospital03_path02" "!=1" "required" weight 0
+Criterion "IsNotSaidhospital03_path03" "worldSaidhospital03_path03" "!=1" "required" weight 0
+Criterion "IsNotSaidhospital03_path04" "worldSaidhospital03_path04" "!=1" "required" weight 0
+Criterion "IsNotSaidhospital03_path05" "worldSaidhospital03_path05" "!=1" "required" weight 0
+Criterion "IsNotSaidhospital03_path06" "worldSaidhospital03_path06" "!=1" "required" weight 0
+Criterion "IsNotSaidhospital03_path07" "worldSaidhospital03_path07" "!=1" "required" weight 0
+Criterion "IsNotSaidhospital03_path08" "worldSaidhospital03_path08" "!=1" "required" weight 0
+Criterion "IsNotSaidhospital03_path09" "worldSaidhospital03_path09" "!=1" "required" weight 0
+Criterion "IsNotSaidhospital03_path10" "worldSaidhospital03_path10" "!=1" "required" weight 0
+Criterion "IsNotSaidhospital03_path11" "worldSaidhospital03_path11" "!=1" "required" weight 0
+Criterion "IsNotSaidhospital04_path01" "worldSaidhospital04_path01" "!=1" "required" weight 0
+Criterion "IsNotSaidhospital04_path02" "worldSaidhospital04_path02" "!=1" "required" weight 0
+Criterion "IsNotSaidhospital04_path03" "worldSaidhospital04_path03" "!=1" "required" weight 0
+Criterion "IsNotSaidhospital04_path04" "worldSaidhospital04_path04" "!=1" "required" weight 0
+Criterion "IsNotSaidhospital04_path05" "worldSaidhospital04_path05" "!=1" "required" weight 0
+Criterion "IsNotSaidhospital04_path06" "worldSaidhospital04_path06" "!=1" "required" weight 0
+Criterion "IsNotSaidhospital04_path07" "worldSaidhospital04_path07" "!=1" "required" weight 0
+Criterion "IsNotSaidhospital05_path01" "worldSaidhospital05_path01" "!=1" "required" weight 0
+Criterion "IsNotSaidhospital05_path02" "worldSaidhospital05_path02" "!=1" "required" weight 0
+Criterion "IsNotSaidhospital05_path03" "worldSaidhospital05_path03" "!=1" "required" weight 0
+Criterion "IsNotSaidhospital05_path04" "worldSaidhospital05_path04" "!=1" "required" weight 0
+Criterion "IsNotSaidUpThatLadder" "worldSaidUpThatLadder" "!=1" "required" weight 0
+Criterion "IsNotSaidThroughHere" "worldSaidThroughHere" "!=1" "required" weight 0
+Criterion "IsNotSaidLaughFrancis" "worldSaidLaughFrancis" "!=1" "required" weight 0
+Criterion "IsNotSaidLaughZoey" "worldSaidLaughZoey" "!=1" "required" weight 0
+Criterion "IsNotSaidZoeySuggestsCrane" "worldSaidZoeySuggestsCrane" "!=1" "required" weight 0
+Criterion "IsNotSaidFrancisSuggestsCrane" "worldSaidFrancisSuggestsCrane" "!=1" "required" weight 0
+
+Criterion "IsNotSaidairport03_barriera" "worldSaidairport03_barriera" "!=1" "required" weight 0
+Criterion "IsNotSaidAirport03FireStarted" "worldSaidAirport03FireStarted" "!=1" "required" weight 0
+Criterion "IsNotSaidAirport03FirePathClear" "worldAirport03FirePathClear" "!=1" "required" weight 0
+Criterion "IsNotSaidAirport03FirePathCleara" "worldAirport03FirePathCleara" "!=1" "required" weight 0
+
+Criterion "IsNotSaidairport01_path02" "worldSaidairport01_path02" "!=1" "required" weight 0
+Criterion "IsNotSaidairport02_path01" "worldSaidairport02_path01" "!=1" "required" weight 0
+Criterion "IsNotSaidairport02_path02" "worldSaidairport02_path02" "!=1" "required" weight 0
+Criterion "IsNotAirport02NagTimer" "worldAirport02NagTimer" "!=1" "required" weight 0
+
+Criterion "IsNotSaidairport02_path03" "worldSaidairport02_path03" "!=1" "required" weight 0
+Criterion "IsNotSaidairport02_path04" "worldSaidairport02_path04" "!=1" "required" weight 0
+Criterion "IsNotSaidairport02_path05" "worldSaidairport02_path05" "!=1" "required" weight 0
+Criterion "IsNotSaidairport02_path06" "worldSaidairport02_path06" "!=1" "required" weight 0
+Criterion "IsNotSaidairport03_01" "worldSaidairport03_01" "!=1" "required" weight 0
+Criterion "IsNotSaidairport03_02" "worldSaidairport03_02" "!=1" "required" weight 0
+
+Criterion "IsNotSaidairport03_03" "worldSaidairport03_03" "!=1" "required" weight 0
+Criterion "IsNotSaidairport03_04" "worldSaidairport03_04" "!=1" "required" weight 0
+Criterion "IsNotSaidairport03_05" "worldSaidairport03_05" "!=1" "required" weight 0
+Criterion "IsNotSaidairport03_06" "worldSaidairport03_06" "!=1" "required" weight 0
+Criterion "IsNotSaidairport03_07" "worldSaidairport03_07" "!=1" "required" weight 0
+Criterion "IsNotSaidairport04_01" "worldSaidairport04_01" "!=1" "required" weight 0
+Criterion "IsNotSaidairport04_02" "worldSaidairport04_02" "!=1" "required" weight 0
+Criterion "IsNotSaidairport04_03" "worldSaidairport04_03" "!=1" "required" weight 0
+Criterion "IsNotSaidairport04_04" "worldSaidairport04_04" "!=1" "required" weight 0
+Criterion "IsNotSaidairport04_05" "worldSaidairport04_05" "!=1" "required" weight 0
+Criterion "IsNotSaidairport04_06" "worldSaidairport04_06" "!=1" "required" weight 0
+Criterion "IsNotSaidairport04_07" "worldSaidairport04_07" "!=1" "required" weight 0
+Criterion "IsNotSaidairport04_08" "worldSaidairport04_08" "!=1" "required" weight 0
+Criterion "IsNotSaidairport04_09" "worldSaidairport04_09" "!=1" "required" weight 0
+Criterion "IsNotSaidairport02_creshendo01a" "worldSaidairport02_creshendo01a" "!=1" "required" weight 0
+Criterion "IsNotSaidairport02_creshendo01b" "worldSaidairport02_creshendo01b" "!=1" "required" weight 0
+Criterion "IsNotSaidhospital02_safehouse" "worldSaidhospital02_safehouse" "!=1" "required" weight 0
+Criterion "IsNotSaidFarm05_path10" "worldSaidFarm05_path10" "!=1" "required" weight 0
+Criterion "IsNotSaidairport03_barrier" "worldSaidairport03_barrier" "!=1" "required" weight 0
+Criterion "IsNotSaidairport04_van" "worldSaidairport04_van" "!=1" "required" weight 0
+Criterion "IsNotSaidPathClearVan" "worldSaidPathClearVan" "!=1" "required" weight 0
+//##LEAVEHERE1##
+
+
+
+//Is Remarkable lists
+criterion "Ishospital01_path01"   "subject" "hospital01_path01"	  required
+criterion "Ishospital01_path02"   "subject" "hospital01_path02"	  required
+criterion "Ishospital01_path03"   "subject" "hospital01_path03"	  required
+criterion "IsSmalltown01_path01"   "subject" "Smalltown01_path01"	  required
+criterion "IsSmalltown01_path02"   "subject" "Smalltown01_path02"	  required
+criterion "IsSmalltown01_path03"   "subject" "Smalltown01_path03"	  required
+criterion "IsSmalltown01_path04"   "subject" "Smalltown01_path04"	  required
+criterion "Ishospital02_path01"   "subject" "hospital02_path01"	  required
+criterion "Ishospital02_path02"   "subject" "hospital02_path02"	  required
+criterion "Ishospital02_path03"   "subject" "hospital02_path03"	  required
+criterion "Ishospital02_path04"   "subject" "hospital02_path04"	  required
+criterion "Ishospital03_path01"   "subject" "hospital03_path01"	  required
+criterion "Ishospital03_path02"   "subject" "hospital03_path02"	  required
+criterion "Ishospital03_path03"   "subject" "hospital03_path03"	  required
+criterion "Ishospital03_path04"   "subject" "hospital03_path04"	  required
+criterion "Ishospital03_path05"   "subject" "hospital03_path05"	  required
+criterion "Ishospital03_path06"   "subject" "hospital03_path06"	  required
+criterion "Ishospital03_path07"   "subject" "hospital03_path07"	  required
+criterion "Ishospital03_path08"   "subject" "hospital03_path08"	  required
+criterion "Ishospital03_path09"   "subject" "hospital03_path09"	  required
+criterion "Ishospital03_path10"   "subject" "hospital03_path10"	  required
+criterion "Ishospital03_path11"   "subject" "hospital03_path11"	  required
+criterion "Ishospital04_path01"   "subject" "hospital04_path01"	  required
+criterion "Ishospital04_path02"   "subject" "hospital04_path02"	  required
+criterion "Ishospital04_path03"   "subject" "hospital04_path03"	  required
+criterion "Ishospital04_path04"   "subject" "hospital04_path04"	  required
+criterion "Ishospital04_path05"   "subject" "hospital04_path05"	  required
+criterion "Ishospital04_path06"   "subject" "hospital04_path06"	  required
+criterion "Ishospital04_path07"   "subject" "hospital04_path07"	  required
+criterion "Ishospital05_path01"   "subject" "hospital05_path01"	  required
+criterion "Ishospital05_path02"   "subject" "hospital05_path02"	  required
+criterion "Ishospital05_path03"   "subject" "hospital05_path03"	  required
+criterion "Ishospital05_path04"   "subject" "hospital05_path04"	  required
+criterion "IsUpThatLadder"   "subject" "UpThatLadder"	  required
+criterion "IsThroughHere"   "subject" "ThroughHere"	  required
+criterion "Isairport01_path02"   "subject" "airport01_path02"	  required
+criterion "Isairport02_path01"   "subject" "airport02_path01"	  required
+criterion "Isairport02_path02"   "subject" "airport02_path02"	  required
+criterion "Isairport02_path03"   "subject" "airport02_path03"	  required
+criterion "Isairport02_path04"   "subject" "airport02_path04"	  required
+criterion "Isairport02_path05"   "subject" "airport02_path05"	  required
+criterion "Isairport02_path06"   "subject" "airport02_path06"	  required
+criterion "Isairport03_01"   "subject" "airport03_01"	  required
+criterion "Isairport03_02a"   "subject" "airport03_02a"	  required
+criterion "Isairport03_02b"   "subject" "airport03_02b"	  required
+criterion "Isairport03_03a"   "subject" "airport03_03a"	  required
+criterion "Isairport03_03b"   "subject" "airport03_03b"	  required
+criterion "Isairport03_03c"   "subject" "airport03_03c"	  required
+criterion "Isairport03_04"   "subject" "airport03_04"	  required
+criterion "Isairport03_05"   "subject" "airport03_05"	  required
+criterion "Isairport03_06"   "subject" "airport03_06"	  required
+criterion "Isairport03_07"   "subject" "airport03_07"	  required
+criterion "Isairport04_01"   "subject" "airport04_01"	  required
+criterion "Isairport04_02"   "subject" "airport04_02"	  required
+criterion "Isairport04_02a"   "subject" "airport04_02a"	  required
+criterion "Isairport04_02b"   "subject" "airport04_02b"	  required
+criterion "Isairport04_03"   "subject" "airport04_03"	  required
+criterion "Isairport04_03a"   "subject" "airport04_03a"	  required
+criterion "Isairport04_03b"   "subject" "airport04_03b"	  required
+criterion "Isairport04_03c"   "subject" "airport04_03c"	  required
+criterion "Isairport04_04"   "subject" "airport04_04"	  required
+criterion "Isairport04_05"   "subject" "airport04_05"	  required
+criterion "Isairport04_06"   "subject" "airport04_06"	  required
+criterion "Isairport04_07"   "subject" "airport04_07"	  required
+criterion "Isairport04_08a"   "subject" "airport04_08a"	  required
+criterion "Isairport04_08b"   "subject" "airport04_08b"	  required
+criterion "Isairport04_08c"   "subject" "airport04_08c"	  required
+criterion "Isairport04_08d"   "subject" "airport04_08d"	  required
+criterion "Isairport04_08e"   "subject" "airport04_08e"	  required
+criterion "Isairport04_08f"   "subject" "airport04_08f"	  required
+criterion "Isairport04_09"   "subject" "airport04_09"	  required
+criterion "Isairport02_creshendo01a"   "subject" "airport02_creshendo01a"	  required
+criterion "Isairport02_creshendo01b"   "subject" "airport02_creshendo01b"	  required
+criterion "Ishospital02_safehouse"   "subject" "hospital02_safehouse"	  required
+criterion "IsFarm05_path10"   "subject" "Farm05_path10"	  required
+criterion "Isairport03_barrier"   "subject" "airport03_barrier"	  required
+criterion "Isairport04_van"   "subject" "airport04_van"	  required
+criterion "IsPathClearVan"   "subject" "PathClearVan"	  required
+//##LEAVEHERE2##
+
+
+
+
+//Then response concepts
+criterion "ConceptZoeySuggestsCrane"   "Concept" "ZoeySuggestsCrane"	  required
+criterion "ConceptFrancisSuggestsCrane"   "Concept" "FrancisSuggestsCrane"	  required
+criterion "ConceptLaughFrancis"   "Concept" "LaughFrancis"	  required
+criterion "ConceptLaughZoey"   "Concept" "LaughZoey"	  required
+
+
+//Map Switchs
+Criterion "ismap_l4d_farm05_cornfield" "map" "c12m5_cornfield" "required"
+Criterion "ismap_l4d_smalltown05_houseboat" "map" "c10m5_houseboat" "required"
+Criterion "ismap_urban05a_finale_runway" "map" "c11m5_runway" "required"
+Criterion "ismap_l4d_hospital05_rooftop" "map" "c8m5_rooftop" "required"
+Criterion "ismap_l4d_hospital01_apartment" "map" "c8m1_apartment" "required"
+Criterion "isRunway" "map" "c11m5_runway" "required"
 
 
 
 //--------------------------------------------------------------------------------------------------------------
-// Character-Specific Includes
+// Orator
 //--------------------------------------------------------------------------------------------------------------
-#include "talker/terror_player_addon.txt"
-#include "talker/conversation.txt"
+
+response HitCraneButtonBiker
+{
+	scene "scenes/npcs/orator_blank.vcd"  then Biker airport02_creshendoCrane foo:0  .01 // [BLANK]
+}
+rule HitCraneButtonBiker
+{
+	criteria ConceptAirport02CraneStarted PanicEventBiker
+	response HitCraneButtonBiker
+}
+response HitCraneButtonTeenGirl
+{
+	scene "scenes/npcs/orator_blank.vcd"  then TeenGirl airport02_creshendoCrane foo:0  .01 // [BLANK]
+}
+rule HitCraneButtonTeenGirl
+{
+	criteria ConceptAirport02CraneStarted PanicEventTeenGirl
+	response HitCraneButtonTeenGirl
+}
+response HitCraneButtonNamVet
+{
+	scene "scenes/npcs/orator_blank.vcd"  then NamVet airport02_creshendoCrane foo:0  .01 // [BLANK]
+}
+rule HitCraneButtonNamVet
+{
+	criteria ConceptAirport02CraneStarted PanicEventNamVet
+	response HitCraneButtonNamVet
+}
+response HitCraneButtonManager
+{
+	scene "scenes/npcs/orator_blank.vcd"  then Manager airport02_creshendoCrane foo:0  .01 // [BLANK]
+}
+rule HitCraneButtonManager
+{
+	criteria ConceptAirport02CraneStarted PanicEventManager
+	response HitCraneButtonManager
+}
+
+
+
+response Airport03FireStartedBiker
+{
+	scene "scenes/npcs/Barricade_Orator_blank.vcd"  then Biker Airport03FireStartedX foo:0  .01 // [BLANK]
+}
+rule Airport03FireStartedBiker
+{
+	criteria ConceptAirport03FireStarted PanicEventBiker
+	response Airport03FireStartedBiker
+}
+response Airport03FireStartedTeenGirl
+{
+	scene "scenes/npcs/Barricade_Orator_blank.vcd"  then TeenGirl Airport03FireStartedX foo:0  .01 // [BLANK]
+}
+rule Airport03FireStartedTeenGirl
+{
+	criteria ConceptAirport03FireStarted PanicEventTeenGirl
+	response Airport03FireStartedTeenGirl
+}
+response Airport03FireStartedNamVet
+{
+	scene "scenes/npcs/Barricade_Orator_blank.vcd"  then NamVet Airport03FireStartedX foo:0  .01 // [BLANK]
+}
+rule Airport03FireStartedNamVet
+{
+	criteria ConceptAirport03FireStarted PanicEventNamVet
+	response Airport03FireStartedNamVet
+}
+response Airport03FireStartedManager
+{
+	scene "scenes/npcs/Barricade_Orator_blank.vcd"  then Manager Airport03FireStartedX foo:0  .01 // [BLANK]
+}
+rule Airport03FireStartedManager
+{
+	criteria ConceptAirport03FireStarted PanicEventManager
+	response Airport03FireStartedManager
+}
+//--------------------------------------------------------------------------------------------------------------
+// CRITERIA
+//--------------------------------------------------------------------------------------------------------------
+
+
+Criterion "IsNotSaidc7m1_harborblocked" "worldSaidc7m1_harborblocked" "!=1" "required" weight 0
+Criterion "IsNotSaidc7m1_pretank" "worldSaidc7m1_pretank" "!=1" "required" weight 0
+Criterion "IsNotSaidc7m1_tankcar" "worldSaidc7m1_tankcar" "!=1" "required" weight 0
+Criterion "IsNotSaidc7m2_seebarge" "worldSaidc7m2_seebarge" "!=1" "required" weight 0
+Criterion "IsNotSaidc7m2_gravelhill" "worldSaidc7m2_gravelhill" "!=1" "required" weight 0
+Criterion "IsNotSaidc7m2_onbarge" "worldSaidc7m2_onbarge" "!=1" "required" weight 0
+Criterion "IsNotSaidc7m3_seesailboat" "worldSaidc7m3_seesailboat" "!=1" "required" weight 0
+Criterion "IsNotSaidInfo_powerboat" "worldSaidInfo_powerboat" "!=1" "required" weight 0
+Criterion "IsNotSaidInfo_powerboat2" "worldSaidInfo_powerboat2" "!=1" "required" weight 0
+Criterion "IsNotSaidinfo_sunkboatthere" "worldSaidinfo_sunkboatthere" "!=1" "required" weight 0
+Criterion "IsNotSaidinfo_trailerboat" "worldSaidinfo_trailerboat" "!=1" "required" weight 0
+Criterion "IsNotSaidc7m2_listingtug" "worldSaidc7m2_listingtug" "!=1" "required" weight 0
+Criterion "IsNotSaidinfo_powerboat3" "worldSaidinfo_powerboat3" "!=1" "required" weight 0
+Criterion "IsNotSaidinfo_powerboat4" "worldSaidinfo_powerboat4" "!=1" "required" weight 0
+Criterion "IsNotSaidinfo_carboat" "worldSaidinfo_carboat" "!=1" "required" weight 0
+Criterion "IsNotSaidinfo_trailerboatruck" "worldSaidinfo_trailerboatruck" "!=1" "required" weight 0
+Criterion "IsNotSaidinfo_carnotboat" "worldSaidinfo_carnotboat" "!=1" "required" weight 0
+Criterion "IsNotSaidc7m2_overboat" "worldSaidc7m2_overboat" "!=1" "required" weight 0
+Criterion "IsNotSaidc7m2_throughhere" "worldSaidc7m2_throughhere" "!=1" "required" weight 0
+Criterion "IsNotSaidc7m2_downchute" "worldSaidc7m2_downchute" "!=1" "required" weight 0
+Criterion "IsNotSaidc7m2_climbupcrap" "worldSaidc7m2_climbupcrap" "!=1" "required" weight 0
+Criterion "IsNotSaidc7m1_bricktop" "worldSaidc7m1_bricktop" "!=1" "required" weight 0
+Criterion "IsNotSaidc7m1_pastbricks" "worldSaidc7m1_pastbricks" "!=1" "required" weight 0
+//##LEAVEHERE1##
+
+
+
+//Is Remarkable lists
+criterion "Isc7m1_harborblocked"   "subject" "c7m1_harborblocked"	  required
+criterion "Isc7m1_pretank"   "subject" "c7m1_pretank"	  required
+criterion "Isc7m1_tankcar"   "subject" "c7m1_tankcar"	  required
+criterion "Isc7m2_seebarge"   "subject" "c7m2_seebarge"	  required
+criterion "Isc7m2_gravelhill"   "subject" "c7m2_gravelhill"	  required
+criterion "Isc7m2_onbarge"   "subject" "c7m2_onbarge"	  required
+criterion "Isc7m3_seesailboat"   "subject" "c7m3_seesailboat"	  required
+criterion "IsInfo_powerboat"   "subject" "Info_powerboat"	  required
+criterion "IsInfo_powerboat2"   "subject" "Info_powerboat2"	  required
+criterion "Isinfo_sunkboatthere"   "subject" "info_sunkboatthere"	  required
+criterion "Isinfo_trailerboat"   "subject" "info_trailerboat"	  required
+criterion "Isc7m2_listingtug"   "subject" "c7m2_listingtug"	  required
+criterion "Isinfo_powerboat3"   "subject" "info_powerboat3"	  required
+criterion "Isinfo_powerboat4"   "subject" "info_powerboat4"	  required
+criterion "Isinfo_carboat"   "subject" "info_carboat"	  required
+criterion "Isinfo_trailerboatruck"   "subject" "info_trailerboatruck"	  required
+criterion "Isinfo_carnotboat"   "subject" "info_carnotboat"	  required
+criterion "Isc7m2_overboat"   "subject" "c7m2_overboat"	  required
+criterion "Isc7m2_throughhere"   "subject" "c7m2_throughhere"	  required
+criterion "Isc7m2_downchute"   "subject" "c7m2_downchute"	  required
+criterion "Isc7m2_climbupcrap"   "subject" "c7m2_climbupcrap"	  required
+criterion "Isc7m1_bricktop"   "subject" "c7m1_bricktop"	  required
+criterion "Isc7m1_pastbricks"   "subject" "c7m1_pastbricks"	  required
+//##LEAVEHERE2##
+
+
+
+
+
+criterion "NotRescued"				"rescued"	"no"			"required"
+criterion "IsBlindFromFlashbang"	"flashed"	"yes"			"required"
+criterion "IsNotBlindFromFlashbang"	"flashed"	"no"			"required"
+criterion "IsInSmokeConcept"		"concept"	"InSmoke"		"required"
+criterion "IsSeeGrenadeConcept"	"concept"	"SeeGrenade"	"required"
+criterion "IsSeeRescueZoneConcept"	"concept"	"SeeRescueZone"	"required"
+criterion "IsRescuedConcept"		"concept"	"Rescued"		"required"
+criterion "IsFlashbangedConcept"	"concept"	"Flashbanged"	"required"
+criterion "IsCTWinConcept"		"concept"	"CTWin"			"required"
+criterion "IsTWinConcept"		"concept"	"TWin"			"required"
+criterion "IsPainConcept" 		"concept"	"Pain" 			"required"
+criterion "IsDeathConcept"		"concept"	"Death"			"required"	//<-- implement me
+criterion "IsStartFollowingConcept"	"concept"	"StartFollowing" "required"
+criterion "IsStopFollowingConcept"	"concept"   "StopFollowing"	"required"
+criterion "IsFollowingT"		"leaderteam"    "T"			"required"
+criterion "IsFollowingCT"		"leaderteam"	"CT"		"required"
+criterion "IsGreetCTConcept" 		"concept"	"GreetCT" 		"required"
+criterion "IsGreetTConcept" 		"concept"	"GreetT" 		"required"
+criterion "IsDmgReactionConcept"	"concept"	"DmgReaction"	"required"
+
+
+//================
+// RESPONSES
+//================
+
+response DmgReactionResponse
+{
+	speak "Hostage.DamageReaction1"	odds 10
+	speak "Hostage.DamageReaction2"	odds 10
+	speak "Hostage.DamageReaction3"	odds 10
+	speak "Hostage.DamageReaction4"	odds 10
+	speak "Hostage.DamageReaction5"	odds 10
+	speak "Hostage.DamageReaction6"	odds 10
+	speak "Hostage.DamageReaction7"	odds 10
+	speak "Hostage.DamageReaction8"	odds 10
+	speak "Hostage.DamageReaction9"	odds 10
+	speak "Hostage.DamageReaction10"	odds 10
+	speak "Hostage.DamageReaction11"	odds 10
+	speak "Hostage.DamageReaction12"	odds 10
+	speak "Hostage.DamageReaction13"	odds 10
+}
+
+response InSmokeResponse
+{
+	speak "Hostage.Cough1"	odds 50
+	speak "Hostage.Cough2"	odds 50
+	speak "Hostage.Cough3"	odds 50
+	speak "Hostage.Cough4"	odds 50
+	speak "Hostage.Cough5"	odds 50
+	speak "Hostage.Cough6"	odds 50
+}
+
+response SeeGrenadeResponse
+{
+	speak "Hostage.SeeGren1"	odds 30
+	speak "Hostage.SeeGren2"	odds 30
+	speak "Hostage.Run"	odds 30
+	speak "Hostage.WatchOut"	odds 30
+}
+
+response RescuedResponse
+{
+	speak "Hostage.Rescued"
+}
+
+response SeeRescueZoneResponse
+{
+	speak "Hostage.SeeRescueZone1" 
+	speak "Hostage.SeeRescueZone2" 
+	speak "Hostage.SeeRescueZone3" 
+	speak "Hostage.SeeRescueZone4" 
+	speak "Hostage.SeeRescueZone5" 
+}
+
+response "FlashbangedResponse"
+{
+	speak	"Hostage.Flashbang1"	odds 65
+	speak	"Hostage.Flashbang2"	odds 65
+}
+
+response "CTWinResponse"
+{
+	speak	"Hostage.CTWin1"	odds 30
+	speak	"Hostage.CTWin2"	odds 30
+	speak	"Hostage.CTWin3"	odds 30
+	speak	"Hostage.CTWin4"	odds 30
+	speak	"Hostage.CTWin5"	odds 30
+	speak	"Hostage.CTWin6"	odds 30
+	speak	"Hostage.CTWin7"	odds 30
+	speak	"Hostage.CTWin8"	odds 30
+	speak	"Hostage.CTWin9"	odds 30
+}
+
+response "TWinResponse"
+{
+	speak	"Hostage.TWin1"	odds 30
+	speak	"Hostage.TWin2"	odds 30
+	speak	"Hostage.TWin3"	odds 30
+	speak	"Hostage.TWin4"	odds 30
+	speak	"Hostage.TWin5"	odds 30
+}
+
+response "GreetTResponse"
+{
+	speak	"Hostage.TGreeting"
+}
+
+response "GreetCTResponse"
+{
+	speak	"Hostage.CTGreeting"
+}
+
+response "PainResponse"
+{
+	speak	"Hostage.Pain"	delay 1.5	//don't say anything for another 1.5 seconds
+}
+
+response "StartFollowingCTResponse"
+{
+	speak "Hostage.StartFollowCT"
+}
+
+response "StopFollowingCTResponse"
+{
+	speak "Hostage.StopFollowCT"
+}
+
+response "StartFollowingTResponse"
+{
+	speak "Hostage.StartFollowT1"
+	speak "Hostage.StartFollowT2"
+	speak "Hostage.StartFollowT3"
+	speak "Hostage.StartFollowT4"
+	speak "Hostage.StartFollowT5"
+	speak "Hostage.StartFollowT6"
+	speak "Hostage.StartFollowT7"
+}
+
+response "StopFollowingTResponse"
+{
+	speak "Hostage.StartFollowT1"	//use the same wavs
+	speak "Hostage.StartFollowT2"
+	speak "Hostage.StartFollowT3"
+	speak "Hostage.StartFollowT4"
+	speak "Hostage.StartFollowT5"
+	speak "Hostage.StartFollowT6"
+	speak "Hostage.StartFollowT7"
+}
+
+
+
+//================
+// RULES
+//================
+
+
+//----------------------
+// Misc rules
+//----------------------
+
+rule DmgReactionResponse
+{
+	criteria IsDmgReactionConcept NotRescued	//WasNotJustInjured ?
+	response DmgReactionResponse
+}
+
+rule InSmokeResponse
+{
+	criteria IsInSmokeConcept NotRescued
+	response InSmokeResponse
+}
+
+rule SeeGrenadeResponse
+{
+	criteria IsSeeGrenadeConcept IsNotBlindFromFlashbang NotRescued
+	response SeeGrenadeResponse
+}
+
+rule RescuedResponse
+{
+	criteria    IsRescuedConcept
+	response	RescuedResponse
+}
+
+rule SeeRescueZoneResponse
+{
+	criteria	IsSeeRescueZoneConcept
+	response	SeeRescueZoneResponse
+}
+
+rule FlashbangedResponse
+{
+	criteria IsFlashbangedConcept NotRescued
+	response FlashbangedResponse
+}
+
+rule PainResponse
+{
+	criteria	IsPainConcept NotRescued
+	response	PainResponse
+}
+
+
+
+//----------------------
+//Start / Stop Following
+//----------------------
+
+rule StartFollowingCTResponse
+{
+	criteria	IsFollowingCT IsStartFollowingConcept
+	response    StartFollowingCTResponse
+}
+
+rule StopFollowingCTResponse
+{
+	criteria	IsFollowingCT IsStopFollowingConcept
+	response    StopFollowingCTResponse
+}
+
+rule StartFollowingTResponse
+{
+	criteria	IsFollowingT IsStartFollowingConcept
+	response    StartFollowingTResponse
+}
+
+rule StopFollowingTResponse
+{
+	criteria	IsFollowingT IsStopFollowingConcept
+	response    StopFollowingTResponse
+}
+
+
+
+//----------------------
+// Greetings
+//----------------------
+
+rule GreetTResponse
+{
+	criteria		IsGreetTConcept NotRescued
+	response		GreetTResponse
+}
+
+rule GreetCTResponse
+{
+	criteria		IsGreetCTConcept NotRescued
+	response		GreetCTResponse
+}
+
+
+//----------------------
+// Win responses
+//----------------------
+
+rule CTWinResponse
+{
+	criteria IsCTWinConcept NotRescued
+	response CTWinResponse
+}
+
+rule TWinResponse
+{
+	criteria IsTWinConcept NotRescued
+	response TWinResponse
+}
+
+
+//The Last Stand
+Criterion "TheLastStand" "campaign" "l4d2_14" "required"
+criterion "IsLastStand1"  "map" "c14m1_junkyard" required weight 100
+criterion "ConceptIntroLighthouse"   "Concept" "introLighthouse"	  required
+
+criterion "ConceptC14M1Intro1"   "Concept" "C14M1Intro1"	  required
+criterion "ConceptC14M1Intro1a"   "Concept" "C14M1Intro1a"	  required
+criterion "ConceptC14M1Intro1b"   "Concept" "C14M1Intro1b"	  required
+criterion "ConceptC14M1Intro1c"   "Concept" "C14M1Intro1c"	  required
+
+criterion "ConceptC14M1Intro2"   "Concept" "C14M1Intro2"	  required
+criterion "ConceptC14M1Intro2a"   "Concept" "C14M1Intro2a"	  required
+
+criterion "ConceptC14M1Intro3"   "Concept" "C14M1Intro3"	  required
+criterion "ConceptC14M1Intro3a"   "Concept" "C14M1Intro3a"	  required
+criterion "ConceptC14M1Intro3b"   "Concept" "C14M1Intro3b"	  required
+
+criterion "ConceptC14M1Intro4"   "Concept" "C14M1Intro4"	  required
+criterion "ConceptC14M1Intro4a"   "Concept" "C14M1Intro4a"	  required
+criterion "ConceptC14M1Intro4b"   "Concept" "C14M1Intro4b"	  required
+
+
+criterion "ConceptC14M1PlaneFlyBy"   "Concept" "C14M1PlaneFlyBy"	  required
+criterion "ConceptC14M1EngineBroke"   "Concept" "C14M1PlaneEngine"	  required
+criterion "ConceptC14M1PanicStart"   "Concept" "C14M1PanicStart"	  required
+criterion "ConceptC14M1PanicSpeak"   "Concept" "C14M1PanicSpeak"	  required
+criterion "ConceptC14M1PowerOut"   "Concept" "C14M1PowerOut"	  required
+criterion "ConceptC14M1PowerOutSpeak"   "Concept" "C14M1PowerOutSpeak"	  required
+criterion "ConceptC14M1GeneratorActivated"   "Concept" "C14M1GeneratorActivated"	  required
+criterion "ConceptC14M1GeneratorActivatedSpeak"   "Concept" "C14M1GeneratorActivatedSpeak"	  required
+criterion "ConceptC14M1CraneReady"   "Concept" "C14M1CraneReady"	  required
+criterion "ConceptC14M1CraneDrop"   "Concept" "C14M1CraneDrop"	  required
+criterion "ConceptC14M1CraneDropBlank"   "Concept" "C14M1CraneDropBlank"	  required
+criterion "ConceptC14M1PathClear"   "Concept" "C14M1PathClear"	  required
+criterion "ConceptC14M1PathClearSpeak"   "Concept" "C14M1PathClearSpeak"	  required
+
+criterion "IsC14M1Humvee"   "subject" "c14m1_humvee"	  required
+criterion "IsC14M1CabinUpstairs"   "subject" "c14m1_cabin_upstairs"	  required
+criterion "IsC14M1JunkyardEntrance"   "subject" "c14m1_junkyard_entrance"	  required
+criterion "IsC14M1Traincar"   "subject" "c14m1_traincar"	  required
+criterion "IsC14M1PrePanic"   "subject" "c14m1_pre_panic"	  required
+criterion "IsC14M1DownCliff"   "subject" "c14m1_down_cliff"	  required
+
+Criterion "CraneNotMoving" "worldCranePhase" "<1" required
+Criterion "CraneIsMoving" "worldCranePhase" "1" required
+Criterion "CraneIsReady" "worldCranePhase" "2" required
+
+Criterion "IsNotRemarkedC14M1Humvee" "worldRemarkedC14M1Humvee" "<1" required
+Criterion "IsNotSpottedC14M1Plane" "worldSpottedC14M1Plane" "<1" required
+Criterion "IsNotRemarkedC14M1CabinUpstairs" "worldRemarkedC14M1CabinUpstairs" "<1" required
+Criterion "IsNotRemarkedC14M1JunkyardEntrance" "worldRemarkedC14M1JunkyardEntrance" "<1" required
+Criterion "IsNotRemarkedC14M1Traincar" "worldRemarkedC14M1Traincar" "<1" required
+Criterion "IsNotRemarkedC14M1PrePanic" "worldRemarkedC14M1PrePanic" "<1" required
+Criterion "IsRemarkedC14M1PrePanic" "worldRemarkedC14M1PrePanic" "1" required
+Criterion "IsNotRemarkedC14M1DownCliff" "worldRemarkedC14M1DownCliff" "<1" required
+
+Criterion "C14M1GeneratorTask" "worldC14M1GeneratorCount" "<3" required
+Criterion "C14M1TwoMore" "worldC14M1GeneratorCount" "2" required
+Criterion "C14M1LastGenerator" "worldC14M1GeneratorCount" "3" required
+Criterion "C14M1AllGenerators" "worldC14M1GeneratorCount" "4" required
+
+criterion "IsLastStand2"  "map" "c14m2_lighthouse" required weight 100
+
+criterion "ConceptC14M2Gate2"   "Concept" "C14M2Gate2"	  required
+criterion "ConceptC14M2Radio"   "Concept" "C14M2Radio"	  required
+criterion "ConceptC14M2RadioSpeak"   "Concept" "C14M2RadioSpeak"	  required
+criterion "ConceptC14M2RadioDestroyed"   "Concept" "C14M2RadioDestroyed"	  required
+criterion "ConceptC14M2NoteLighthouse2"   "Concept" "C14M2NoteLighthouse2"	  required
+criterion "ConceptC14M2PowerOutAgain"   "Concept" "C14M2PowerOutAgain"	  required
+criterion "ConceptC14M2PowerOutAgainSpeak"   "Concept" "C14M2PowerOutAgainSpeak"	  required
+
+criterion "IsC14M2Gate"   "subject" "c14m2_gate"	  required
+criterion "IsC14M2Drop"   "subject" "c14m2_drop"	  required
+criterion "IsC14M2NoteLighthouse"   "subject" "c14m2_note_lighthouse"	  required
+
+Criterion "IsNotRemarkedC14M2Gate" "worldRemarkedC14M2Gate" "<1" required
+Criterion "IsNotRemarkedC14M2Drop" "worldRemarkedC14M2Drop" "<1" required
+Criterion "IsNotRemarkedC14M2NoteLighthouse" "worldRemarkedC14M2NoteLighthouse" "<1" required
+
+//Moved from gambler's first text file to keep my sanity.
+criterion "IsNotSrcGrp_ELLISSTORYINIT" "worldSrcGrp_ELLISSTORYINIT" "<1" required
+criterion "IsNotSrcGrp_ELLISSTORY" "worldSrcGrp_ELLISSTORY" "<1" required
+
+
+//--------------------------------------------------------------------------------------------------------------
+// Additional Inclusions
+//--------------------------------------------------------------------------------------------------------------
+#include "talker/terror_player_dlc2_use.txt"
 #include "talker/requires.txt"
+#include "talker/terror_player_dlc1.txt"
+#include "talker/terror_player_dlc3.txt"
+#include "talker/terror_player_addon.txt"
+#include "talker/terror_player_addon_dlc3.txt"
+#include "talker/conversation.txt"
+#include "talker/finales_dlc2.txt"
 #include "talker/gambler.txt"
 #include "talker/coach.txt"
 #include "talker/mechanic.txt"
@@ -2439,8 +3624,9 @@ criterion "IsNamVetAlive"   "IsNamVetAlive" "1" required
 #include "talker/soldier1.txt"
 #include "talker/soldier2.txt"
 #include "talker/arenaheli.txt"
+#include "talker/pilot.txt"
 #include "talker/biker.txt"
 #include "talker/manager.txt"
 #include "talker/namvet.txt"
 #include "talker/teengirl.txt"
-#include "talker/l4d2_DLC1.txt"
+#include "talker/requires_dlc1.txt"

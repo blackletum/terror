@@ -166,7 +166,7 @@ Response SurvivorMournGamblerCoach
 }
 Rule SurvivorMournGamblerCoach
 {
-	criteria ConceptPlayerSeeDeadPlayer IsNotCoughing IsCoach IsDeadGambler IsNotSaidSomeoneDiedIsTalkCoach IsNotIncapacitated HasNotDefibrillator IsCoach
+	criteria ConceptPlayerSeeDeadPlayer IsNotCoughing IsCoach IsDeadGambler IsNotSaidSomeoneDiedIsTalkCoach HasNotDefibrillator IsCoach
 	Response SurvivorMournGamblerCoach
 }
 
@@ -177,7 +177,7 @@ Response SurvivorMournGamblerC1Coach
 }
 Rule SurvivorMournGamblerC1Coach
 {
-	criteria ConceptPlayerSeeDeadPlayer IsNotCoughing IsCoach IsDeadGambler IsNotSaidSomeoneDiedIsTalkCoach IsNotIncapacitated IsCampaignl4d2_1 HasNotDefibrillator IsCoach  NoKnowNames ismap_c1m1_hotel
+	criteria ConceptPlayerSeeDeadPlayer IsNotCoughing IsCoach IsDeadGambler IsNotSaidSomeoneDiedIsTalkCoach IsCampaignl4d2_1 HasNotDefibrillator IsCoach  NoKnowNames ismap_c1m1_hotel
 	Response SurvivorMournGamblerC1Coach
 }
 
@@ -188,7 +188,7 @@ Response SurvivorMournMechanicCoach
 }
 Rule SurvivorMournMechanicCoach
 {
-	criteria ConceptPlayerSeeDeadPlayer IsNotCoughing IsCoach IsDeadMechanic IsNotSaidSomeoneDiedIsTalkCoach IsNotIncapacitated HasNotDefibrillator IsCoach
+	criteria ConceptPlayerSeeDeadPlayer IsNotCoughing IsCoach IsDeadMechanic IsNotSaidSomeoneDiedIsTalkCoach HasNotDefibrillator IsCoach
 	Response SurvivorMournMechanicCoach
 }
 
@@ -199,7 +199,7 @@ Response SurvivorMournMechanicC1Coach
 }
 Rule SurvivorMournMechanicC1Coach
 {
-	criteria ConceptPlayerSeeDeadPlayer IsNotCoughing IsCoach IsDeadMechanic IsNotSaidSomeoneDiedIsTalkCoach IsNotIncapacitated IsCampaignl4d2_1 HasNotDefibrillator IsCoach  NoKnowNames ismap_c1m1_hotel
+	criteria ConceptPlayerSeeDeadPlayer IsNotCoughing IsCoach IsDeadMechanic IsNotSaidSomeoneDiedIsTalkCoach IsCampaignl4d2_1 HasNotDefibrillator IsCoach  NoKnowNames ismap_c1m1_hotel
 	Response SurvivorMournMechanicC1Coach
 }
 
@@ -211,7 +211,7 @@ Response SurvivorMournProducerCoach
 }
 Rule SurvivorMournProducerCoach
 {
-	criteria ConceptPlayerSeeDeadPlayer IsNotCoughing IsCoach IsDeadProducer IsNotSaidSomeoneDiedIsTalkCoach IsNotIncapacitated HasNotDefibrillator IsCoach
+	criteria ConceptPlayerSeeDeadPlayer IsNotCoughing IsCoach IsDeadProducer IsNotSaidSomeoneDiedIsTalkCoach HasNotDefibrillator IsCoach
 	Response SurvivorMournProducerCoach
 }
 
@@ -222,7 +222,7 @@ Response SurvivorMournProducerC1Coach
 }
 Rule SurvivorMournProducerC1Coach
 {
-	criteria ConceptPlayerSeeDeadPlayer IsNotCoughing IsCoach IsDeadProducer IsNotSaidSomeoneDiedIsTalkCoach IsNotIncapacitated IsCampaignl4d2_1 HasNotDefibrillator IsCoach  NoKnowNames ismap_c1m1_hotel
+	criteria ConceptPlayerSeeDeadPlayer IsNotCoughing IsCoach IsDeadProducer IsNotSaidSomeoneDiedIsTalkCoach IsCampaignl4d2_1 HasNotDefibrillator IsCoach  NoKnowNames ismap_c1m1_hotel
 	Response SurvivorMournProducerC1Coach
 }
 
@@ -349,7 +349,7 @@ Response PlayerC3M1FerryLanded2Coach
 }
 Rule PlayerC3M1FerryLanded2Coach
 {
-	criteria ConceptC3M1FerryLanded2 IsCoach IsTalkCoach IsNotSaidC3M1FerryLaunched2 IsNotSaidC3M1FerryLanded2 IsNotSaidWorldC3M1FerryCrossing IsNotIncapacitated IsNotAlone IsCoach AutoIsNotScavenge AutoIsNotSurvival
+	criteria ConceptC3M1FerryLanded2 IsCoach IsTalkCoach IsNotSaidC3M1FerryLaunched2 IsNotSaidC3M1FerryLanded2 IsNotSaidWorldC3M1FerryCrossing IsNotAlone IsCoach AutoIsNotScavenge AutoIsNotSurvival
 	ApplyContext "SaidC3M1FerryLanded2:1:2"
 	applycontexttoworld
 	Response PlayerC3M1FerryLanded2Coach
@@ -452,7 +452,7 @@ Response PlayercoachcoachesGamblerCoach
 }
 Rule PlayercoachcoachesGamblerCoach
 {
-	criteria Conceptcoachcoaches IsCoach IsTalkCoach IsNotSaidcoachcoaches FromIsGambler ChanceToFire30Percent IsNotIncapacitated IsHealthyHalf IsCoach IsNotSpeaking
+	criteria Conceptcoachcoaches IsCoach IsTalkCoach IsNotSaidcoachcoaches FromIsGambler ChanceToFire30Percent IsHealthyHalf IsCoach IsNotSpeaking
 	ApplyContext "Saidcoachcoaches:1:20"
 	applycontexttoworld
 	Response PlayercoachcoachesGamblerCoach
@@ -465,7 +465,7 @@ Response PlayercoachcoachesMechanicCoach
 }
 Rule PlayercoachcoachesMechanicCoach
 {
-	criteria Conceptcoachcoaches IsCoach IsTalkCoach IsNotSaidcoachcoaches FromIsMechanic ChanceToFire30Percent IsNotIncapacitated IsHealthyHalf IsCoach IsNotSpeaking
+	criteria Conceptcoachcoaches IsCoach IsTalkCoach IsNotSaidcoachcoaches FromIsMechanic ChanceToFire30Percent IsHealthyHalf IsCoach IsNotSpeaking
 	ApplyContext "Saidcoachcoaches:1:20"
 	applycontexttoworld
 	Response PlayercoachcoachesMechanicCoach
@@ -479,7 +479,7 @@ Response PlayercoachcoachesProducerCoach
 }
 Rule PlayercoachcoachesProducerCoach
 {
-	criteria Conceptcoachcoaches IsCoach IsTalkCoach IsNotSaidcoachcoaches FromIsProducer ChanceToFire30Percent IsNotIncapacitated  IsHealthyHalf IsCoach IsNotSpeaking
+	criteria Conceptcoachcoaches IsCoach IsTalkCoach IsNotSaidcoachcoaches FromIsProducer ChanceToFire30Percent  IsHealthyHalf IsCoach IsNotSpeaking
 	ApplyContext "Saidcoachcoaches:1:20"
 	applycontexttoworld
 	Response PlayercoachcoachesProducerCoach
@@ -760,7 +760,7 @@ Response AutoYouAreWelcomeCoach
 }
 Rule AutoYouAreWelcomeCoach
 {
-	criteria ConceptYouWelcome IsNotCoughing  IsCoach IsTalkCoach  TimeSinceGroupInCombat05 IsNotSpeaking IsCoach
+	criteria ConceptYouWelcome IsNotCoughing  IsCoach IsTalkCoach  TimeSinceGroupInCombat05 IsCoach
 	Response AutoYouAreWelcomeCoach
 }
 
@@ -983,7 +983,7 @@ Response C2M2CarouselIdleCoach
 }
 Rule C2M2CarouselIdleCoach
 {
-	criteria ConceptTalkIdle IsCoach ChanceToFire30Percent IsNotIncapacitated ismap_c2m2 IsNotInSafeSpot AutoIsNotScavenge AutoIsNotSurvival //_auto_IsCarouselOn //_auto_NotTimerLockA //_auto_NotTimerLockCoach //_auto_NotSawTunnelOfLove IsNotSpeakingWeight0
+	criteria ConceptTalkIdle IsCoach ChanceToFire30Percent ismap_c2m2 IsNotInSafeSpot AutoIsNotScavenge AutoIsNotSurvival //_auto_IsCarouselOn //_auto_NotTimerLockA //_auto_NotTimerLockCoach //_auto_NotSawTunnelOfLove IsNotSpeakingWeight0
 	ApplyContext "_auto_TimerLockA:1:13,_auto_TimerLockCoach:1:20"
 	applycontexttoworld
 	Response C2M2CarouselIdleCoach
@@ -997,7 +997,7 @@ Response C2M2TunnelIdleCoach
 }
 Rule C2M2TunnelIdleCoach
 {
-	criteria ConceptTalkIdle IsCoach ChanceToFire50Percent IsNotIncapacitated ismap_c2m2 IsNotInSafeSpot AutoIsNotScavenge AutoIsNotSurvival //_auto_NotTimerLockA //_auto_NotTimerLockCoach //_auto_IsSawTunnelOfLove IsNotSpeakingWeight0
+	criteria ConceptTalkIdle IsCoach ChanceToFire50Percent ismap_c2m2 IsNotInSafeSpot AutoIsNotScavenge AutoIsNotSurvival //_auto_NotTimerLockA //_auto_NotTimerLockCoach //_auto_IsSawTunnelOfLove IsNotSpeakingWeight0
 	ApplyContext "_auto_TimerLockA:1:8,_auto_TimerLockCoach:1:12"
 	applycontexttoworld
 	Response C2M2TunnelIdleCoach
@@ -1010,7 +1010,7 @@ Response C2M3RubbleNagIdleCoach
 }
 Rule C2M3RubbleNagIdleCoach
 {
-	criteria ConceptTalkIdle IsCoach ChanceToFire50Percent IsNotIncapacitated ismap_c2m3 AutoIsNotScavenge AutoIsNotSurvival //_auto_IsTeamNearCoaster //_auto_NotCoasterStarted //_auto_NotTimerLockA //_auto_NotTimerLockCoach //_auto_IsCoasterExpo IsNotSpeakingWeight0
+	criteria ConceptTalkIdle IsCoach ChanceToFire50Percent ismap_c2m3 AutoIsNotScavenge AutoIsNotSurvival //_auto_IsTeamNearCoaster //_auto_NotCoasterStarted //_auto_NotTimerLockA //_auto_NotTimerLockCoach //_auto_IsCoasterExpo IsNotSpeakingWeight0
 	ApplyContext "Talk:1:1.026,_auto_TimerLockA:1:10,_auto_TimerLockCoach:1:13"
 	applycontexttoworld
 	Response C2M3RubbleNagIdleCoach
@@ -1145,7 +1145,7 @@ Response C2M4GateIdle1Coach
 }
 Rule C2M4GateIdle1Coach
 {
-	criteria ConceptTalkIdle IsCoach IsNotIncapacitated ismap_c2m4 NotInCombat TimeSinceGroupInCombat02 AutoIsNotScavenge AutoIsNotSurvival IsNotSrcGrp_C2M4_008 //_auto_IsNearGate //_auto_NotTimerLockA //_auto_NotTimerLockCoach //_auto_NotButtonPressed IsNotSpeakingWeight0
+	criteria ConceptTalkIdle IsCoach ismap_c2m4 NotInCombat TimeSinceGroupInCombat02 AutoIsNotScavenge AutoIsNotSurvival IsNotSrcGrp_C2M4_008 //_auto_IsNearGate //_auto_NotTimerLockA //_auto_NotTimerLockCoach //_auto_NotButtonPressed IsNotSpeakingWeight0
 	ApplyContext "Talk:1:1.707,_auto_TimerLockA:1:20,_auto_TimerLockCoach:1:23,_auto_NearGateNag:1:0,SrcGrp_C2M4_008:1:0"
 	applycontexttoworld
 	Response C2M4GateIdle1Coach
@@ -1159,7 +1159,7 @@ Response C2M4GateIdle2Coach
 }
 Rule C2M4GateIdle2Coach
 {
-	criteria ConceptTalkIdle IsCoach IsNotIncapacitated ismap_c2m4 NotInCombat TimeSinceGroupInCombat02 AutoIsNotScavenge AutoIsNotSurvival //_auto_IsNearGateNag //_auto_IsNearGate //_auto_NotTimerLockA //_auto_NotTimerLockCoach //_auto_NotButtonPressed IsNotSpeakingWeight0
+	criteria ConceptTalkIdle IsCoach ismap_c2m4 NotInCombat TimeSinceGroupInCombat02 AutoIsNotScavenge AutoIsNotSurvival //_auto_IsNearGateNag //_auto_IsNearGate //_auto_NotTimerLockA //_auto_NotTimerLockCoach //_auto_NotButtonPressed IsNotSpeakingWeight0
 	ApplyContext "Talk:1:1.565,_auto_TimerLockA:1:20,_auto_TimerLockCoach:1:23"
 	applycontexttoworld
 	Response C2M4GateIdle2Coach
@@ -1171,7 +1171,7 @@ Response C2M4GateOpenIdleCoach
 }
 Rule C2M4GateOpenIdleCoach
 {
-	criteria ConceptTalkIdle IsCoach IsNotIncapacitated ismap_c2m4 AutoIsNotScavenge AutoIsNotSurvival IsNotSrcGrp_C2M4_009 //_auto_IsGateOpen //_auto_NotTimerLockA IsNotSpeakingWeight0
+	criteria ConceptTalkIdle IsCoach ismap_c2m4 AutoIsNotScavenge AutoIsNotSurvival IsNotSrcGrp_C2M4_009 //_auto_IsGateOpen //_auto_NotTimerLockA IsNotSpeakingWeight0
 	ApplyContext "Talk:1:0.960,SrcGrp_C2M4_009:1:0"
 	applycontexttoworld
 	Response C2M4GateOpenIdleCoach
@@ -1222,7 +1222,7 @@ Response C2M5_ChoppercomingCoach
 }
 Rule C2M5_ChoppercomingCoach
 {
-	criteria ConceptC2M5_Choppercoming IsCoach IsNotIncapacitated AutoIsNotScavenge AutoIsNotSurvival
+	criteria ConceptC2M5_Choppercoming IsCoach AutoIsNotScavenge AutoIsNotSurvival
 	Response C2M5_ChoppercomingCoach
 }
 
@@ -1449,7 +1449,7 @@ Response C2M5_PlanWorkedCoach
 }
 Rule C2M5_PlanWorkedCoach
 {
-	criteria ConceptC2M5_PlanWorked IsCoach IsNotIncapacitated NotInCombat AutoIsNotScavenge AutoIsNotSurvival
+	criteria ConceptC2M5_PlanWorked IsCoach NotInCombat AutoIsNotScavenge AutoIsNotSurvival
 	Response C2M5_PlanWorkedCoach
 }
 
@@ -1485,7 +1485,7 @@ Response C2M5ChopperNagCoach
 }
 Rule C2M5ChopperNagCoach
 {
-	criteria ConceptTalkIdle IsCoach Ismap_c2m5 IsNotIncapacitatedAutoIsNotScavenge AutoIsNotSurvival //_auto_IsEscapeReady //_auto_NotTimerLockA //_auto_NotTimerLockCoach IsNotSpeakingWeight0
+	criteria ConceptTalkIdle IsCoach Ismap_c2m5AutoIsNotScavenge AutoIsNotSurvival //_auto_IsEscapeReady //_auto_NotTimerLockA //_auto_NotTimerLockCoach IsNotSpeakingWeight0
 	ApplyContext "_auto_TimerLockA:1:5,_auto_TimerLockCoach:1:10"
 	applycontexttoworld
 	Response C2M5ChopperNagCoach
@@ -1533,7 +1533,7 @@ Response C2M5SingingCoach
 }
 Rule C2M5SingingCoach
 {
-	criteria ConceptC2M5Microphone IsCoach NotInCombat Ismap_c2m5 TimeSinceGroupInCombat02 IsNotSpeaking AutoIsNotScavenge AutoIsNotSurvival //_auto_NotButton2 //_auto_IsButton1
+	criteria ConceptC2M5Microphone IsCoach NotInCombat Ismap_c2m5 TimeSinceGroupInCombat02 AutoIsNotScavenge AutoIsNotSurvival //_auto_NotButton2 //_auto_IsButton1
 	Response C2M5SingingCoach
 }
 
@@ -1680,7 +1680,7 @@ Response C3M4BoatNagsCoach
 }
 Rule C3M4BoatNagsCoach
 {
-	criteria ConceptTalkIdle IsCoachismapc3m4_plantation IsNotIncapacitated ChanceToFire80Percent AutoIsNotScavenge AutoIsNotSurvival //_auto_IsGateExploded //_auto_NotTimerLockA IsNotSpeakingWeight0
+	criteria ConceptTalkIdle IsCoachismapc3m4_plantation ChanceToFire80Percent AutoIsNotScavenge AutoIsNotSurvival //_auto_IsGateExploded //_auto_NotTimerLockA IsNotSpeakingWeight0
 	ApplyContext "Talk:1:1.437,_auto_TimerLockA:1:6"
 	applycontexttoworld
 	Response C3M4BoatNagsCoach
@@ -1736,7 +1736,7 @@ Response C4GoingToDieCoachCoach
 }
 Rule C4GoingToDieCoachCoach
 {
-	criteria ConceptPlayerGoingToDie IsNotSpeaking IsNotCoughing IsCoach IsTalkCoach IsNotComplainBlock ChanceToFire30Percent IsCoach ismap_c4m2_sugarmill_a
+	criteria ConceptPlayerGoingToDie IsNotCoughing IsCoach IsTalkCoach IsNotComplainBlock ChanceToFire30Percent IsCoach ismap_c4m2_sugarmill_a
 	ApplyContext "IsComplain:1:25"
 	forceweight 200
 	Response C4GoingToDieCoachCoach
@@ -1755,7 +1755,7 @@ Response C4StormBlindIdleCoach
 }
 Rule C4StormBlindIdleCoach
 {
-	criteria ConceptTalkIdle IsCoach ChanceToFire30Percent IsNotIncapacitated //_auto_NotTimerLockA //_auto_IsTimerA //_auto_NotC4CoachInCover IsNotSpeakingWeight0
+	criteria ConceptTalkIdle IsCoach ChanceToFire30Percent //_auto_NotTimerLockA //_auto_IsTimerA //_auto_NotC4CoachInCover IsNotSpeakingWeight0
 	ApplyContext "_auto_TimerA:0:0"
 	applycontexttoworld
 	Response C4StormBlindIdleCoach
@@ -1789,7 +1789,7 @@ Response C4M2IdleWitchville01Coach
 }
 Rule C4M2IdleWitchville01Coach
 {
-	criteria ConceptPlayerWarnHearZombie IsWitchClass ismap_c4m2_sugarmill_a IsNotSpeaking IsCoach IsNotIncapacitatedIsTalkCoach NotInCombat IsCoach IsCoachInWitchville ChanceToFire50Percent NotSaidLotsOfWitches IsNotSrcGrp_C4M2_006
+	criteria ConceptPlayerWarnHearZombie IsWitchClass ismap_c4m2_sugarmill_a IsCoachIsTalkCoach NotInCombat IsCoach IsCoachInWitchville ChanceToFire50Percent NotSaidLotsOfWitches IsNotSrcGrp_C4M2_006
 	ApplyContext "SaidWitchWarn:1:20,WarnHeardWitch:1:300,SaidLotsOfWitches:1:90,SrcGrp_C4M2_006:1:0"
 	applycontexttoworld
 	Response C4M2IdleWitchville01Coach
@@ -4122,7 +4122,7 @@ Response SurvivorTauntResponseCoach
 }
 Rule SurvivorTauntResponseCoach
 {
-	criteria ConceptPlayerTaunt IsNotSpeaking IsNotCoughing IsCoach IsTalkCoach IsCoach
+	criteria ConceptPlayerTaunt IsNotCoughing IsCoach IsTalkCoach IsCoach
 	Response SurvivorTauntResponseCoach
 }
 
@@ -4155,7 +4155,7 @@ Response C4M1IdleComment01Coach
 }
 Rule C4M1IdleComment01Coach
 {
-	criteria ConceptTalkIdle ChanceToFire40Percent ismap_c4m1_milltown_a IsSaidc4m1_nogas IsNotSpeaking IsCoach IsNotIncapacitatedIsTalkCoach NotInCombat IsCoach TimeSinceGroupInCombat02 AutoIsNotScavenge AutoIsNotSurvival IsNotSrcGrp_C4M1_003 //_auto_NotNoGasGate
+	criteria ConceptTalkIdle ChanceToFire40Percent ismap_c4m1_milltown_a IsSaidc4m1_nogas IsCoachIsTalkCoach NotInCombat IsCoach TimeSinceGroupInCombat02 AutoIsNotScavenge AutoIsNotSurvival IsNotSrcGrp_C4M1_003 //_auto_NotNoGasGate
 	ApplyContext "Talk:1:5.016,SrcGrp_C4M1_003:1:0"
 	applycontexttoworld
 	Response C4M1IdleComment01Coach
@@ -4168,7 +4168,7 @@ Response C4M2IdleCommentCane01Coach
 }
 Rule C4M2IdleCommentCane01Coach
 {
-	criteria ConceptTalkIdle ChanceToFire60Percent ismap_c4m2_sugarmill_a IsNotSpeaking IsCoach IsNotIncapacitatedIsTalkCoach IsCoach AutoIsNotScavenge AutoIsNotSurvival //_auto_IsCoachInCane //_auto_NotCaneYellGated //_auto_NotLastSurvivorTalkedCoach
+	criteria ConceptTalkIdle ChanceToFire60Percent ismap_c4m2_sugarmill_a IsCoachIsTalkCoach IsCoach AutoIsNotScavenge AutoIsNotSurvival //_auto_IsCoachInCane //_auto_NotCaneYellGated //_auto_NotLastSurvivorTalkedCoach
 	ApplyContext "_auto_CaneYellGated:1:10,_auto_LastSurvivorTalkedCoach:1:15"
 	applycontexttoworld
 	Response C4M2IdleCommentCane01Coach
@@ -4205,7 +4205,7 @@ Response PlayerReloadingC502RunCoach
 }
 Rule PlayerReloadingC502RunCoach
 {
-	criteria ConceptPlayerReloading IsNotSpeaking IsCoach IsNotIncapacitatedIsTalkCoach IsNotSaidWorldC502AlarmStopped IsSaidWorldC502AlarmButton2 ChanceToFire50Percent IsCoach
+	criteria ConceptPlayerReloading IsCoachIsTalkCoach IsNotSaidWorldC502AlarmStopped IsSaidWorldC502AlarmButton2 ChanceToFire50Percent IsCoach
 	Response PlayerReloadingC502RunCoach
 }
 
@@ -4220,7 +4220,7 @@ Response PlayerReloadingTankCoach
 }
 Rule PlayerReloadingTankCoach
 {
-	criteria ConceptPlayerReloading IsNotSpeaking IsCoach IsNotIncapacitatedIsTalkCoach ChanceToFire70Percent  IsZombiePresentTank IsSaidTankWarn2 IsCoach isNotmap_c1m2_streets
+	criteria ConceptPlayerReloading IsCoachIsTalkCoach ChanceToFire70Percent  IsZombiePresentTank IsSaidTankWarn2 IsCoach isNotmap_c1m2_streets
 	ApplyContext "SaidReloadingTank:1:10,SaidTankWarn2:1:20"
 	applycontexttoworld
 	Response PlayerReloadingTankCoach
@@ -4235,7 +4235,7 @@ Response PlayerReloadingTankC1Coach
 }
 Rule PlayerReloadingTankC1Coach
 {
-	criteria ConceptPlayerReloading IsNotSpeaking IsCoach IsNotIncapacitatedIsTalkCoach ChanceToFire70Percent  IsZombiePresentTank IsSaidTankWarn2 IsCoach ismap_c1m2_streets
+	criteria ConceptPlayerReloading IsCoachIsTalkCoach ChanceToFire70Percent  IsZombiePresentTank IsSaidTankWarn2 IsCoach ismap_c1m2_streets
 	ApplyContext "SaidReloadingTank:1:10,SaidTankWarn2:1:20"
 	applycontexttoworld
 	Response PlayerReloadingTankC1Coach
@@ -4347,7 +4347,7 @@ Response SurvivorIncapacitatedHurtCoach
 }
 Rule SurvivorIncapacitatedHurtCoach
 {
-	criteria InPain IsNotSpeaking IsIncapacitatedPain IsCoach IsTalkCoach IsCoach
+	criteria InPain IsIncapacitatedPain IsCoach IsTalkCoach IsCoach
 	Response SurvivorIncapacitatedHurtCoach
 }
 
@@ -4483,7 +4483,7 @@ Response SurvivorReloadingCoach
 }
 Rule SurvivorReloadingCoach
 {
-	criteria ConceptPlayerReloading IsNotSpeaking IsCoach IsNotIncapacitatedIsTalkCoach RecentGroupInCombat10 HasNotgrenadelauncher IsCoach
+	criteria ConceptPlayerReloading IsCoachIsTalkCoach RecentGroupInCombat10 HasNotgrenadelauncher IsCoach
 	Response SurvivorReloadingCoach
 }
 
@@ -4500,7 +4500,7 @@ Response SurvivorReloadingIntenseCoach
 }
 Rule SurvivorReloadingIntenseCoach
 {
-	criteria ConceptPlayerReloading IsNotSpeaking IsCoach IsNotIncapacitatedIsTalkCoach RecentGroupInCombat10 HasNotgrenadelauncher IsCoach Intensity100
+	criteria ConceptPlayerReloading IsCoachIsTalkCoach RecentGroupInCombat10 HasNotgrenadelauncher IsCoach Intensity100
 	Response SurvivorReloadingIntenseCoach
 }
 
@@ -4534,7 +4534,7 @@ Response HelpResponseCoachCoach
 }
 Rule HelpResponseCoachCoach
 {
-	criteria ConceptFriendNeedsHelp IsCoach IsTalkCoach IsNotIncapacitated IsInSafeSpot FromIsCoach IsNotInStartArea NotAloneInSafeSpot IsCoach
+	criteria ConceptFriendNeedsHelp IsCoach IsTalkCoach IsInSafeSpot FromIsCoach IsNotInStartArea NotAloneInSafeSpot IsCoach
 	Response HelpResponseCoachCoach
 }
 
@@ -8201,13 +8201,13 @@ Response PlayerYouAreWelcomeCoach
 }
 Rule PlayerYouAreWelcomeCoach
 {
-	criteria ConceptPlayerYouAreWelcome IsNotCoughing  IsCoach IsTalkCoach IsNotSpeaking IsCoach
+	criteria ConceptPlayerYouAreWelcome IsNotCoughing  IsCoach IsTalkCoach IsCoach
 	Response PlayerYouAreWelcomeCoach
 }
 
 Rule PlayerFriendlyFireInflictorCoach
 {
-	criteria ConceptPlayerFriendlyFireInflictor IsNotCoughing IsNotSpeaking IsCoach IsTalkCoach IsCoach
+	criteria ConceptPlayerFriendlyFireInflictor IsNotCoughing IsCoach IsTalkCoach IsCoach
 	Response PlayerSorryCoach
 }
 
@@ -8529,7 +8529,7 @@ Response PlayerCommentJockeyCoach
 }
 Rule PlayerCommentJockeyCoach
 {
-	criteria ConceptCommentJockey IsCoach IssuerCloseEnough IsNotIncapacitated IntensityUnder50 IsNotSaidCommentJockey
+	criteria ConceptCommentJockey IsCoach IssuerCloseEnough IntensityUnder50 IsNotSaidCommentJockey
 	ApplyContext "SaidCommentJockey:1:0"
 	applycontexttoworld
 	Response PlayerCommentJockeyCoach
@@ -8584,7 +8584,7 @@ Response GoingToDieCoachCoachCoach
 }
 Rule GoingToDieCoachCoachCoach
 {
-	criteria ConceptPlayerGoingToDie IsNotSpeaking IsNotCoughing IsCoach IsTalkCoach IsNotComplainBlock IsCoachNear200 ChanceToFire30Percent IsCoach
+	criteria ConceptPlayerGoingToDie IsNotCoughing IsCoach IsTalkCoach IsNotComplainBlock IsCoachNear200 ChanceToFire30Percent IsCoach
 	ApplyContext "IsComplain:1:25"
 	Response GoingToDieCoachCoachCoach
 }
@@ -9287,7 +9287,7 @@ Response PlayerWarnMegaMobCoach
 }
 Rule PlayerWarnMegaMobCoach
 {
-	criteria ConceptPlayerWarnMegaMob IsNotCoughing IsCoach IsNotWarnMegaMobIsTalkCoach IsNotSpeaking IsCoach
+	criteria ConceptPlayerWarnMegaMob IsNotCoughing IsCoach IsNotWarnMegaMobIsTalkCoach IsCoach
 	ApplyContext "WarnMegaMob:1:300,SaidSpecialWarn:1:30"
 	applycontexttoworld
 	Response PlayerWarnMegaMobCoach
@@ -9302,7 +9302,7 @@ Response PlayerWarnMegaMobC501Coach
 }
 Rule PlayerWarnMegaMobC501Coach
 {
-	criteria ConceptPlayerWarnMegaMob IsNotCoughing IsCoach IsNotWarnMegaMobIsTalkCoach IsNotSpeaking  ismap_c5m1_waterfront IsCoach IsNotScavenge
+	criteria ConceptPlayerWarnMegaMob IsNotCoughing IsCoach IsNotWarnMegaMobIsTalkCoach  ismap_c5m1_waterfront IsCoach IsNotScavenge
 	ApplyContext "WarnMegaMob:1:300,SaidSpecialWarn:1:30,ShotCar0501:1:0"
 	applycontexttoworld
 	Response PlayerWarnMegaMobC501Coach
@@ -9656,7 +9656,7 @@ Response SurvivorVocalizeGoingToDieCoach
 }
 Rule SurvivorVocalizeGoingToDieCoach
 {
-	criteria ConceptPlayerGoingToDie IsNotSpeaking IsNotCoughing IsCoach IsTalkCoach IsNotComplainBlock IsCoach
+	criteria ConceptPlayerGoingToDie IsNotCoughing IsCoach IsTalkCoach IsNotComplainBlock IsCoach
 	ApplyContext "IsComplain:1:25"
 	Response SurvivorVocalizeGoingToDieCoach
 }
@@ -9670,7 +9670,7 @@ Response SurvivorVocalizeGoingToDie3Coach
 }
 Rule SurvivorVocalizeGoingToDie3Coach
 {
-	criteria ConceptPlayerGoingToDie IsNotSpeaking IsNotCoughing IsCoach IsOnThirdStrikeIsTalkCoach IsNotComplainBlock IsCoach
+	criteria ConceptPlayerGoingToDie IsNotCoughing IsCoach IsOnThirdStrikeIsTalkCoach IsNotComplainBlock IsCoach
 	ApplyContext "IsComplain:1:25"
 	Response SurvivorVocalizeGoingToDie3Coach
 }
@@ -9806,7 +9806,7 @@ Response DoubleDeath2Coach
 }
 Rule DoubleDeath2Coach
 {
-	criteria ConceptDeath2Left IsNotCoughing IsCoach IsTalkCoach IsNotSaidSomeoneDiedDouble2 IsWithTwo IsNotIncapacitated ChanceToFire30Percent IsCoach
+	criteria ConceptDeath2Left IsNotCoughing IsCoach IsTalkCoach IsNotSaidSomeoneDiedDouble2 IsWithTwo ChanceToFire30Percent IsCoach
 	ApplyContext "SaidSomeoneDiedDouble2:1:10"
 	applycontexttoworld
 	Response DoubleDeath2Coach
@@ -9863,7 +9863,7 @@ Response SurvivorDeployUpExplosivesCoach
 }
 Rule SurvivorDeployUpExplosivesCoach
 {
-	criteria ConceptPlayerDeployingUpgradeAmmo  IsNotCoughing IsCoach  IsNotSpeaking IsTalkCoach IsCoach IsNotSaidDeployUpgradePack_Explosive HasUpgradePack_Explosive
+	criteria ConceptPlayerDeployingUpgradeAmmo  IsNotCoughing IsCoach  IsTalkCoach IsCoach IsNotSaidDeployUpgradePack_Explosive HasUpgradePack_Explosive
 	ApplyContext "SaidDeployUpgradePack_Explosive:1:30"
 	Response SurvivorDeployUpExplosivesCoach
 }
@@ -9875,7 +9875,7 @@ Response SurvivorDeployUpIncendiaryCoach
 }
 Rule SurvivorDeployUpIncendiaryCoach
 {
-	criteria ConceptPlayerDeployingUpgradeAmmo  IsNotCoughing IsCoach  IsNotSpeaking IsTalkCoach IsCoach IsNotSaidDeployUpgradePack_Incendiary HasUpgradePack_Incendiary
+	criteria ConceptPlayerDeployingUpgradeAmmo  IsNotCoughing IsCoach  IsTalkCoach IsCoach IsNotSaidDeployUpgradePack_Incendiary HasUpgradePack_Incendiary
 	ApplyContext "SaidDeployUpgradePack_Incendiary:1:30"
 	Response SurvivorDeployUpIncendiaryCoach
 }
@@ -9886,7 +9886,7 @@ Response SurvivorPickupAdrenalineCoach
 }
 Rule SurvivorPickupAdrenalineCoach
 {
-	criteria ConceptPlayerPickup IsNotCoughing IsCoach IsPickedUpAdrenaline IsNotSpeaking IsInSafeSpot IsNotInStartAreaIsTalkCoach IsCoach
+	criteria ConceptPlayerPickup IsNotCoughing IsCoach IsPickedUpAdrenaline IsInSafeSpot IsNotInStartAreaIsTalkCoach IsCoach
 	ApplyContext "CoachPickedUpItem:1:30"
 	Response SurvivorPickupAdrenalineCoach
 }
@@ -9910,7 +9910,7 @@ Response SurvivorPickupAutoShotgunCoach
 }
 Rule SurvivorPickupAutoShotgunCoach
 {
-	criteria ConceptPlayerPickup IsNotCoughing IsCoach IsPickedUpAutoShotgun IsNotSpeaking IsInSafeSpot ChanceToFire30Percent CoachNotPickedUpItem IsNotInStartAreaIsTalkCoach IsCoach
+	criteria ConceptPlayerPickup IsNotCoughing IsCoach IsPickedUpAutoShotgun IsInSafeSpot ChanceToFire30Percent CoachNotPickedUpItem IsNotInStartAreaIsTalkCoach IsCoach
 	ApplyContext "CoachPickedUpItem:1:30"
 	Response SurvivorPickupAutoShotgunCoach
 }
@@ -9923,7 +9923,7 @@ Response SurvivorPickupAutoShotgunAlwaysCoach
 }
 Rule SurvivorPickupAutoShotgunAlwaysCoach
 {
-	criteria ConceptPlayerPickup IsNotCoughing IsCoach IsPickedUpAutoShotgun IsNotSpeaking IsNotInSafeSpot ChanceToFire30Percent CoachNotPickedUpItemIsTalkCoach IsCoach
+	criteria ConceptPlayerPickup IsNotCoughing IsCoach IsPickedUpAutoShotgun IsNotInSafeSpot ChanceToFire30Percent CoachNotPickedUpItemIsTalkCoach IsCoach
 	ApplyContext "CoachPickedUpItem:1:30"
 	Response SurvivorPickupAutoShotgunAlwaysCoach
 }
@@ -9935,7 +9935,7 @@ Response SurvivorPickupchainsawCoach
 }
 Rule SurvivorPickupchainsawCoach
 {
-	criteria ConceptPlayerPickup IsNotCoughing IsCoach IsPickedUpchainsaw IsNotSpeaking  CoachNotPickedUpItemIsTalkCoach IsCoach ChanceToFire60Percent IsNotInStartArea
+	criteria ConceptPlayerPickup IsNotCoughing IsCoach IsPickedUpchainsaw  CoachNotPickedUpItemIsTalkCoach IsCoach ChanceToFire60Percent IsNotInStartArea
 	ApplyContext "CoachPickedUpItem:1:30"
 	Response SurvivorPickupchainsawCoach
 }
@@ -9949,7 +9949,7 @@ Response SurvivorPickupcricket_batCoach
 }
 Rule SurvivorPickupcricket_batCoach
 {
-	criteria ConceptPlayerPickup IsNotCoughing IsCoach IsPickedUpcricket_bat IsNotSpeaking  CoachNotPickedUpItemIsTalkCoach IsCoach ChanceToFire60Percent IsNotInStartArea
+	criteria ConceptPlayerPickup IsNotCoughing IsCoach IsPickedUpcricket_bat  CoachNotPickedUpItemIsTalkCoach IsCoach ChanceToFire60Percent IsNotInStartArea
 	ApplyContext "CoachPickedUpItem:1:30"
 	Response SurvivorPickupcricket_batCoach
 }
@@ -9966,7 +9966,7 @@ Response SurvivorPickupCricketBatCoach
 }
 Rule SurvivorPickupCricketBatCoach
 {
-	criteria ConceptPlayerPickup IsNotCoughing IsCoach IsPickedUpcricket_bat IsNotSpeaking  CoachNotPickedUpItemIsTalkCoach IsCoach
+	criteria ConceptPlayerPickup IsNotCoughing IsCoach IsPickedUpcricket_bat  CoachNotPickedUpItemIsTalkCoach IsCoach
 	ApplyContext "CoachPickedUpItem:1:30"
 	Response SurvivorPickupCricketBatCoach
 }
@@ -9979,7 +9979,7 @@ Response SurvivorPickupCrowBarCoach
 }
 Rule SurvivorPickupCrowBarCoach
 {
-	criteria ConceptPlayerPickup IsNotCoughing IsCoach IsPickedUpCrowBar  IsNotSpeaking  CoachNotPickedUpItemIsTalkCoach IsCoach ChanceToFire60Percent IsNotInStartArea
+	criteria ConceptPlayerPickup IsNotCoughing IsCoach IsPickedUpCrowBar   CoachNotPickedUpItemIsTalkCoach IsCoach ChanceToFire60Percent IsNotInStartArea
 	ApplyContext "CoachPickedUpItem:1:30"
 	Response SurvivorPickupCrowBarCoach
 }
@@ -10002,7 +10002,7 @@ Response SurvivorPickupelectric_guitarCoach
 }
 Rule SurvivorPickupelectric_guitarCoach
 {
-	criteria ConceptPlayerPickup IsNotCoughing IsCoach IsPickedUpelectric_guitar IsNotSpeaking  CoachNotPickedUpItemIsTalkCoach IsCoach ChanceToFire60Percent IsNotInStartArea
+	criteria ConceptPlayerPickup IsNotCoughing IsCoach IsPickedUpelectric_guitar  CoachNotPickedUpItemIsTalkCoach IsCoach ChanceToFire60Percent IsNotInStartArea
 	ApplyContext "CoachPickedUpItem:1:30"
 	Response SurvivorPickupelectric_guitarCoach
 }
@@ -10015,7 +10015,7 @@ Response SurvivorPickupFirstAidKitCoach
 }
 Rule SurvivorPickupFirstAidKitCoach
 {
-	criteria ConceptPlayerPickup IsNotCoughing IsCoach IsPickedUpFirstAidKit IsNotSpeaking IsInSafeSpot ChanceToFire30Percent CoachNotPickedUpItem IsNotInStartAreaIsTalkCoach IsCoach IsNotScavenge
+	criteria ConceptPlayerPickup IsNotCoughing IsCoach IsPickedUpFirstAidKit IsInSafeSpot ChanceToFire30Percent CoachNotPickedUpItem IsNotInStartAreaIsTalkCoach IsCoach IsNotScavenge
 	ApplyContext "CoachPickedUpItem:1:30"
 	Response SurvivorPickupFirstAidKitCoach
 }
@@ -10028,7 +10028,7 @@ Response SurvivorPickupFirstAidKitAlwaysCoach
 }
 Rule SurvivorPickupFirstAidKitAlwaysCoach
 {
-	criteria ConceptPlayerPickup IsNotCoughing IsCoach IsPickedUpFirstAidKit IsNotSpeaking IsNotInSafeSpot ChanceToFire30Percent CoachNotPickedUpItemIsTalkCoach IsCoach IsNotScavenge
+	criteria ConceptPlayerPickup IsNotCoughing IsCoach IsPickedUpFirstAidKit IsNotInSafeSpot ChanceToFire30Percent CoachNotPickedUpItemIsTalkCoach IsCoach IsNotScavenge
 	ApplyContext "CoachPickedUpItem:1:30"
 	Response SurvivorPickupFirstAidKitAlwaysCoach
 }
@@ -10072,7 +10072,7 @@ Response SurvivorPickupHuntingRifleCoach
 }
 Rule SurvivorPickupHuntingRifleCoach
 {
-	criteria ConceptPlayerPickup IsNotCoughing IsCoach IsPickedUpHuntingRifle IsNotSpeaking IsInSafeSpot ChanceToFire30Percent CoachNotPickedUpItem IsNotInStartAreaIsTalkCoach IsCoach
+	criteria ConceptPlayerPickup IsNotCoughing IsCoach IsPickedUpHuntingRifle IsInSafeSpot ChanceToFire30Percent CoachNotPickedUpItem IsNotInStartAreaIsTalkCoach IsCoach
 	ApplyContext "CoachPickedUpItem:1:30"
 	Response SurvivorPickupHuntingRifleCoach
 }
@@ -10085,7 +10085,7 @@ Response SurvivorPickupHuntingRifleAlwaysCoach
 }
 Rule SurvivorPickupHuntingRifleAlwaysCoach
 {
-	criteria ConceptPlayerPickup IsNotCoughing IsCoach IsPickedUpHuntingRifle IsNotSpeaking IsNotInSafeSpot ChanceToFire30Percent CoachNotPickedUpItemIsTalkCoach IsCoach
+	criteria ConceptPlayerPickup IsNotCoughing IsCoach IsPickedUpHuntingRifle IsNotInSafeSpot ChanceToFire30Percent CoachNotPickedUpItemIsTalkCoach IsCoach
 	ApplyContext "CoachPickedUpItem:1:30"
 	Response SurvivorPickupHuntingRifleAlwaysCoach
 }
@@ -10097,7 +10097,7 @@ Response SurvivorPickupIncendiaryAmmoCoach
 }
 Rule SurvivorPickupIncendiaryAmmoCoach
 {
-	criteria ConceptPlayerPickup IsNotCoughing IsCoach IsPickedUpIncendiaryAmmo IsNotSpeaking  ChanceToFire40Percent CoachNotPickedUpItem IsNotInStartAreaIsTalkCoach IsCoach
+	criteria ConceptPlayerPickup IsNotCoughing IsCoach IsPickedUpIncendiaryAmmo  ChanceToFire40Percent CoachNotPickedUpItem IsNotInStartAreaIsTalkCoach IsCoach
 	ApplyContext "CoachPickedUpItem:1:30"
 	Response SurvivorPickupIncendiaryAmmoCoach
 }
@@ -10112,7 +10112,7 @@ Response SurvivorPickupKatanaCoach
 }
 Rule SurvivorPickupKatanaCoach
 {
-	criteria ConceptPlayerPickup IsNotCoughing IsCoach IsPickedUpKatana IsNotSpeaking  CoachNotPickedUpItemIsTalkCoach IsCoach ChanceToFire60Percent IsNotInStartArea
+	criteria ConceptPlayerPickup IsNotCoughing IsCoach IsPickedUpKatana  CoachNotPickedUpItemIsTalkCoach IsCoach ChanceToFire60Percent IsNotInStartArea
 	ApplyContext "CoachPickedUpItem:1:30"
 	Response SurvivorPickupKatanaCoach
 }
@@ -10125,7 +10125,7 @@ Response SurvivorPickupLaserSightsAlwaysCoach
 }
 Rule SurvivorPickupLaserSightsAlwaysCoach
 {
-	criteria ConceptPlayerPickup IsNotCoughing IsCoach IsPickedUpLaserSights IsNotSpeaking ChanceToFire50Percent CoachNotPickedUpItemIsTalkCoach IsCoach
+	criteria ConceptPlayerPickup IsNotCoughing IsCoach IsPickedUpLaserSights ChanceToFire50Percent CoachNotPickedUpItemIsTalkCoach IsCoach
 	ApplyContext "CoachPickedUpItem:1:30"
 	Response SurvivorPickupLaserSightsAlwaysCoach
 }
@@ -10137,7 +10137,7 @@ Response SurvivorPickupMacheteCoach
 }
 Rule SurvivorPickupMacheteCoach
 {
-	criteria ConceptPlayerPickup IsNotCoughing IsCoach IsPickedUpMachete IsNotSpeaking  CoachNotPickedUpItemIsTalkCoach IsCoach ChanceToFire60Percent IsNotInStartArea
+	criteria ConceptPlayerPickup IsNotCoughing IsCoach IsPickedUpMachete  CoachNotPickedUpItemIsTalkCoach IsCoach ChanceToFire60Percent IsNotInStartArea
 	ApplyContext "CoachPickedUpItem:1:30"
 	Response SurvivorPickupMacheteCoach
 }
@@ -10148,7 +10148,7 @@ Response SurvivorPickupMagnumCoach
 }
 Rule SurvivorPickupMagnumCoach
 {
-	criteria ConceptPlayerPickup IsNotCoughing IsCoach IsPickedUpMagnum IsNotSpeaking IsInSafeSpot ChanceToFire30Percent CoachNotPickedUpItem IsNotInStartAreaIsTalkCoach IsCoach
+	criteria ConceptPlayerPickup IsNotCoughing IsCoach IsPickedUpMagnum IsInSafeSpot ChanceToFire30Percent CoachNotPickedUpItem IsNotInStartAreaIsTalkCoach IsCoach
 	ApplyContext "CoachPickedUpItem:1:30"
 	Response SurvivorPickupMagnumCoach
 }
@@ -10159,7 +10159,7 @@ Response SurvivorPickupMagnumAlwaysCoach
 }
 Rule SurvivorPickupMagnumAlwaysCoach
 {
-	criteria ConceptPlayerPickup IsNotCoughing IsCoach IsPickedUpMagnum IsNotSpeaking IsNotInSafeSpot ChanceToFire30Percent CoachNotPickedUpItemIsTalkCoach IsCoach
+	criteria ConceptPlayerPickup IsNotCoughing IsCoach IsPickedUpMagnum IsNotInSafeSpot ChanceToFire30Percent CoachNotPickedUpItemIsTalkCoach IsCoach
 	ApplyContext "CoachPickedUpItem:1:30"
 	Response SurvivorPickupMagnumAlwaysCoach
 }
@@ -10171,7 +10171,7 @@ Response SurvivorPickupMolotovCoach
 }
 Rule SurvivorPickupMolotovCoach
 {
-	criteria ConceptPlayerPickup IsNotCoughing IsCoach IsPickedUpMolotov IsNotSpeaking IsInSafeSpot ChanceToFire30Percent CoachNotPickedUpItem IsNotInStartAreaIsTalkCoach IsCoach
+	criteria ConceptPlayerPickup IsNotCoughing IsCoach IsPickedUpMolotov IsInSafeSpot ChanceToFire30Percent CoachNotPickedUpItem IsNotInStartAreaIsTalkCoach IsCoach
 	ApplyContext "CoachPickedUpItem:1:30"
 	Response SurvivorPickupMolotovCoach
 }
@@ -10183,7 +10183,7 @@ Response SurvivorPickupMolotovAlwaysCoach
 }
 Rule SurvivorPickupMolotovAlwaysCoach
 {
-	criteria ConceptPlayerPickup IsNotCoughing IsCoach IsPickedUpMolotov IsNotSpeaking IsNotInSafeSpot ChanceToFire30Percent CoachNotPickedUpItemIsTalkCoach IsCoach
+	criteria ConceptPlayerPickup IsNotCoughing IsCoach IsPickedUpMolotov IsNotInSafeSpot ChanceToFire30Percent CoachNotPickedUpItemIsTalkCoach IsCoach
 	ApplyContext "CoachPickedUpItem:1:30"
 	Response SurvivorPickupMolotovAlwaysCoach
 }
@@ -10199,7 +10199,7 @@ Response SurvivorPickupPainPillsCoach
 }
 Rule SurvivorPickupPainPillsCoach
 {
-	criteria ConceptPlayerPickup IsNotCoughing IsCoach IsPickedUpPainPills IsNotSpeaking IsInSafeSpot IsNotInStartAreaIsTalkCoach IsCoach IsNotScavenge
+	criteria ConceptPlayerPickup IsNotCoughing IsCoach IsPickedUpPainPills IsInSafeSpot IsNotInStartAreaIsTalkCoach IsCoach IsNotScavenge
 	ApplyContext "CoachPickedUpItem:1:30"
 	Response SurvivorPickupPainPillsCoach
 }
@@ -10229,7 +10229,7 @@ Response SurvivorPickupPipeBombCoach
 }
 Rule SurvivorPickupPipeBombCoach
 {
-	criteria ConceptPlayerPickup IsNotCoughing IsCoach IsPickedUpPipeBomb IsNotSpeaking IsInSafeSpot ChanceToFire30Percent CoachNotPickedUpItem IsNotInStartAreaIsTalkCoach IsCoach
+	criteria ConceptPlayerPickup IsNotCoughing IsCoach IsPickedUpPipeBomb IsInSafeSpot ChanceToFire30Percent CoachNotPickedUpItem IsNotInStartAreaIsTalkCoach IsCoach
 	ApplyContext "CoachPickedUpItem:1:30"
 	Response SurvivorPickupPipeBombCoach
 }
@@ -10243,7 +10243,7 @@ Response SurvivorPickupPipeBombAlwaysCoach
 }
 Rule SurvivorPickupPipeBombAlwaysCoach
 {
-	criteria ConceptPlayerPickup IsNotCoughing IsCoach IsPickedUpPipeBomb IsNotSpeaking IsNotInSafeSpot ChanceToFire30Percent CoachNotPickedUpItemIsTalkCoach IsCoach
+	criteria ConceptPlayerPickup IsNotCoughing IsCoach IsPickedUpPipeBomb IsNotInSafeSpot ChanceToFire30Percent CoachNotPickedUpItemIsTalkCoach IsCoach
 	ApplyContext "CoachPickedUpItem:1:30"
 	Response SurvivorPickupPipeBombAlwaysCoach
 }
@@ -10256,7 +10256,7 @@ Response SurvivorPickupPumpShotgunCoach
 }
 Rule SurvivorPickupPumpShotgunCoach
 {
-	criteria ConceptPlayerPickup IsNotCoughing IsCoach IsPickedUpPumpShotgun IsNotSpeaking IsInSafeSpot ChanceToFire30Percent CoachNotPickedUpItem IsNotInStartAreaIsTalkCoach IsCoach
+	criteria ConceptPlayerPickup IsNotCoughing IsCoach IsPickedUpPumpShotgun IsInSafeSpot ChanceToFire30Percent CoachNotPickedUpItem IsNotInStartAreaIsTalkCoach IsCoach
 	ApplyContext "CoachPickedUpItem:1:30"
 	Response SurvivorPickupPumpShotgunCoach
 }
@@ -10269,7 +10269,7 @@ Response SurvivorPickupPumpShotgunAlwaysCoach
 }
 Rule SurvivorPickupPumpShotgunAlwaysCoach
 {
-	criteria ConceptPlayerPickup IsNotCoughing IsCoach IsPickedUpPumpShotgun IsNotSpeaking IsNotInSafeSpot ChanceToFire30Percent CoachNotPickedUpItemIsTalkCoach IsCoach
+	criteria ConceptPlayerPickup IsNotCoughing IsCoach IsPickedUpPumpShotgun IsNotInSafeSpot ChanceToFire30Percent CoachNotPickedUpItemIsTalkCoach IsCoach
 	ApplyContext "CoachPickedUpItem:1:30"
 	Response SurvivorPickupPumpShotgunAlwaysCoach
 }
@@ -10284,7 +10284,7 @@ Response SurvivorPickupRifleCoach
 }
 Rule SurvivorPickupRifleCoach
 {
-	criteria ConceptPlayerPickup IsNotCoughing IsCoach IsPickedUpRifle IsNotSpeaking IsInSafeSpot ChanceToFire30Percent CoachNotPickedUpItem IsNotInStartAreaIsTalkCoach IsCoach
+	criteria ConceptPlayerPickup IsNotCoughing IsCoach IsPickedUpRifle IsInSafeSpot ChanceToFire30Percent CoachNotPickedUpItem IsNotInStartAreaIsTalkCoach IsCoach
 	ApplyContext "CoachPickedUpItem:1:30"
 	Response SurvivorPickupRifleCoach
 }
@@ -10299,7 +10299,7 @@ Response SurvivorPickupRifleAlwaysCoach
 }
 Rule SurvivorPickupRifleAlwaysCoach
 {
-	criteria ConceptPlayerPickup IsNotCoughing IsCoach IsPickedUpRifle IsNotSpeaking IsNotInSafeSpot ChanceToFire30Percent CoachNotPickedUpItemIsTalkCoach IsCoach
+	criteria ConceptPlayerPickup IsNotCoughing IsCoach IsPickedUpRifle IsNotInSafeSpot ChanceToFire30Percent CoachNotPickedUpItemIsTalkCoach IsCoach
 	ApplyContext "CoachPickedUpItem:1:30"
 	Response SurvivorPickupRifleAlwaysCoach
 }
@@ -10312,7 +10312,7 @@ Response SurvivorPickupSecondPistolCoach
 }
 Rule SurvivorPickupSecondPistolCoach
 {
-	criteria ConceptPlayerPickup IsNotCoughing IsCoach IsPickedUpSecondPistol IsNotSpeaking IsInSafeSpot ChanceToFire30Percent CoachNotPickedUpItem IsNotInStartAreaIsTalkCoach IsCoach
+	criteria ConceptPlayerPickup IsNotCoughing IsCoach IsPickedUpSecondPistol IsInSafeSpot ChanceToFire30Percent CoachNotPickedUpItem IsNotInStartAreaIsTalkCoach IsCoach
 	ApplyContext "CoachPickedUpItem:1:30"
 	Response SurvivorPickupSecondPistolCoach
 }
@@ -10325,7 +10325,7 @@ Response SurvivorPickupSMGCoach
 }
 Rule SurvivorPickupSMGCoach
 {
-	criteria ConceptPlayerPickup IsNotCoughing IsCoach IsPickedUpSMG IsNotSpeaking IsInSafeSpot ChanceToFire30Percent CoachNotPickedUpItem IsNotInStartAreaIsTalkCoach IsCoach
+	criteria ConceptPlayerPickup IsNotCoughing IsCoach IsPickedUpSMG IsInSafeSpot ChanceToFire30Percent CoachNotPickedUpItem IsNotInStartAreaIsTalkCoach IsCoach
 	ApplyContext "CoachPickedUpItem:1:30"
 	Response SurvivorPickupSMGCoach
 }
@@ -10338,7 +10338,7 @@ Response SurvivorPickupSMGAlwaysCoach
 }
 Rule SurvivorPickupSMGAlwaysCoach
 {
-	criteria ConceptPlayerPickup IsNotCoughing IsCoach IsPickedUpSMG IsNotSpeaking IsNotInSafeSpot ChanceToFire30Percent CoachNotPickedUpItemIsTalkCoach IsCoach
+	criteria ConceptPlayerPickup IsNotCoughing IsCoach IsPickedUpSMG IsNotInSafeSpot ChanceToFire30Percent CoachNotPickedUpItemIsTalkCoach IsCoach
 	ApplyContext "CoachPickedUpItem:1:30"
 	Response SurvivorPickupSMGAlwaysCoach
 }
@@ -10350,7 +10350,7 @@ Response SurvivorPickuptonfaCoach
 }
 Rule SurvivorPickuptonfaCoach
 {
-	criteria ConceptPlayerPickup IsNotCoughing IsCoach IsPickedUptonfa IsNotSpeaking  CoachNotPickedUpItemIsTalkCoach IsCoach ChanceToFire60Percent IsNotInStartArea
+	criteria ConceptPlayerPickup IsNotCoughing IsCoach IsPickedUptonfa  CoachNotPickedUpItemIsTalkCoach IsCoach ChanceToFire60Percent IsNotInStartArea
 	ApplyContext "CoachPickedUpItem:1:30"
 	Response SurvivorPickuptonfaCoach
 }
@@ -10363,7 +10363,7 @@ Response SurvivorPickupUpExplosiveAmmoCoach
 }
 Rule SurvivorPickupUpExplosiveAmmoCoach
 {
-	criteria ConceptPlayerPickup IsNotCoughing IsCoach IsPickedUpExplosiveAmmo IsNotSpeaking IsTalkCoach IsCoach
+	criteria ConceptPlayerPickup IsNotCoughing IsCoach IsPickedUpExplosiveAmmo IsTalkCoach IsCoach
 	ApplyContext "CoachPickedUpItem:1:30"
 	Response SurvivorPickupUpExplosiveAmmoCoach
 }
@@ -10374,7 +10374,7 @@ Response SurvivorPickupUpExplosivesCoach
 }
 Rule SurvivorPickupUpExplosivesCoach
 {
-	criteria ConceptPlayerPickup IsNotCoughing IsCoach IsPickedUpUpgradePack_Explosive IsNotSpeaking IsTalkCoach IsCoach
+	criteria ConceptPlayerPickup IsNotCoughing IsCoach IsPickedUpUpgradePack_Explosive IsTalkCoach IsCoach
 	ApplyContext "CoachPickedUpItem:1:30"
 	Response SurvivorPickupUpExplosivesCoach
 }
@@ -10385,7 +10385,7 @@ Response SurvivorPickupUpIncendiaryCoach
 }
 Rule SurvivorPickupUpIncendiaryCoach
 {
-	criteria ConceptPlayerPickup IsNotCoughing IsCoach IsPickedUpUpgradePack_Incendiary IsNotSpeaking IsTalkCoach IsCoach
+	criteria ConceptPlayerPickup IsNotCoughing IsCoach IsPickedUpUpgradePack_Incendiary IsTalkCoach IsCoach
 	ApplyContext "CoachPickedUpItem:1:30"
 	Response SurvivorPickupUpIncendiaryCoach
 }
@@ -10397,7 +10397,7 @@ Response SurvivorPickupUpIncendiaryAmmoCoach
 }
 Rule SurvivorPickupUpIncendiaryAmmoCoach
 {
-	criteria ConceptPlayerPickup IsNotCoughing IsCoach IsPickedUpIncendiaryAmmo IsNotSpeaking IsTalkCoach IsCoach
+	criteria ConceptPlayerPickup IsNotCoughing IsCoach IsPickedUpIncendiaryAmmo IsTalkCoach IsCoach
 	ApplyContext "CoachPickedUpItem:1:30"
 	Response SurvivorPickupUpIncendiaryAmmoCoach
 }
@@ -10411,7 +10411,7 @@ Response SurvivorPickupVomitJarCoach
 }
 Rule SurvivorPickupVomitJarCoach
 {
-	criteria ConceptPlayerPickup IsNotCoughing IsCoach IsPickedUpVomitJar IsNotSpeaking IsInSafeSpot IsNotInStartAreaIsTalkCoach IsCoach
+	criteria ConceptPlayerPickup IsNotCoughing IsCoach IsPickedUpVomitJar IsInSafeSpot IsNotInStartAreaIsTalkCoach IsCoach
 	ApplyContext "CoachPickedUpItem:1:30"
 	Response SurvivorPickupVomitJarCoach
 }
@@ -10449,7 +10449,7 @@ Response SurvivorPickupVomitJarC1Coach
 }
 Rule SurvivorPickupVomitJarC1Coach
 {
-	criteria ConceptPlayerPickup IsNotCoughing IsCoach IsPickedUpVomitJar IsNotSpeaking IsInSafeSpot IsNotInStartAreaIsTalkCoach IsCoach ismap_c1m1_hotelC1
+	criteria ConceptPlayerPickup IsNotCoughing IsCoach IsPickedUpVomitJar IsInSafeSpot IsNotInStartAreaIsTalkCoach IsCoach ismap_c1m1_hotelC1
 	ApplyContext "CoachPickedUpItem:1:30"
 	Response SurvivorPickupVomitJarC1Coach
 }
@@ -10902,7 +10902,7 @@ Response _C2M2_CaroStart03Coach
 }
 Rule _C2M2_CaroStart03Coach
 {
-	criteria Concept_C2M2_CaroStart03 IsCoach IsNotIncapacitated AutoIsNotScavenge AutoIsNotSurvival
+	criteria Concept_C2M2_CaroStart03 IsCoach AutoIsNotScavenge AutoIsNotSurvival
 	Response _C2M2_CaroStart03Coach
 }
 
@@ -10973,7 +10973,7 @@ Response _C2M2_SeeSafehouse01Coach
 }
 Rule _C2M2_SeeSafehouse01Coach
 {
-	criteria Concept_C2M2_SeeSafehouse01 IsCoach IsNotIncapacitated AutoIsNotScavenge AutoIsNotSurvival
+	criteria Concept_C2M2_SeeSafehouse01 IsCoach AutoIsNotScavenge AutoIsNotSurvival
 	Response _C2M2_SeeSafehouse01Coach
 }
 
@@ -11052,7 +11052,7 @@ Response _C4_BigStormHits02Coach
 }
 Rule _C4_BigStormHits02Coach
 {
-	criteria Concept_C4_BigStormHits02 IsCoach IsNotCoughing IsSubjectDistNear600 IsNotIncapacitated //_auto_NotC4CoachInCover
+	criteria Concept_C4_BigStormHits02 IsCoach IsNotCoughing IsSubjectDistNear600 //_auto_NotC4CoachInCover
 	ApplyContext "Talk:1:1.203"
 	applycontexttoworld
 	Response _C4_BigStormHits02Coach
@@ -11120,7 +11120,7 @@ Response _c4m2_ElevatorHere01Coach
 }
 Rule _c4m2_ElevatorHere01Coach
 {
-	criteria Concept_c4m2_ElevatorHere01 IsCoach IsNotIncapacitated IsNotCoughing AutoIsNotScavenge AutoIsNotSurvival
+	criteria Concept_c4m2_ElevatorHere01 IsCoach IsNotCoughing AutoIsNotScavenge AutoIsNotSurvival
 	Response _c4m2_ElevatorHere01Coach
 }
 
@@ -11680,7 +11680,7 @@ Response C2M5_lipsync001Coach
 }
 Rule C2M5_lipsync001Coach
 {
-	criteria ConceptC2M5_lipsync001 IsCoach TimeSinceGroupInCombat02 NotInCombat IsNotSpeaking IsSubjectDistNear400 AutoIsNotScavenge AutoIsNotSurvival //_auto_NotButton2
+	criteria ConceptC2M5_lipsync001 IsCoach TimeSinceGroupInCombat02 NotInCombat IsSubjectDistNear400 AutoIsNotScavenge AutoIsNotSurvival //_auto_NotButton2
 	Response C2M5_lipsync001Coach
 }
 
@@ -11791,7 +11791,7 @@ Response GasPour10MoreTalkCoach
 }
 Rule GasPour10MoreTalkCoach
 {
-	criteria ConceptGasPour10More IsCoach IsNotSpeaking //_auto_IsGasCountOK
+	criteria ConceptGasPour10More IsCoach //_auto_IsGasCountOK
 	Response GasPour10MoreTalkCoach
 }
 
@@ -11801,7 +11801,7 @@ Response GasPour1MoreCoach
 }
 Rule GasPour1MoreCoach
 {
-	criteria ConceptGasPour1More IsCoach IsNotSpeaking //_auto_IsGasCountOK
+	criteria ConceptGasPour1More IsCoach //_auto_IsGasCountOK
 	Response GasPour1MoreCoach
 }
 
@@ -11811,7 +11811,7 @@ Response GasPour2MoreCoach
 }
 Rule GasPour2MoreCoach
 {
-	criteria ConceptGasPour2More IsCoach IsNotSpeaking //_auto_IsGasCountOK
+	criteria ConceptGasPour2More IsCoach //_auto_IsGasCountOK
 	Response GasPour2MoreCoach
 }
 
@@ -11821,7 +11821,7 @@ Response GasPour3MoreCoach
 }
 Rule GasPour3MoreCoach
 {
-	criteria ConceptGasPour3More IsCoach IsNotSpeaking //_auto_IsGasCountOK
+	criteria ConceptGasPour3More IsCoach //_auto_IsGasCountOK
 	Response GasPour3MoreCoach
 }
 
@@ -11831,7 +11831,7 @@ Response GasPour5MoreCoach
 }
 Rule GasPour5MoreCoach
 {
-	criteria ConceptGasPour5More IsCoach IsNotSpeaking //_auto_IsGasCountOK
+	criteria ConceptGasPour5More IsCoach //_auto_IsGasCountOK
 	Response GasPour5MoreCoach
 }
 
@@ -12484,7 +12484,7 @@ Rule SurvivorSpottedWeaponCoach
 //--------------------------------------------------------------------------------------------------------------
 Rule C2M3AlarmOffNagCoach
 {
-	criteria ConceptTalkIdle IsCoach ChanceToFire50Percent IsNotIncapacitated ismap_c2m3 AutoIsNotScavenge AutoIsNotSurvival //_auto_IsCoasterStarted //_auto_NotTimerLockA //_auto_NotTimerLockCoach //_auto_IsCoasterOff //_auto_NotCoasterOver IsNotSpeakingWeight0
+	criteria ConceptTalkIdle IsCoach ChanceToFire50Percent ismap_c2m3 AutoIsNotScavenge AutoIsNotSurvival //_auto_IsCoasterStarted //_auto_NotTimerLockA //_auto_NotTimerLockCoach //_auto_IsCoasterOff //_auto_NotCoasterOver IsNotSpeakingWeight0
 	ApplyContext "_auto_TimerLockA:1:8,_auto_TimerLockCoach:1:11,_auto_TracksOK:0:0"
 	applycontexttoworld
 	Response PlayerRemarkc2m3_coasteroffaCoach
