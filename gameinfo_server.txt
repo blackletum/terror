@@ -77,17 +77,17 @@
 			game			|appid_220|episodic/ep1_pak.vpk
 
 			// l4d2, because this is a remake of l4d2 in source 2013
-			game			|appid_550|left4dead2
-			game			|appid_550|left4dead2_dlc1
-			game			|appid_550|left4dead2_dlc2
-			game			|appid_550|left4dead2_dlc3
-			game			|appid_550|update
-			game			|appid_550|left4dead2\pak01.vpk
-			game			|appid_550|left4dead2_dlc1\pak01.vpk
-			game			|appid_550|left4dead2_dlc2\pak01.vpk
-			game			|appid_550|left4dead2_dlc3\pak01.vpk
-			game			|appid_550|update\pak01.vpk
-			game			|appid_500|left4dead
+			game			"C:\Program Files (x86)\Steam\steamapps\common\Left 4 Dead 2\left4dead2"
+			game			"C:\Program Files (x86)\Steam\steamapps\common\Left 4 Dead 2\left4dead2_dlc1"
+			game			"C:\Program Files (x86)\Steam\steamapps\common\Left 4 Dead 2\left4dead2_dlc2"
+			game			"C:\Program Files (x86)\Steam\steamapps\common\Left 4 Dead 2\left4dead2_dlc3"
+			game			"C:\Program Files (x86)\Steam\steamapps\common\Left 4 Dead 2\update"
+			game			"C:\Program Files (x86)\Steam\steamapps\common\Left 4 Dead 2\left4dead2\pak01.vpk"
+			game			"C:\Program Files (x86)\Steam\steamapps\common\Left 4 Dead 2\left4dead2_dlc1\pak01.vpk"
+			game			"C:\Program Files (x86)\Steam\steamapps\common\Left 4 Dead 2\left4dead2_dlc2\pak01.vpk"
+			game			"C:\Program Files (x86)\Steam\steamapps\common\Left 4 Dead 2\left4dead2_dlc3\pak01.vpk"
+			game			"C:\Program Files (x86)\Steam\steamapps\common\Left 4 Dead 2\update\pak01.vpk"
+			game			"C:\Program Files (x86)\Steam\steamapps\common\Left 4 Dead 2\left4dead"
 			// Random files downloaded from gameservers go into a seperate directory, so
 			// that it's easy to keep those files segregated from the official game files
 			// or customizations intentially installed by the user.
