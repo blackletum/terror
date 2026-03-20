@@ -3239,7 +3239,7 @@ Response L4D1SurvivorTauntResponseManager
 }
 Rule L4D1SurvivorTauntResponseManager
 {
-	criteria ConceptPlayerTaunt IsSurvivor IsNotCoughing IsManager IsTalkManager IsWorldTalkManager IsNotVersus
+	criteria ConceptPlayerTaunt IsNotCoughing IsManager IsTalkManager IsWorldTalkManager IsNotVersus
 	Response L4D1SurvivorTauntResponseManager
 }
 
@@ -3298,7 +3298,7 @@ Response L4D1PlayerChokeResponseManager
 }
 Rule L4D1PlayerChokeResponseManager
 {
-	criteria ConceptPlayerChoke IsSurvivor IsManager IsTalkManager IsWorldTalkManager
+	criteria ConceptPlayerChoke IsManager IsTalkManager IsWorldTalkManager
 	ApplyContext "TalkManager:1:5"
 	Response L4D1PlayerChokeResponseManager
 }
@@ -3315,7 +3315,7 @@ Rule L4D1PlayerChokeResponseManager
 //}
 //Rule L4D1PlayerTonguePullStartResponseManager
 //{
-//	criteria ConceptPlayerTonguePullStart IsSurvivor IsManager IsTalkManager IsWorldTalkManager
+//	criteria ConceptPlayerTonguePullStart IsManager IsTalkManager IsWorldTalkManager
 //	Response L4D1PlayerTonguePullStartResponseManager
 //}
 
@@ -3362,13 +3362,13 @@ Response L4D1SurvivorCriticalHurtManager
 }
 Rule L4D1SurvivorCriticalHurtManager
 {
-	criteria IsSurvivor InPain IsCriticalPain IsManager IsTalkManager IsWorldTalkManager
+	criteria InPain IsCriticalPain IsManager IsTalkManager IsWorldTalkManager
 	Response L4D1SurvivorCriticalHurtManager
 }
 
 Rule L4D1SurvivorCriticalHurtC7M3Manager
 {
-	criteria IsSurvivor InPain IsCriticalPain IsManager IsTalkManager IsMapc7m3_port _auto_IsSaidC7M3BridgeLeap IsWorldTalkManager
+	criteria InPain IsCriticalPain IsManager IsTalkManager IsMapc7m3_port _auto_IsSaidC7M3BridgeLeap IsWorldTalkManager
 	Response NoResponse
 }
 
@@ -3380,7 +3380,7 @@ Response L4D1SurvivorIncapacitatedHurtManager
 }
 Rule L4D1SurvivorIncapacitatedHurtManager
 {
-	criteria IsSurvivor InPain IsIncapacitatedPain IsManager IsTalkManager IsWorldTalkManager
+	criteria InPain IsIncapacitatedPain IsManager IsTalkManager IsWorldTalkManager
 	Response L4D1SurvivorIncapacitatedHurtManager
 }
 
@@ -3399,13 +3399,13 @@ Response L4D1SurvivorMajorHurtManager
 }
 Rule L4D1SurvivorMajorHurtManager
 {
-	criteria IsSurvivor InPain IsMajorPain IsManager IsTalkManager IsWorldTalkManager
+	criteria InPain IsMajorPain IsManager IsTalkManager IsWorldTalkManager
 	Response L4D1SurvivorMajorHurtManager
 }
 
 Rule L4D1SurvivorMajorHurtC7M3Manager
 {
-	criteria IsSurvivor InPain IsMajorPain IsManager IsTalkManager IsMapc7m3_port _auto_IsSaidC7M3BridgeLeap IsWorldTalkManager
+	criteria InPain IsMajorPain IsManager IsTalkManager IsMapc7m3_port _auto_IsSaidC7M3BridgeLeap IsWorldTalkManager
 	Response NoResponse
 }
 
@@ -3422,13 +3422,13 @@ Response L4D1SurvivorMinorHurtManager
 }
 Rule L4D1SurvivorMinorHurtManager
 {
-	criteria IsSurvivor InPain IsMinorPain IsManager IsTalkManager IsWorldTalkManager
+	criteria InPain IsMinorPain IsManager IsTalkManager IsWorldTalkManager
 	Response L4D1SurvivorMinorHurtManager
 }
 
 Rule L4D1SurvivorMinorHurtC7M3Manager
 {
-	criteria IsSurvivor InPain IsMinorPain IsManager IsTalkManager IsMapc7m3_port _auto_IsSaidC7M3BridgeLeap IsWorldTalkManager
+	criteria InPain IsMinorPain IsManager IsTalkManager IsMapc7m3_port _auto_IsSaidC7M3BridgeLeap IsWorldTalkManager
 	Response NoResponse
 }
 
@@ -3458,7 +3458,7 @@ Response SurvivorJockeyHurtMajorManager
 }
 Rule SurvivorJockeyHurtMajorManager
 {
-	criteria IsSurvivor InPain IsMajorPain IsManager IsTalkManager SubjectIsJockey IsNotSaidBeenJockeyedManager IsWorldTalkManager IsBeingJockeyed
+	criteria InPain IsMajorPain IsManager IsTalkManager SubjectIsJockey IsNotSaidBeenJockeyedManager IsWorldTalkManager IsBeingJockeyed
 	ApplyContext "SaidBeenJockeyedManager:1:6,TalkManager:1:6"
 	applycontexttoworld
 	Response SurvivorJockeyHurtMajorManager
@@ -3466,7 +3466,7 @@ Rule SurvivorJockeyHurtMajorManager
 
 Rule SurvivorJockeyHurtMinorManager
 {
-	criteria IsSurvivor InPain IsMinorPain IsManager IsTalkManager SubjectIsJockey IsNotSaidBeenJockeyedManager IsWorldTalkManager IsBeingJockeyed
+	criteria InPain IsMinorPain IsManager IsTalkManager SubjectIsJockey IsNotSaidBeenJockeyedManager IsWorldTalkManager IsBeingJockeyed
 	ApplyContext "SaidBeenJockeyedManager:1:6,TalkManager:1:6"
 	applycontexttoworld
 	Response SurvivorJockeyHurtMajorManager
@@ -6903,7 +6903,7 @@ Response L4D1SurvivorFirstDeathManager
 }
 Rule L4D1SurvivorFirstDeathManager
 {
-	criteria ConceptSurvivorDied IsNotCoughing SurvivorDiedNearEnough IsSurvivor IsManager IsWithThree IsNotSaidSomeoneDied IsTalkManager IsWorldTalkManager
+	criteria ConceptSurvivorDied IsNotCoughing SurvivorDiedNearEnough IsManager IsWithThree IsNotSaidSomeoneDied IsTalkManager IsWorldTalkManager
 	ApplyContext "SaidSomeoneDied:1:10"
 	applycontexttoworld
 	Response L4D1SurvivorFirstDeathManager
@@ -6916,7 +6916,7 @@ Response L4D1DeathAloneManager
 }
 Rule L4D1DeathAloneManager
 {
-	criteria ConceptSurvivorDied IsNotCoughing SurvivorDiedNearEnough IsSurvivor IsManager IsWithTwo IsNotSaidFaultFriendlyFireGeneral IsTalkManager IsWorldTalkManager
+	criteria ConceptSurvivorDied IsNotCoughing SurvivorDiedNearEnough IsManager IsWithTwo IsNotSaidFaultFriendlyFireGeneral IsTalkManager IsWorldTalkManager
 	Response L4D1DeathAloneManager
 }
 

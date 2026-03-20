@@ -2701,7 +2701,7 @@ Response L4D1SurvivorTauntResponseNamVet
 }
 Rule L4D1SurvivorTauntResponseNamVet
 {
-	criteria ConceptPlayerTaunt IsSurvivor IsNotCoughing IsNamVet IsTalkNamVet IsWorldTalkNamVet IsNotVersus
+	criteria ConceptPlayerTaunt IsNotCoughing IsNamVet IsTalkNamVet IsWorldTalkNamVet IsNotVersus
 	Response L4D1SurvivorTauntResponseNamVet
 }
 
@@ -2754,7 +2754,7 @@ Response L4D1PlayerChokeResponseNamVet
 }
 Rule L4D1PlayerChokeResponseNamVet
 {
-	criteria ConceptPlayerChoke IsSurvivor IsNamVet IsTalkNamVet IsWorldTalkNamVet
+	criteria ConceptPlayerChoke IsNamVet IsTalkNamVet IsWorldTalkNamVet
 	ApplyContext "TalkNamVet:1:5"
 	Response L4D1PlayerChokeResponseNamVet
 }
@@ -2769,7 +2769,7 @@ Rule L4D1PlayerChokeResponseNamVet
 //}
 //Rule L4D1PlayerTonguePullStartResponseNamVet
 //{
-//	criteria ConceptPlayerTonguePullStart IsSurvivor IsNamVet IsTalkNamVet IsWorldTalkNamVet
+//	criteria ConceptPlayerTonguePullStart IsNamVet IsTalkNamVet IsWorldTalkNamVet
 //	Response L4D1PlayerTonguePullStartResponseNamVet
 //}
 
@@ -2824,13 +2824,13 @@ Response L4D1SurvivorCriticalHurtNamVet
 }
 Rule L4D1SurvivorCriticalHurtNamVet
 {
-	criteria IsSurvivor InPain IsCriticalPain IsNamVet IsTalkNamVet IsWorldTalkNamVet
+	criteria InPain IsCriticalPain IsNamVet IsTalkNamVet IsWorldTalkNamVet
 	Response L4D1SurvivorCriticalHurtNamVet
 }
 
 Rule L4D1SurvivorCriticalHurtC7M3NamVet
 {
-	criteria IsSurvivor InPain IsCriticalPain IsNamVet IsTalkNamVet IsWorldTalkNamVet IsMapc7m3_port _auto_IsSaidC7M3BridgeLeap
+	criteria InPain IsCriticalPain IsNamVet IsTalkNamVet IsWorldTalkNamVet IsMapc7m3_port _auto_IsSaidC7M3BridgeLeap
 	Response NoResponse
 }
 
@@ -2844,7 +2844,7 @@ Response L4D1SurvivorIncapacitatedHurtNamVet
 }
 Rule L4D1SurvivorIncapacitatedHurtNamVet
 {
-	criteria IsSurvivor InPain IsIncapacitatedPain IsNamVet IsTalkNamVet IsWorldTalkNamVet
+	criteria InPain IsIncapacitatedPain IsNamVet IsTalkNamVet IsWorldTalkNamVet
 	Response L4D1SurvivorIncapacitatedHurtNamVet
 }
 
@@ -2862,13 +2862,13 @@ Response L4D1SurvivorMajorHurtNamVet
 }
 Rule L4D1SurvivorMajorHurtNamVet
 {
-	criteria IsSurvivor InPain IsMajorPain IsNamVet IsTalkNamVet IsWorldTalkNamVet
+	criteria InPain IsMajorPain IsNamVet IsTalkNamVet IsWorldTalkNamVet
 	Response L4D1SurvivorMajorHurtNamVet
 }
 
 Rule L4D1SurvivorMajorHurtC7M3NamVet
 {
-	criteria IsSurvivor InPain IsMajorPain IsNamVet IsTalkNamVet IsWorldTalkNamVet IsMapc7m3_port _auto_IsSaidC7M3BridgeLeap
+	criteria InPain IsMajorPain IsNamVet IsTalkNamVet IsWorldTalkNamVet IsMapc7m3_port _auto_IsSaidC7M3BridgeLeap
 	Response NoResponse
 }
 
@@ -2888,13 +2888,13 @@ Response L4D1SurvivorMinorHurtNamVet
 }
 Rule L4D1SurvivorMinorHurtNamVet
 {
-	criteria IsSurvivor InPain IsMinorPain IsNamVet IsTalkNamVet IsWorldTalkNamVet
+	criteria InPain IsMinorPain IsNamVet IsTalkNamVet IsWorldTalkNamVet
 	Response L4D1SurvivorMinorHurtNamVet
 }
 
 Rule L4D1SurvivorMinorHurtC7M3NamVet
 {
-	criteria IsSurvivor InPain IsMinorPain IsNamVet IsTalkNamVet IsWorldTalkNamVet IsMapc7m3_port _auto_IsSaidC7M3BridgeLeap
+	criteria InPain IsMinorPain IsNamVet IsTalkNamVet IsWorldTalkNamVet IsMapc7m3_port _auto_IsSaidC7M3BridgeLeap
 	Response NoResponse
 }
 
@@ -2928,7 +2928,7 @@ Response SurvivorJockeyHurtMajorNamVet
 }
 Rule SurvivorJockeyHurtMajorNamVet
 {
-	criteria IsSurvivor InPain IsMajorPain IsNamVet IsTalkNamVet SubjectIsJockey IsNotSaidBeenJockeyedNamVet IsWorldTalkNamVet IsBeingJockeyed
+	criteria InPain IsMajorPain IsNamVet IsTalkNamVet SubjectIsJockey IsNotSaidBeenJockeyedNamVet IsWorldTalkNamVet IsBeingJockeyed
 	ApplyContext "SaidBeenJockeyedNamVet:1:6,TalkNamVet:1:6"
 	applycontexttoworld
 	Response SurvivorJockeyHurtMajorNamVet
@@ -2936,7 +2936,7 @@ Rule SurvivorJockeyHurtMajorNamVet
 
 Rule SurvivorJockeyHurtMinorNamVet
 {
-	criteria IsSurvivor InPain IsMinorPain IsNamVet IsTalkNamVet SubjectIsJockey IsNotSaidBeenJockeyedNamVet IsWorldTalkNamVet IsBeingJockeyed
+	criteria InPain IsMinorPain IsNamVet IsTalkNamVet SubjectIsJockey IsNotSaidBeenJockeyedNamVet IsWorldTalkNamVet IsBeingJockeyed
 	ApplyContext "SaidBeenJockeyedNamVet:1:6,TalkNamVet:1:6"
 	applycontexttoworld
 	Response SurvivorJockeyHurtMajorNamVet
@@ -6338,7 +6338,7 @@ Response L4D1SurvivorFirstDeathNamVet
 }
 Rule L4D1SurvivorFirstDeathNamVet
 {
-	criteria ConceptSurvivorDied IsNotCoughing SurvivorDiedNearEnough IsSurvivor IsNamVet IsEveryoneAlive IsNotSaidSomeoneDied IsTalkNamVet IsWorldTalkNamVet
+	criteria ConceptSurvivorDied IsNotCoughing SurvivorDiedNearEnough IsNamVet IsEveryoneAlive IsNotSaidSomeoneDied IsTalkNamVet IsWorldTalkNamVet
 	ApplyContext "SaidSomeoneDied:1:10"
 	applycontexttoworld
 	Response L4D1SurvivorFirstDeathNamVet
@@ -6350,7 +6350,7 @@ Response L4D1DoubleDeathNamVet
 }
 Rule L4D1DoubleDeath2NamVet
 {
-	criteria ConceptSurvivorDied IsNotCoughing SurvivorDiedNearEnough IsSurvivor IsNamVet IsTalkNamVet IsWithOnlyThree IsWorldTalkNamVet
+	criteria ConceptSurvivorDied IsNotCoughing SurvivorDiedNearEnough IsNamVet IsTalkNamVet IsWithOnlyThree IsWorldTalkNamVet
 	ApplyContext "SaidSomeoneDied:1:10"
 	applycontexttoworld
 	Response L4D1DoubleDeathNamVet
@@ -6362,7 +6362,7 @@ Response L4D1DeathOneNamVet
 }
 Rule L4D1DeathOneNamVet
 {
-	criteria ConceptSurvivorDied IsNotCoughing SurvivorDiedNearEnough IsSurvivor IsNamVet IsTalkNamVet IsWithTwo IsNotSaidFaultFriendlyFireGeneral IsWorldTalkNamVet
+	criteria ConceptSurvivorDied IsNotCoughing SurvivorDiedNearEnough IsNamVet IsTalkNamVet IsWithTwo IsNotSaidFaultFriendlyFireGeneral IsWorldTalkNamVet
 	Response L4D1DeathOneNamVet
 }
 

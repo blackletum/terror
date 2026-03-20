@@ -140,7 +140,7 @@ criterion "IsM60"	"weaponname"	"m60"		required
 criterion "IsPickedUpM60"  "ItemPickedUp" "m60" required
 
 criterion "IsL4D1Survivor"    "Team"    "L4D1_Survivor"    required
-criterion "IsASurvivor" { IsSurvivor IsL4D1Survivor } required
+criterion "IsASurvivor" { IsL4D1Survivor } required
 
 criterion "ConceptC6M3Stairs" "Concept" "C6M3Stairs" required
 criterion "IsFrancisIntroActor" "introactor" "francis" required weight 1
