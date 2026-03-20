@@ -1,6 +1,6 @@
 # Terror-Strike.
 ## Requirements
-- A legal copy of Counter-Strike: Source and Left 4 Dead 2.
+- A legal copy of Counter-Strike: Source, Half-Life 2 and Left 4 Dead 2.
 - Source SDK 2013 Multiplayer on default branch
 - The ability to read
   
