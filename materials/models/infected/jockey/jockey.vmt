@@ -2,12 +2,52 @@ vertexlitgeneric
 {
 $basetexture "models\infected\jockey\jockey_body_color"
 $bumpmap "models\infected\jockey\jockey_body_normal"
-//$phongexponenttexture "models\infected\jockey\jockey_exponent"
-//$phong 1
-//$phongboost 3
+////$phongexponenttexture "models\infected\jockey\jockey_exponent"
+////$phong 1
+////$phongboost 3
 $halflambert 0
-//$phongfresnelranges "[.2 .5 5]"
+////$phongfresnelranges "[.2 .5 5]"
 $ambientocclusion 1
 $diffuseexp "1.0"
 $lightwarptexture "models\survivors\gambler\gambler_head_wrp"
+$detail "models/infected/common/l4d2/ci_burning"
+$seamless_detail 1
+$seamless_scale ".005"
+$detailscale 2.2
+$detailblendfactor .001
+$detailblendmode 2
+$bbqamount 1
+$BurnLevel 0.0
+$multi 3.0
+$blendMin 0.0
+$blendMax 1.2
+Proxies
+{
+BBQLevel
+{
+resultVar $bbqamount
+}
+BurnLevel
+{
+resultVar $burnlevel
+}
+Multiply
+{
+srcVar1 $BurnLevel
+srcVar2 $multi
+resultVar $BurnLevel
+}
+Clamp
+{
+min $blendMin
+max $blendMax
+srcVar1 $BurnLevel
+resultVar $BurnLevel
+}
+Equals
+{
+srcVar1 $BurnLevel
+resultVar $detailblendfactor
+}
+}
 }

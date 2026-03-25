@@ -227,11 +227,6 @@
 				"font"		"CSTypeDeath"
 				"character"		"B"
 		}
-		"d_headshot"
-		{
-				"font"		"CSTypeDeath"
-				"character"		"D"
-		}
 		"d_shieldgun"
 		{
 				"file"		"sprites/640hud1"
@@ -239,11 +234,6 @@
 				"y"			"95"
 				"width"		"39"
 				"height"	"17"
-		}
-		"d_skull_cs"
-		{
-				"font"		"CSTypeDeath"
-				"character"		"C"
 		}
 
 		"wpn_select_bracket"

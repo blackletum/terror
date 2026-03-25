@@ -5,15 +5,15 @@ $bumpmap "models\infected\hulk\tank_Normal"
 $lightwarptexture "models\survivors\coach\coach_head_wrp"
 $halflambert 0
 $diffuseexp 1
-//$phong 1
+////$phong 1
 
-//$phongfresnelrange_0 ".2"
-//$phongfresnelrange_1 ".5"
-//$phongfresnelrange_2 5
-//$phongfresnelranges "[.2 .5 5]"
-//$phongtint "[1 1 1]"
-//$phongboost 4
-//$phongexponent 50
+////$phongfresnelrange_0 ".2"
+////$phongfresnelrange_1 ".5"
+////$phongfresnelrange_2 5
+////$phongfresnelranges "[.2 .5 5]"
+////$phongtint "[1 1 1]"
+////$phongboost 4
+////$phongexponent 50
 $ambientocclusion 1
 $detail "models/infected/common/l4d2/ci_burning"
 $seamless_detail 1
@@ -37,21 +37,21 @@ resultVar $burnlevel
 }
 Multiply
 {
-srcVar1 //$phongfresnelrange_0
+srcVar1 ////$phongfresnelrange_0
 srcVar2 $bbqamount
-resultVar "//$phongfresnelranges[0]"
+resultVar "////$phongfresnelranges[0]"
 }
 Multiply
 {
-srcVar1 //$phongfresnelrange_1
+srcVar1 ////$phongfresnelrange_1
 srcVar2 $bbqamount
-resultVar "//$phongfresnelranges[1]"
+resultVar "////$phongfresnelranges[1]"
 }
 Multiply
 {
-srcVar1 //$phongfresnelrange_2
+srcVar1 ////$phongfresnelrange_2
 srcVar2 $bbqamount
-resultVar "//$phongfresnelranges[2]"
+resultVar "////$phongfresnelranges[2]"
 }
 Equals
 {

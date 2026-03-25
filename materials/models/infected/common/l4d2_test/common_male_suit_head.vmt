@@ -1,9 +1,9 @@
 Infected
 {
 $basetexture "models/infected/common/l4d2_test/common_male_suit_head"
-////$phongtint "[.4 .8 1]"
-////$phongfresnelranges "[.4 0 1]"
-////$phongboost "1.0"
+//////$phongtint "[.4 .8 1]"
+//////$phongfresnelranges "[.4 0 1]"
+//////$phongboost "1.0"
 $DETAIL "models/infected/common/l4d2_test/common_detail_scrapes"
 $DETAILFRAME 0
 $DETAILSCALE 6
