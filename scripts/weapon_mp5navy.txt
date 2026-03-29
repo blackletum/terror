@@ -1,7 +1,7 @@
 WeaponData
 {
 	"MaxPlayerSpeed"		"250"
-	"WeaponType"			"SubMachinegun"
+	"WeaponType"			"SniperRifle"
 	"FullAuto"				1
 	"WeaponPrice"			"1500"
 	"WeaponArmorRatio"		"1.0"
@@ -44,7 +44,7 @@ WeaponData
 	// Weapon data is loaded by both the Game and Client DLLs.
 	"printname"			"MP5"
 	"viewmodel"			"models/v_models/v_smg_mp5.mdl"
-	"playermodel"			"models/weapons/w_smg_mp5.mdl"
+	"playermodel"			"models/w_models/weapons/w_smg_mp5.mdl"
 	
 	"anim_prefix"			"anim"
 	"bucket"			"0"

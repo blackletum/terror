@@ -819,7 +819,7 @@ Scheme
 			// note that this scales with the screen resolution
 			"1"
 			{
-				"name"		"Trebuchet MS" [!$OSX]
+				"name"		"Stubble bold" [!$OSX]
 				"name"		"Helvetica" [$OSX]
 				"tall"		"18"
 				"weight"	"900"
@@ -2515,7 +2515,11 @@ Scheme
 		"2"		"resource/csd.ttf"
 		"3"		"resource/Cstrike.ttf"
 		"4"		"resource/CSlogo.ttf"
-		"5"		"resource/Stubble bold.ttf"
+		"5"		"resource/Futurot.vfont"
+		"6"		"resource/Toolbox.vfont"
+		"7"     "resource/TG.vfont"
+		"8"     "resource/TGB.vfont"
+		"9"		"resource/stubble-bold.ttf"
 	}
 
 }

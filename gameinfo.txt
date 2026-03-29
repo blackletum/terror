@@ -73,20 +73,22 @@
 			game				|all_source_engine_paths|hl2
 			platform			|all_source_engine_paths|platform
 			// hl2 episodic content for missing texture fixes
+			game			|appid_220|ep2/ep2_sound_vo_english.vpk
+			game			|appid_220|ep2/ep2_pak.vpk
 			game			|appid_220|episodic/ep1_sound_vo_english.vpk
 			game			|appid_220|episodic/ep1_pak.vpk
 
 			// l4d2, because this is a remake of l4d2 in source 2013
-			game			|appid_550|left4dead2
-			game			|appid_550|left4dead2_dlc1
-			game			|appid_550|left4dead2_dlc2
-			game			|appid_550|left4dead2_dlc3
 			game			|appid_550|update
-			game			|appid_550|left4dead2\pak01.vpk
-			game			|appid_550|left4dead2_dlc1\pak01.vpk
-			game			|appid_550|left4dead2_dlc2\pak01.vpk
-			game			|appid_550|left4dead2_dlc3\pak01.vpk
+			game			|appid_550|left4dead2_dlc3
+			game			|appid_550|left4dead2_dlc2
+			game			|appid_550|left4dead2_dlc1
+			game			|appid_550|left4dead2
 			game			|appid_550|update\pak01.vpk
+			game			|appid_550|left4dead2_dlc3\pak01.vpk
+			game			|appid_550|left4dead2_dlc2\pak01.vpk
+			game			|appid_550|left4dead2_dlc1\pak01.vpk
+			game			|appid_550|left4dead2\pak01.vpk
 			// Random files downloaded from gameservers go into a seperate directory, so
 			// that it's easy to keep those files segregated from the official game files
 			// or customizations intentially installed by the user.
